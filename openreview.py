@@ -1,4 +1,8 @@
+"""
+A crawler tailored for downloading papers from https://openreview.net
 
+Author https://github.com/Fudanyrd
+"""
 from bs4 import BeautifulSoup
 import bs4
 
@@ -13,6 +17,7 @@ import urllib.parse
 
 EXAMPLE_INPUT = "https://openreview.net/group?id=ICLR.cc/2025/Conference#tab-accept-oral"
 EXAMPLE_API_REQUEST = "https://api2.openreview.net/notes?content.venue=ICLR%202025%20Oral&details=replyCount,presentation,writable&domain=ICLR.cc/2025/Conference&limit=25&offset=0"
+EXAMPLE_PDF_URL = "https://openreview.net/pdf?id=odjMSBSWRt"
 
 def _on_error(msg: str):
     print("\033[01;31m[!]\033[0;m", msg, file=sys.stderr)
@@ -114,7 +119,8 @@ def fetch_paper(input: str) -> list:
     venue = urllib.parse.quote(venue)
     domain = urllib.parse.quote_plus(domain)
     details = urllib.parse.quote('replyCount,presentation,writable')
-    resource_url = f"https://api2.openreview.net/notes?content.{key}={venue}&details={details}&domain={domain}&limit=250&offset=0"
+    LIMIT: int = 1000
+    resource_url = f"https://api2.openreview.net/notes?content.{key}={venue}&details={details}&domain={domain}&limit={LIMIT}&offset=0"
     # print(resource_url, file=sys.stderr)
 
     try:
@@ -142,9 +148,9 @@ def fetch_paper(input: str) -> list:
         _on_error("resource json decode error")
         return []
 
-    offset = 250
+    offset = LIMIT
     while offset < count:
-        resource_url = f"https://api2.openreview.net/notes?content.{key}={venue}&details={details}&domain={domain}&limit=250&offset={offset}"
+        resource_url = f"https://api2.openreview.net/notes?content.{key}={venue}&details={details}&domain={domain}&limit={LIMIT}&offset={offset}"
         try:
             res = requests.get(resource_url)
             res.raise_for_status()
@@ -166,7 +172,7 @@ def fetch_paper(input: str) -> list:
             _on_error("resource json decode error")
             break
 
-        offset += 250
+        offset += LIMIT
 
     ret = []
     for forum in forums:
@@ -176,6 +182,14 @@ def fetch_paper(input: str) -> list:
 
 if __name__ == "__main__":
     urls = [
+        # CVPR Posters
+        "https://openreview.net/group?id=thecvf.com/CVPR/2025/Workshop/CVDD#tab-accept-poster",
+        "https://openreview.net/group?id=thecvf.com/CVPR/2025/Workshop/MIV#tab-accept-poster",
+        # NeurIPS Conference
+        "https://openreview.net/group?id=NeurIPS.cc/2024/Conference#tab-accept-oral",
+        "https://openreview.net/group?id=NeurIPS.cc/2024/Conference#tab-accept-spotlight",
+        "https://openreview.net/group?id=NeurIPS.cc/2024/Conference#tab-accept-poster",
+        "https://openreview.net/group?id=NeurIPS.cc/2024/Conference#tab-reject",
         # AAAI Symposium
         "https://openreview.net/group?id=AAAI.org/2024/Spring_Symposium_Series/Clinical_FMs#tab-accept",
         # AAAI Workshop
@@ -192,9 +206,26 @@ if __name__ == "__main__":
         "https://openreview.net/group?id=ICLR.cc/2025/Conference#tab-desk-rejected-submissions",
     ]
 
+    try:
+        print("This is not intended for execution. Press Enter to run tests.", file=sys.stderr)
+        _ = input()
+    except:
+        print("well, bye.", file=sys.stderr)
+        os._exit(0)
+
     # may take a few minutes to complete.
+    import random
+    random.seed(42)
     for url in urls:
         lst = fetch_paper(url)
         print(url, len(lst), file=sys.stderr)
+
+        # randomly select a pdf to verify that the url works.
+        try:
+            url = random.choice(lst)
+            req = requests.get(url)
+            req.close()
+        except:
+            _on_error('failed to download from ' + url)
 
     # if no [!] in stderr, then OK.
