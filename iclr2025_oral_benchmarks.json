@@ -1,0 +1,90 @@
+[
+  {
+    "url": "https://huggingface.co/datasets/",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "Nathan Lambert, Lewis Tunstall, Nazneen Rajani, and Tristan Thrush. Huggingface h4\nstack exchange preference dataset, 2023. URL https://huggingface.co/datasets/\nHuggingFaceH4/stack-exchange-preferences ."
+    ]
+  },
+  {
+    "url": "https://doi.org/10.48550/arXiv.2306.14898",
+    "paper_url": "https://openreview.net/pdf?id=XmProj9cPs",
+    "paper_id": "XmProj9cPs",
+    "contexts": [
+      "and benchmarking interactive coding with execution feedback. CoRR , abs/2306.14898, 2023. doi:\n10.48550/arXiv.2306.14898. URL https://doi.org/10.48550/arXiv.2306.14898 .\nJohn Yang, Carlos E. Jimenez, Alexander Wettig, Kilian Lieret, Shunyu Yao, Karthik Narasimhan,"
+    ]
+  },
+  {
+    "url": "https://api.semanticscholar.org/CorpusID:251223709",
+    "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
+    "paper_id": "eHehzSDUFp",
+    "contexts": [
+      "bank for pretrained transformers. In Natural Language Processing and Chinese Computing , 2022b. URL\nhttps://api.semanticscholar.org/CorpusID:251223709 .\nShibhansh Dohare, J. Fernando Hernandez-Garcia, Qingfeng Lan, Parash Rahman, Ashique Rupam Mahmood,"
+    ]
+  },
+  {
+    "url": "https://api.semanticscholar.org/CorpusID:259251905",
+    "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
+    "paper_id": "eHehzSDUFp",
+    "contexts": [
+      "and Richard S. Sutton. Loss of plasticity in deep continual learning. Nature , 632:768 – 774, 2024. URL\nhttps://api.semanticscholar.org/CorpusID:259251905 .\nQingxiu Dong, Damai Dai, Yifan Song, Jingjing Xu, Zhifang Sui, and Lei Li. Calibrating factual knowledge"
+    ]
+  },
+  {
+    "url": "https://openreview.net/forum?id=vfsRB5MImo9",
+    "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
+    "paper_id": "eHehzSDUFp",
+    "contexts": [
+      "Choi, and Minjoon Seo. Towards continual knowledge learning of language models. In International Con-\nference on Learning Representations , 2022. URL https://openreview.net/forum?id=vfsRB5MImo9 .\nYujin Kim, Jaehong Yoon, Seonghyeon Ye, Sung Ju Hwang, and Se-young Yun. Carpe diem: on the evaluation"
+    ]
+  },
+  {
+    "url": "https://api.semanticscholar.org/CorpusID:202539551",
+    "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
+    "paper_id": "eHehzSDUFp",
+    "contexts": [
+      "Sebastian Riedel. Language models as knowledge bases? In Conference on Empirical Methods in Natural\nLanguage Processing , 2019. URL https://api.semanticscholar.org/CorpusID:202539551 .\nColin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou,"
+    ]
+  },
+  {
+    "url": "https://api.semanticscholar.org/CorpusID:1906145",
+    "paper_url": "https://openreview.net/pdf?id=wM2sfVgMDH",
+    "paper_id": "wM2sfVgMDH",
+    "contexts": [
+      "A perception-driven autonomous urban vehicle. Journal of Field Robotics , 25, 2008. URL\nhttps://api.semanticscholar.org/CorpusID:1906145 .\nZhiqi Li, Zhiding Yu, Shiyi Lan, Jiahan Li, Jan Kautz, Tong Lu, and Jose M Alvarez. Is ego status"
+    ]
+  },
+  {
+    "url": "https://api.semanticscholar.org/CorpusID:11849332",
+    "paper_url": "https://openreview.net/pdf?id=wM2sfVgMDH",
+    "paper_id": "wM2sfVgMDH",
+    "contexts": [
+      "ban environments: Boss and the urban challenge. Journal of Field Robotics , 25, 2008. URL\nhttps://api.semanticscholar.org/CorpusID:11849332 .\nMatt Vitelli, Yan Chang, Yawei Ye, Ana Ferreira, Maciej Wołczyk, Bła ˙zej Osi ´nski, Moritz Niendorf,"
+    ]
+  },
+  {
+    "url": "https://github.com/openai/procgen",
+    "paper_url": "https://openreview.net/pdf?id=v593OaNePQ",
+    "paper_id": "v593OaNePQ",
+    "contexts": [
+      "underlines the importance of robust policy learning for successful generalization. The open-source\ncode for the environments is publicly accessible at https://github.com/openai/procgen .\n21"
+    ]
+  },
+  {
+    "url": "https://arxiv.org/abs/2205.12665",
+    "paper_url": "https://openreview.net/pdf?id=Iyrtb9EJBp",
+    "paper_id": "Iyrtb9EJBp",
+    "contexts": [
+      "Berant. Qampari: An open-domain question answering benchmark for questions with many an-\nswers from multiple paragraphs, 2023. URL https://arxiv.org/abs/2205.12665 .\nAnthropic. Introducing claude 3.5 sonnet. Anthropic News , 2024. URL https://www."
+    ]
+  },
+  {
+    "url": "https://arxiv.org/abs/2406.15264",
+    "paper_url": "https://openreview.net/pdf?id=Iyrtb9EJBp",
+    "paper_id": "Iyrtb9EJBp",
+    "contexts": [
+      "Kanoulas. Towards fine-grained citation evaluation in generated text: A comparative analysis of\nfaithfulness metrics, 2024b. URL https://arxiv.org/abs/2406.15264 .\nXin Zheng, Zhirui Zhang, Junliang Guo, Shujian Huang, Boxing Chen, Weihua Luo, and Jiajun"
+    ]
+  }
+]
