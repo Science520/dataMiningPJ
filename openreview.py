@@ -15,6 +15,241 @@ import requests
 import json
 import urllib.parse
 
+try:
+    # https://stackoverflow.com/questions/17462884/is-selenium-slow-or-is-my-code-wrong
+    # https://selenium-python.readthedocs.io/locating-elements.html#locating-by-xpath
+    # https://selenium-python.readthedocs.io
+    import selenium
+    from selenium import webdriver
+    from selenium.webdriver.common.by import By
+    import time
+    from selenium.webdriver.common.by import By
+    from selenium.webdriver.support.ui import WebDriverWait
+    from selenium.webdriver.support import expected_conditions as EC
+
+
+    def selenium_load_tags(base_url: str) -> list:
+        """
+        Example usage:
+        >>> selenium_load_tags("https://openreview.net/group?id=ICLR.cc%2F2017%2Fconference")
+        ['your-consoles', 'poster-presentations', 'oral-presentations', \
+         'rejected-submissions', 'invite-to-workshop-track']
+        """
+        # must enable -headless to run without vga
+        option = webdriver.FirefoxOptions()
+        option.add_argument('-headless')
+        firefox = webdriver.Firefox(option)
+        firefox.get(base_url)
+        time.sleep(2.5)
+
+        items = firefox.find_elements(By.CSS_SELECTOR, '.tab-content>.tab-pane.fade')
+        ret = []
+        for item in items:
+            url = item.get_attribute('id') 
+            print(url)
+            if re.match(r'^[a-z0-9A-Z_\-]+$', url):
+                ret.append(url)
+
+        if len(ret) == 0:
+            xpath = "//div[@id=\"notes\"]/div/div/ul/li/a"
+            items = firefox.find_elements(By.XPATH, xpath)
+            for item in items:
+                url = item.get_attribute('href')
+                if re.match(r'.*#[a-zA-Z0-9_\-]+$', url):
+                    ret.append(re.sub(r'.*#([a-zA-Z0-9_\-]+)$', r'\1', url))
+
+        firefox.quit()
+        return ret
+    
+    def selenium_load_tags_safe(base_url: str, max_retries: int = 3):
+        """
+        Example usage:
+        >>> selenium_load_tags("https://openreview.net/group?id=ICLR.cc%2F2017%2Fconference")
+        ['poster-presentations', 'oral-presentations', ...]
+        """
+        for _ in range(max_retries):
+            try:
+                ret = selenium_load_tags(base_url) 
+            except:
+                continue
+            return ret
+
+        _on_error("selenium_load_tags_safe(): max retries reached.")
+        return []
+
+    def selenium_load_batch(driver, tab_id):
+        """
+        Load a batch of papers.
+        """
+        ret = []
+
+        xpath = f'//div[@id=\'{tab_id}\']/div/div/ul/li|//div[@id=\'{tab_id}\']/ul/li'
+        try:
+            WebDriverWait(driver, 10).until(
+                EC.presence_of_element_located((By.XPATH, xpath))
+            )
+        except Exception as e:
+            _on_error("selenium_load_batch: " + str(e))
+            return ret
+
+        lst = driver.find_elements(By.XPATH, xpath)
+        print(len(lst))
+
+        for item in lst:
+            id = item.get_attribute('data-id')
+            if id:
+                ret.append(id)
+        
+        if len(ret) == 0:
+            xpath = f'//div[@id=\'{tab_id}\']/div/div/ul/li/div/h4/a[1]'
+            lst = driver.find_elements(By.XPATH, xpath)
+            for item in lst:
+                href = item.get_attribute('href')
+                if re.match(r'.*id=[a-zA-Z0-9_\-]+.*', href):
+                    ret.append(re.sub(r'.*id=([a-zA-Z0-9_\-]+).*', r'\1', href))
+
+        del lst
+        return ret
+    
+    def selenium_load_ids(base_url: str):
+        option = webdriver.FirefoxOptions()
+        option.add_argument('-headless')
+        firefox = webdriver.Firefox(option)
+        firefox.get(base_url)
+        WebDriverWait(firefox, 10).until(
+            EC.presence_of_element_located((By.CLASS_NAME, "tabs-container"))
+        )
+        time.sleep(2.5)
+
+        tab_id = re.sub(r'^.*#(.*)$', r'\1', base_url)
+        if tab_id.startswith('tab-'):
+            tab_id = tab_id[4:]
+
+        # ret = selenium_load_batch(firefox, tab_id)
+        ret = []
+
+        # locate navigation button
+        xpath = f'//div[@id=\'{tab_id}\']/div/div/nav/ul/li/a|//div[@id=\'{tab_id}\']/nav/ul/li/a'
+        pages = firefox.find_elements(By.XPATH, xpath)
+        n_pages = len(pages)
+        n_invalid = 0
+        for i in range(n_pages):
+            if not re.match(r'[0-9]+', pages[i].text):
+                n_invalid += 1
+        print(n_pages, tab_id)
+
+        if n_pages == 0:
+            ret += selenium_load_batch(firefox, tab_id)
+            firefox.quit()
+            return ret
+
+        click = False
+        i: int = 0
+        #for i in range(n_pages - n_invalid):
+        while True:
+            button = None # pages[i]
+
+            # if 'disabled' in button.get_attribute('class'):
+            #     continue
+            # if 'arrow' in button.get_attribute('class'):
+            #     continue
+            # if not re.match(r'[0-9]+', button.text):
+            #     continue
+
+            for k in range(n_pages):
+                if pages[k].text == str(i + 1):
+                    button = pages[k]
+
+            if button is None:
+                break
+
+            print(i, button.text)
+            # click the button
+            if click:
+                # Wait until the overlay is not visible
+                WebDriverWait(firefox, 10).until(
+                    EC.invisibility_of_element_located((By.CLASS_NAME, "content-overlay"))
+                )
+                button.click()
+                WebDriverWait(firefox, 10).until(
+                    EC.invisibility_of_element_located((By.CLASS_NAME, "content-overlay"))
+                )
+                time.sleep(2.5)
+            else:
+                click = True
+
+            ret += selenium_load_batch(firefox, tab_id)
+
+            # relocate
+            del button
+            del pages
+            pages = firefox.find_elements(By.XPATH, xpath)
+            i += 1
+            n_pages = len(pages)
+        
+        firefox.quit()
+        return ret
+    
+    def selenium_load_ids_safe(base_url, max_retries=3):
+        for _ in range(max_retries):
+            try:
+                ret = selenium_load_ids(base_url)
+            except:
+                continue
+            return ret
+        
+        _on_error("max retries exceeded in selenium_load_ids_safe")
+        return []
+
+    def selenium_test():
+        inputs = [
+            "https://openreview.net/group?id=AAAI.org/2024/Workshop/AI4ED#tab-accept-day-2-spotlight",
+            "https://openreview.net/group?id=ICLR.cc%2F2017%2Fconference#poster-presentations",
+            "https://openreview.net/group?id=NeurIPS.cc/2024/Conference#tab-accept-poster",
+            "https://openreview.net/group?id=AAAI.org/2024",
+        ]
+        ans = [
+            ['HkJwIypfus', 'Hqqmzn5MkZ', 'eQsALnjme9', '2vo9fAgZw3', 'REidmDpL9r'],
+            None, # list too long
+            None,
+            []
+        ]
+        counts = [
+                5, 183, 
+                3649, 0,]
+        
+
+        assert len(inputs) == len(ans)
+        
+        n = len(inputs)
+        for i in range(n):
+            ret = selenium_load_ids_safe(inputs[i])
+            a = ans[i]
+            deduped = set(ret)
+
+            assert len(deduped) == len(ret), f"duplicate id found at testcase {i}."
+            if a:
+                assert sorted(ans[i]) == sorted(ret), f"wrong answer at testcase {i}"
+            else:
+                assert len(deduped) == counts[i], f'wrong answer at testcase {i}'
+
+except:
+    def selenium_load_tags(base_url: str) -> list:
+        return []
+
+    def selenium_load_tags_safe(base_url: str) -> list:
+        return []
+    
+    def selenium_load_ids(base_url):
+        return []
+    
+    def selenium_load_ids_safe(base_url):
+        _on_error("not implemented.\nPerhaps you forgot to install selenium?")
+        return []
+
+    print("Selenium not avaiable. Some features cannot be used.", file=sys.stderr)
+    pass
+
 EXAMPLE_INPUT = "https://openreview.net/group?id=ICLR.cc/2025/Conference#tab-accept-oral"
 EXAMPLE_API_REQUEST = "https://api2.openreview.net/notes?content.venue=ICLR%202025%20Oral&details=replyCount,presentation,writable&domain=ICLR.cc/2025/Conference&limit=25&offset=0"
 EXAMPLE_PDF_URL = "https://openreview.net/pdf?id=odjMSBSWRt"
@@ -65,8 +300,19 @@ def fetch_paper(input: str) -> list:
         for tab in tabs:
             _ = tab['name']
     except:
-        _on_error("unexpected json format.")
-        return []
+        _on_error("OpenReviewVersionError: unexpected json format.")
+
+        #
+        # This is one of the corner case which (I assume) we should handle.
+        # Generally, `selenium` is a more general handler for this, but 
+        # it is surprisingly slow.
+        #
+        keys = selenium_load_ids_safe(input)
+        ret = []
+
+        for k in keys:
+            ret.append('https//openreview.net/pdf?id=' + k)
+        return ret
 
     url2name = {
         # FIXME: add all possibilities
@@ -180,6 +426,160 @@ def fetch_paper(input: str) -> list:
     
     return ret
 
+def get_venues():
+    """
+    :return: a list of active venues.
+    """
+
+    try:
+        res = requests.get('https://api2.openreview.net/groups?id=host')
+        res.raise_for_status()
+        assert res.status_code == 200
+    except:
+        _on_error("failed to access groups?id=active_venues")
+        return []
+
+    try:
+        d = json.loads(res.text)
+        ret = d['groups'][0]['members']
+    except:
+        _on_error("failed to decode json text") 
+        return []
+    
+    return sorted(ret) 
+
+def venue_get_tags(venue: str):
+    """
+    Get the tags of a venue.
+
+    Example usage:
+    >>> venue_get_tags('AAAI.org/2024/Workshop/AI4ED')
+    ['accept-day-1-oral', 'accept-day-2-spotlight', 'accept-day-1-poster', 'accept-day-2-poster']
+    >>> venue_get_tags('ICLR.cc/2025/Conference')
+    ['accept-oral', 'accept-spotlight', 'accept-poster', 'reject', 'withdrawn-submissions', 'desk-rejected-submissions']
+    """
+    url = 'https://openreview.net/group?id=' + urllib.parse.quote_plus(venue)
+    try:
+        res = requests.get(url)
+        res.raise_for_status()
+        if res.status_code != 200:
+            raise RuntimeError("status code is not 200")
+    except:
+        _on_error("request error")
+        return []
+
+    html_doc = res.text
+    try:
+        soup = BeautifulSoup(html_doc, 'html.parser')
+    except:
+        _on_error("html parse error")
+        return []
+    
+    next_data = soup.find(name="script", id="__NEXT_DATA__")
+    if next_data is None:
+        _on_error("failed to find json script")
+        return []
+
+    try:
+        direction = json.loads(next_data.string)
+    except Exception as e:
+        _on_error("json encode: " + str(e))
+        return []
+
+    try:
+        properties = direction['props']['pageProps']['componentObj']['properties']
+        if 'tabs' not in properties:
+            # ok, do not log this.
+            return []
+
+        tabs: list = properties['tabs']
+        ret = []
+
+        for tab in tabs:
+            name = tab['name'] # maybe "Accept (day 1 poster)"
+            words: list[str] = re.findall(r'[a-zA-Z0-9]+', name)
+            for i in range(len(words)):
+                words[i] = words[i].lower()
+            ret.append('-'.join(words))
+
+            del words
+        
+        del tabs
+    except:
+        _on_error("unexpected json format, " + url)
+        return []
+
+    return ret
+
+def recurse_venue(venue: str, output_lst: list):
+    domain = urllib.parse.quote_plus(venue)
+
+    try:
+        url = 'https://api2.openreview.net/groups?parent=' + domain
+        res = requests.get(url)
+    except:
+        _on_error("failed to access " + url)
+        return
+
+    try:
+        d = json.loads(res.text)
+        count = d['count']
+        if len(d['groups']):
+            _ = d['groups'][0]['id']
+    except:
+        _on_error("failed to decode json text in " + url) 
+        return
+
+    output_lst.append(venue)
+    if count == 0:
+        # at leaf node,
+        # eg. https://api2.openreview.net/groups?parent=AAAI.org/2024/Bridge/AI4Design
+        # stop recursion
+        return
+
+    for i in range(count):
+        try:
+            id = d['groups'][i]['id']
+        except:
+            msg = f'recursion at {url}, position {i} does not have id'
+            _on_error(msg)
+            continue
+
+        try:
+            recurse_venue(id, output_lst)
+        except:
+            _on_error('possible recursion limit')
+            break
+
+    return
+
+def possible_inputs():
+    """
+    :return: a list of all possible inputs given by TA.
+
+    Example output:
+    >>> possible_inputs()
+    []
+    """
+    ret = []
+    base_url = 'https://openreview.net/group?id=' 
+
+    venues = get_venues()
+    for venue in venues:
+        children = []
+        recurse_venue(venue, children)
+        for child in children:
+            #tags = venue_get_tags(child)
+            tags = selenium_load_tags_safe( base_url + urllib.parse.quote_plus(child) )
+
+            for tag in tags:
+                ret.append(f'https://openreview.net/group?id={child}#tab-{tag}')
+        
+        del children
+
+    del venues
+    return ret
+
 if __name__ == "__main__":
     urls = [
         # CVPR Posters
@@ -218,7 +618,8 @@ if __name__ == "__main__":
     random.seed(42)
     for url in urls:
         lst = fetch_paper(url)
-        print(url, len(lst), file=sys.stderr)
+        lst2 = selenium_load_ids_safe(url)
+        print("[R]", url, len(lst), len(set(lst2)), file=sys.stderr)
 
         # randomly select a pdf to verify that the url works.
         try:
