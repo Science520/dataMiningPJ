@@ -82,6 +82,7 @@ try:
         Load a batch of papers.
         """
         ret = []
+        elem = None
 
         xpath = f'//div[@id=\'{tab_id}\']/div/div/ul/li|//div[@id=\'{tab_id}\']/ul/li'
         try:
@@ -90,7 +91,7 @@ try:
             )
         except Exception as e:
             _on_error("selenium_load_batch: " + str(e))
-            return ret
+            return ret, None
 
         lst = driver.find_elements(By.XPATH, xpath)
         print(len(lst))
@@ -100,26 +101,25 @@ try:
             if id:
                 ret.append(id)
         
+        elem = lst[0] if len(lst) else None
         if len(ret) == 0:
             xpath = f'//div[@id=\'{tab_id}\']/div/div/ul/li/div/h4/a[1]'
             lst = driver.find_elements(By.XPATH, xpath)
+            elem = lst[0] if len(lst) else None
             for item in lst:
                 href = item.get_attribute('href')
                 if re.match(r'.*id=[a-zA-Z0-9_\-]+.*', href):
                     ret.append(re.sub(r'.*id=([a-zA-Z0-9_\-]+).*', r'\1', href))
 
         del lst
-        return ret
+        return ret, elem
     
+
     def selenium_load_ids(base_url: str):
         option = webdriver.FirefoxOptions()
         option.add_argument('-headless')
         firefox = webdriver.Firefox(option)
         firefox.get(base_url)
-        WebDriverWait(firefox, 10).until(
-            EC.presence_of_element_located((By.CLASS_NAME, "tabs-container"))
-        )
-        time.sleep(2.5)
 
         tab_id = re.sub(r'^.*#(.*)$', r'\1', base_url)
         if tab_id.startswith('tab-'):
@@ -127,6 +127,17 @@ try:
 
         # ret = selenium_load_batch(firefox, tab_id)
         ret = []
+
+        try:
+            WebDriverWait(firefox, 10).until(
+                EC.presence_of_element_located((By.CLASS_NAME, "tabs-container"))
+            )
+            WebDriverWait(firefox, 10).until(
+                EC.presence_of_element_located((By.XPATH, f"//div[@id=\'{tab_id}\']"))
+            )
+        except:
+            print("line 139, waiterror", file=sys.stderr)
+            pass
 
         # locate navigation button
         xpath = f'//div[@id=\'{tab_id}\']/div/div/nav/ul/li/a|//div[@id=\'{tab_id}\']/nav/ul/li/a'
@@ -139,12 +150,14 @@ try:
         print(n_pages, tab_id)
 
         if n_pages == 0:
-            ret += selenium_load_batch(firefox, tab_id)
+            tup = selenium_load_batch(firefox, tab_id)
+            ret += tup[0]
             firefox.quit()
             return ret
 
         click = False
         i: int = 0
+        elem = None
         #for i in range(n_pages - n_invalid):
         while True:
             button = None # pages[i]
@@ -171,14 +184,26 @@ try:
                     EC.invisibility_of_element_located((By.CLASS_NAME, "content-overlay"))
                 )
                 button.click()
-                WebDriverWait(firefox, 10).until(
-                    EC.invisibility_of_element_located((By.CLASS_NAME, "content-overlay"))
-                )
-                time.sleep(2.5)
+                try:
+                    WebDriverWait(firefox, 10).until(
+                        EC.invisibility_of_element_located((By.CLASS_NAME, "content-overlay"))
+                    )
+                    if elem:
+                        WebDriverWait(firefox, 10).until(
+                            EC.staleness_of(elem)
+                        )
+                except Exception as e:
+                    print(e, file=sys.stderr)
+                finally:
+                    del elem
+                    elem = None
+                # time.sleep(2.5)
             else:
                 click = True
 
-            ret += selenium_load_batch(firefox, tab_id)
+            buf, elem = selenium_load_batch(firefox, tab_id)
+            ret += buf 
+            del buf
 
             # relocate
             del button
