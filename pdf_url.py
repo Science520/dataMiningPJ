@@ -205,6 +205,9 @@ def can_access(url: str):
     # https://llvm.org/docs/
     # are (probably) incomplete;
     # 
+    # 去除首尾空白字符  
+    url = url.strip()  
+
     if url.endswith('-'):
         return False
     
@@ -214,6 +217,10 @@ def can_access(url: str):
     if len(res) > 1:
         return False
 
+    # 检查 URL 是否有基本的有效格式  
+    if not re.match(r'^https?://[^\s/$.?#].[^\s]*$', url):  
+        return False  
+    
     return True
 
     # directly accessing the url via internet will be good :)

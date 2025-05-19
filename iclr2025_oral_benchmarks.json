@@ -1,5 +1,13 @@
 [
   {
+    "url": "https://github.com/THU-KEG/RM-Bench",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "the significant room for improvement in current reward models. Related code and\ndata are available at https://github.com/THU-KEG/RM-Bench .\n1 I NTRODUCTION"
+    ]
+  },
+  {
     "url": "https://huggingface.co/datasets/",
     "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
     "paper_id": "QEHrmQPBdd",
@@ -8,11 +16,155 @@
     ]
   },
   {
+    "url": "https://github.com/tatsu-lab/alpaca_eval",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "Liang, and Tatsunori B. Hashimoto. AlpacaEval: An Automatic Evaluator of Instruction-\nfollowing Models. https://github.com/tatsu-lab/alpaca_eval , 2023.\nHunter Lightman, Vineet Kosaraju, Yura Burda, Harri Edwards, Bowen Baker, Teddy Lee, Jan"
+    ]
+  },
+  {
+    "url": "https://openai.com/index/",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "2024-09-17.\nOpenAI. Introducing openai o1 preview. https://openai.com/index/\nintroducing-openai-o1-preview/ , 2024b. Accessed: 2024-09-17."
+    ]
+  },
+  {
+    "url": "https://aclanthology.org/2024.findings-acl.297",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "Thailand and virtual meeting, August 2024. Association for Computational Linguistics. URL\nhttps://aclanthology.org/2024.findings-acl.297 .\nRafael Rafailov, Archit Sharma, Eric Mitchell, Stefano Ermon, Christopher D Manning, and Chelsea"
+    ]
+  },
+  {
+    "url": "https://aclanthology.org/2024.naacl-long.301",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "2024. Association for Computational Linguistics. doi: 10.18653/v1/2024.naacl-long.301. URL\nhttps://aclanthology.org/2024.naacl-long.301 .\nJohn Schulman, Filip Wolski, Prafulla Dhariwal, Alec Radford, and Oleg Klimov. Proximal policy"
+    ]
+  },
+  {
+    "url": "https://openai.com/blog/chatgpt/",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "John Schulman, Barret Zoph, Christina Kim, and more. ChatGPT: Optimizing Language Models\nfor Dialogue. https://openai.com/blog/chatgpt/ , 2022. Accessed: 2023-02-12.\nZhihong Shao, Peiyi Wang, Qihao Zhu, Runxin Xu, Junxiao Song, Mingchuan Zhang, YK Li,"
+    ]
+  },
+  {
+    "url": "https://github.com/epflneuroailab/topolm",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "∗Equal contribution by NR and JM.†Correspondence: martin.schrimpf@epfl.ch\n1Code available at https://github.com/epflneuroailab/topolm .\n1"
+    ]
+  },
+  {
+    "url": "https://doi.org/10.1093/cercor/bhz014",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "and Noun Semantics Across Cortical Networks. Cerebral Cortex , 29(11):4803–4817, December\n2019. doi: https://doi.org/10.1093/cercor/bhz014.\nStephen A. Engel, David E. Rumelhart, Brian A. Wandell, Adrian T. Lee, Gary H. Glover, Eduardo-"
+    ]
+  },
+  {
+    "url": "https://www.pnas.org/doi/abs/10.1073/pnas",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "ing. Proceedings of the National Academy of Sciences , 113(41):E6256–E6262, 2016. doi:\n10.1073/pnas.1612132113. URL https://www.pnas.org/doi/abs/10.1073/pnas.\n1612132113 .eprint: https://www.pnas.org/doi/pdf/10.1073/pnas.1612132113."
+    ]
+  },
+  {
+    "url": "https://www.pnas.org/doi/pdf/10.1073/pnas.1612132113",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "10.1073/pnas.1612132113. URL https://www.pnas.org/doi/abs/10.1073/pnas.\n1612132113 .eprint: https://www.pnas.org/doi/pdf/10.1073/pnas.1612132113.\nEvelina Fedorenko, Anna A. Ivanova, and Tamar I. Regev. The language network as a natural kind"
+    ]
+  },
+  {
+    "url": "https://doi.org/10.1523/JNEUROSCI.17-11-04302.1997",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "Human Extrastriate Cortex Specialized for Face Perception. The Journal of Neuroscience , 1997.\ndoi: https://doi.org/10.1523/JNEUROSCI.17-11-04302.1997.\nMatthias Kaschube, Michael Schnabel, Siegrid L ¨owel, David M. Coppola, Leonard E. White, and"
+    ]
+  },
+  {
+    "url": "https://doi.org/10.1016/j.neuroimage.2009.09.059",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "neuronal activity pattern: Compact-kernel or complex spatiotemporal filter? NeuroImage , 49(3):\n1965–1976, 2010. ISSN 10538119. doi: https://doi.org/10.1016/j.neuroimage.2009.09.059.\nJonas Larsson and David J Heeger. Two retinotopic visual areas in human lateral occipital cortex."
+    ]
+  },
+  {
+    "url": "https://doi.org/10.1523/JNEUROSCI.1657-06.2006",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "The Journal of neuroscience : the official journal of the Society for Neuroscience , 26(51):13128–\n13142, 2006. ISSN 1529-2401. doi: https://doi.org/10.1523/JNEUROSCI.1657-06.2006.\nHyodong Lee, Eshed Margalit, Kamila M. Jozwik, Michael A. Cohen, Nancy Kanwisher, Daniel"
+    ]
+  },
+  {
+    "url": "https://pnas.org/",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "production. Proceedings of the National Academy of Sciences , 103(5):1644–1649, January 2006.\nISSN 0027-8424, 1091-6490. doi: 10.1073/pnas.0504142103. URL https://pnas.org/\ndoi/full/10.1073/pnas.0504142103 ."
+    ]
+  },
+  {
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2017/",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "vances in Neural Information Processing Systems , volume 30. Curran Associates, Inc.,\n2017. URL https://proceedings.neurips.cc/paper_files/paper/2017/\nfile/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf ."
+    ]
+  },
+  {
+    "url": "https://direct.mit.edu/tacl/article/",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "tions of the Association for Computational Linguistics , 8:377–392, December 2020. ISSN 2307-\n387X. doi: 10.1162/tacl a00321. URL https://direct.mit.edu/tacl/article/\n96452 ."
+    ]
+  },
+  {
+    "url": "http://biorxiv.org/lookup/doi/10.1101/2021.09.15.460220",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "of object selectivities in ventral temporal cortex. preprint, Neuroscience, September 2021. URL\nhttp://biorxiv.org/lookup/doi/10.1101/2021.09.15.460220 .\nYukun Zhu, Ryan Kiros, Richard Zemel, Ruslan Salakhutdinov, Raquel Urtasun, Antonio Torralba,"
+    ]
+  },
+  {
     "url": "https://doi.org/10.48550/arXiv.2306.14898",
     "paper_url": "https://openreview.net/pdf?id=XmProj9cPs",
     "paper_id": "XmProj9cPs",
     "contexts": [
       "and benchmarking interactive coding with execution feedback. CoRR , abs/2306.14898, 2023. doi:\n10.48550/arXiv.2306.14898. URL https://doi.org/10.48550/arXiv.2306.14898 .\nJohn Yang, Carlos E. Jimenez, Alexander Wettig, Kilian Lieret, Shunyu Yao, Karthik Narasimhan,"
+    ]
+  },
+  {
+    "url": "https://github.com/kaistAI/Knowledge-Entropy.git",
+    "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
+    "paper_id": "eHehzSDUFp",
+    "contexts": [
+      "∗Denotes equal contribution\n1Code in https://github.com/kaistAI/Knowledge-Entropy.git\n1"
+    ]
+  },
+  {
+    "url": "https://aclanthology.org/2022.acl-long.581",
+    "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
+    "paper_id": "eHehzSDUFp",
+    "contexts": [
+      "Dublin, Ireland, May 2022a. Association for Computational Linguistics. doi: 10.18653/v1/2022.acl-long.\n581. URL https://aclanthology.org/2022.acl-long.581 .\nDamai Dai, Wen-Jie Jiang, Qingxiu Dong, Yajuan Lyu, Qiaoqiao She, and Zhifang Sui. Neural knowledge"
     ]
   },
   {
@@ -32,6 +184,22 @@
     ]
   },
   {
+    "url": "https://aclanthology.org/2022.findings-emnlp.438",
+    "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
+    "paper_id": "eHehzSDUFp",
+    "contexts": [
+      "Arab Emirates, December 2022. Association for Computational Linguistics. doi: 10.18653/v1/2022.\nfindings-emnlp.438. URL https://aclanthology.org/2022.findings-emnlp.438 .\n11"
+    ]
+  },
+  {
+    "url": "https://aclanthology.org/2022.emnlp-main.3",
+    "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
+    "paper_id": "eHehzSDUFp",
+    "contexts": [
+      "30–45, Abu Dhabi, United Arab Emirates, December 2022. Association for Computational Linguistics.\ndoi: 10.18653/v1/2022.emnlp-main.3. URL https://aclanthology.org/2022.emnlp-main.3 .\nMor Geva, Jasmijn Bastings, Katja Filippova, and Amir Globerson. Dissecting recall of factual associations"
+    ]
+  },
+  {
     "url": "https://openreview.net/forum?id=vfsRB5MImo9",
     "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
     "paper_id": "eHehzSDUFp",
@@ -45,6 +213,38 @@
     "paper_id": "eHehzSDUFp",
     "contexts": [
       "Sebastian Riedel. Language models as knowledge bases? In Conference on Empirical Methods in Natural\nLanguage Processing , 2019. URL https://api.semanticscholar.org/CorpusID:202539551 .\nColin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou,"
+    ]
+  },
+  {
+    "url": "https://aclanthology.org/2022.bigscience-1.11",
+    "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
+    "paper_id": "eHehzSDUFp",
+    "contexts": [
+      "Gokaslan. Emergent structures and training dynamics in large language models. ACL 2022. URL\nhttps://aclanthology.org/2022.bigscience-1.11 .\nArtem Vazhentsev, Akim Tsvigun, Roman Vashurin, Sergey Petrakov, Daniil Vasilev, Maxim Panov, Alexan-"
+    ]
+  },
+  {
+    "url": "https://aclanthology.org/2023.findings-acl.93",
+    "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
+    "paper_id": "eHehzSDUFp",
+    "contexts": [
+      "der Panchenko, and Artem Shelmanov. Efficient out-of-domain detection for sequence to sequence models.\nFindings of ACL 2023. URL https://aclanthology.org/2023.findings-acl.93 .\nCunxiang Wang, Pai Liu, and Yue Zhang. Can generative pre-trained language models serve as knowledge"
+    ]
+  },
+  {
+    "url": "https://aclanthology.org/2021.acl-long.251",
+    "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
+    "paper_id": "eHehzSDUFp",
+    "contexts": [
+      "August 2021. Association for Computational Linguistics. doi: 10.18653/v1/2021.acl-long.251. URL\nhttps://aclanthology.org/2021.acl-long.251 .\nJohannes Welbl, Nelson F. Liu, and Matt Gardner. Crowdsourcing multiple choice science questions. In"
+    ]
+  },
+  {
+    "url": "https://zhengyinan-air.github.io/Diffusion-Planner/",
+    "paper_url": "https://openreview.net/pdf?id=wM2sfVgMDH",
+    "paper_id": "wM2sfVgMDH",
+    "contexts": [
+      "performance with robust transferability in diverse driving styles. Project website:\nhttps://zhengyinan-air.github.io/Diffusion-Planner/ .\n1 I NTRODUCTION"
     ]
   },
   {
@@ -64,11 +264,148 @@
     ]
   },
   {
+    "url": "https://github.com/jchengai/planTF",
+    "paper_url": "https://openreview.net/pdf?id=wM2sfVgMDH",
+    "paper_id": "wM2sfVgMDH",
+    "contexts": [
+      "https://github.com/autonomousvision/tuplan_garage\nhttps://github.com/jchengai/planTF\nhttps://github.com/jchengai/pluto"
+    ]
+  },
+  {
+    "url": "https://github.com/jchengai/pluto",
+    "paper_url": "https://openreview.net/pdf?id=wM2sfVgMDH",
+    "paper_id": "wM2sfVgMDH",
+    "contexts": [
+      "https://github.com/jchengai/planTF\nhttps://github.com/jchengai/pluto\nhttps://github.com/MCZhi/GameFormer-Planner"
+    ]
+  },
+  {
+    "url": "http://proceedings.mlr.press/v80/asadi18a.html",
+    "paper_url": "https://openreview.net/pdf?id=v593OaNePQ",
+    "paper_id": "v593OaNePQ",
+    "contexts": [
+      "Sweden, July 10-15, 2018 , volume 80 of Proceedings of Machine Learning Research , pp. 264–273.\nPMLR, 2018. URL http://proceedings.mlr.press/v80/asadi18a.html .\nAdrià Puigdomènech Badia, Bilal Piot, Steven Kapturowski, Pablo Sprechmann, Alex Vitvitskyi,"
+    ]
+  },
+  {
+    "url": "http://proceedings.mlr.press/v119/badia20a.html",
+    "paper_url": "https://openreview.net/pdf?id=v593OaNePQ",
+    "paper_id": "v593OaNePQ",
+    "contexts": [
+      "July 2020, Virtual Event , volume 119 of Proceedings of Machine Learning Research , pp. 507–517.\nPMLR, 2020. URL http://proceedings.mlr.press/v119/badia20a.html .\nKarl Cobbe, Christopher Hesse, Jacob Hilton, and John Schulman. Leveraging procedural generation"
+    ]
+  },
+  {
+    "url": "http://proceedings.mlr.press/v139/",
+    "paper_url": "https://openreview.net/pdf?id=v593OaNePQ",
+    "paper_id": "v593OaNePQ",
+    "contexts": [
+      "ings of the 38th International Conference on Machine Learning, ICML 2021, 18-24 July 2021,\nVirtual Event , 139:2020–2027, 2021. URL http://proceedings.mlr.press/v139/\ncobbe21a.html ."
+    ]
+  },
+  {
+    "url": "https://proceedings.neurips.cc/paper/2018/hash/",
+    "paper_url": "https://openreview.net/pdf?id=v593OaNePQ",
+    "paper_id": "v593OaNePQ",
+    "contexts": [
+      "tion Processing Systems 2018, NeurIPS 2018, December 3-8, 2018, Montréal, Canada , pp.\n2455–2467, 2018. URL https://proceedings.neurips.cc/paper/2018/hash/\n2de5d16682c3c35007e4e92982f1a2ba-Abstract.html ."
+    ]
+  },
+  {
+    "url": "https://openreview.net/forum?id=S1lOTC4tDS",
+    "paper_url": "https://openreview.net/pdf?id=v593OaNePQ",
+    "paper_id": "v593OaNePQ",
+    "contexts": [
+      "sentations, ICLR 2020, Addis Ababa, Ethiopia, April 26-30, 2020 . OpenReview.net, 2020. URL\nhttps://openreview.net/forum?id=S1lOTC4tDS .\nShibo Hao, Yi Gu, Haodi Ma, Joshua Jiahua Hong, Zhen Wang, Daisy Zhe Wang, and Zhiting"
+    ]
+  },
+  {
+    "url": "https://doi.org/10.18653/v1/2023.emnlp-main.507",
+    "paper_url": "https://openreview.net/pdf?id=v593OaNePQ",
+    "paper_id": "v593OaNePQ",
+    "contexts": [
+      "Association for Computational Linguistics, 2023. doi: 10.18653/V1/2023.EMNLP-MAIN.507.\nURLhttps://doi.org/10.18653/v1/2023.emnlp-main.507 .\nLukasz Kaiser, Mohammad Babaeizadeh, Piotr Milos, Blazej Osinski, Roy H. Campbell, Konrad"
+    ]
+  },
+  {
+    "url": "https://proceedings.neurips.cc/paper/2020/hash/",
+    "paper_url": "https://openreview.net/pdf?id=v593OaNePQ",
+    "paper_id": "v593OaNePQ",
+    "contexts": [
+      "Conference on Neural Information Processing Systems 2020, NeurIPS 2020, December 6-12,\n2020, virtual , 2020. URL https://proceedings.neurips.cc/paper/2020/hash/\n0d2b2061826a5df3221116a5085a6052-Abstract.html .",
+      "ence on Neural Information Processing Systems 2020, NeurIPS 2020, December 6-12,\n2020, virtual , 2020. URL https://proceedings.neurips.cc/paper/2020/hash/\n342285bb2a8cadef22f667eeb6a63732-Abstract.html ."
+    ]
+  },
+  {
+    "url": "http://arxiv.org/abs/1312.5602",
+    "paper_url": "https://openreview.net/pdf?id=v593OaNePQ",
+    "paper_id": "v593OaNePQ",
+    "contexts": [
+      "Wierstra, and Martin A. Riedmiller. Playing atari with deep reinforcement learning. CoRR ,\nabs/1312.5602, 2013. URL http://arxiv.org/abs/1312.5602 .\nV olodymyr Mnih, Adrià Puigdomènech Badia, Mehdi Mirza, Alex Graves, Timothy P. Lillicrap, Tim"
+    ]
+  },
+  {
+    "url": "https://doi.org/10.1016/j.robot.2017.10.011",
+    "paper_url": "https://openreview.net/pdf?id=v593OaNePQ",
+    "paper_id": "v593OaNePQ",
+    "contexts": [
+      "ments. Robotics Auton. Syst. , 100:171–185, 2018. doi: 10.1016/J.ROBOT.2017.10.011. URL\nhttps://doi.org/10.1016/j.robot.2017.10.011 .\n12"
+    ]
+  },
+  {
+    "url": "https://proceedings.neurips.cc/paper/2019/hash/",
+    "paper_url": "https://openreview.net/pdf?id=v593OaNePQ",
+    "paper_id": "v593OaNePQ",
+    "contexts": [
+      "ing Systems 2019, NeurIPS 2019, December 8-14, 2019, Vancouver, BC, Canada , pp.\n14814–14825, 2019. URL https://proceedings.neurips.cc/paper/2019/hash/\nc8cc6e90ccbff44c9cee23611711cdc4-Abstract.html ."
+    ]
+  },
+  {
+    "url": "https://proceedings.neurips.cc/",
+    "paper_url": "https://openreview.net/pdf?id=v593OaNePQ",
+    "paper_id": "v593OaNePQ",
+    "contexts": [
+      "Annual Conference on Neural Information Processing Systems 2015, December 7-12, 2015, Mon-\ntreal, Quebec, Canada , pp. 3528–3536, 2015. URL https://proceedings.neurips.cc/\npaper/2015/hash/de03beffeed9da5f3639a621bcab5dd4-Abstract.html ."
+    ]
+  },
+  {
+    "url": "https://doi.org/10.1038/nature16961",
+    "paper_url": "https://openreview.net/pdf?id=v593OaNePQ",
+    "paper_id": "v593OaNePQ",
+    "contexts": [
+      "game of go with deep neural networks and tree search. Nature , 529(7587):484–489, 2016. doi:\n10.1038/nature16961. URL https://doi.org/10.1038/nature16961 .\nBharat Singh, Rajesh Kumar, and Vinay Pratap Singh. Reinforcement learning in robotic ap-"
+    ]
+  },
+  {
+    "url": "https://doi.org/10.1007/s10462-021-09997-9",
+    "paper_url": "https://openreview.net/pdf?id=v593OaNePQ",
+    "paper_id": "v593OaNePQ",
+    "contexts": [
+      "plications: a comprehensive survey. Artif. Intell. Rev. , 55(2):945–990, 2022. doi: 10.1007/\nS10462-021-09997-9. URL https://doi.org/10.1007/s10462-021-09997-9 .\nAdish Singla, Anna N. Rafferty, Goran Radanovic, and Neil T. Heffernan. Reinforcement learning"
+    ]
+  },
+  {
+    "url": "http://proceedings.mlr.press/v139/yonetani21a.html",
+    "paper_url": "https://openreview.net/pdf?id=v593OaNePQ",
+    "paper_id": "v593OaNePQ",
+    "contexts": [
+      "volume 139 of Proceedings of Machine Learning Research , pp. 12029–12039. PMLR, 2021. URL\nhttp://proceedings.mlr.press/v139/yonetani21a.html .\nAndy Zhou, Kai Yan, Michal Shlapentokh-Rothman, Haohan Wang, and Yu-Xiong Wang. Language"
+    ]
+  },
+  {
     "url": "https://github.com/openai/procgen",
     "paper_url": "https://openreview.net/pdf?id=v593OaNePQ",
     "paper_id": "v593OaNePQ",
     "contexts": [
       "underlines the importance of robust policy learning for successful generalization. The open-source\ncode for the environments is publicly accessible at https://github.com/openai/procgen .\n21"
+    ]
+  },
+  {
+    "url": "https://github.com/declare-lab/",
+    "paper_url": "https://openreview.net/pdf?id=Iyrtb9EJBp",
+    "paper_id": "Iyrtb9EJBp",
+    "contexts": [
+      "including the LLaMA series (1b to 8b), Qwen-2.5 series (0.5b to 7b), and Phi3.5\n(3.8b). We release our code at https://github.com/declare-lab/\ntrust-align ."
     ]
   },
   {
@@ -80,11 +417,108 @@
     ]
   },
   {
+    "url": "https://arxiv.org/abs/2005.14165",
+    "paper_url": "https://openreview.net/pdf?id=Iyrtb9EJBp",
+    "paper_id": "Iyrtb9EJBp",
+    "contexts": [
+      "Radford, Ilya Sutskever, and Dario Amodei. Language models are few-shot learners, 2020. URL\nhttps://arxiv.org/abs/2005.14165 .\nJan Buchmann, Xiao Liu, and Iryna Gurevych. Attribute or abstain: Large language models as long"
+    ]
+  },
+  {
+    "url": "https://arxiv.org/abs/1907.09190",
+    "paper_url": "https://openreview.net/pdf?id=Iyrtb9EJBp",
+    "paper_id": "Iyrtb9EJBp",
+    "contexts": [
+      "Angela Fan, Yacine Jernite, Ethan Perez, David Grangier, Jason Weston, and Michael Auli. Eli5:\nLong form question answering, 2019. URL https://arxiv.org/abs/1907.09190 .\nWenqi Fan, Yujuan Ding, Liangbo Ning, Shijie Wang, Hengyun Li, Dawei Yin, Tat-Seng Chua, and"
+    ]
+  },
+  {
+    "url": "https://aclanthology.org/2023.acl-long.910",
+    "paper_url": "https://openreview.net/pdf?id=Iyrtb9EJBp",
+    "paper_id": "Iyrtb9EJBp",
+    "contexts": [
+      "2023a. Association for Computational Linguistics. doi: 10.18653/v1/2023.acl-long.910. URL\nhttps://aclanthology.org/2023.acl-long.910 .\nTianyu Gao, Howard Yen, Jiatong Yu, and Danqi Chen. Enabling large language models to generate"
+    ]
+  },
+  {
+    "url": "http://dx.doi.org/10.1145/3571730",
+    "paper_url": "https://openreview.net/pdf?id=Iyrtb9EJBp",
+    "paper_id": "Iyrtb9EJBp",
+    "contexts": [
+      "Computing Surveys , 55(12):1–38, March 2023. ISSN 1557-7341. doi: 10.1145/3571730. URL\nhttp://dx.doi.org/10.1145/3571730 .\n12"
+    ]
+  },
+  {
+    "url": "https://aclanthology.org/2020.emnlp-main.550",
+    "paper_url": "https://openreview.net/pdf?id=Iyrtb9EJBp",
+    "paper_id": "Iyrtb9EJBp",
+    "contexts": [
+      "ber 2020. Association for Computational Linguistics. doi: 10.18653/v1/2020.emnlp-main.550.\nURLhttps://aclanthology.org/2020.emnlp-main.550 .\nMuhammad Khalifa, David Wadden, Emma Strubell, Honglak Lee, Lu Wang, Iz Beltagy, and Hao"
+    ]
+  },
+  {
+    "url": "https://aclanthology.org/2024",
+    "paper_url": "https://openreview.net/pdf?id=Iyrtb9EJBp",
+    "paper_id": "Iyrtb9EJBp",
+    "contexts": [
+      "Linguistics ACL 2024 , pp. 5079–5101, Bangkok, Thailand and virtual meeting, August 2024a.\nAssociation for Computational Linguistics. URL https://aclanthology.org/2024.\nfindings-acl.301 ."
+    ]
+  },
+  {
+    "url": "https://arxiv.org/abs/2112.12870",
+    "paper_url": "https://openreview.net/pdf?id=Iyrtb9EJBp",
+    "paper_id": "Iyrtb9EJBp",
+    "contexts": [
+      "Slav Petrov, Gaurav Singh Tomar, Iulia Turc, and David Reitter. Measuring attribution in natural\nlanguage generation models, 2022. URL https://arxiv.org/abs/2112.12870 .\nJohn Schulman, Filip Wolski, Prafulla Dhariwal, Alec Radford, and Oleg Klimov. Proximal policy"
+    ]
+  },
+  {
+    "url": "https://arxiv.org/abs/1707.06347",
+    "paper_url": "https://openreview.net/pdf?id=Iyrtb9EJBp",
+    "paper_id": "Iyrtb9EJBp",
+    "contexts": [
+      "John Schulman, Filip Wolski, Prafulla Dhariwal, Alec Radford, and Oleg Klimov. Proximal policy\noptimization algorithms, 2017. URL https://arxiv.org/abs/1707.06347 .\nFreda Shi, Xinyun Chen, Kanishka Misra, Nathan Scales, David Dohan, Ed H. Chi, Nathanael"
+    ]
+  },
+  {
+    "url": "https://arxiv.org/abs/2204.06092",
+    "paper_url": "https://openreview.net/pdf?id=Iyrtb9EJBp",
+    "paper_id": "Iyrtb9EJBp",
+    "contexts": [
+      "Ivan Stelmakh, Yi Luan, Bhuwan Dhingra, and Ming-Wei Chang. Asqa: Factoid questions meet\nlong-form answers, 2023. URL https://arxiv.org/abs/2204.06092 .\n14"
+    ]
+  },
+  {
     "url": "https://arxiv.org/abs/2406.15264",
     "paper_url": "https://openreview.net/pdf?id=Iyrtb9EJBp",
     "paper_id": "Iyrtb9EJBp",
     "contexts": [
       "Kanoulas. Towards fine-grained citation evaluation in generated text: A comparative analysis of\nfaithfulness metrics, 2024b. URL https://arxiv.org/abs/2406.15264 .\nXin Zheng, Zhirui Zhang, Junliang Guo, Shujian Huang, Boxing Chen, Weihua Luo, and Jiajun"
+    ]
+  },
+  {
+    "url": "https://github.com/wang8740/MAP",
+    "paper_url": "https://openreview.net/pdf?id=NN6QHwgRrQ",
+    "paper_id": "NN6QHwgRrQ",
+    "contexts": [
+      "ering strong empirical performance across various tasks. Our code is available at\nhttps://github.com/wang8740/MAP .\n1 I NTRODUCTION"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/",
+    "paper_url": "https://openreview.net/pdf?id=NN6QHwgRrQ",
+    "paper_id": "NN6QHwgRrQ",
+    "contexts": [
+      "tional Conference on Learning Representations , 2024.\nMohamed Dhiab. Humor no humor model, 2023. URL https://huggingface.co/\nmohameddhiab/humor-no-humor . Accessed on July 5, 2024.",
+      "15(4):987–1001, 2005.\nLvwerra. Distilbert for imdb sentiment analysis, 2021. URL https://huggingface.co/\nlvwerra/distilbert-imdb . Accessed on July 5, 2024."
+    ]
+  },
+  {
+    "url": "https://github.com/huggingface/trl",
+    "paper_url": "https://openreview.net/pdf?id=NN6QHwgRrQ",
+    "paper_id": "NN6QHwgRrQ",
+    "contexts": [
+      "Lambert, Shengyi Huang, Kashif Rasul, and Quentin Gallou ´edec. Trl: Transformer reinforcement\nlearning. https://github.com/huggingface/trl , 2020.\nGanghua Wang, Xun Xian, Jayanth Srinivasa, Ashish Kundu, Xuan Bi, Mingyi Hong, and Jie Ding."
     ]
   }
 ]

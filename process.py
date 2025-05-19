@@ -10,6 +10,7 @@ import PyPDF2
 import io  
 import tempfile  
 from pdf_url import can_access
+from openreview import fetch_paper
 
 from bs4 import BeautifulSoup  
 
@@ -20,128 +21,6 @@ def _on_error(msg: str):
 def _log(msg: str):  
     """打印日志信息"""  
     print("\033[01;92m[!]\033[0;m", msg)  
-
-def fetch_paper(input_url: str) -> list:  
-    """从OpenReview会议页面获取所有论文的PDF链接"""  
-    try:  
-        res = requests.get(input_url)  
-        res.raise_for_status()  
-    except:  
-        _on_error("请求错误")  
-        return []  
-
-    html_doc = res.text  
-    try:  
-        soup = BeautifulSoup(html_doc, 'html.parser')  
-    except:  
-        _on_error("HTML解析错误")  
-        return []  
-    
-    next_data = soup.find(name="script", id="__NEXT_DATA__")  
-    if next_data is None:  
-        _on_error("找不到JSON脚本")  
-        return []  
-
-    try:  
-        direction = json.loads(next_data.string)  
-    except Exception as e:  
-        _on_error("JSON解码错误: " + str(e))  
-        return []  
-
-    try:  
-        tabs = direction['props']['pageProps']['componentObj']['properties']['tabs']  
-        domain = direction['props']['pageProps']['componentObj']['properties']['entity']['domain']  
-    except:  
-        _on_error("意外的JSON格式")  
-        return []  
-
-    # 获取当前选择的标签名称  
-    tab_name = re.sub(r'^.*#tab-(.*)$', r'\1', input_url)  
-    tab_entry = None  
-    
-    for tab in tabs:  
-        try:  
-            n1 = re.findall(r'[a-zA-Z0-9]+', tab['name'])  
-            n1 = [word.lower() for word in n1]  
-
-            n2 = re.findall(r'[a-zA-Z0-9]+', tab_name)  
-            n2 = [word.lower() for word in n2]  
-
-            if ' '.join(n1) == ' '.join(n2):  
-                tab_entry = tab  
-                break  
-        except:  
-            continue  
-    
-    if tab_entry is None:  
-        _on_error(f'无法找到标签 {tab_name}')  
-        return []  
-    
-    try:  
-        key = 'venue'  
-        venue = tab_entry['query']['content.venue']  
-    except:  
-        try:  
-            key = 'venueid'  
-            venue = tab_entry['query']['content.' + key]  
-        except:  
-            _on_error("无法找到venue或venueid")  
-            return []  
-
-    # 使用urllib.parse中的quote和quote_plus  
-    venue = quote(venue)  
-    domain = quote_plus(domain)  
-    details = quote('replyCount,presentation,writable')  
-    LIMIT = 1000  
-    
-    resource_url = f"https://api2.openreview.net/notes?content.{key}={venue}&details={details}&domain={domain}&limit={LIMIT}&offset=0"  
-    
-    try:  
-        res = requests.get(resource_url)  
-        res.raise_for_status()  
-    except:  
-        _on_error("请求JSON错误")  
-        return []  
-
-    forums = []  
-    try:  
-        resource = json.loads(res.text)  
-        count = resource['count']  
-        notes = resource['notes']  
-
-        for note in notes:  
-            forums.append(note['id'])  
-    except Exception as e:  
-        _on_error("资源JSON解码错误")  
-        return []  
-
-    offset = LIMIT  
-    while offset < count:  
-        resource_url = f"https://api2.openreview.net/notes?content.{key}={venue}&details={details}&domain={domain}&limit={LIMIT}&offset={offset}"  
-        try:  
-            res = requests.get(resource_url)  
-            res.raise_for_status()  
-        except:  
-            _on_error('请求失败')  
-            break  
-
-        try:  
-            resource = json.loads(res.text)  
-            notes = resource['notes']  
-
-            for note in notes:  
-                forums.append(note['id'])  
-        except Exception as e:  
-            _on_error("资源JSON解码错误")  
-            break  
-
-        offset += LIMIT  
-
-    pdf_urls = []  
-    for forum in forums:  
-        pdf_urls.append(f'https://openreview.net/pdf?id={forum}')  
-    
-    return pdf_urls  
 
 def extract_text_from_pdf(pdf_url: str) -> str:  
     """从URL下载PDF并提取文本内容"""  
@@ -198,6 +77,7 @@ def extract_urls_from_text(text: str, validate_urls: bool = False) -> Dict[str, 
             result[url].append(context)  
     
     return result  
+
 
 def is_benchmark_or_dataset_link(url: str, context: str = "") -> bool:  
     """判断URL是否是数据集或基准测试相关的链接"""  
