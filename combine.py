@@ -198,8 +198,8 @@ def is_benchmark_or_dataset_link_llm(url: str, context_text: str) -> bool:
         return False  
         
     # 先检查URL形式是否有效  
-    if not can_access(url):  
-        return False  
+    # if not can_access(url):  
+    #     return False  
     
     # 使用LLM分析链接及其上下文  
     try:  
@@ -210,13 +210,13 @@ def is_benchmark_or_dataset_link_llm(url: str, context_text: str) -> bool:
         
         logger.info(f"LLM classification for {url}: {initial_result}")  
         
-        if initial_result:  
-            # 进行二次验证  
-            if verify_dataset_candidate(url, context_text):  
-                return True  
-            else:  
-                logger.info(f"Link initially classified as dataset but rejected in verification: {url}")  
-                return False  
+        # if initial_result:  
+        #     # 进行二次验证  
+        #     if verify_dataset_candidate(url, context_text):  
+        #         return True  
+        #     else:  
+        #         logger.info(f"Link initially classified as dataset but rejected in verification: {url}")  
+        #         return False  
         
         return initial_result  
     
@@ -343,9 +343,9 @@ def extract_urls_from_text(text: str, validate_urls: bool = False) -> Dict[str, 
             # 清理URL（移除尾部的点）  
             url = re.sub(r'^(.*?)\.*$', r'\1', url)  
             
-            # # 验证URL是否可访问（可选）  
-            # if validate_urls and not can_access(url):  
-            #     continue  
+            # 验证URL是否可访问（可选）  
+            if validate_urls and not can_access(url):  
+                continue  
                 
             if url not in result:  
                 result[url] = []  
