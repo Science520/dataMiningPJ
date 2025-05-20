@@ -343,9 +343,9 @@ def extract_urls_from_text(text: str, validate_urls: bool = False) -> Dict[str, 
             # 清理URL（移除尾部的点）  
             url = re.sub(r'^(.*?)\.*$', r'\1', url)  
             
-            # 验证URL是否可访问（可选）  
-            if validate_urls and not can_access(url):  
-                continue  
+            # # 验证URL是否可访问（可选）  
+            # if validate_urls and not can_access(url):  
+            #     continue  
                 
             if url not in result:  
                 result[url] = []  

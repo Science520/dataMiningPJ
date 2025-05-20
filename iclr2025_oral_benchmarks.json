@@ -4,7 +4,7 @@
     "paper_url": "https://openreview.net/pdf?id=odjMSBSWRt",
     "paper_id": "odjMSBSWRt",
     "contexts": [
-      "trophic cyber capabilities benchmark (3cb): Robustly evaluating llm agent cyber offensecapabilities."
+      "trophic cyber capabilities benchmark (3cb): Robustly evaluating llm agent cyber offensecapabilities."
     ]
   },
   {
@@ -12,7 +12,7 @@
     "paper_url": "https://openreview.net/pdf?id=odjMSBSWRt",
     "paper_id": "odjMSBSWRt",
     "contexts": [
-      "and Jason Schreiber. 2024. Benchmark inflation: Revealing llm performance gaps usingretro-holdouts."
+      "and Jason Schreiber. 2024. Benchmark inflation: Revealing llm performance gaps usingretro-holdouts."
     ]
   },
   {
@@ -20,7 +20,7 @@
     "paper_url": "https://openreview.net/pdf?id=odjMSBSWRt",
     "paper_id": "odjMSBSWRt",
     "contexts": [
-      "thinking cyberseceval: An llm-aided approach to evaluation critique."
+      "thinking cyberseceval: An llm-aided approach to evaluation critique."
     ]
   },
   {
@@ -28,7 +28,7 @@
     "paper_url": "https://openreview.net/pdf?id=odjMSBSWRt",
     "paper_id": "odjMSBSWRt",
     "contexts": [
-      "Isabelle Barrass, Oliver Zhang, Xiaoyuan Zhu, Rishub Tamirisa, Bhrugu Bharathi, AdamKhoja, Zhenqi Zhao, Ariel Herbert-Voss, Cort B. Breuer, Samuel Marks, Oam Patel,Andy Zou, Mantas Mazeika, Zifan Wang, Palash Oswal, Weiran Liu, Adam A. Hunt,Justin Tienken-Harder, Kevin Y. Shih, Kemper Talley, John Guan, Russell Kaplan, IanSteneker, David Campbell, Brad Jokubaitis, Alex Levinson, Jean Wang, William Qian,Kallol Krishna Karmakar, Steven Basart, Stephen Fitz, Mindy Levine, Ponnurangam Ku-maraguru, Uday Tupakula, Vijay Varadharajan, Yan Shoshitaishvili, Jimmy Ba, Kevin M.Esvelt, Alexandr Wang, and Dan Hendrycks. 2024. The wmdp benchmark: Measuringand reducing malicious use with unlearning."
+      "Isabelle Barrass, Oliver Zhang, Xiaoyuan Zhu, Rishub Tamirisa, Bhrugu Bharathi, AdamKhoja, Zhenqi Zhao, Ariel Herbert-Voss, Cort B. Breuer, Samuel Marks, Oam Patel,Andy Zou, Mantas Mazeika, Zifan Wang, Palash Oswal, Weiran Liu, Adam A. Hunt,Justin Tienken-Harder, Kevin Y. Shih, Kemper Talley, John Guan, Russell Kaplan, IanSteneker, David Campbell, Brad Jokubaitis, Alex Levinson, Jean Wang, William Qian,Kallol Krishna Karmakar, Steven Basart, Stephen Fitz, Mindy Levine, Ponnurangam Ku-maraguru, Uday Tupakula, Vijay Varadharajan, Yan Shoshitaishvili, Jimmy Ba, Kevin M.Esvelt, Alexandr Wang, and Dan Hendrycks. 2024. The wmdp benchmark: Measuringand reducing malicious use with unlearning."
     ]
   },
   {
@@ -36,7 +36,7 @@
     "paper_url": "https://openreview.net/pdf?id=odjMSBSWRt",
     "paper_id": "odjMSBSWRt",
     "contexts": [
-      "Matthias Spielkamp, and Birgit Stark. 2024. Large language models are echo chambers.In Proceedings of the 2024 Joint International Conference on Computational Linguistics,Language Resources and Evaluation (LREC-COLING 2024), pages 10117–10123, Torino,Italia. ELRA and ICCL."
+      "Matthias Spielkamp, and Birgit Stark. 2024. Large language models are echo chambers.In Proceedings of the 2024 Joint International Conference on Computational Linguistics,Language Resources and Evaluation (LREC-COLING 2024), pages 10117–10123, Torino,Italia. ELRA and ICCL."
     ]
   },
   {
@@ -44,7 +44,7 @@
     "paper_url": "https://openreview.net/pdf?id=odjMSBSWRt",
     "paper_id": "odjMSBSWRt",
     "contexts": [
-      "side, Jonathan Ng, Hanlin Zhang, Scott Emmons, and Dan Hendrycks. 2023. Do therewards justify the means? measuring trade-offs between rewards and ethical behavior inthe machiavelli benchmark."
+      "side, Jonathan Ng, Hanlin Zhang, Scott Emmons, and Dan Hendrycks. 2023. Do therewards justify the means? measuring trade-offs between rewards and ethical behavior inthe machiavelli benchmark."
     ]
   },
   {
@@ -52,7 +52,7 @@
     "paper_url": "https://openreview.net/pdf?id=odjMSBSWRt",
     "paper_id": "odjMSBSWRt",
     "contexts": [
-      "probabilities also matter: A more faithful metric for faithfulness of free-text explanationsin large language models."
+      "probabilities also matter: A more faithful metric for faithfulness of free-text explanationsin large language models."
     ]
   },
   {
@@ -60,7 +60,7 @@
     "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
     "paper_id": "QEHrmQPBdd",
     "contexts": [
-      "Reward models are critical in techniques like Reinforcement Learning from Hu-man Feedback (RLHF) and Inference Scaling Laws, where they guide languagemodel alignment and select optimal responses. Despite their importance, existingreward model benchmarks often evaluate models by asking them to distinguish be-tween responses generated by models of varying power. However, this approachfails to assess reward models on subtle but critical content changes and variationsin style, resulting in a low correlation with policy model performance. To thisend, we introduce RM-BENCH, a novel benchmark designed to evaluate rewardmodels based on their sensitivity to subtle content differences and resistance tostyle biases. Extensive experiments demonstrate that RM-BENCH strongly corre-lates with policy model performance, making it a reliable reference for selectingreward models to align language models effectively. We evaluate nearly 40 re-ward models on RM-BENCH. Our results reveal that even state-of-the-art modelsachieve an average performance of only 46.6%, which falls short of random-levelaccuracy (50%) when faced with style bias interference. These findings highlightthe significant room for improvement in current reward models. Related code anddata are available at https://github.com/THU-KEG/RM-Bench."
+      "Reward models are critical in techniques like Reinforcement Learning from Hu-man Feedback (RLHF) and Inference Scaling Laws, where they guide languagemodel alignment and select optimal responses. Despite their importance, existingreward model benchmarks often evaluate models by asking them to distinguish be-tween responses generated by models of varying power. However, this approachfails to assess reward models on subtle but critical content changes and variationsin style, resulting in a low correlation with policy model performance. To thisend, we introduce RM-BENCH, a novel benchmark designed to evaluate rewardmodels based on their sensitivity to subtle content differences and resistance tostyle biases. Extensive experiments demonstrate that RM-BENCH strongly corre-lates with policy model performance, making it a reliable reference for selectingreward models to align language models effectively. We evaluate nearly 40 re-ward models on RM-BENCH. Our results reveal that even state-of-the-art modelsachieve an average performance of only 46.6%, which falls short of random-levelaccuracy (50%) when faced with style bias interference. These findings highlightthe significant room for improvement in current reward models. Related code anddata are available at https://github.com/THU-KEG/RM-Bench."
     ]
   },
   {
@@ -68,7 +68,7 @@
     "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
     "paper_id": "QEHrmQPBdd",
     "contexts": [
-      "stack exchange preference dataset, 2023. URL https://huggingface.co/datasets/HuggingFaceH4/stack-exchange-preferences",
+      "stack exchange preference dataset, 2023. URL https://huggingface.co/datasets/HuggingFaceH4/stack-exchange-preferences",
       "."
     ]
   },
@@ -77,7 +77,7 @@
     "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
     "paper_id": "aWXnKanInf",
     "contexts": [
-      "James J. DiCarlo. Integrative Benchmarking to Advance Neurally Mechanistic Models of Hu-man Intelligence. Neuron, 108(3):413–423, November 2020. ISSN 08966273. doi: 10.1016/j.neuron.2020.07.040. URL https://linkinghub.elsevier.com/retrieve/pii/S089662732030605X"
+      "James J. DiCarlo. Integrative Benchmarking to Advance Neurally Mechanistic Models of Hu-man Intelligence. Neuron, 108(3):413–423, November 2020. ISSN 08966273. doi: 10.1016/j.neuron.2020.07.040. URL https://linkinghub.elsevier.com/retrieve/pii/S089662732030605X"
     ]
   },
   {
@@ -85,7 +85,7 @@
     "paper_url": "https://openreview.net/pdf?id=XmProj9cPs",
     "paper_id": "XmProj9cPs",
     "contexts": [
-      "and benchmarking interactive coding with execution feedback. CoRR, abs/2306.14898, 2023. doi:10.48550/arXiv.2306.14898. URL https://doi.org/10.48550/arXiv.2306.14898."
+      "and benchmarking interactive coding with execution feedback. CoRR, abs/2306.14898, 2023. doi:10.48550/arXiv.2306.14898. URL https://doi.org/10.48550/arXiv.2306.14898."
     ]
   },
   {
@@ -93,7 +93,7 @@
     "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
     "paper_id": "eHehzSDUFp",
     "contexts": [
-      "5We used OLMo and Dolma from the official repository"
+      "5We used OLMo and Dolma from the official repository"
     ]
   },
   {
@@ -101,7 +101,7 @@
     "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
     "paper_id": "eHehzSDUFp",
     "contexts": [
-      "7We randomly sample 205k instances for each dataset.8Datasets in huggingface9We slightly modified the dataset to our setting of which details are in Appendix B.1"
+      "7We randomly sample 205k instances for each dataset.8Datasets in huggingface9We slightly modified the dataset to our setting of which details are in Appendix B.1"
     ]
   },
   {
@@ -109,7 +109,7 @@
     "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
     "paper_id": "eHehzSDUFp",
     "contexts": [
-      "ral language processing: A survey. ArXiv, abs/2012.09823, 2020. URL https://api.semanticscholar.org/CorpusID:227231454",
+      "ral language processing: A survey. ArXiv, abs/2012.09823, 2020. URL https://api.semanticscholar.org/CorpusID:227231454",
       "."
     ]
   },
@@ -118,7 +118,7 @@
     "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
     "paper_id": "eHehzSDUFp",
     "contexts": [
-      "bank for pretrained transformers. In Natural Language Processing and Chinese Computing, 2022b. URLhttps://api.semanticscholar.org/CorpusID:251223709",
+      "bank for pretrained transformers. In Natural Language Processing and Chinese Computing, 2022b. URLhttps://api.semanticscholar.org/CorpusID:251223709",
       "."
     ]
   },
@@ -127,7 +127,7 @@
     "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
     "paper_id": "eHehzSDUFp",
     "contexts": [
-      "and Richard S. Sutton. Loss of plasticity in deep continual learning. Nature, 632:768 – 774, 2024. URLhttps://api.semanticscholar.org/CorpusID:259251905",
+      "and Richard S. Sutton. Loss of plasticity in deep continual learning. Nature, 632:768 – 774, 2024. URLhttps://api.semanticscholar.org/CorpusID:259251905",
       "."
     ]
   },
@@ -136,7 +136,7 @@
     "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
     "paper_id": "eHehzSDUFp",
     "contexts": [
-      ", 2019. URL https://api.semanticscholar.org/CorpusID:202539551."
+      ", 2019. URL https://api.semanticscholar.org/CorpusID:202539551."
     ]
   },
   {
@@ -144,7 +144,7 @@
     "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
     "paper_id": "eHehzSDUFp",
     "contexts": [
-      "circuits in pretrained transformers. ArXiv, abs/2405.17969, 2024. URL https://api.semanticscholar.org/CorpusID:270068372",
+      "circuits in pretrained transformers. ArXiv, abs/2405.17969, 2024. URL https://api.semanticscholar.org/CorpusID:270068372",
       "."
     ]
   }
