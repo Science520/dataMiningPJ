@@ -181,7 +181,7 @@ def process_pdf(pdf_filename: str) -> dict:
             except Exception as e:
                 ctx = ""
                 _on_error("error occurred during find_context()" )
-            ret[url].append( ctx )
+            ret[url].append( ctx.replace('\xa0', ' ') )
     
     nodes = []
     try:
@@ -205,9 +205,6 @@ def can_access(url: str):
     # https://llvm.org/docs/
     # are (probably) incomplete;
     # 
-    # 去除首尾空白字符  
-    url = url.strip()  
-
     if url.endswith('-'):
         return False
     
@@ -217,10 +214,6 @@ def can_access(url: str):
     if len(res) > 1:
         return False
 
-    # 检查 URL 是否有基本的有效格式  
-    if not re.match(r'^https?://[^\s/$.?#].[^\s]*$', url):  
-        return False  
-    
     return True
 
     # directly accessing the url via internet will be good :)
@@ -249,8 +242,10 @@ def process_text(text_file: str):
         return {}
     
     res = subprocess.run(
-        f"cat {text_file} | grep http -A 2 -B 2",
-        shell=True, 
+        # f"cat {text_file} | grep http -A 2 -B 2",
+        #f"cat {text_file}",
+        ["cat", text_file],
+        shell=False, 
         capture_output=True)
     
     if res.returncode != 0:
@@ -265,6 +260,9 @@ def process_text(text_file: str):
 	
     i = 0;
     url_pattern = "https?:\\/\\/(?:www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b(?:[-a-zA-Z0-9()@:%_\\+.~#?&\\/=]*)"
+    backup_pattern = "(?:www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\/[-a-zA-Z0-9()@:%_\\+\\.~#?&=\\/]*"
+    url_pattern = re.compile(url_pattern)
+    backup_pattern = re.compile(backup_pattern)
     while i < len(lines):
         buf = lines[i]
         buf2 = lines[i] + (lines[i + 1] if (i + 1 < len(lines))  else '')
@@ -279,6 +277,24 @@ def process_text(text_file: str):
             m2 = []
         urls = set(m1 + m2)
         ctx = '\n'.join(lines[ max(0, i - 2) : min(i + 3, len(lines)) ])
+
+        if ('http' not in buf2) and len(urls) == 0:
+            # 
+            # Fixed:
+            # sometimes the url does not start with http(s)! sigh :)
+            # for example, this paper:
+            #  https://openreview.net/pdf?id=odjMSBSWRt
+            # contains the url huggingface.co/datasets/anonymous152311/darkbench
+            #
+            # should only try this when nothing interesting found.
+            #
+            del m1 
+            del m2 
+            del urls
+            m1 = re.findall(backup_pattern, buf)
+            m2 = re.findall(backup_pattern, buf2)
+            m2 = m2[ : len(m1)] if len(m1) else m2[ : 1]
+            urls = set (m1 + m2)
 
         for url in urls:
             # remove trailing dots
@@ -477,6 +493,16 @@ def pdf_find_url(pdf_file: str) -> dict:
     
     del r1
     del r2
+    try:
+        #
+        # fixed: remove temporary file.
+        #
+        text_file = re.sub(r'(.*)\.pdf$', r'\1.txt', pdf_file)
+        html_file = re.sub(r'(.*)\.pdf$', r'\1.html', pdf_file)
+        _ = subprocess.run(
+            ['rm', '-f', text_file, html_file])
+    except:
+        pass
     return ret
 
 if __name__ == "__main__":
