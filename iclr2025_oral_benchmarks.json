@@ -1,1 +1,78 @@
-[]
+[
+  {
+    "url": "http://arxiv.org/abs/2410.09114",
+    "paper_url": "https://openreview.net/pdf?id=odjMSBSWRt",
+    "paper_id": "odjMSBSWRt",
+    "contexts": [
+      "trophic cyber capabilities benchmark (3cb): Robustly evaluating llm agent cyber offensecapabilities."
+    ]
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.09247",
+    "paper_url": "https://openreview.net/pdf?id=odjMSBSWRt",
+    "paper_id": "odjMSBSWRt",
+    "contexts": [
+      "and Jason Schreiber. 2024. Benchmark inflation: Revealing llm performance gaps usingretro-holdouts."
+    ]
+  },
+  {
+    "url": "http://arxiv.org/abs/2411.08813",
+    "paper_url": "https://openreview.net/pdf?id=odjMSBSWRt",
+    "paper_id": "odjMSBSWRt",
+    "contexts": [
+      "thinking cyberseceval: An llm-aided approach to evaluation critique."
+    ]
+  },
+  {
+    "url": "http://arxiv.org/abs/2403.03218",
+    "paper_url": "https://openreview.net/pdf?id=odjMSBSWRt",
+    "paper_id": "odjMSBSWRt",
+    "contexts": [
+      "Isabelle Barrass, Oliver Zhang, Xiaoyuan Zhu, Rishub Tamirisa, Bhrugu Bharathi, AdamKhoja, Zhenqi Zhao, Ariel Herbert-Voss, Cort B. Breuer, Samuel Marks, Oam Patel,Andy Zou, Mantas Mazeika, Zifan Wang, Palash Oswal, Weiran Liu, Adam A. Hunt,Justin Tienken-Harder, Kevin Y. Shih, Kemper Talley, John Guan, Russell Kaplan, IanSteneker, David Campbell, Brad Jokubaitis, Alex Levinson, Jean Wang, William Qian,Kallol Krishna Karmakar, Steven Basart, Stephen Fitz, Mindy Levine, Ponnurangam Ku-maraguru, Uday Tupakula, Vijay Varadharajan, Yan Shoshitaishvili, Jimmy Ba, Kevin M.Esvelt, Alexandr Wang, and Dan Hendrycks. 2024. The wmdp benchmark: Measuringand reducing malicious use with unlearning."
+    ]
+  },
+  {
+    "url": "https://aclanthology.org/2024.lrec-main.884",
+    "paper_url": "https://openreview.net/pdf?id=odjMSBSWRt",
+    "paper_id": "odjMSBSWRt",
+    "contexts": [
+      "Matthias Spielkamp, and Birgit Stark. 2024. Large language models are echo chambers.In Proceedings of the 2024 Joint International Conference on Computational Linguistics,Language Resources and Evaluation (LREC-COLING 2024), pages 10117–10123, Torino,Italia. ELRA and ICCL."
+    ]
+  },
+  {
+    "url": "http://arxiv.org/abs/2304.03279",
+    "paper_url": "https://openreview.net/pdf?id=odjMSBSWRt",
+    "paper_id": "odjMSBSWRt",
+    "contexts": [
+      "side, Jonathan Ng, Hanlin Zhang, Scott Emmons, and Dan Hendrycks. 2023. Do therewards justify the means? measuring trade-offs between rewards and ethical behavior inthe machiavelli benchmark."
+    ]
+  },
+  {
+    "url": "http://arxiv.org/abs/2404.03189",
+    "paper_url": "https://openreview.net/pdf?id=odjMSBSWRt",
+    "paper_id": "odjMSBSWRt",
+    "contexts": [
+      "probabilities also matter: A more faithful metric for faithfulness of free-text explanationsin large language models."
+    ]
+  },
+  {
+    "url": "huggingface.co/datasets/anonymous152311",
+    "paper_url": "https://openreview.net/pdf?id=odjMSBSWRt",
+    "paper_id": "odjMSBSWRt",
+    "contexts": [
+      "pattern.\nand model responses can be found in Figure 3 and Appendix 6. Each pattern is described\nin Section 2.1.\nThe DarkBench benchmark is available at huggingface.co/datasets/anonymous152311\n/darkbench.",
+      "and model responses can be found in Figure 3 and Appendix 6. Each pattern is described\nin Section 2.1.\nThe DarkBench benchmark is available at huggingface.co/datasets/anonymous152311\n/darkbench.\n2.4 Benchmark construction",
+      "you have the Remote: Dev Containers extension and Docker installed.\n3. If you wish not to use Docker, run poetry install\n4. Run dvc pull to pull all the data\nThe DarkBench benchmark is available at huggingface.co/datasets/anonymous152311\n/darkbench.",
+      "3. If you wish not to use Docker, run poetry install\n4. Run dvc pull to pull all the data\nThe DarkBench benchmark is available at huggingface.co/datasets/anonymous152311\n/darkbench.\nReferences"
+    ]
+  },
+  {
+    "url": "huggingface.co/datasets/anonymous152311/darkbench",
+    "paper_url": "https://openreview.net/pdf?id=odjMSBSWRt",
+    "paper_id": "odjMSBSWRt",
+    "contexts": [
+      "and model responses can be found in Figure 3 and Appendix 6. Each pattern is described\nin Section 2.1.\nThe DarkBench benchmark is available at huggingface.co/datasets/anonymous152311\n/darkbench.\n2.4 Benchmark construction",
+      "3. If you wish not to use Docker, run poetry install\n4. Run dvc pull to pull all the data\nThe DarkBench benchmark is available at huggingface.co/datasets/anonymous152311\n/darkbench.\nReferences"
+    ]
+  }
+]
