@@ -89,19 +89,49 @@ def _log(msg: str):
     print("\033[01;92m[!]\033[0;m", msg)  
     logger.info(msg)  
 
-def verify_dataset_candidate(url: str, description: str) -> bool:  
+def verify_dataset_candidate(url: str, context_text: str) -> bool:  
     """二次验证疑似数据集链接"""  
-    # 排除已知的框架网站  
-    framework_sites = ["pytorch.org", "tensorflow.org", "keras.io"]  
-    if any(site in url.lower() for site in framework_sites):  
-        return False  
-        
+    # 解析URL  
+    parsed = urlparse(url)  
+    domain = parsed.netloc.lower()  
+    path = parsed.path.lower()  
+    
+    # 排除已知的框架网站和一般性网站  
+    exclude_sites = [  
+        "pytorch.org", "tensorflow.org", "keras.io",  
+        "wikipedia.org", "youtube.com", "twitter.com", "facebook.com",  
+        "linkedin.com", "medium.com", "arxiv.org", "google.com"  
+    ]  
+    if any(site in domain for site in exclude_sites):  
+        # 特例：如果是arxiv.org/data 或 google.com/dataset 这类路径，仍然可能是数据集  
+        dataset_paths = ["dataset", "data", "benchmark", "corpus"]  
+        if not any(keyword in path for keyword in dataset_paths):  
+            return False  
+    
     # 排除示例/占位符URL  
-    if "username" in url.lower() or "example" in url.lower():  
+    exclude_terms = ["username", "example", "sample", "placeholder", "yourname"]  
+    if any(term in url.lower() for term in exclude_terms):  
         return False  
-        
-    # 返回原始分类结果  
-    return True  
+    
+    # 检查上下文是否强烈暗示这是数据集  
+    dataset_indicators = [  
+        "dataset", "benchmark", "corpus", "data available at",   
+        "download from", "available at", "code and data"  
+    ]  
+    context_lower = context_text.lower()  
+    has_dataset_indicator = any(indicator in context_lower for indicator in dataset_indicators)  
+    
+    # 如果上下文没有明确指示这是数据集，但URL看起来可能是  
+    # 例如，GitHub仓库但不是明确的数据集  
+    if "github.com" in domain and not has_dataset_indicator:  
+        # 检查路径中是否有数据集相关关键词  
+        github_dataset_terms = ["dataset", "data", "benchmark", "corpus"]  
+        if not any(term in path for term in github_dataset_terms):  
+            # 可能是代码库而不是数据集  
+            return False  
+    
+    # 通过所有检查，认为是有效的数据集候选  
+    return True
 
 def extract_page_content(url: str) -> Optional[str]:  
     """尝试获取链接内容"""  
@@ -153,7 +183,7 @@ def call_llm_with_retry(url: str, context_text: str) -> str:
     
     try:  
         # 使用新的invoke方法  
-        chain = prompt_link | llm  
+        chain = prompt_link | llm  # prompt 不能改成 chain，不然写的二次调用没用
         result = chain.invoke({"url": url, "context_text": context_text})  
         model_info = llm.model_name if hasattr(llm, 'model_name') else "Unknown model"  
         logger.info(f"API call successful using model: {model_info}")  
@@ -168,8 +198,8 @@ def is_benchmark_or_dataset_link_llm(url: str, context_text: str) -> bool:
         return False  
         
     # 先检查URL形式是否有效  
-    if not can_access(url):  
-        return False  
+    # if not can_access(url):  
+    #     return False  
     
     # 使用LLM分析链接及其上下文  
     try:  
@@ -180,13 +210,13 @@ def is_benchmark_or_dataset_link_llm(url: str, context_text: str) -> bool:
         
         logger.info(f"LLM classification for {url}: {initial_result}")  
         
-        if initial_result:  
-            # 进行二次验证  
-            if verify_dataset_candidate(url, context_text):  
-                return True  
-            else:  
-                logger.info(f"Link initially classified as dataset but rejected in verification: {url}")  
-                return False  
+        # if initial_result:  
+        #     # 进行二次验证  
+        #     if verify_dataset_candidate(url, context_text):  
+        #         return True  
+        #     else:  
+        #         logger.info(f"Link initially classified as dataset but rejected in verification: {url}")  
+        #         return False  
         
         return initial_result  
     
