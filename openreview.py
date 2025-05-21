@@ -26,7 +26,8 @@ try:
     from selenium.webdriver.common.by import By
     from selenium.webdriver.support.ui import WebDriverWait
     from selenium.webdriver.support import expected_conditions as EC
-
+    
+    browser = None
 
     def selenium_load_tags(base_url: str) -> list:
         """
@@ -87,7 +88,7 @@ try:
         xpath = f'//div[@id=\'{tab_id}\']/div/div/ul/li|//div[@id=\'{tab_id}\']/ul/li'
         try:
             WebDriverWait(driver, 10).until(
-                EC.presence_of_element_located((By.XPATH, xpath))
+                EC.presence_of_all_elements_located((By.XPATH, xpath))
             )
         except Exception as e:
             _on_error("selenium_load_batch: " + str(e))
@@ -116,9 +117,11 @@ try:
     
 
     def selenium_load_ids(base_url: str):
+        global browser
         option = webdriver.FirefoxOptions()
         option.add_argument('-headless')
         firefox = webdriver.Firefox(option)
+        browser = firefox
         firefox.get(base_url)
 
         tab_id = re.sub(r'^.*#(.*)$', r'\1', base_url)
@@ -132,8 +135,9 @@ try:
             WebDriverWait(firefox, 10).until(
                 EC.presence_of_element_located((By.CLASS_NAME, "tabs-container"))
             )
+            ul_xpath = f'//div[@id=\'{tab_id}\']/div/div/ul|//div[@id=\'{tab_id}\']/ul'
             WebDriverWait(firefox, 10).until(
-                EC.presence_of_element_located((By.XPATH, f"//div[@id=\'{tab_id}\']"))
+                EC.presence_of_all_elements_located((By.XPATH, ul_xpath))
             )
         except:
             print("line 139, waiterror", file=sys.stderr)
@@ -153,6 +157,7 @@ try:
             tup = selenium_load_batch(firefox, tab_id)
             ret += tup[0]
             firefox.quit()
+            browser = None
             return ret
 
         click = False
@@ -213,13 +218,18 @@ try:
             n_pages = len(pages)
         
         firefox.quit()
+        browser = None
         return ret
     
     def selenium_load_ids_safe(base_url, max_retries=3):
+        global browser
         for _ in range(max_retries):
             try:
                 ret = selenium_load_ids(base_url)
             except:
+                if browser:
+                    browser.quit()
+                    browser = None
                 continue
             return ret
         
