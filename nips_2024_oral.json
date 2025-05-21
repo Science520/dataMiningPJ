@@ -1,0 +1,83 @@
+[
+  {
+    "url": "https://openreview.net/forum?id=UHjE5v5MB7",
+    "paper_url": "https://openreview.net/pdf?id=aVh9KRZdRk",
+    "paper_id": "aVh9KRZdRk",
+    "contexts": [
+      "[6] Darshil Doshi, Aritra Das, Tianyu He, and Andrey Gromov. To grok or not to grok: Disentangling general-\nization and memorization on corrupted algorithmic datasets. In The Twelfth International Conference on\nLearning Representations, 2024. URL https://openreview.net/forum?id=UHjE5v5MB7.\n[7] Darshil Doshi, Tianyu He, Aritra Das, and Andrey Gromov. Grokking modular polynomials, 2024. URL\nhttps://arxiv.org/abs/2406.03495."
+    ]
+  },
+  {
+    "url": "https://nips.cc/public/guides/CodeSubmissionPolicy)",
+    "paper_url": "https://openreview.net/pdf?id=aVh9KRZdRk",
+    "paper_id": "aVh9KRZdRk",
+    "contexts": [
+      "benchmark).\n• The instructions should contain the exact command and environment needed to run to\nreproduce the results. See the NeurIPS code and data submission guidelines (https:\n//nips.cc/public/guides/CodeSubmissionPolicy) for more details.\n• The authors should provide instructions on data access and preparation, including how"
+    ],
+    "source_papers": [
+      "aVh9KRZdRk",
+      "REIK4SZMJt",
+      "gojL67CfS8",
+      "wpGJ2AX6SZ"
+    ]
+  },
+  {
+    "url": "paperswithcode.com/datasets",
+    "paper_url": "https://openreview.net/pdf?id=aVh9KRZdRk",
+    "paper_id": "aVh9KRZdRk",
+    "contexts": [
+      "• For scraped data from a particular source (e.g., website), the copyright and terms of\nservice of that source should be provided.\n• If assets are released, the license, copyright information, and terms of use in the\npackage should be provided. For popular datasets, paperswithcode.com/datasets\nhas curated licenses for some datasets. Their licensing guide can help determine the",
+      "25\n• If assets are released, the license, copyright information, and terms of use in the\npackage should be provided. For popular datasets, paperswithcode.com/datasets\nhas curated licenses for some datasets. Their licensing guide can help determine the\nlicense of a dataset.",
+      "service of that source should be provided.\n30\n• If assets are released, the license, copyright information, and terms of use in the\npackage should be provided. For popular datasets, paperswithcode.com/datasets\nhas curated licenses for some datasets. Their licensing guide can help determine the",
+      "service of that source should be provided.\n25\n• If assets are released, the license, copyright information, and terms of use in the\npackage should be provided. For popular datasets, paperswithcode.com/datasets\nhas curated licenses for some datasets. Their licensing guide can help determine the",
+      "30\n• If assets are released, the license, copyright information, and terms of use in the\npackage should be provided. For popular datasets, paperswithcode.com/datasets\nhas curated licenses for some datasets. Their licensing guide can help determine the\nlicense of a dataset.",
+      "service of that source should be provided.\n• If assets are released, the license, copyright information, and terms of use in the\npackage should be provided. For popular datasets, paperswithcode.com/datasets\nhas curated licenses for some datasets. Their licensing guide can help determine the\nlicense of a dataset."
+    ],
+    "source_papers": [
+      "aVh9KRZdRk",
+      "REIK4SZMJt",
+      "gojL67CfS8",
+      "wpGJ2AX6SZ"
+    ]
+  },
+  {
+    "url": "paperswithcode.com/datasetshas",
+    "paper_url": "https://openreview.net/pdf?id=aVh9KRZdRk",
+    "paper_id": "aVh9KRZdRk",
+    "contexts": [
+      "30\n• If assets are released, the license, copyright information, and terms of use in the\npackage should be provided. For popular datasets, paperswithcode.com/datasets\nhas curated licenses for some datasets. Their licensing guide can help determine the\nlicense of a dataset.",
+      "service of that source should be provided.\n• If assets are released, the license, copyright information, and terms of use in the\npackage should be provided. For popular datasets, paperswithcode.com/datasets\nhas curated licenses for some datasets. Their licensing guide can help determine the\nlicense of a dataset.",
+      "25\n• If assets are released, the license, copyright information, and terms of use in the\npackage should be provided. For popular datasets, paperswithcode.com/datasets\nhas curated licenses for some datasets. Their licensing guide can help determine the\nlicense of a dataset."
+    ],
+    "source_papers": [
+      "aVh9KRZdRk",
+      "REIK4SZMJt",
+      "gojL67CfS8",
+      "wpGJ2AX6SZ"
+    ]
+  },
+  {
+    "url": "https://twitter.com",
+    "paper_url": "https://openreview.net/pdf?id=bCMpdaQCNW",
+    "paper_id": "bCMpdaQCNW",
+    "contexts": [
+      "dataset of 348 comics.\n2\nhttps://twitter.com and https://www.pinterest.com/\n3\nYes,"
+    ]
+  },
+  {
+    "url": "https://www.pinterest.com/",
+    "paper_url": "https://openreview.net/pdf?id=bCMpdaQCNW",
+    "paper_id": "bCMpdaQCNW",
+    "contexts": [
+      "dataset of 348 comics.\n2\nhttps://twitter.com and https://www.pinterest.com/\n3\nYes,"
+    ]
+  },
+  {
+    "url": "https://www.pinterest.com/3",
+    "paper_url": "https://openreview.net/pdf?id=bCMpdaQCNW",
+    "paper_id": "bCMpdaQCNW",
+    "contexts": [
+      "dataset of 348 comics.\n2\nhttps://twitter.com and https://www.pinterest.com/\n3\nYes,"
+    ]
+  }
+]

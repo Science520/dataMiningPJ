@@ -1,0 +1,382 @@
+[
+  {
+    "url": "https://github.com/LUOyk1999/dropout-theory",
+    "paper_url": "https://openreview.net/pdf?id=PwxYoMvmvy",
+    "paper_id": "PwxYoMvmvy",
+    "contexts": [
+      "To validate our theoretical analysis, we conducted extensive experiments on a variety of datasets,considering both node-level and graph-level tasks. We implemented dropout technique on severalpopular GNN architectures: GCN (Kipf & Welling, 2017), GraphSAGE (Hamilton et al., 2017),GAT (Veliˇckovi´c et al., 2018), and GatedGCN (Bresson & Laurent, 2017). For each model, wecompared the performance with and without dropout. Our code is available at https://github.com/LUOyk1999/dropout-theory",
+      "popular GNN architectures: GCN (Kipf & Welling, 2017), GraphSAGE (Hamilton et al., 2017),\nGAT (Veličković et al., 2018), and GatedGCN (Bresson & Laurent, 2017). For each model, we\ncompared the performance with and without dropout. Our code is available at https://github.\ncom/LUOyk1999/dropout-theory.\n7"
+    ]
+  },
+  {
+    "url": "https://openreview.net/forum?id=SJU4ayYgl",
+    "paper_url": "https://openreview.net/pdf?id=PwxYoMvmvy",
+    "paper_id": "PwxYoMvmvy",
+    "contexts": [
+      "//openreview.net/forum?id=SJU4ayYgl"
+    ]
+  },
+  {
+    "url": "https://proceedings.mlr.press/v202/kong23a.html",
+    "paper_url": "https://openreview.net/pdf?id=PwxYoMvmvy",
+    "paper_id": "PwxYoMvmvy",
+    "contexts": [
+      "skill, Kyunghyun Cho, Barbara Engelhardt, Sivan Sabato, and Jonathan Scarlett (eds.), Pro-\nceedings of the 40th International Conference on Machine Learning, volume 202 of Proceed-\nings of Machine Learning Research, pp. 17375–17390. PMLR, 23–29 Jul 2023. URL https:\n//proceedings.mlr.press/v202/kong23a.html.\nDevin Kreuzer, Dominique Beaini, Will Hamilton, Vincent Létourneau, and Prudencio Tossou. Re-"
+    ]
+  },
+  {
+    "url": "https://openreview.net/forum?id=xkljKdGe4E",
+    "paper_url": "https://openreview.net/pdf?id=PwxYoMvmvy",
+    "paper_id": "PwxYoMvmvy",
+    "contexts": [
+      ", 2024b. URL https://openreview.net/forum?id=",
+      "xkljKdGe4E",
+      "Yuankai Luo, Lei Shi, and Xiao-Ming Wu. Classic GNNs are strong baselines: Reassessing GNNs\nfor node classification. In The Thirty-eight Conference on Neural Information Processing Sys-\ntems Datasets and Benchmarks Track, 2024b. URL https://openreview.net/forum?id=\nxkljKdGe4E.\nYuankai Luo, Lei Shi, and Xiao-Ming Wu. Unlocking the potential of classic gnns for graph-level"
+    ]
+  },
+  {
+    "url": "https://openreview.net/forum?id=Hkx1qkrKPr",
+    "paper_url": "https://openreview.net/pdf?id=PwxYoMvmvy",
+    "paper_id": "PwxYoMvmvy",
+    "contexts": [
+      ", 2020. URL https://openreview.net/forum?id=Hkx1qkrKPr."
+    ]
+  },
+  {
+    "url": "https://openreview.net/forum?id=R4xpvDTWkV",
+    "paper_url": "https://openreview.net/pdf?id=PwxYoMvmvy",
+    "paper_id": "PwxYoMvmvy",
+    "contexts": [
+      "Qitian Wu, Wentao Zhao, Chenxiao Yang, Hengrui Zhang, Fan Nie, Haitian Jiang, Yatao Bian,\nand Junchi Yan. Simplifying and empowering transformers for large-graph representations. In\nThirty-seventh Conference on Neural Information Processing Systems, 2023. URL https://\nopenreview.net/forum?id=R4xpvDTWkV.\nKeyulu Xu, Weihua Hu, Jure Leskovec, and Stefanie Jegelka. How powerful are graph neural"
+    ]
+  },
+  {
+    "url": "https://doi.org/10.1007/s10994-024-06536-9",
+    "paper_url": "https://openreview.net/pdf?id=PwxYoMvmvy",
+    "paper_id": "PwxYoMvmvy",
+    "contexts": [
+      "/s10994-024-06536-9. URL https://doi.org/10.1007/s10994-024-06536-9.",
+      "Rui-Ray Zhang and Massih-Reza Amini. Generalization bounds for learning under graph-\ndependence: a survey. Mach. Learn., 113(7):3929–3959, April 2024. ISSN 0885-6125. doi:\n10.1007/s10994-024-06536-9. URL https://doi.org/10.1007/s10994-024-06536-9.\nShuai Zhang, Meng Wang, Sijia Liu, Pin-Yu Chen, and Jinjun Xiong. Fast learning of graph neural\nnetworks with guaranteed generalizability: one-hidden-layer case. In International Conference"
+    ]
+  },
+  {
+    "url": "openreview.net/forum?id=SJU4ayYgl",
+    "paper_url": "https://openreview.net/pdf?id=PwxYoMvmvy",
+    "paper_id": "PwxYoMvmvy",
+    "contexts": [
+      "Thomas N. Kipf and Max Welling. Semi-supervised classification with graph convolutional\nnetworks. In International Conference on Learning Representations, 2017. URL https:\n//openreview.net/forum?id=SJU4ayYgl.\n12\nPublished as a conference paper at ICLR 2025"
+    ]
+  },
+  {
+    "url": "openreview.net/forum?id=SJU4ayYgl.12",
+    "paper_url": "https://openreview.net/pdf?id=PwxYoMvmvy",
+    "paper_id": "PwxYoMvmvy",
+    "contexts": [
+      "Thomas N. Kipf and Max Welling. Semi-supervised classification with graph convolutional\nnetworks. In International Conference on Learning Representations, 2017. URL https:\n//openreview.net/forum?id=SJU4ayYgl.\n12\nPublished as a conference paper at ICLR 2025"
+    ]
+  },
+  {
+    "url": "https://openreview.net/forum?id=",
+    "paper_url": "https://openreview.net/pdf?id=PwxYoMvmvy",
+    "paper_id": "PwxYoMvmvy",
+    "contexts": [
+      "Yuankai Luo, Lei Shi, and Xiao-Ming Wu. Classic GNNs are strong baselines: Reassessing GNNs\nfor node classification. In The Thirty-eight Conference on Neural Information Processing Sys-\ntems Datasets and Benchmarks Track, 2024b. URL https://openreview.net/forum?id=\nxkljKdGe4E.\nYuankai Luo, Lei Shi, and Xiao-Ming Wu. Unlocking the potential of classic gnns for graph-level"
+    ]
+  },
+  {
+    "url": "https://doi.org/10.1007/s10994-024-06536-9.Shuai",
+    "paper_url": "https://openreview.net/pdf?id=PwxYoMvmvy",
+    "paper_id": "PwxYoMvmvy",
+    "contexts": [
+      "Rui-Ray Zhang and Massih-Reza Amini. Generalization bounds for learning under graph-\ndependence: a survey. Mach. Learn., 113(7):3929–3959, April 2024. ISSN 0885-6125. doi:\n10.1007/s10994-024-06536-9. URL https://doi.org/10.1007/s10994-024-06536-9.\nShuai Zhang, Meng Wang, Sijia Liu, Pin-Yu Chen, and Jinjun Xiong. Fast learning of graph neural\nnetworks with guaranteed generalizability: one-hidden-layer case. In International Conference"
+    ]
+  },
+  {
+    "url": "https://github.com/dynamical-inference/dyncl",
+    "paper_url": "https://openreview.net/pdf?id=ONfWFluZBI",
+    "paper_id": "ONfWFluZBI",
+    "contexts": [
+      "Self-supervised learning (SSL) approaches have brought tremendous success acrossmany tasks and domains. It has been argued that these successes can be attributedto a link between SSL and identifiable representation learning: Temporal structureand auxiliary variables ensure that latent representations are related to the true un-derlying generative factors of the data. Here, we deepen this connection and showthat SSL can perform system identification in latent space. We propose dynamicscontrastive learning, a framework to uncover linear, switching linear and non-lineardynamics under a non-linear observation model, give theoretical guarantees and val-idate them empirically. Code: github.com/dynamical-inference/dcl"
+    ]
+  },
+  {
+    "url": "https://github.com/dynamical-inference/dcl",
+    "paper_url": "https://openreview.net/pdf?id=ONfWFluZBI",
+    "paper_id": "ONfWFluZBI",
+    "contexts": [
+      "Code. Code is available at https://github.com/dynamical-inference/dcl under an",
+      "Published as a conference paper at ICLR 2025\nREPRODUCIBILITY STATEMENT\nCode. Code is available at https://github.com/dynamical-inference/dcl under an\nApache 2.0 license. Experimental and implementation details for the main text are given in section 5\nand for each experiment of the Appendix within the respective chapter."
+    ]
+  },
+  {
+    "url": "http://arxiv.org/abs/1803.10122",
+    "paper_url": "https://openreview.net/pdf?id=ONfWFluZBI",
+    "paper_id": "ONfWFluZBI",
+    "contexts": [
+      "David Ha and J¨urgen Schmidhuber. World models. CoRR, abs/1803.10122, 2018. URL http:",
+      "//arxiv.org/abs/1803.10122",
+      "Albert Gu, Karan Goel, and Christopher Ré. Efficiently modeling long sequences with structured\nstate spaces. arXiv preprint arXiv:2111.00396, 2021.\nDavid Ha and Jürgen Schmidhuber. World models. CoRR, abs/1803.10122, 2018. URL http:\n//arxiv.org/abs/1803.10122.\nHermanni Hälvä, Sylvain Le Corff, Luc Lehéricy, Jonathan So, Yongjie Zhu, Elisabeth Gassiat, and"
+    ]
+  },
+  {
+    "url": "https://linkinghub.elsevier.com/retrieve/pii/S2666389923002234",
+    "paper_url": "https://openreview.net/pdf?id=ONfWFluZBI",
+    "paper_id": "ONfWFluZBI",
+    "contexts": [
+      "100844, October 2023. ISSN 26663899. doi: 10.1016/j.patter.2023.100844. URL https://linkinghub.elsevier.com/retrieve/pii/S2666389923002234"
+    ]
+  },
+  {
+    "url": "https://arxiv.org/abs/2407.00143",
+    "paper_url": "https://openreview.net/pdf?id=ONfWFluZBI",
+    "paper_id": "ONfWFluZBI",
+    "contexts": [
+      "In International Conference on Machine Learning, pp. 9030–9039. PMLR, 2021.\nEvgenia Rusak, Patrik Reizinger, Attila Juhos, Oliver Bringmann, Roland S. Zimmermann, and\nWieland Brendel. Infonce: Identifying the gap between theory and practice. 2024. URL https:\n//arxiv.org/abs/2407.00143.\nSteffen Schneider, Alexei Baevski, Ronan Collobert, and Michael Auli. wav2vec: Unsupervised"
+    ]
+  },
+  {
+    "url": "https://github.com/weirayao/tdrl",
+    "paper_url": "https://openreview.net/pdf?id=ONfWFluZBI",
+    "paper_id": "ONfWFluZBI",
+    "contexts": [
+      "3Code: https://github.com/weirayao/tdrl (MIT License)"
+    ]
+  },
+  {
+    "url": "github.com/dynamical-inference/dcl",
+    "paper_url": "https://openreview.net/pdf?id=ONfWFluZBI",
+    "paper_id": "ONfWFluZBI",
+    "contexts": [
+      "that SSL can perform system identification in latent space. We propose dynamics\ncontrastive learning, a framework to uncover linear, switching linear and non-linear\ndynamics under a non-linear observation model, give theoretical guarantees and val-\nidate them empirically. Code: github.com/dynamical-inference/dcl\n1 INTRODUCTION"
+    ]
+  },
+  {
+    "url": "arxiv.org/abs/1803.10122",
+    "paper_url": "https://openreview.net/pdf?id=ONfWFluZBI",
+    "paper_id": "ONfWFluZBI",
+    "contexts": [
+      "state spaces. arXiv preprint arXiv:2111.00396, 2021.\nDavid Ha and Jürgen Schmidhuber. World models. CoRR, abs/1803.10122, 2018. URL http:\n//arxiv.org/abs/1803.10122.\nHermanni Hälvä, Sylvain Le Corff, Luc Lehéricy, Jonathan So, Yongjie Zhu, Elisabeth Gassiat, and\nAapo Hyvarinen. Disentangling identifiable features from noisy data with structured nonlinear ica."
+    ]
+  },
+  {
+    "url": "13.w/o",
+    "paper_url": "https://openreview.net/pdf?id=ONfWFluZBI",
+    "paper_id": "ONfWFluZBI",
+    "contexts": [
+      "matching trial from the training set in Figure 12 and b) a distribution of the distances (in terms of R2\nbetween the data from the test and train trials) between all test trials of one of a random test set and\ntheir closest trial from the training dataset in Figure 13.\nw/o dynamics\nours"
+    ]
+  },
+  {
+    "url": "https://github.com/dynamical-inference/patchsae",
+    "paper_url": "https://openreview.net/pdf?id=imT03YXlG2",
+    "paper_id": "imT03YXlG2",
+    "contexts": [
+      "Code and Demo: github.com/dynamical-inference/patchsae",
+      "We used publicly available model checkpoints for CLIP (link) and MaPLe (link). We used OpenAIImageNet templates for zero-shot classification (link). Code, model weights and raw results areavailable at https://github.com/dynamical-inference/patchsae. We only usedpublicly available datasets following the official implementation of MaPLe (dataset descriptions)which are cited in the main text.",
+      "Figure 10: SAE latents are generalizable to different datasets. Reference images of two SAE latents (a)(top) and (b) (bottom) from five datasets. We present label and class name above each image. The latentstatistics log10 of activated frequency, log10 of mean activation, and label entropy values computed from eachdataset are summarized as (f, a, e) below four reference images. More examples are shown in the interactivedemo.",
+      "Figure 12: interactive demo. (a) Select input image. Specifying patch is also available. (b) Select imageencoder backbone for SAE latents. We provide CLIP as default and MaPLe trained on different datasets forcomparisons. We show image-level and patch-level (if a patch is specified) SAE latent activations. (c) Top SAElatents (commonly / only in CLIP / only in MaPLe) are selectable. We show (d) segmentation mask and (e)reference images (and activation value of each image) for the selected index. We provide (c-1) on/off optionfor segmentation mask in reference images. (c-2) shows reference images with segmentation mask.",
+      "We used publicly available model checkpoints for CLIP (link) and MaPLe (link). We used OpenAI\nImageNet templates for zero-shot classification (link). Code, model weights and raw results are\navailable at https://github.com/dynamical-inference/patchsae. We only used\npublicly available datasets following the official implementation of MaPLe (dataset descriptions)\nwhich are cited in the main text."
+    ]
+  },
+  {
+    "url": "https://openaipublic.azureedge.net/clip/models/5806e77cd80f8b59890b7e101eabd078d9fb84e6937f9e85e4ecb61988df416f/ViT-B-16.pt",
+    "paper_url": "https://openreview.net/pdf?id=imT03YXlG2",
+    "paper_id": "imT03YXlG2",
+    "contexts": [
+      "We used publicly available model checkpoints for CLIP (link) and MaPLe (link). We used OpenAIImageNet templates for zero-shot classification (link). Code, model weights and raw results areavailable at https://github.com/dynamical-inference/patchsae. We only usedpublicly available datasets following the official implementation of MaPLe (dataset descriptions)which are cited in the main text."
+    ]
+  },
+  {
+    "url": "https://github.com/muzairkhattak/multimodal-prompt-learning?tab=readme-ov-file",
+    "paper_url": "https://openreview.net/pdf?id=imT03YXlG2",
+    "paper_id": "imT03YXlG2",
+    "contexts": [
+      "We used publicly available model checkpoints for CLIP (link) and MaPLe (link). We used OpenAIImageNet templates for zero-shot classification (link). Code, model weights and raw results areavailable at https://github.com/dynamical-inference/patchsae. We only usedpublicly available datasets following the official implementation of MaPLe (dataset descriptions)which are cited in the main text."
+    ]
+  },
+  {
+    "url": "https://github.com/openai/CLIP/blob/main/notebooks/Prompt_Engineering_for_ImageNet.ipynb",
+    "paper_url": "https://openreview.net/pdf?id=imT03YXlG2",
+    "paper_id": "imT03YXlG2",
+    "contexts": [
+      "We used publicly available model checkpoints for CLIP (link) and MaPLe (link). We used OpenAIImageNet templates for zero-shot classification (link). Code, model weights and raw results areavailable at https://github.com/dynamical-inference/patchsae. We only usedpublicly available datasets following the official implementation of MaPLe (dataset descriptions)which are cited in the main text."
+    ]
+  },
+  {
+    "url": "https://github.com/muzairkhattak/multimodal-prompt-learning/blob/main/docs/DATASETS.md",
+    "paper_url": "https://openreview.net/pdf?id=imT03YXlG2",
+    "paper_id": "imT03YXlG2",
+    "contexts": [
+      "We used publicly available model checkpoints for CLIP (link) and MaPLe (link). We used OpenAIImageNet templates for zero-shot classification (link). Code, model weights and raw results areavailable at https://github.com/dynamical-inference/patchsae. We only usedpublicly available datasets following the official implementation of MaPLe (dataset descriptions)which are cited in the main text."
+    ]
+  },
+  {
+    "url": "https://transformer-circuits.pub/2023/monosemantic-features",
+    "paper_url": "https://openreview.net/pdf?id=imT03YXlG2",
+    "paper_id": "imT03YXlG2",
+    "contexts": [
+      "monosemantic-features",
+      "rina Nguyen, Brayden McLean, Josiah E Burke, Tristan Hume, Shan Carter, Tom Henighan,\nand Chris Olah. Towards monosemanticity: Decomposing language models with dictio-\nnary learning. Oct 4 2023. URL https://transformer-circuits.pub/2023/\nmonosemantic-features. Anthropic.\nMathilde Caron, Hugo Touvron, Ishan Misra, Hervé Jégou, Julien Mairal, Piotr Bojanowski, and"
+    ]
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/Quqekpvx8BGMMcaem/interpreting-and-steering-features-in-images",
+    "paper_url": "https://openreview.net/pdf?id=imT03YXlG2",
+    "paper_id": "imT03YXlG2",
+    "contexts": [
+      "https://www.lesswrong.com/posts/Quqekpvx8BGMMcaem/",
+      "2023.\nGytis Daujotas. Interpreting and steering features in images, Jun 21 2024a.\nURL https://www.lesswrong.com/posts/Quqekpvx8BGMMcaem/\ninterpreting-and-steering-features-in-images.\nGytis Daujotas. Case study: Interpreting, manipulating, and con-"
+    ]
+  },
+  {
+    "url": "https://www.lesswrong.com/posts/iYFuZo9BMvr6GgMs5/case-study-interpreting-manipulating-and-controlling-clip",
+    "paper_url": "https://openreview.net/pdf?id=imT03YXlG2",
+    "paper_id": "imT03YXlG2",
+    "contexts": [
+      "Gytis Daujotas. Case study: Interpreting, manipulating, and con-\ntrolling clip with sparse autoencoders, Aug 02 2024b. URL\nhttps://www.lesswrong.com/posts/iYFuZo9BMvr6GgMs5/\ncase-study-interpreting-manipulating-and-controlling-clip.\nJia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, and Li Fei-Fei. Imagenet: A large-scale hi-"
+    ]
+  },
+  {
+    "url": "https://github.com/apivich-h/pied",
+    "paper_url": "https://openreview.net/pdf?id=w7P92BEsb2",
+    "paper_id": "w7P92BEsb2",
+    "contexts": [
+      "1The code for the project can be found at https://github.com/apivich-h/pied.2Examples of PDEs, specifically those in our experiments, can be found in App. D.3For simplicity we assume β is finite-dimensional. In our experiments, we demonstrate how our method can",
+      "results in the main paper, and defer the remaining results to App. I. The code for the project can befound at https://github.com/apivich-h/pied.",
+      ".\n1\nThe code for the project can be found at https://github.com/apivich-h/pied.\n2\nExamples of PDEs, specifically those in our experiments, can be found in App. D.",
+      "Additional details on the experimental setup are listed in App. H. We present a subset of experimental\nresults in the main paper, and defer the remaining results to App. I. The code for the project can be\nfound at https://github.com/apivich-h/pied.\nFinite-dimensional PDE parameters. We first present two ED problems on IPs where the PDE\nparameters corresponds to multiple scalar terms representing certain physical properties of the system."
+    ]
+  },
+  {
+    "url": "https://github.com/sachabinder/wave_equation_simulations",
+    "paper_url": "https://openreview.net/pdf?id=w7P92BEsb2",
+    "paper_id": "w7P92BEsb2",
+    "contexts": [
+      "Sacha Binder. Wave equation simulations 1d/2d (équation de d’alembert). https://github.",
+      "com/sachabinder/wave_equation_simulations",
+      ", 2021."
+    ]
+  },
+  {
+    "url": "https://github.com/apivich-h/pied.2",
+    "paper_url": "https://openreview.net/pdf?id=w7P92BEsb2",
+    "paper_id": "w7P92BEsb2",
+    "contexts": [
+      ".\n1\nThe code for the project can be found at https://github.com/apivich-h/pied.\n2\nExamples of PDEs, specifically those in our experiments, can be found in App. D."
+    ]
+  },
+  {
+    "url": "https://github.com/apivich-h/pied.Finite-dimensional",
+    "paper_url": "https://openreview.net/pdf?id=w7P92BEsb2",
+    "paper_id": "w7P92BEsb2",
+    "contexts": [
+      "Additional details on the experimental setup are listed in App. H. We present a subset of experimental\nresults in the main paper, and defer the remaining results to App. I. The code for the project can be\nfound at https://github.com/apivich-h/pied.\nFinite-dimensional PDE parameters. We first present two ED problems on IPs where the PDE\nparameters corresponds to multiple scalar terms representing certain physical properties of the system."
+    ]
+  },
+  {
+    "url": "https://github.com/Significant-Gravitas/AutoGPT",
+    "paper_url": "https://openreview.net/pdf?id=FDimWzmcWn",
+    "paper_id": "FDimWzmcWn",
+    "contexts": [
+      "on. our mission is to provide the tools, so that you can focus on what matters. https://github.com/Significant-Gravitas/AutoGPT"
+    ]
+  },
+  {
+    "url": "https://github.com/gpt-engineer-org/gpt-engineer",
+    "paper_url": "https://openreview.net/pdf?id=FDimWzmcWn",
+    "paper_id": "FDimWzmcWn",
+    "contexts": [
+      "https://github.com/",
+      "gpt-engineer-org/gpt-engineer"
+    ]
+  },
+  {
+    "url": "https://github.com/yoheinakajima/babyagi",
+    "paper_url": "https://openreview.net/pdf?id=FDimWzmcWn",
+    "paper_id": "FDimWzmcWn",
+    "contexts": [
+      "yoheinakajima/babyagi. https://github.com/yoheinakajima/babyagi. (Accessed on",
+      "nal based. note: Very different from https://gptengineer.app. https://github.com/\ngpt-engineer-org/gpt-engineer. (Accessed on 09/29/2024).\nyoheinakajima/babyagi. https://github.com/yoheinakajima/babyagi. (Accessed on\n09/29/2024).\nXin Chan, Xiaoyang Wang, Dian Yu, Haitao Mi, and Dong Yu. Scaling synthetic data creation with"
+    ]
+  },
+  {
+    "url": "https://lmsys.org/blog/2023-03-30-vicuna/",
+    "paper_url": "https://openreview.net/pdf?id=FDimWzmcWn",
+    "paper_id": "FDimWzmcWn",
+    "contexts": [
+      "Siyuan Zhuang, Yonghao Zhuang, Joseph E. Gonzalez, Ion Stoica, and Eric P. Xing. Vicuna: Anopen-source chatbot impressing gpt-4 with 90%* chatgpt quality, March 2023. URL https://lmsys.org/blog/2023-03-30-vicuna/",
+      ".",
+      "Wei-Lin Chiang, Zhuohan Li, Zi Lin, Ying Sheng, Zhanghao Wu, Hao Zhang, Lianmin Zheng,\nSiyuan Zhuang, Yonghao Zhuang, Joseph E. Gonzalez, Ion Stoica, and Eric P. Xing. Vicuna: An\nopen-source chatbot impressing gpt-4 with 90%* chatgpt quality, March 2023. URL https:\n//lmsys.org/blog/2023-03-30-vicuna/.\nXiang Deng, Yu Gu, Boyuan Zheng, Shijie Chen, Sam Stevens, Boshi Wang, Huan Sun, and Yu Su."
+    ]
+  },
+  {
+    "url": "https://api.semanticscholar.org/CorpusID:256868474",
+    "paper_url": "https://openreview.net/pdf?id=FDimWzmcWn",
+    "paper_id": "FDimWzmcWn",
+    "contexts": [
+      "URL https://api.semanticscholar.org/CorpusID:",
+      "256868474",
+      ".",
+      "Roberta Raileanu, Baptiste Rozière, Timo Schick, Jane Dwivedi-Yu, Asli Celikyilmaz, Edouard\nGrave, Yann LeCun, and Thomas Scialom. Augmented language models: a survey. Trans. Mach.\nLearn. Res., 2023, 2023. URL https://api.semanticscholar.org/CorpusID:\n256868474.\nShuofei Qiao, Runnan Fang, Ningyu Zhang, Yuqi Zhu, Xiang Chen, Shumin Deng, Yong Jiang,"
+    ]
+  },
+  {
+    "url": "https://api.semanticscholar.org/CorpusID:261556862",
+    "paper_url": "https://openreview.net/pdf?id=FDimWzmcWn",
+    "paper_id": "FDimWzmcWn",
+    "contexts": [
+      "URL https:",
+      "//api.semanticscholar.org/CorpusID:261556862",
+      ".",
+      "preprint arXiv:2010.03768, 2020.\nTheodore R. Sumers, Shunyu Yao, Karthik Narasimhan, and Thomas L. Griffiths. Cognitive\narchitectures for language agents. Trans. Mach. Learn. Res., 2024, 2023. URL https:\n//api.semanticscholar.org/CorpusID:261556862.\nMauro Vallati, Lukas Chrpa, Marek Grześ, Thomas Leo McCluskey, Mark Roberts, Scott Sanner,"
+    ]
+  },
+  {
+    "url": "https://github.com/Fu-Dayuan/AgentRefine",
+    "paper_url": "https://openreview.net/pdf?id=FDimWzmcWn",
+    "paper_id": "FDimWzmcWn",
+    "contexts": [
+      "Deng et al. (2024); Qin et al. (2023) carefully define single task schema and collect agent data for\n∗\nEqual contribution. Emails: fdy@bupt.edu.cn, Code: https://github.com/Fu-Dayuan/AgentRefine\n†\nCorresponding authors."
+    ]
+  },
+  {
+    "url": "github.com/Significant-Gravitas/AutoGPT",
+    "paper_url": "https://openreview.net/pdf?id=FDimWzmcWn",
+    "paper_id": "FDimWzmcWn",
+    "contexts": [
+      "Significant-gravitas/autogpt: Autogpt is the vision of accessible ai for everyone, to use and to build\non. our mission is to provide the tools, so that you can focus on what matters. https://\ngithub.com/Significant-Gravitas/AutoGPT. (Accessed on 09/29/2024).\ngpt-engineer-org/gpt-engineer: Platform to experiment with the ai software engineer. termi-\nnal based. note: Very different from https://gptengineer.app. https://github.com/"
+    ]
+  },
+  {
+    "url": "lmsys.org/blog/2023-03-30-vicuna/",
+    "paper_url": "https://openreview.net/pdf?id=FDimWzmcWn",
+    "paper_id": "FDimWzmcWn",
+    "contexts": [
+      "Siyuan Zhuang, Yonghao Zhuang, Joseph E. Gonzalez, Ion Stoica, and Eric P. Xing. Vicuna: An\nopen-source chatbot impressing gpt-4 with 90%* chatgpt quality, March 2023. URL https:\n//lmsys.org/blog/2023-03-30-vicuna/.\nXiang Deng, Yu Gu, Boyuan Zheng, Shijie Chen, Sam Stevens, Boshi Wang, Huan Sun, and Yu Su.\nMind2web: Towards a generalist agent for the web. Advances in Neural Information Processing"
+    ]
+  },
+  {
+    "url": "https://api.semanticscholar.org/CorpusID:",
+    "paper_url": "https://openreview.net/pdf?id=FDimWzmcWn",
+    "paper_id": "FDimWzmcWn",
+    "contexts": [
+      "Roberta Raileanu, Baptiste Rozière, Timo Schick, Jane Dwivedi-Yu, Asli Celikyilmaz, Edouard\nGrave, Yann LeCun, and Thomas Scialom. Augmented language models: a survey. Trans. Mach.\nLearn. Res., 2023, 2023. URL https://api.semanticscholar.org/CorpusID:\n256868474.\nShuofei Qiao, Runnan Fang, Ningyu Zhang, Yuqi Zhu, Xiang Chen, Shumin Deng, Yong Jiang,"
+    ]
+  },
+  {
+    "url": "api.semanticscholar.org/CorpusID:261556862",
+    "paper_url": "https://openreview.net/pdf?id=FDimWzmcWn",
+    "paper_id": "FDimWzmcWn",
+    "contexts": [
+      "Theodore R. Sumers, Shunyu Yao, Karthik Narasimhan, and Thomas L. Griffiths. Cognitive\narchitectures for language agents. Trans. Mach. Learn. Res., 2024, 2023. URL https:\n//api.semanticscholar.org/CorpusID:261556862.\nMauro Vallati, Lukas Chrpa, Marek Grześ, Thomas Leo McCluskey, Mark Roberts, Scott Sanner,\net al. The 2014 international planning competition: Progress and trends. Ai Magazine, 36(3):"
+    ]
+  },
+  {
+    "url": "api.semanticscholar.org/CorpusID:261556862.Mauro",
+    "paper_url": "https://openreview.net/pdf?id=FDimWzmcWn",
+    "paper_id": "FDimWzmcWn",
+    "contexts": [
+      "Theodore R. Sumers, Shunyu Yao, Karthik Narasimhan, and Thomas L. Griffiths. Cognitive\narchitectures for language agents. Trans. Mach. Learn. Res., 2024, 2023. URL https:\n//api.semanticscholar.org/CorpusID:261556862.\nMauro Vallati, Lukas Chrpa, Marek Grześ, Thomas Leo McCluskey, Mark Roberts, Scott Sanner,\net al. The 2014 international planning competition: Progress and trends. Ai Magazine, 36(3):"
+    ]
+  }
+]

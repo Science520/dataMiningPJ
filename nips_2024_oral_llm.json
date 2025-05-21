@@ -1,0 +1,371 @@
+[
+  {
+    "url": "https://github.com/ablghtianyi/ICL_Modular_Arithmetic",
+    "paper_url": "https://openreview.net/pdf?id=aVh9KRZdRk",
+    "paper_id": "aVh9KRZdRk",
+    "contexts": [
+      "bMeta AI†Corresponding author*Source Code: https://github.com/ablghtianyi/ICL_Modular_Arithmetic"
+    ]
+  },
+  {
+    "url": "http://hpcc.umd.edu",
+    "paper_url": "https://openreview.net/pdf?id=aVh9KRZdRk",
+    "paper_id": "aVh9KRZdRk",
+    "contexts": [
+      "Maryland was supported in part by NSF CAREER Award DMR-2045181, Sloan Foundation. Theauthors acknowledge the University of Maryland supercomputing resources (http://hpcc.umd.edu) made available for conducting the research reported in this paper."
+    ]
+  },
+  {
+    "url": "https://openreview.net/forum?id=STUGfUz8ob",
+    "paper_url": "https://openreview.net/pdf?id=aVh9KRZdRk",
+    "paper_id": "aVh9KRZdRk",
+    "contexts": [
+      ", 2024. URL https://openreview.net/forum?id=STUGfUz8ob."
+    ]
+  },
+  {
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf",
+    "paper_url": "https://openreview.net/pdf?id=aVh9KRZdRk",
+    "paper_id": "aVh9KRZdRk",
+    "contexts": [
+      "Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever, and Dario Amodei. Languagemodels are few-shot learners. In H. Larochelle, M. Ranzato, R. Hadsell, M.F. Balcan, and H. Lin,editors, Advances in Neural Information Processing Systems, volume 33, pages 1877–1901. Curran As-sociates, Inc., 2020. URL https://proceedings.neurips.cc/paper_files/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf.",
+      "models are few-shot learners. In H. Larochelle, M. Ranzato, R. Hadsell, M.F. Balcan, and H. Lin,\neditors, Advances in Neural Information Processing Systems, volume 33, pages 1877–1901. Curran As-\nsociates, Inc., 2020. URL https://proceedings.neurips.cc/paper_files/paper/2020/file/\n1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf.\n[6] Darshil Doshi, Aritra Das, Tianyu He, and Andrey Gromov. To grok or not to grok: Disentangling general-"
+    ]
+  },
+  {
+    "url": "https://openreview.net/forum?id=UHjE5v5MB7",
+    "paper_url": "https://openreview.net/pdf?id=aVh9KRZdRk",
+    "paper_id": "aVh9KRZdRk",
+    "contexts": [
+      "[6] Darshil Doshi, Aritra Das, Tianyu He, and Andrey Gromov. To grok or not to grok: Disentangling general-\nization and memorization on corrupted algorithmic datasets. In The Twelfth International Conference on\nLearning Representations, 2024. URL https://openreview.net/forum?id=UHjE5v5MB7.\n[7] Darshil Doshi, Tianyu He, Aritra Das, and Andrey Gromov. Grokking modular polynomials, 2024. URL\nhttps://arxiv.org/abs/2406.03495."
+    ]
+  },
+  {
+    "url": "https://arxiv.org/abs/2406.03495",
+    "paper_url": "https://openreview.net/pdf?id=aVh9KRZdRk",
+    "paper_id": "aVh9KRZdRk",
+    "contexts": [
+      "Learning Representations, 2024. URL https://openreview.net/forum?id=UHjE5v5MB7.\n[7] Darshil Doshi, Tianyu He, Aritra Das, and Andrey Gromov. Grokking modular polynomials, 2024. URL\nhttps://arxiv.org/abs/2406.03495.\n[8] Nelson Elhage, Neel Nanda, Catherine Olsson, Tom Henighan, Nicholas Joseph, Ben Mann, Amanda\nAskell, Yuntao Bai, Anna Chen, Tom Conerly, Nova DasSarma, Dawn Drain, Deep Ganguli, Zac"
+    ]
+  },
+  {
+    "url": "https://openreview.net/forum?id=Bkg6RiCqY7",
+    "paper_url": "https://openreview.net/pdf?id=aVh9KRZdRk",
+    "paper_id": "aVh9KRZdRk",
+    "contexts": [
+      ", 2019. URL https://openreview.net/forum?id=Bkg6RiCqY7."
+    ]
+  },
+  {
+    "url": "https://openreview.net/forum?id=9XFSbDPmdW",
+    "paper_url": "https://openreview.net/pdf?id=aVh9KRZdRk",
+    "paper_id": "aVh9KRZdRk",
+    "contexts": [
+      ", 2023. URL https://openreview.net/forum?id=9XFSbDPmdW.",
+      "[20] Neel Nanda, Lawrence Chan, Tom Lieberum, Jess Smith, and Jacob Steinhardt. Progress measures\nfor grokking via mechanistic interpretability. In The Eleventh International Conference on Learning\nRepresentations, 2023. URL https://openreview.net/forum?id=9XFSbDPmdW.\n[21] Eshaan Nichani, Alex Damian, and Jason D. Lee. How transformers learn causal structure with gradient\ndescent, 2024."
+    ]
+  },
+  {
+    "url": "https://openreview.net/forum?id=BtAz4a5xDg",
+    "paper_url": "https://openreview.net/pdf?id=aVh9KRZdRk",
+    "paper_id": "aVh9KRZdRk",
+    "contexts": [
+      ", 2023. URL https://openreview.net/forum?id=BtAz4a5xDg."
+    ]
+  },
+  {
+    "url": "https://openreview.net/forum?id=Of0GBzow8P",
+    "paper_url": "https://openreview.net/pdf?id=aVh9KRZdRk",
+    "paper_id": "aVh9KRZdRk",
+    "contexts": [
+      ", 2023. URL https://openreview.net/forum?id=Of0GBzow8P."
+    ]
+  },
+  {
+    "url": "https://openreview.net/forum?id=S5wmbQc1We",
+    "paper_url": "https://openreview.net/pdf?id=aVh9KRZdRk",
+    "paper_id": "aVh9KRZdRk",
+    "contexts": [
+      ", 2023. URL https://openreview.net/forum?id=S5wmbQc1We.",
+      "[30] Ziqian Zhong, Ziming Liu, Max Tegmark, and Jacob Andreas. The clock and the pizza: Two stories\nin mechanistic explanation of neural networks. In Thirty-seventh Conference on Neural Information\nProcessing Systems, 2023. URL https://openreview.net/forum?id=S5wmbQc1We.\n12\nA Experimental Details"
+    ]
+  },
+  {
+    "url": "https://neurips.cc/public/EthicsGuidelines",
+    "paper_url": "https://openreview.net/pdf?id=aVh9KRZdRk",
+    "paper_id": "aVh9KRZdRk",
+    "contexts": [
+      "Question: Does the research conducted in the paper conform, in every respect, with theNeurIPS Code of Ethics https://neurips.cc/public/EthicsGuidelines?"
+    ],
+    "source_papers": [
+      "aVh9KRZdRk",
+      "wpGJ2AX6SZ"
+    ]
+  },
+  {
+    "url": "http://hpcc.umd.edu)",
+    "paper_url": "https://openreview.net/pdf?id=aVh9KRZdRk",
+    "paper_id": "aVh9KRZdRk",
+    "contexts": [
+      "T.H. thanks Yue Xu and Dayal Singh Kalra for helpful discussions. A.G.’s work at the University of\nMaryland was supported in part by NSF CAREER Award DMR-2045181, Sloan Foundation. The\nauthors acknowledge the University of Maryland supercomputing resources (http://hpcc.umd.\nedu) made available for conducting the research reported in this paper.\nReferences"
+    ]
+  },
+  {
+    "url": "https://nips.cc/public/guides/CodeSubmissionPolicy)",
+    "paper_url": "https://openreview.net/pdf?id=aVh9KRZdRk",
+    "paper_id": "aVh9KRZdRk",
+    "contexts": [
+      "benchmark).\n• The instructions should contain the exact command and environment needed to run to\nreproduce the results. See the NeurIPS code and data submission guidelines (https:\n//nips.cc/public/guides/CodeSubmissionPolicy) for more details.\n• The authors should provide instructions on data access and preparation, including how",
+      "Guidelines:\n• The answer NA means that paper does not include experiments requiring code.\n• Please see the NeurIPS code and data submission guidelines (https://nips.cc/\npublic/guides/CodeSubmissionPolicy) for more details.\n• While we encourage the release of code and data, we understand that this might not be"
+    ],
+    "source_papers": [
+      "aVh9KRZdRk",
+      "REIK4SZMJt",
+      "gojL67CfS8",
+      "wpGJ2AX6SZ"
+    ]
+  },
+  {
+    "url": "https://nips.cc/",
+    "paper_url": "https://openreview.net/pdf?id=aVh9KRZdRk",
+    "paper_id": "aVh9KRZdRk",
+    "contexts": [
+      "Guidelines:\n• The answer NA means that paper does not include experiments requiring code.\n• Please see the NeurIPS code and data submission guidelines (https://nips.cc/\npublic/guides/CodeSubmissionPolicy) for more details.\n• While we encourage the release of code and data, we understand that this might not be"
+    ],
+    "source_papers": [
+      "aVh9KRZdRk",
+      "REIK4SZMJt",
+      "gojL67CfS8",
+      "wpGJ2AX6SZ"
+    ]
+  },
+  {
+    "url": "nips.cc/public/guides/CodeSubmissionPolicy)",
+    "paper_url": "https://openreview.net/pdf?id=aVh9KRZdRk",
+    "paper_id": "aVh9KRZdRk",
+    "contexts": [
+      "• The instructions should contain the exact command and environment needed to run to\nreproduce the results. See the NeurIPS code and data submission guidelines (https:\n//nips.cc/public/guides/CodeSubmissionPolicy) for more details.\n• The authors should provide instructions on data access and preparation, including how\nto access the raw data, preprocessed data, intermediate data, and generated data, etc."
+    ],
+    "source_papers": [
+      "aVh9KRZdRk",
+      "REIK4SZMJt",
+      "gojL67CfS8",
+      "wpGJ2AX6SZ"
+    ]
+  },
+  {
+    "url": "https://neurips.cc/public/EthicsGuidelines?",
+    "paper_url": "https://openreview.net/pdf?id=aVh9KRZdRk",
+    "paper_id": "aVh9KRZdRk",
+    "contexts": [
+      "9. Code Of Ethics\nQuestion: Does the research conducted in the paper conform, in every respect, with the\nNeurIPS Code of Ethics https://neurips.cc/public/EthicsGuidelines?\nAnswer: [Yes]\nJustification: We followed the NeurIPS Code of Ethics.",
+      "22\nQuestion: Does the research conducted in the paper conform, in every respect, with the\nNeurIPS Code of Ethics https://neurips.cc/public/EthicsGuidelines?\nAnswer: [Yes]\nJustiﬁcation: We have ensured that all ethical guidelines were followed throughout the",
+      "9. Code Of Ethics\nQuestion: Does the research conducted in the paper conform, in every respect, with the\nNeurIPS Code of Ethics https://neurips.cc/public/EthicsGuidelines?\nAnswer: [Yes]\nJustification: To our knowledge, our paper conforms with every aspect of the NeurIPS Code",
+      "9. Code Of Ethics\nQuestion: Does the research conducted in the paper conform, in every respect, with the\nNeurIPS Code of Ethics https://neurips.cc/public/EthicsGuidelines?\nAnswer: [Yes]\nJustification: We have read and understood the code of ethics; and have done our best to",
+      "9. Code Of Ethics\nQuestion: Does the research conducted in the paper conform, in every respect, with the\nNeurIPS Code of Ethics https://neurips.cc/public/EthicsGuidelines?\nAnswer: [Yes]\nJustification: We do not believe that our work has any harmful consequences as layed out in"
+    ],
+    "source_papers": [
+      "aVh9KRZdRk",
+      "REIK4SZMJt",
+      "gojL67CfS8",
+      "bCMpdaQCNW",
+      "wpGJ2AX6SZ"
+    ]
+  },
+  {
+    "url": "https://neurips.cc/public/EthicsGuidelines?Answer:",
+    "paper_url": "https://openreview.net/pdf?id=aVh9KRZdRk",
+    "paper_id": "aVh9KRZdRk",
+    "contexts": [
+      "9. Code Of Ethics\nQuestion: Does the research conducted in the paper conform, in every respect, with the\nNeurIPS Code of Ethics https://neurips.cc/public/EthicsGuidelines?\nAnswer: [Yes]\nJustification: We followed the NeurIPS Code of Ethics.",
+      "22\nQuestion: Does the research conducted in the paper conform, in every respect, with the\nNeurIPS Code of Ethics https://neurips.cc/public/EthicsGuidelines?\nAnswer: [Yes]\nJustiﬁcation: We have ensured that all ethical guidelines were followed throughout the",
+      "9. Code Of Ethics\nQuestion: Does the research conducted in the paper conform, in every respect, with the\nNeurIPS Code of Ethics https://neurips.cc/public/EthicsGuidelines?\nAnswer: [Yes]\nJustification: To our knowledge, our paper conforms with every aspect of the NeurIPS Code",
+      "9. Code Of Ethics\nQuestion: Does the research conducted in the paper conform, in every respect, with the\nNeurIPS Code of Ethics https://neurips.cc/public/EthicsGuidelines?\nAnswer: [Yes]\nJustification: We have read and understood the code of ethics; and have done our best to",
+      "9. Code Of Ethics\nQuestion: Does the research conducted in the paper conform, in every respect, with the\nNeurIPS Code of Ethics https://neurips.cc/public/EthicsGuidelines?\nAnswer: [Yes]\nJustification: We do not believe that our work has any harmful consequences as layed out in"
+    ],
+    "source_papers": [
+      "aVh9KRZdRk",
+      "REIK4SZMJt",
+      "gojL67CfS8",
+      "bCMpdaQCNW",
+      "wpGJ2AX6SZ"
+    ]
+  },
+  {
+    "url": "paperswithcode.com/datasets",
+    "paper_url": "https://openreview.net/pdf?id=aVh9KRZdRk",
+    "paper_id": "aVh9KRZdRk",
+    "contexts": [
+      "30\n• If assets are released, the license, copyright information, and terms of use in the\npackage should be provided. For popular datasets, paperswithcode.com/datasets\nhas curated licenses for some datasets. Their licensing guide can help determine the\nlicense of a dataset.",
+      "service of that source should be provided.\n25\n• If assets are released, the license, copyright information, and terms of use in the\npackage should be provided. For popular datasets, paperswithcode.com/datasets\nhas curated licenses for some datasets. Their licensing guide can help determine the",
+      "25\n• If assets are released, the license, copyright information, and terms of use in the\npackage should be provided. For popular datasets, paperswithcode.com/datasets\nhas curated licenses for some datasets. Their licensing guide can help determine the\nlicense of a dataset.",
+      "service of that source should be provided.\n30\n• If assets are released, the license, copyright information, and terms of use in the\npackage should be provided. For popular datasets, paperswithcode.com/datasets\nhas curated licenses for some datasets. Their licensing guide can help determine the",
+      "• For scraped data from a particular source (e.g., website), the copyright and terms of\nservice of that source should be provided.\n• If assets are released, the license, copyright information, and terms of use in the\npackage should be provided. For popular datasets, paperswithcode.com/datasets\nhas curated licenses for some datasets. Their licensing guide can help determine the",
+      "service of that source should be provided.\n• If assets are released, the license, copyright information, and terms of use in the\npackage should be provided. For popular datasets, paperswithcode.com/datasets\nhas curated licenses for some datasets. Their licensing guide can help determine the\nlicense of a dataset."
+    ],
+    "source_papers": [
+      "aVh9KRZdRk",
+      "REIK4SZMJt",
+      "gojL67CfS8",
+      "wpGJ2AX6SZ"
+    ]
+  },
+  {
+    "url": "paperswithcode.com/datasetshas",
+    "paper_url": "https://openreview.net/pdf?id=aVh9KRZdRk",
+    "paper_id": "aVh9KRZdRk",
+    "contexts": [
+      "30\n• If assets are released, the license, copyright information, and terms of use in the\npackage should be provided. For popular datasets, paperswithcode.com/datasets\nhas curated licenses for some datasets. Their licensing guide can help determine the\nlicense of a dataset.",
+      "25\n• If assets are released, the license, copyright information, and terms of use in the\npackage should be provided. For popular datasets, paperswithcode.com/datasets\nhas curated licenses for some datasets. Their licensing guide can help determine the\nlicense of a dataset.",
+      "service of that source should be provided.\n• If assets are released, the license, copyright information, and terms of use in the\npackage should be provided. For popular datasets, paperswithcode.com/datasets\nhas curated licenses for some datasets. Their licensing guide can help determine the\nlicense of a dataset."
+    ],
+    "source_papers": [
+      "aVh9KRZdRk",
+      "REIK4SZMJt",
+      "gojL67CfS8",
+      "wpGJ2AX6SZ"
+    ]
+  },
+  {
+    "url": "10.1101/2024.06.20.599962",
+    "paper_url": "https://openreview.net/pdf?id=REIK4SZMJt",
+    "paper_id": "REIK4SZMJt",
+    "contexts": [
+      "[49] Ronald W Di Tullio, Linran Wei, and Vijay Balasubramanian. Slow and steady: auditory\nfeatures for discriminating animal vocalizations. bioRxiv, doi: 10.1101/2024.06.20.599962,\npage doi: 10.1101/2024.06.20.599962, 2024.\n[50] Tiberiu Teşileanu, Simona Cocco, Remi Monasson, and Vijay Balasubramanian. Adaptation of\nolfactory receptor abundances for efficient coding. Elife, 8:e39279, 2019."
+    ]
+  },
+  {
+    "url": "https://var.vision",
+    "paper_url": "https://openreview.net/pdf?id=gojL67CfS8",
+    "paper_id": "gojL67CfS8",
+    "contexts": [
+      "keyutian@stu.pku.edu.cn, jiangyi.enjoy@bytedance.com,\nyuanzehuan@bytedance.com, bingyue.peng@bytedance.com, wanglw@pku.edu.cn\nTry and explore our online demo at: https://var.vision\nCodes and models: https://github.com/FoundationVision/VAR\nFigure 1: Generated samples from Visual AutoRegressive (VAR) transformers trained on ImageNet. We"
+    ]
+  },
+  {
+    "url": "https://github.com/FoundationVision/VAR",
+    "paper_url": "https://openreview.net/pdf?id=gojL67CfS8",
+    "paper_id": "gojL67CfS8",
+    "contexts": [
+      "Codes and models: https://github.com/FoundationVision/VAR",
+      "keyutian@stu.pku.edu.cn, jiangyi.enjoy@bytedance.com,\nyuanzehuan@bytedance.com, bingyue.peng@bytedance.com, wanglw@pku.edu.cn\nTry and explore our online demo at: https://var.vision\nCodes and models: https://github.com/FoundationVision/VAR\nFigure 1: Generated samples from Visual AutoRegressive (VAR) transformers trained on ImageNet. We",
+      "yuanzehuan@bytedance.com, bingyue.peng@bytedance.com, wanglw@pku.edu.cn\nTry and explore our online demo at: https://var.vision\nCodes and models: https://github.com/FoundationVision/VAR\nFigure 1: Generated samples from Visual AutoRegressive (VAR) transformers trained on ImageNet. We\nshow 512×512 samples (top), 256×256 samples (middle), and zero-shot image editing results (bottom)."
+    ]
+  },
+  {
+    "url": "https://github.com/Alpha-VLLM/LLaMA2-Accessory/tree/f7fe19834b23e38f333403b91bb0330afe19f79e/Large-DiT-ImageNet",
+    "paper_url": "https://openreview.net/pdf?id=gojL67CfS8",
+    "paper_id": "gojL67CfS8",
+    "contexts": [
+      "[3] Alpha-VLLM. Large-dit-imagenet. https://github.com/Alpha-VLLM/LLaMA2-Accessory/tree/",
+      "f7fe19834b23e38f333403b91bb0330afe19f79e/Large-DiT-ImageNet, 2024. 2, 7, 8",
+      "M. Reynolds, et al. Flamingo: a visual language model for few-shot learning. Advances in neural\ninformation processing systems, 35:23716–23736, 2022. 3\n[3] Alpha-VLLM. Large-dit-imagenet. https://github.com/Alpha-VLLM/LLaMA2-Accessory/tree/\nf7fe19834b23e38f333403b91bb0330afe19f79e/Large-DiT-ImageNet, 2024. 2, 7, 8\n[4] R. Anil, A. M. Dai, O. Firat, M. Johnson, D. Lepikhin, A. Passos, S. Shakeri, E. Taropa, P. Bailey, Z. Chen,"
+    ]
+  },
+  {
+    "url": "https://github.com/FoundationVision/VARFigure",
+    "paper_url": "https://openreview.net/pdf?id=gojL67CfS8",
+    "paper_id": "gojL67CfS8",
+    "contexts": [
+      "yuanzehuan@bytedance.com, bingyue.peng@bytedance.com, wanglw@pku.edu.cn\nTry and explore our online demo at: https://var.vision\nCodes and models: https://github.com/FoundationVision/VAR\nFigure 1: Generated samples from Visual AutoRegressive (VAR) transformers trained on ImageNet. We\nshow 512×512 samples (top), 256×256 samples (middle), and zero-shot image editing results (bottom)."
+    ]
+  },
+  {
+    "url": "https://vulab-ai.github.io/YESBUT_Homepage/",
+    "paper_url": "https://openreview.net/pdf?id=bCMpdaQCNW",
+    "paper_id": "bCMpdaQCNW",
+    "contexts": [
+      "https://vulab-ai.github.io/YESBUT_Homepage/",
+      "2\n{txl859,yxl3538,yxz3057,yxq350,jxm1384,yu.yin}@case.edu\nhttps://vulab-ai.github.io/YESBUT_Homepage/\nAbstract\nRecent advancements in large multimodal language models have demonstrated re-"
+    ]
+  },
+  {
+    "url": "https://twitter.com",
+    "paper_url": "https://openreview.net/pdf?id=bCMpdaQCNW",
+    "paper_id": "bCMpdaQCNW",
+    "contexts": [
+      "dataset of 348 comics.\n2\nhttps://twitter.com and https://www.pinterest.com/\n3\nYes,"
+    ]
+  },
+  {
+    "url": "https://www.pinterest.com/",
+    "paper_url": "https://openreview.net/pdf?id=bCMpdaQCNW",
+    "paper_id": "bCMpdaQCNW",
+    "contexts": [
+      "dataset of 348 comics.\n2\nhttps://twitter.com and https://www.pinterest.com/\n3\nYes,"
+    ]
+  },
+  {
+    "url": "https://pypi.org/project/rouge-score/",
+    "paper_url": "https://openreview.net/pdf?id=bCMpdaQCNW",
+    "paper_id": "bCMpdaQCNW",
+    "contexts": [
+      "https://huggingface.co/docs/transformers/en/index\n8\nhttps://pypi.org/project/rouge-score/\n9\nhttps://github.com/Tiiiger/bert_score"
+    ]
+  },
+  {
+    "url": "https://github.com/Tiiiger/bert_score",
+    "paper_url": "https://openreview.net/pdf?id=bCMpdaQCNW",
+    "paper_id": "bCMpdaQCNW",
+    "contexts": [
+      "5https://platform.openai.com/docs/models/6https://www.anthropic.com/api7https://huggingface.co/docs/transformers/en/index8https://pypi.org/project/rouge-score/9https://github.com/Tiiiger/bert_score"
+    ]
+  },
+  {
+    "url": "https://vulab-ai.github.io/YESBUT_Homepage/Abstract",
+    "paper_url": "https://openreview.net/pdf?id=bCMpdaQCNW",
+    "paper_id": "bCMpdaQCNW",
+    "contexts": [
+      "2\n{txl859,yxl3538,yxz3057,yxq350,jxm1384,yu.yin}@case.edu\nhttps://vulab-ai.github.io/YESBUT_Homepage/\nAbstract\nRecent advancements in large multimodal language models have demonstrated re-"
+    ]
+  },
+  {
+    "url": "https://www.pinterest.com/3",
+    "paper_url": "https://openreview.net/pdf?id=bCMpdaQCNW",
+    "paper_id": "bCMpdaQCNW",
+    "contexts": [
+      "dataset of 348 comics.\n2\nhttps://twitter.com and https://www.pinterest.com/\n3\nYes,"
+    ]
+  },
+  {
+    "url": "https://pypi.org/project/rouge-score/9",
+    "paper_url": "https://openreview.net/pdf?id=bCMpdaQCNW",
+    "paper_id": "bCMpdaQCNW",
+    "contexts": [
+      "https://huggingface.co/docs/transformers/en/index\n8\nhttps://pypi.org/project/rouge-score/\n9\nhttps://github.com/Tiiiger/bert_score"
+    ]
+  },
+  {
+    "url": "https://github.com/ralur/heap-repl",
+    "paper_url": "https://openreview.net/pdf?id=wpGJ2AX6SZ",
+    "paper_id": "wpGJ2AX6SZ",
+    "contexts": [
+      "Justification: Each of the experimental results include all important methodological choicesand hyperparameters needed to reproduce the result; additional detail to reproduce ourexperiments is provided in Appendix F and Appendix H. Code, data and detailed instructionsto replicate our results are available at https://github.com/ralur/heap-repl.",
+      "Justification: Code, data and instructions to replicate our experimental results are availableat https://github.com/ralur/heap-repl.",
+      "Justification: The main text includes all high-level methodological choices, includinghyperparameters (and the logic in choosing them). Additional details are provided inAppendix F and Appendix H, and detailed instructions, code and data needed to replicateour experiments are provided at https://github.com/ralur/heap-repl.",
+      "and hyperparameters needed to reproduce the result; additional detail to reproduce our\nexperiments is provided in Appendix F and Appendix H. Code, data and detailed instructions\nto replicate our results are available at https://github.com/ralur/heap-repl.\nGuidelines:\n• The answer NA means that the paper does not include experiments.",
+      "Answer: [Yes]\nJustification: Code, data and instructions to replicate our experimental results are available\nat https://github.com/ralur/heap-repl.\nGuidelines:\n• The answer NA means that paper does not include experiments requiring code.",
+      "hyperparameters (and the logic in choosing them). Additional details are provided in\nAppendix F and Appendix H, and detailed instructions, code and data needed to replicate\nour experiments are provided at https://github.com/ralur/heap-repl.\nGuidelines:\n• The answer NA means that the paper does not include experiments."
+    ]
+  },
+  {
+    "url": "https://github.com/ralur/heap-repl.Guidelines:",
+    "paper_url": "https://openreview.net/pdf?id=wpGJ2AX6SZ",
+    "paper_id": "wpGJ2AX6SZ",
+    "contexts": [
+      "and hyperparameters needed to reproduce the result; additional detail to reproduce our\nexperiments is provided in Appendix F and Appendix H. Code, data and detailed instructions\nto replicate our results are available at https://github.com/ralur/heap-repl.\nGuidelines:\n• The answer NA means that the paper does not include experiments.",
+      "Answer: [Yes]\nJustification: Code, data and instructions to replicate our experimental results are available\nat https://github.com/ralur/heap-repl.\nGuidelines:\n• The answer NA means that paper does not include experiments requiring code.",
+      "hyperparameters (and the logic in choosing them). Additional details are provided in\nAppendix F and Appendix H, and detailed instructions, code and data needed to replicate\nour experiments are provided at https://github.com/ralur/heap-repl.\nGuidelines:\n• The answer NA means that the paper does not include experiments."
+    ]
+  },
+  {
+    "url": "https://github.com/ralur/heap-repl)",
+    "paper_url": "https://openreview.net/pdf?id=wpGJ2AX6SZ",
+    "paper_id": "wpGJ2AX6SZ",
+    "contexts": [
+      "Justification: Our experiments do not require any special hardware, and can be run on a\nstandard 8 core personal laptop in under 10 minutes. This fact is included in our README\n(https://github.com/ralur/heap-repl).\nGuidelines:\n• The answer NA means that the paper does not include experiments.",
+      "Answer: [Yes]\nJustification: Licenses associated with the data we use are described in the README\n(https://github.com/ralur/heap-repl). Other work is properly credited throughout.\nGuidelines:\n• The answer NA means that the paper does not use existing assets.",
+      "provided alongside the assets?\nAnswer: [Yes]\nJustification: The assets we release are documented in the README (https://github.\ncom/ralur/heap-repl).\nGuidelines:"
+    ]
+  }
+]
