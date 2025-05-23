@@ -198,8 +198,8 @@ def is_benchmark_or_dataset_link_llm(url: str, context_text: str) -> bool:
         return False  
         
     # 先检查URL形式是否有效  
-    # if not can_access(url):  
-    #     return False  
+    if not can_access(url):  
+        return False  
     
     # 使用LLM分析链接及其上下文  
     try:  
@@ -230,6 +230,21 @@ def is_benchmark_or_dataset_link_rule(url: str, context: str = "") -> bool:
     parsed = urlparse(url)  
     domain = parsed.netloc.lower()  
     path = parsed.path.lower()  
+
+    # 排除明显不是数据集的域名和路径  
+    exclusion_patterns = [  
+        # 论文网站  
+        'arxiv.org', 'aclanthology.org', 'doi.org', 'scopus.com',  
+        # 博客和新闻  
+        'blog', 'post', 'article', 'news', 'about', 'wiki',  
+        # 公司主页  
+        'company', 'corp', 'inc', 'ltd'
+    ]  
+    
+    # 检查排除模式  
+    for pattern in exclusion_patterns:  
+        if pattern in domain or pattern in path:  
+            return False  
     
     # 数据集相关域名和路径关键词  
     dataset_domains = {  
@@ -245,7 +260,10 @@ def is_benchmark_or_dataset_link_rule(url: str, context: str = "") -> bool:
         'datadryad.org': [],  
         'dataverse.harvard.edu': [],  
         'catalog.ldc.upenn.edu': [],  
-        'archive.ics.uci.edu': []  
+        'archive.ics.uci.edu': [],
+        # 添加匿名代码仓库  
+        '4open.science': ['dataset', 'benchmark', 'data'],  
+        'anonymous.4open.science': ['dataset', 'benchmark', 'data']  
     }  
     
     # 检查域名  
