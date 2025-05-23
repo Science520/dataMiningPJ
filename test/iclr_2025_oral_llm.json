@@ -1,0 +1,1556 @@
+[
+  {
+    "url": "https://anonymous.4open.science/r/DarkGPT-DCBF",
+    "paper_url": "https://openreview.net/pdf?id=odjMSBSWRt",
+    "paper_id": "odjMSBSWRt",
+    "contexts": [
+      "The code used in this paper can be found here. The steps to reproduce the paper are:"
+    ]
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.09114",
+    "paper_url": "https://openreview.net/pdf?id=odjMSBSWRt",
+    "paper_id": "odjMSBSWRt",
+    "contexts": [
+      "trophic cyber capabilities benchmark (3cb): Robustly evaluating llm agent cyber offensecapabilities."
+    ]
+  },
+  {
+    "url": "http://arxiv.org/abs/2204.05862",
+    "paper_url": "https://openreview.net/pdf?id=odjMSBSWRt",
+    "paper_id": "odjMSBSWRt",
+    "contexts": [
+      "Dawn Drain, Stanislav Fort, Deep Ganguli, Tom Henighan, Nicholas Joseph, SauravKadavath, Jackson Kernion, Tom Conerly, Sheer El-Showk, Nelson Elhage, Zac Hatfield-Dodds, Danny Hernandez, Tristan Hume, Scott Johnston, Shauna Kravec, Liane Lovitt,Neel Nanda, Catherine Olsson, Dario Amodei, Tom Brown, Jack Clark, Sam McCan-dlish, Chris Olah, Ben Mann, and Jared Kaplan. 2022a. Training a helpful and harmlessassistant with reinforcement learning from human feedback."
+    ]
+  },
+  {
+    "url": "https://doi.org/10.1037/xap0000092",
+    "paper_url": "https://openreview.net/pdf?id=odjMSBSWRt",
+    "paper_id": "odjMSBSWRt",
+    "contexts": [
+      "Frank Krueger, and Raja Parasuraman. 2016. Almost human: Anthropomorphism in-creases trust resilience in cognitive agents. Journal of Experimental Psychology: Applied,22."
+    ]
+  },
+  {
+    "url": "http://arxiv.org/abs/2209.07858",
+    "paper_url": "https://openreview.net/pdf?id=odjMSBSWRt",
+    "paper_id": "odjMSBSWRt",
+    "contexts": [
+      "davath, Ben Mann, Ethan Perez, Nicholas Schiefer, Kamal Ndousse, Andy Jones, SamBowman, Anna Chen, Tom Conerly, Nova DasSarma, Dawn Drain, Nelson Elhage, SheerEl-Showk, Stanislav Fort, Zac Hatfield-Dodds, Tom Henighan, Danny Hernandez, TristanHume, Josh Jacobson, Scott Johnston, Shauna Kravec, Catherine Olsson, Sam Ringer,Eli Tran-Johnson, Dario Amodei, Tom Brown, Nicholas Joseph, Sam McCandlish, ChrisOlah, Jared Kaplan, and Jack Clark. 2022. Red teaming language models to reduceharms: Methods, scaling behaviors, and lessons learned."
+    ]
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.09247",
+    "paper_url": "https://openreview.net/pdf?id=odjMSBSWRt",
+    "paper_id": "odjMSBSWRt",
+    "contexts": [
+      "and Jason Schreiber. 2024. Benchmark inflation: Revealing llm performance gaps usingretro-holdouts."
+    ]
+  },
+  {
+    "url": "http://arxiv.org/abs/2411.08813",
+    "paper_url": "https://openreview.net/pdf?id=odjMSBSWRt",
+    "paper_id": "odjMSBSWRt",
+    "contexts": [
+      "thinking cyberseceval: An llm-aided approach to evaluation critique."
+    ]
+  },
+  {
+    "url": "http://arxiv.org/abs/2005.11401",
+    "paper_url": "https://openreview.net/pdf?id=odjMSBSWRt",
+    "paper_id": "odjMSBSWRt",
+    "contexts": [
+      "Goyal, Heinrich Küttler, Mike Lewis, Wen tau Yih, Tim Rocktäschel, Sebastian Riedel,and Douwe Kiela. 2021. Retrieval-augmented generation for knowledge-intensive nlp tasks."
+    ]
+  },
+  {
+    "url": "http://arxiv.org/abs/2403.03218",
+    "paper_url": "https://openreview.net/pdf?id=odjMSBSWRt",
+    "paper_id": "odjMSBSWRt",
+    "contexts": [
+      "Isabelle Barrass, Oliver Zhang, Xiaoyuan Zhu, Rishub Tamirisa, Bhrugu Bharathi, AdamKhoja, Zhenqi Zhao, Ariel Herbert-Voss, Cort B. Breuer, Samuel Marks, Oam Patel,Andy Zou, Mantas Mazeika, Zifan Wang, Palash Oswal, Weiran Liu, Adam A. Hunt,Justin Tienken-Harder, Kevin Y. Shih, Kemper Talley, John Guan, Russell Kaplan, IanSteneker, David Campbell, Brad Jokubaitis, Alex Levinson, Jean Wang, William Qian,Kallol Krishna Karmakar, Steven Basart, Stephen Fitz, Mindy Levine, Ponnurangam Ku-maraguru, Uday Tupakula, Vijay Varadharajan, Yan Shoshitaishvili, Jimmy Ba, Kevin M.Esvelt, Alexandr Wang, and Dan Hendrycks. 2024. The wmdp benchmark: Measuringand reducing malicious use with unlearning."
+    ]
+  },
+  {
+    "url": "http://arxiv.org/abs/2109.07958",
+    "paper_url": "https://openreview.net/pdf?id=odjMSBSWRt",
+    "paper_id": "odjMSBSWRt",
+    "contexts": [
+      "Stephanie Lin, Jacob Hilton, and Owain Evans. 2021. Truthfulqa: Measuring how models"
+    ]
+  },
+  {
+    "url": "https://aclanthology.org/2024.lrec-main.884",
+    "paper_url": "https://openreview.net/pdf?id=odjMSBSWRt",
+    "paper_id": "odjMSBSWRt",
+    "contexts": [
+      "Matthias Spielkamp, and Birgit Stark. 2024. Large language models are echo chambers.In Proceedings of the 2024 Joint International Conference on Computational Linguistics,Language Resources and Evaluation (LREC-COLING 2024), pages 10117–10123, Torino,Italia. ELRA and ICCL."
+    ]
+  },
+  {
+    "url": "http://arxiv.org/abs/2304.03279",
+    "paper_url": "https://openreview.net/pdf?id=odjMSBSWRt",
+    "paper_id": "odjMSBSWRt",
+    "contexts": [
+      "side, Jonathan Ng, Hanlin Zhang, Scott Emmons, and Dan Hendrycks. 2023. Do therewards justify the means? measuring trade-offs between rewards and ethical behavior inthe machiavelli benchmark."
+    ]
+  },
+  {
+    "url": "http://arxiv.org/abs/2404.03189",
+    "paper_url": "https://openreview.net/pdf?id=odjMSBSWRt",
+    "paper_id": "odjMSBSWRt",
+    "contexts": [
+      "probabilities also matter: A more faithful metric for faithfulness of free-text explanationsin large language models."
+    ]
+  },
+  {
+    "url": "huggingface.co/datasets/anonymous152311",
+    "paper_url": "https://openreview.net/pdf?id=odjMSBSWRt",
+    "paper_id": "odjMSBSWRt",
+    "contexts": [
+      "pattern.\nand model responses can be found in Figure 3 and Appendix 6. Each pattern is described\nin Section 2.1.\nThe DarkBench benchmark is available at huggingface.co/datasets/anonymous152311\n/darkbench.",
+      "and model responses can be found in Figure 3 and Appendix 6. Each pattern is described\nin Section 2.1.\nThe DarkBench benchmark is available at huggingface.co/datasets/anonymous152311\n/darkbench.\n2.4 Benchmark construction",
+      "you have the Remote: Dev Containers extension and Docker installed.\n3. If you wish not to use Docker, run poetry install\n4. Run dvc pull to pull all the data\nThe DarkBench benchmark is available at huggingface.co/datasets/anonymous152311\n/darkbench.",
+      "3. If you wish not to use Docker, run poetry install\n4. Run dvc pull to pull all the data\nThe DarkBench benchmark is available at huggingface.co/datasets/anonymous152311\n/darkbench.\nReferences"
+    ]
+  },
+  {
+    "url": "huggingface.co/datasets/anonymous152311/darkbench",
+    "paper_url": "https://openreview.net/pdf?id=odjMSBSWRt",
+    "paper_id": "odjMSBSWRt",
+    "contexts": [
+      "and model responses can be found in Figure 3 and Appendix 6. Each pattern is described\nin Section 2.1.\nThe DarkBench benchmark is available at huggingface.co/datasets/anonymous152311\n/darkbench.\n2.4 Benchmark construction",
+      "3. If you wish not to use Docker, run poetry install\n4. Run dvc pull to pull all the data\nThe DarkBench benchmark is available at huggingface.co/datasets/anonymous152311\n/darkbench.\nReferences"
+    ]
+  },
+  {
+    "url": "https://github.com/THU-KEG/RM-Bench",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "Reward models are critical in techniques like Reinforcement Learning from Hu-man Feedback (RLHF) and Inference Scaling Laws, where they guide languagemodel alignment and select optimal responses. Despite their importance, existingreward model benchmarks often evaluate models by asking them to distinguish be-tween responses generated by models of varying power. However, this approachfails to assess reward models on subtle but critical content changes and variationsin style, resulting in a low correlation with policy model performance. To thisend, we introduce RM-BENCH, a novel benchmark designed to evaluate rewardmodels based on their sensitivity to subtle content differences and resistance tostyle biases. Extensive experiments demonstrate that RM-BENCH strongly corre-lates with policy model performance, making it a reliable reference for selectingreward models to align language models effectively. We evaluate nearly 40 re-ward models on RM-BENCH. Our results reveal that even state-of-the-art modelsachieve an average performance of only 46.6%, which falls short of random-levelaccuracy (50%) when faced with style bias interference. These findings highlightthe significant room for improvement in current reward models. Related code anddata are available at https://github.com/THU-KEG/RM-Bench.",
+      "accuracy (50%) when faced with style bias interference. These findings highlight\nthe significant room for improvement in current reward models. Related code and\ndata are available at https://github.com/THU-KEG/RM-Bench.\n1 INTRODUCTION\nThe remarkable achievements of Large Language Models (LLMs) such as ChatGPT, Claude, and"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/Skywork/Skywork-Reward-Llama-3.1-8B",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "Skywork/Skywork-Reward-Llama-3.1-8B",
+      "Skywork/Skywork-Reward-Llama-3.1-8B",
+      "Skywork/Skywork-Reward-Llama-3.1-8B",
+      "Skywork/Skywork-Reward-Llama-3.1-8B",
+      "Skywork/Skywork-Reward-Llama-3.1-8B",
+      "Skywork/Skywork-Reward-Llama-3.1-8B"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/LxzGordon/URM-LLaMa-3.1-8B",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "LxzGordon/URM-LLaMa-3.1-8B",
+      "LxzGordon/URM-LLaMa-3.1-8B",
+      "LxzGordon/URM-LLaMa-3.1-8B",
+      "LxzGordon/URM-LLaMa-3.1-8B",
+      "LxzGordon/URM-LLaMa-3.1-8B",
+      "LxzGordon/URM-LLaMa-3.1-8B",
+      "LxzGordon/URM-LLaMa-3.1-8B"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/nvidia/Nemotron-4-340B-Reward",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "NVIDIA/Nemotron-340B-Reward",
+      "NVIDIA/Nemotron-340B-Reward"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/NCSOFT/Llama-3-OffsetBias-RM-8B",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "NCSOFT/Llama-3-OffsetBias-RM-8B",
+      "NCSOFT/Llama-3-OffsetBias-RM-8B",
+      "NCSOFT/Llama-3-OffsetBias-RM-8B",
+      "NCSOFT/Llama-3-OffsetBias-RM-8B",
+      "NCSOFT/Llama-3-OffsetBias-RM-8B",
+      "NCSOFT/Llama-3-OffsetBias-RM-8B",
+      "NCSOFT/Llama-3-OffsetBias-RM-8B"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/internlm/internlm2-20b-reward",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "internlm/internlm2-20b-reward",
+      "internlm/internlm2-20b-reward",
+      "internlm/internlm2-20b-reward",
+      "internlm/internlm2-20b-reward",
+      "internlm/internlm2-20b-reward",
+      "internlm/internlm2-20b-reward",
+      "internlm/internlm2-20b-reward"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/Ray2333/GRM-llama3-8B-sftreg",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "Ray2333/GRM-llama3-8B-sftreg",
+      "Ray2333/GRM-llama3-8B-sftreg",
+      "Ray2333/GRM-llama3-8B-sftreg",
+      "Ray2333/GRM-llama3-8B-sftreg",
+      "Ray2333/GRM-llama3-8B-sftreg",
+      "Ray2333/GRM-llama3-8B-sftreg",
+      "Ray2333/GRM-llama3-8B-sftreg"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/Ray2333/GRM-llama3-8B-distill",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "Ray2333/GRM-llama3-8B-distill",
+      "Ray2333/GRM-llama3-8B-distill",
+      "Ray2333/GRM-llama3-8B-distill",
+      "Ray2333/GRM-llama3-8B-distill",
+      "Ray2333/GRM-llama3-8B-distill",
+      "Ray2333/GRM-llama3-8B-distill",
+      "Ray2333/GRM-llama3-8B-distill"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/Ray2333/GRM-Llama3-8B-rewardmodel-ft",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "Ray2333/GRM-Llama3-8B-rewardmodel-ft",
+      "Ray2333/GRM-Llama3-8B-rewardmodel-ft",
+      "Ray2333/GRM-Llama3-8B-rewardmodel-ft",
+      "Ray2333/GRM-Llama3-8B-rewardmodel-ft",
+      "Ray2333/GRM-Llama3-8B-rewardmodel-ft",
+      "Ray2333/GRM-Llama3-8B-rewardmodel-ft",
+      "Ray2333/GRM-Llama3-8B-rewardmodel-ft"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/LxzGordon/URM-LLaMa-3-8B",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "LxzGordon/URM-LLaMa-3-8B",
+      "LxzGordon/URM-LLaMa-3-8B",
+      "LxzGordon/URM-LLaMa-3-8B",
+      "LxzGordon/URM-LLaMa-3-8B",
+      "LxzGordon/URM-LLaMa-3.1-8B",
+      "LxzGordon/URM-LLaMa-3-8B",
+      "LxzGordon/URM-LLaMa-3-8B"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/internlm/internlm2-7b-reward",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "internlm/internlm2-7b-reward",
+      "internlm/internlm2-7b-reward",
+      "internlm/internlm2-7b-reward",
+      "internlm/internlm2-7b-reward",
+      "internlm/internlm2-7b-reward",
+      "internlm/internlm2-7b-reward",
+      "internlm/internlm2-7b-reward"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/sfairXC/FsfairX-LLaMA3-RM-v0.1",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "sfairXC/FsfairX-LLaMA3-RM-v0.1",
+      "sfairXC/FsfairX-LLaMA3-RM-v0.1",
+      "sfairXC/FsfairX-LLaMA3-RM-v0.1",
+      "sfairXC/FsfairX-LLaMA3-RM-v0.1",
+      "sfairXC/FsfairX-LLaMA3-RM-v0.1",
+      "sfairXC/FsfairX-LLaMA3-RM-v0.1",
+      "sfairXC/FsfairX-LLaMA3-RM-v0.1"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/openbmb/Eurus-RM-7b",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "openbmb/Eurus-RM-7b",
+      "openbmb/Eurus-RM-7b",
+      "openbmb/Eurus-RM-7b",
+      "openbmb/Eurus-RM-7b",
+      "openbmb/Eurus-RM-7b",
+      "openbmb/Eurus-RM-7b",
+      "openbmb/Eurus-RM-7b"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/CIR-AMS/BTRM_Qwen2_7b_0613",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "CIR-AMS/BTRM Qwen2 7b 0613",
+      "CIR-AMS/BTRM Qwen2 7b 0613",
+      "CIR-AMS/BTRM Qwen2 7b 0613",
+      "CIR-AMS/BTRM Qwen2 7b 0613",
+      "CIR-AMS/BTRM Qwen2 7b 0613",
+      "CIR-AMS/BTRM Qwen2 7b 0613",
+      "CIR-AMS/BTRM Qwen2 7b 0613"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/upstage/SOLAR-10.7B-Instruct-v1.0",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "upstage/SOLAR-10.7B-Instruct-v1.0",
+      "upstage/SOLAR-10.7B-Instruct-v1.0",
+      "upstage/SOLAR-10.7B-Instruct-v1.0",
+      "upstage/SOLAR-10.7B-Instruct-v1.0",
+      "upstage/SOLAR-10.7B-Instruct-v1.0",
+      "upstage/SOLAR-10.7B-Instruct-v1.0",
+      "upstage/SOLAR-10.7B-Instruct-v1.0"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/allenai/tulu-2-dpo-13b",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "allenai/tulu-2-dpo-13b",
+      "allenai/tulu-2-dpo-13b",
+      "allenai/tulu-2-dpo-13b",
+      "allenai/tulu-2-dpo-13b",
+      "allenai/tulu-2-dpo-13b",
+      "allenai/tulu-2-dpo-13b",
+      "allenai/tulu-2-dpo-13b"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/Ray2333/reward-model-Mistral-7B-instruct-Unified-Feedback",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "Ray2333/Mistral-7B-instruct-Unified-Feedback",
+      "Ray2333/reward-model-Mistral-7B-instruct-Unified-Feedback 35.22",
+      "Ray2333/reward-model-Mistral-7B-instruct-Unified-Feedback 23.83",
+      "Ray2333/reward-model-Mistral-7B-instruct-Unified-Feedback 47.35",
+      "Ray2333/reward-model-Mistral-7B-instruct-Unified-Feedback 91.31"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/allenai/tulu-v2.5-70b-preference-mix-rm",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "allenai/tulu-v2.5-70b-preference-mix-rm",
+      "allenai/tulu-v2.5-70b-preference-mix-rm",
+      "allenai/tulu-v2.5-70b-preference-mix-rm",
+      "allenai/tulu-v2.5-70b-preference-mix-rm",
+      "allenai/tulu-v2.5-70b-preference-mix-rm",
+      "allenai/tulu-v2.5-70b-preference-mix-rm",
+      "allenai/tulu-v2.5-70b-preference-mix-rm"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/allenai/tulu-v2.5-70b-uf-rm",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "allenai/tulu-v2.5-70b-uf-rm",
+      "allenai/tulu-v2.5-70b-uf-rm",
+      "allenai/tulu-v2.5-70b-uf-rm",
+      "allenai/tulu-v2.5-70b-uf-rm",
+      "allenai/tulu-v2.5-70b-uf-rm",
+      "allenai/tulu-v2.5-70b-uf-rm",
+      "allenai/tulu-v2.5-70b-uf-rm"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/hendrydong/Mistral-RM-for-RAFT-GSHF-v0",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "hendrydong/Mistral-RM-for-RAFT-GSHF-v0",
+      "hendrydong/Mistral-RM-for-RAFT-GSHF-v0",
+      "hendrydong/Mistral-RM-for-RAFT-GSHF-v0",
+      "hendrydong/Mistral-RM-for-RAFT-GSHF-v0",
+      "hendrydong/Mistral-RM-for-RAFT-GSHF-v0",
+      "hendrydong/Mistral-RM-for-RAFT-GSHF-v0",
+      "hendrydong/Mistral-RM-for-RAFT-GSHF-v0"
+    ]
+  },
+  {
+    "url": "https://aclanthology.org/2022.acl-long.234",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "tics. doi: 10.18653/v1/2022.acl-long.234. URL https://aclanthology.org/2022.acl-long.234",
+      "of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long\nPapers), pp. 3309–3326, Dublin, Ireland, May 2022. Association for Computational Linguis-\ntics. doi: 10.18653/v1/2022.acl-long.234. URL https://aclanthology.org/2022.\nacl-long.234.\nDan Hendrycks, Collin Burns, Steven Basart, Andy Zou, Mantas Mazeika, Dawn Song, and"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/datasets/HuggingFaceH4/stack-exchange-preferences",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "stack exchange preference dataset, 2023. URL https://huggingface.co/datasets/HuggingFaceH4/stack-exchange-preferences",
+      ".",
+      "the Association for Computational Linguistics (ACL 2023), 2023.\nNathan Lambert, Lewis Tunstall, Nazneen Rajani, and Tristan Thrush. Huggingface h4\nstack exchange preference dataset, 2023. URL https://huggingface.co/datasets/\nHuggingFaceH4/stack-exchange-preferences.\nNathan Lambert, Valentina Pyatkin, Jacob Morrison, LJ Miranda, Bill Yuchen Lin, Khyathi Chandu,"
+    ]
+  },
+  {
+    "url": "https://github.com/tatsu-lab/alpaca_eval",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "following Models. https://github.com/tatsu-lab/alpaca_eval, 2023.",
+      "Xuechen Li, Tianyi Zhang, Yann Dubois, Rohan Taori, Ishaan Gulrajani, Carlos Guestrin, Percy\nLiang, and Tatsunori B. Hashimoto. AlpacaEval: An Automatic Evaluator of Instruction-\nfollowing Models. https://github.com/tatsu-lab/alpaca_eval, 2023.\nHunter Lightman, Vineet Kosaraju, Yura Burda, Harri Edwards, Bowen Baker, Teddy Lee, Jan\nLeike, John Schulman, Ilya Sutskever, and Karl Cobbe. Let’s Verify Step by Step. arXiv preprint"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/Skywork",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "arXiv:2305.20050, 2023.\nChris Yuhao Liu and Liang Zeng. Skywork reward model series. https://huggingface.co/\nSkywork, September 2024. URL https://huggingface.co/Skywork.\nJiawei Liu, Chunqiu Steven Xia, Yuyao Wang, and Lingming Zhang. Is your code generated by chat-\ngpt really correct? rigorous evaluation of large language models for code generation. Advances"
+    ]
+  },
+  {
+    "url": "https://lmsys.org/blog/2024-08-28-style-control/",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "https://lmsys.org/blog/",
+      "Zhixuan Liu, Zhanhui Zhou, Yuanfu Wang, Chao Yang, and Yu Qiao. Inference-time language\nmodel alignment via integrated value guidance. arXiv preprint arXiv:2409.17819, 2024b.\nLMSYS. Style control: A new frontier in text generation. https://lmsys.org/blog/\n2024-08-28-style-control/, August 2024. Accessed: 2024-09-17.\nNiklas Muennighoff, Qian Liu, Armel Zebaze, Qinkai Zheng, Binyuan Hui, Terry Yue Zhuo,"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/Orenguteng/Llama-3.1-8B-Lexi-Uncensored-V2",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "Llama-3.1-8B-Lexi-Uncensored-V2",
+      ", 2024. Accessed: 2024-09-17."
+    ]
+  },
+  {
+    "url": "https://aclanthology.org/2024.findings-acl.297",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "Thailand and virtual meeting, August 2024. Association for Computational Linguistics. URLhttps://aclanthology.org/2024.findings-acl.297",
+      "Findings of the Association for Computational Linguistics ACL 2024, pp. 4998–5017, Bangkok,\nThailand and virtual meeting, August 2024. Association for Computational Linguistics. URL\nhttps://aclanthology.org/2024.findings-acl.297.\nRafael Rafailov, Archit Sharma, Eric Mitchell, Stefano Ermon, Christopher D Manning, and Chelsea\nFinn. Direct preference optimization: Your language model is secretly a reward model. arXiv"
+    ]
+  },
+  {
+    "url": "https://aclanthology.org/2024.naacl-long.301",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "2024. Association for Computational Linguistics. doi: 10.18653/v1/2024.naacl-long.301. URLhttps://aclanthology.org/2024.naacl-long.301"
+    ]
+  },
+  {
+    "url": "https://starling.cs.berkeley.edu/",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "Chatbot Arena. arXiv preprint arXiv:2306.05685, 2023.\nBanghua Zhu, Evan Frick, Tianhao Wu, Hanlin Zhu, and Jiantao Jiao. Starling-7B: Improving LLM\nHelpfulness & Harmlessness with RLAIF, November 2023. URL https://starling.cs.\nberkeley.edu/.\n14"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/allenai/tulu-v2.5-dpo-13b-hh-rlhf-60k",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "allenai/tulu-v2.5-dpo-13b-hh-rlhf-60k"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/Ray2333/GRM-Gemma-2B-rewardmodel-ft",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "Ray2333/GRM-Gemma-2B-rewardmodel-ft",
+      "Ray2333/GRM-Gemma-2B-rewardmodel-ft",
+      "Ray2333/GRM-Gemma-2B-rewardmodel-ft",
+      "Ray2333/GRM-Gemma-2B-rewardmodel-ft",
+      "Ray2333/GRM-Gemma-2B-rewardmodel-ft",
+      "Ray2333/GRM-Gemma-2B-rewardmodel-ft"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/allenai/tulu-v2.5-13b-hh-rlhf-60k-rm",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "allenai/tulu-v2.5-13b-hh-rlhf-60k-rm",
+      "allenai/tulu-v2.5-13b-hh-rlhf-60k-rm"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/NousResearch/Nous-Hermes-2-Mistral-7B-DPO",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "NousResearch/Nous-Hermes-2-Mistral-7B-DPO",
+      "NousResearch/Nous-Hermes-2-Mistral-7B-DPO",
+      "NousResearch/Nous-Hermes-2-Mistral-7B-DPO",
+      "NousResearch/Nous-Hermes-2-Mistral-7B-DPO",
+      "NousResearch/Nous-Hermes-2-Mistral-7B-DPO",
+      "NousResearch/Nous-Hermes-2-Mistral-7B-DPO"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/allenai/tulu-v2.5-dpo-13b-stackexchange-60k",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "allenai/tulu-v2.5-dpo-13b-stackexchange-60k",
+      "allenai/tulu-v2.5-dpo-13b-stackexchange-60k",
+      "allenai/tulu-v2.5-dpo-13b-stackexchange-60k",
+      "allenai/tulu-v2.5-dpo-13b-stackexchange-60k",
+      "allenai/tulu-v2.5-dpo-13b-stackexchange-60k",
+      "allenai/tulu-v2.5-dpo-13b-stackexchange-60k"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/stabilityai/stablelm-2-12b-chat",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "stabilityai/stablelm-2-12b-chat",
+      "stabilityai/stablelm-2-12b-chat",
+      "stabilityai/stablelm-2-12b-chat",
+      "stabilityai/stablelm-2-12b-chat",
+      "stabilityai/stablelm-2-12b-chat",
+      "stabilityai/stablelm-2-12b-chat"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/allenai/tulu-v2.5-13b-preference-mix-rm",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "allenai/tulu-v2.5-13b-preference-mix-rm",
+      "allenai/tulu-v2.5-13b-preference-mix-rm",
+      "allenai/tulu-v2.5-13b-preference-mix-rm",
+      "allenai/tulu-v2.5-13b-preference-mix-rm",
+      "allenai/tulu-v2.5-13b-preference-mix-rm",
+      "allenai/tulu-v2.5-13b-preference-mix-rm"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/allenai/tulu-v2.5-dpo-13b-nectar-60k",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "allenai/tulu-v2.5-dpo-13b-nectar-60k",
+      "allenai/tulu-v2.5-dpo-13b-nectar-60k",
+      "allenai/tulu-v2.5-dpo-13b-nectar-60k",
+      "allenai/tulu-v2.5-dpo-13b-nectar-60k",
+      "allenai/tulu-v2.5-dpo-13b-nectar-60k",
+      "allenai/tulu-v2.5-dpo-13b-nectar-60k"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/RLHFlow/RewardModel-Mistral-7B-for-DPA-v1",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "RLHFlow/RewardModel-Mistral-7B-for-DPA-v1 63.2 53.8 53.9",
+      "RLHFlow/RewardModel-Mistral-7B-for-DPA-v1",
+      "RLHFlow/RewardModel-Mistral-7B-for-DPA-v1",
+      "RLHFlow/RewardModel-Mistral-7B-for-DPA-v1",
+      "RLHFlow/RewardModel-Mistral-7B-for-DPA-v1",
+      "RLHFlow/RewardModel-Mistral-7B-for-DPA-v1"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/allenai/tulu-v2.5-dpo-13b-chatbot-arena-2023",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "allenai/tulu-v2.5-dpo-13b-chatbot-arena-2023",
+      "allenai/tulu-v2.5-dpo-13b-chatbot-arena-2023",
+      "allenai/tulu-v2.5-dpo-13b-chatbot-arena-2023",
+      "allenai/tulu-v2.5-dpo-13b-chatbot-arena-2023",
+      "allenai/tulu-v2.5-dpo-13b-chatbot-arena-2023",
+      "allenai/tulu-v2.5-dpo-13b-chatbot-arena-2023"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/allenai/tulu-v2.5-13b-stackexchange-60k-rm",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "allenai/tulu-v2.5-13b-stackexchange-60k-rm",
+      "allenai/tulu-v2.5-13b-stackexchange-60k-rm",
+      "allenai/tulu-v2.5-13b-stackexchange-60k-rm",
+      "allenai/tulu-v2.5-13b-stackexchange-60k-rm",
+      "allenai/tulu-v2.5-13b-stackexchange-60k-rm",
+      "allenai/tulu-v2.5-13b-stackexchange-60k-rm"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/allenai/tulu-v2.5-13b-nectar-60k-rm",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "allenai/tulu-v2.5-13b-nectar-60k-rm",
+      "allenai/tulu-v2.5-13b-nectar-60k-rm",
+      "allenai/tulu-v2.5-13b-nectar-60k-rm",
+      "allenai/tulu-v2.5-13b-nectar-60k-rm",
+      "allenai/tulu-v2.5-13b-nectar-60k-rm",
+      "allenai/tulu-v2.5-13b-nectar-60k-rm"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/allenai/tulu-v2.5-13b-chatbot-arena-2023-rm",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "allenai/tulu-v2.5-13b-chatbot-arena-2023-rm",
+      "allenai/tulu-v2.5-13b-chatbot-arena-2023-rm",
+      "allenai/tulu-v2.5-13b-chatbot-arena-2023-rm",
+      "allenai/tulu-v2.5-13b-chatbot-arena-2023-rm",
+      "allenai/tulu-v2.5-13b-chatbot-arena-2023-rm"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/allenai/tulu-v2.5-13b-uf-rm",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "allenai/tulu-v2.5-13b-uf-rm",
+      "allenai/tulu-v2.5-13b-uf-rm",
+      "allenai/tulu-v2.5-13b-uf-rm",
+      "allenai/tulu-v2.5-13b-uf-rm",
+      "allenai/tulu-v2.5-13b-uf-rm",
+      "allenai/tulu-v2.5-13b-uf-rm"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/NVIDIA/Nemotron-340B-Reward",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "NVIDIA/Nemotron-340B-Reward",
+      "NVIDIA/Nemotron-340B-Reward",
+      "NVIDIA/Nemotron-340B-Reward",
+      "NVIDIA/Nemotron-340B-Reward",
+      "NVIDIA/Nemotron-340B-Reward"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/steerlm-13b",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "steerlm-13b",
+      "steerlm-13b",
+      "steerlm-13b",
+      "steerlm-13b"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/steerlm-70b",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "steerlm-70b",
+      "steerlm-70b",
+      "steerlm-70b",
+      "steerlm-70b",
+      "steerlm-70b"
+    ]
+  },
+  {
+    "url": "https://github.com/THU-KEG/RM-Bench.1",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "accuracy (50%) when faced with style bias interference. These findings highlight\nthe significant room for improvement in current reward models. Related code and\ndata are available at https://github.com/THU-KEG/RM-Bench.\n1 INTRODUCTION\nThe remarkable achievements of Large Language Models (LLMs) such as ChatGPT, Claude, and"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/datasets/",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "the Association for Computational Linguistics (ACL 2023), 2023.\nNathan Lambert, Lewis Tunstall, Nazneen Rajani, and Tristan Thrush. Huggingface h4\nstack exchange preference dataset, 2023. URL https://huggingface.co/datasets/\nHuggingFaceH4/stack-exchange-preferences.\nNathan Lambert, Valentina Pyatkin, Jacob Morrison, LJ Miranda, Bill Yuchen Lin, Khyathi Chandu,"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "Leike, John Schulman, Ilya Sutskever, and Karl Cobbe. Let’s Verify Step by Step. arXiv preprint\narXiv:2305.20050, 2023.\nChris Yuhao Liu and Liang Zeng. Skywork reward model series. https://huggingface.co/\nSkywork, September 2024. URL https://huggingface.co/Skywork.\nJiawei Liu, Chunqiu Steven Xia, Yuyao Wang, and Lingming Zhang. Is your code generated by chat-"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/Skywork.Jiawei",
+    "paper_url": "https://openreview.net/pdf?id=QEHrmQPBdd",
+    "paper_id": "QEHrmQPBdd",
+    "contexts": [
+      "arXiv:2305.20050, 2023.\nChris Yuhao Liu and Liang Zeng. Skywork reward model series. https://huggingface.co/\nSkywork, September 2024. URL https://huggingface.co/Skywork.\nJiawei Liu, Chunqiu Steven Xia, Yuyao Wang, and Lingming Zhang. Is your code generated by chat-\ngpt really correct? rigorous evaluation of large language models for code generation. Advances"
+    ]
+  },
+  {
+    "url": "https://github.com/epflneuroailab/topolm",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "1Code available at https://github.com/epflneuroailab/topolm."
+    ]
+  },
+  {
+    "url": "https://doi.org/10.3886/E198163V3",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "8Available on OPENICPSR at https://doi.org/10.3886/E198163V3."
+    ]
+  },
+  {
+    "url": "http://arxiv.org/abs/2411.02280",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "Badr AlKhamissi, Greta Tuckute, Antoine Bosselut, and Martin Schrimpf. The LLM Language\nNetwork: A Neuroscientific Approach for Identifying Causally Task-Relevant Units, 2024. URL\nhttp://arxiv.org/abs/2411.02280. arXiv:2411.02280 [cs].\nYoav Benjamini and Yosef Hochberg. Controlling the False Discovery Rate: A Practical and Pow-\nerful Approach to Multiple Testing. Journal of the Royal Statistical Society Series B: Statisti-"
+    ]
+  },
+  {
+    "url": "https://academic.oup.com/jrsssb/article/57/1/289/7035855",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "erful Approach to Multiple Testing. Journal of the Royal Statistical Society Series B: Statisti-\ncal Methodology, 57(1):289–300, January 1995. ISSN 1369-7412, 1467-9868. doi: 10.1111/\nj.2517-6161.1995.tb02031.x. URL https://academic.oup.com/jrsssb/article/\n57/1/289/7035855.\nTaha BinHuraib, Greta Tuckute, and Nicholas M Blauch. Topoformer: Brain-like topographic"
+    ]
+  },
+  {
+    "url": "https://openreview.net/forum?id=3pLMzgoZSA",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "URL https://openreview.net/forum?id="
+    ]
+  },
+  {
+    "url": "https://www.physiology.org/doi/10.1152/jn.00884.2013",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "URL https://www.physiology.org/doi/10.1152/",
+      "jn.00884.2013"
+    ]
+  },
+  {
+    "url": "https://pnas.org/doi/full/10.1073/pnas.2112566119",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "6490. doi: 10.1073/pnas.2112566119. URL https://pnas.org/doi/full/10.1073/pnas.2112566119",
+      ". Number: 3."
+    ]
+  },
+  {
+    "url": "https://www.nature.com/articles/s42003-022-03036-1",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "3642. doi: 10.1038/s42003-022-03036-1. URL https://www.nature.com/articles/s42003-022-03036-1",
+      ". Number: 1."
+    ]
+  },
+  {
+    "url": "http://arxiv.org/abs/1810.04805",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "Bidirectional Transformers for Language Understanding, May 2019. URL http://arxiv.org/abs/1810.04805"
+    ]
+  },
+  {
+    "url": "http://www.nature.com/articles/369525a0",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "Jose Chichilnisky, and Michael N. Shadlen. fMRI of human visual cortex. Nature, 369(6481):525–525, June 1994. ISSN 0028-0836, 1476-4687. doi: 10.1038/369525a0. URL http://www.nature.com/articles/369525a0"
+    ]
+  },
+  {
+    "url": "https://www.pnas.org/doi/abs/10.1073/pnas.1612132113",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "10.1073/pnas.1612132113. URL https://www.pnas.org/doi/abs/10.1073/pnas.1612132113"
+    ]
+  },
+  {
+    "url": "https://www.nature.com/articles/s41583-024-00802-4",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "within the broader landscape of the human brain. Nature Reviews Neuroscience, April 2024. ISSN1471-003X, 1471-0048. doi: 10.1038/s41583-024-00802-4. URL https://www.nature.com/articles/s41583-024-00802-4",
+      "."
+    ]
+  },
+  {
+    "url": "http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=2819705{&}tool=pmcentrez{&}rendertype=abstract",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "fcgi?artid=2819705{&}tool=pmcentrez{&}rendertype=abstract"
+    ]
+  },
+  {
+    "url": "https://academic.oup.com/brain/article-lookup/doi/10.1093/brain/122.2.199",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "tional MRI. Brain, 122(2):199–208, February 1999. ISSN 14602156. doi: 10.1093/brain/122.2.199. URL https://academic.oup.com/brain/article-lookup/doi/10.1093/brain/122.2.199"
+    ]
+  },
+  {
+    "url": "https://aclanthology.org/L18-1012",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "2018. European Language Resources Association (ELRA). URL https://aclanthology.org/L18-1012",
+      "dosi, and Evelina Fedorenko. The Natural Stories Corpus. In Proceedings of the Eleventh Interna-\ntional Conference on Language Resources and Evaluation (LREC 2018), Miyazaki, Japan, May\n2018. European Language Resources Association (ELRA). URL https://aclanthology.\norg/L18-1012.\nAriel Goldstein, Zaid Zada, Eliav Buchnik, Mariano Schain, Amy Price, Bobbi Aubrey, Samuel A."
+    ]
+  },
+  {
+    "url": "https://www.nature.com/articles/s41593-022-01026-4",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "Nastase, Amir Feder, Dotan Emanuel, Alon Cohen, Aren Jansen, Harshvardhan Gazula, GinaChoe, Aditi Rao, Catherine Kim, Colton Casto, Lora Fanda, Werner Doyle, Daniel Friedman,Patricia Dugan, Lucia Melloni, Roi Reichart, Sasha Devore, Adeen Flinker, Liat Hasenfratz, OmerLevy, Avinatan Hassidim, Michael Brenner, Yossi Matias, Kenneth A. Norman, Orrin Devinsky,and Uri Hasson. Shared computational principles for language processing in humans and deeplanguage models. Nature Neuroscience, 25(3):369–380, March 2022. ISSN 1097-6256, 1546-1726. doi: 10.1038/s41593-022-01026-4. URL https://www.nature.com/articles/s41593-022-01026-4",
+      ".",
+      "and Uri Hasson. Shared computational principles for language processing in humans and deep\nlanguage models. Nature Neuroscience, 25(3):369–380, March 2022. ISSN 1097-6256, 1546-\n1726. doi: 10.1038/s41593-022-01026-4. URL https://www.nature.com/articles/\ns41593-022-01026-4.\nIris I.A. Groen, Tessa M. Dekker, Tomas Knapen, and Edward H. Silson. Visuospatial coding as"
+    ]
+  },
+  {
+    "url": "https://www.science.org/doi/10.1126/science.1063736",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "Pietrini. Distributed and Overlapping Representations of Faces and Objects in Ventral TemporalCortex. Science, 293(5539):2425–2430, September 2001. ISSN 0036-8075, 1095-9203. doi: 10.1126/science.1063736. URL https://www.science.org/doi/10.1126/science.1063736"
+    ]
+  },
+  {
+    "url": "https://onlinelibrary.wiley.com/doi/10.1113/jphysiol.1962.sp006837",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "ISSN 00223751. doi: 10.1113/jphysiol.1962.sp006837. URL https://onlinelibrary.wiley.com/doi/10.1113/jphysiol.1962.sp006837"
+    ]
+  },
+  {
+    "url": "https://onlinelibrary.wiley.com/doi/10.1113/jphysiol.1968.sp008455",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "tex. The Journal of Physiology, 195(1):215–243, March 1968. ISSN 00223751. doi: 10.1113/jphysiol.1968.sp008455. URL https://onlinelibrary.wiley.com/doi/10.1113/jphysiol.1968.sp008455"
+    ]
+  },
+  {
+    "url": "https://www.science.org/doi/10.1126/science.1194869",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "Fred Wolf. Universality in the Evolution of Orientation Columns in the Visual Cortex. Science,330(6007):1113–1116, November 2010. ISSN 0036-8075, 1095-9203. doi: 10.1126/science.1194869. URL https://www.science.org/doi/10.1126/science.1194869."
+    ]
+  },
+  {
+    "url": "http://biorxiv.org/lookup/doi/10.1101/2020.07.09.185116",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "L. K. Yamins, and James J. DiCarlo. Topographic deep artificial neural networks reproduce\nthe hallmarks of the primate inferior temporal cortex face processing network. preprint, Neu-\nroscience, July 2020. URL http://biorxiv.org/lookup/doi/10.1101/2020.07.\n09.185116. DOI: 10.1101/2020.07.09.185116.\nZejin Lu, Adrien Doerig, Victoria Bosch, Bas Krahmer, Daniel Kaiser, Radoslaw M Cichy, and"
+    ]
+  },
+  {
+    "url": "https://www.nature.com/articles/s41467-018-03068-4",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "meaning from brain activation. Nature Communications, 9(1):963, March 2018. ISSN 2041-1723. doi: 10.1038/s41467-018-03068-4. URL https://www.nature.com/articles/s41467-018-03068-4"
+    ]
+  },
+  {
+    "url": "https://linkinghub.elsevier.com/retrieve/pii/S089662732030605X",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "James J. DiCarlo. Integrative Benchmarking to Advance Neurally Mechanistic Models of Hu-man Intelligence. Neuron, 108(3):413–423, November 2020. ISSN 08966273. doi: 10.1016/j.neuron.2020.07.040. URL https://linkinghub.elsevier.com/retrieve/pii/S089662732030605X",
+      "James J. DiCarlo. Integrative Benchmarking to Advance Neurally Mechanistic Models of Hu-\nman Intelligence. Neuron, 108(3):413–423, November 2020. ISSN 08966273. doi: 10.1016/\nj.neuron.2020.07.040. URL https://linkinghub.elsevier.com/retrieve/pii/\nS089662732030605X. Number: 3.\nMartin Schrimpf, Idan Asher Blank, Greta Tuckute, Carina Kauf, Eghbal A. Hosseini, Nancy"
+    ]
+  },
+  {
+    "url": "https://pnas.org/doi/full/10.1073/pnas.2105646118",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "doi: 10.1073/pnas.2105646118. URL https://pnas.org/doi/full/10.1073/pnas.2105646118",
+      "guage: Integrative modeling converges on predictive processing. Proceedings of the National\nAcademy of Sciences, 118(45):e2105646118, November 2021. ISSN 0027-8424, 1091-6490.\ndoi: 10.1073/pnas.2105646118. URL https://pnas.org/doi/full/10.1073/pnas.\n2105646118.\nRebecca F Schwarzlose, Jascha D Swisher, Sabin Dang, and Nancy Kanwisher. The dis-"
+    ]
+  },
+  {
+    "url": "https://pnas.org/doi/full/10.1073/pnas.0504142103",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "production. Proceedings of the National Academy of Sciences, 103(5):1644–1649, January 2006.ISSN 0027-8424, 1091-6490. doi: 10.1073/pnas.0504142103. URL https://pnas.org/doi/full/10.1073/pnas.0504142103",
+      "Kevin A. Shapiro, Lauren R. Moo, and Alfonso Caramazza. Cortical signatures of noun and verb\nproduction. Proceedings of the National Academy of Sciences, 103(5):1644–1649, January 2006.\nISSN 0027-8424, 1091-6490. doi: 10.1073/pnas.0504142103. URL https://pnas.org/\ndoi/full/10.1073/pnas.0504142103.\nJerzy P. Szaflarski, Scott K. Holland, Vincent J. Schmithorst, and Anna W. Byars. fMRI study of lan-"
+    ]
+  },
+  {
+    "url": "https://onlinelibrary.wiley.com/doi/10.1002/hbm.20177",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "guage lateralization in children and adults. Human Brain Mapping, 27(3):202–212, March 2006.ISSN 1065-9471, 1097-0193. doi: 10.1002/hbm.20177. URL https://onlinelibrary.wiley.com/doi/10.1002/hbm.20177",
+      "Jerzy P. Szaflarski, Scott K. Holland, Vincent J. Schmithorst, and Anna W. Byars. fMRI study of lan-\nguage lateralization in children and adults. Human Brain Mapping, 27(3):202–212, March 2006.\nISSN 1065-9471, 1097-0193. doi: 10.1002/hbm.20177. URL https://onlinelibrary.\nwiley.com/doi/10.1002/hbm.20177.\nR Tootell, N Hadjikhani, J Mendola, S Marrett, and M Dale. From retinotopy to recognition: fMRI"
+    ]
+  },
+  {
+    "url": "https://www.nature.com/articles/nn1111",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "Tootell. Faces and objects in macaque cerebral cortex. Nature Neuroscience, 6(9):989–995,September 2003. ISSN 1097-6256, 1546-1726. doi: 10.1038/nn1111. URL https://www.nature.com/articles/nn1111"
+    ]
+  },
+  {
+    "url": "https://www.science.org/doi/10.1126/science.1119983",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "Doris Y. Tsao, Winrich A. Freiwald, Roger B. H. Tootell, and Margaret S. Livingstone. A Cortical\nRegion Consisting Entirely of Face-Selective Cells. Science, 311(5761):670–674, February 2006.\nISSN 0036-8075, 1095-9203. doi: 10.1126/science.1119983. URL https://www.science.\norg/doi/10.1126/science.1119983. Number: 5761.\nDoris Y. Tsao, Sebastian Moeller, and Winrich A. Freiwald. Comparing face patch systems in"
+    ]
+  },
+  {
+    "url": "https://pnas.org/doi/full/10.1073/pnas.0809662105",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "macaques and humans. Proceedings of the National Academy of Sciences, 105(49):19514–19519,December 2008. ISSN 0027-8424, 1091-6490. doi: 10.1073/pnas.0809662105. URL https://pnas.org/doi/full/10.1073/pnas.0809662105",
+      "Doris Y. Tsao, Sebastian Moeller, and Winrich A. Freiwald. Comparing face patch systems in\nmacaques and humans. Proceedings of the National Academy of Sciences, 105(49):19514–19519,\nDecember 2008. ISSN 0027-8424, 1091-6490. doi: 10.1073/pnas.0809662105. URL https:\n//pnas.org/doi/full/10.1073/pnas.0809662105. Number: 49.\nGreta Tuckute, Aalok Sathe, Shashank Srikant, Maya Taliaferro, Mingye Wang, Martin Schrimpf,"
+    ]
+  },
+  {
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "URL https://proceedings.neurips.cc/paper_files/paper/2017/",
+      "file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf",
+      ".",
+      "Luxburg, S. Bengio, H. Wallach, R. Fergus, S. Vishwanathan, and R. Garnett (eds.), Ad-\nvances in Neural Information Processing Systems, volume 30. Curran Associates, Inc.,\n2017. URL https://proceedings.neurips.cc/paper_files/paper/2017/\nfile/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf.\nAlex Wang, Amanpreet Singh, Julian Michael, Felix Hill, Omer Levy, and Samuel Bowman. GLUE:"
+    ]
+  },
+  {
+    "url": "http://aclweb.org/anthology/W18-5446",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "ceedings of the 2018 EMNLP Workshop BlackboxNLP: Analyzing and Interpreting Neural Net-\nworks for NLP, pp. 353–355, Brussels, Belgium, 2018. Association for Computational Linguis-\ntics. doi: 10.18653/v1/W18-5446. URL http://aclweb.org/anthology/W18-5446.\nAlex Warstadt, Alicia Parrish, Haokun Liu, Anhad Mohananey, Wei Peng, Sheng-Fu Wang, and\nSamuel R. Bowman. BLiMP: The Benchmark of Linguistic Minimal Pairs for English. Transac-"
+    ]
+  },
+  {
+    "url": "https://direct.mit.edu/tacl/article/96452",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "387X. doi: 10.1162/tacl a 00321. URL https://direct.mit.edu/tacl/article/96452",
+      "Samuel R. Bowman. BLiMP: The Benchmark of Linguistic Minimal Pairs for English. Transac-\ntions of the Association for Computational Linguistics, 8:377–392, December 2020. ISSN 2307-\n387X. doi: 10.1162/tacl a 00321. URL https://direct.mit.edu/tacl/article/\n96452.\nYiyuan Zhang, Ke Zhou, Pinglei Bao, and Jia Liu. Principles governing the topological organization"
+    ]
+  },
+  {
+    "url": "http://biorxiv.org/lookup/doi/10.1101/2021.09.15.460220",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "of object selectivities in ventral temporal cortex. preprint, Neuroscience, September 2021. URLhttp://biorxiv.org/lookup/doi/10.1101/2021.09.15.460220"
+    ]
+  },
+  {
+    "url": "http://arxiv.org/abs/1506.06724",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "and Sanja Fidler. Aligning Books and Movies: Towards Story-like Visual Explanations by Watch-ing Movies and Reading Books, June 2015. URL http://arxiv.org/abs/1506.06724.arXiv:1506.06724 [cs].",
+      "Yukun Zhu, Ryan Kiros, Richard Zemel, Ruslan Salakhutdinov, Raquel Urtasun, Antonio Torralba,\nand Sanja Fidler. Aligning Books and Movies: Towards Story-like Visual Explanations by Watch-\ning Movies and Reading Books, June 2015. URL http://arxiv.org/abs/1506.06724.\narXiv:1506.06724 [cs].\n15"
+    ]
+  },
+  {
+    "url": "https://pnas.org/doi/full/10.1073/",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "tational account of topographic organization in primate high-level visual cortex. Proceedings of\nthe National Academy of Sciences, 119(3):e2112566119, January 2022. ISSN 0027-8424, 1091-\n6490. doi: 10.1073/pnas.2112566119. URL https://pnas.org/doi/full/10.1073/\npnas.2112566119. Number: 3.\nCharlotte Caucheteux and Jean-Rémi King. Brains and algorithms partially converge in natu-"
+    ]
+  },
+  {
+    "url": "https://doi.org/10.1073/pnas.1112937108",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "Evelina Fedorenko, Michael K Behr, and Nancy Kanwisher. Functional specificity for high-level\nlinguistic processing in the human brain. Proceedings of the National Academy of Sciences, 108\n(39):16428–16433, 2011. doi: https://doi.org/10.1073/pnas.1112937108. Publisher: National\nAcad Sciences.\nEvelina Fedorenko, Terri L. Scott, Peter Brunner, William G. Coon, Brianna Pritchett, Ger-"
+    ]
+  },
+  {
+    "url": "https://www.pnas.org/doi/pdf/10.1073/pnas.1612132113.Evelina",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "ing. Proceedings of the National Academy of Sciences, 113(41):E6256–E6262, 2016. doi:\n10.1073/pnas.1612132113. URL https://www.pnas.org/doi/abs/10.1073/pnas.\n1612132113. eprint: https://www.pnas.org/doi/pdf/10.1073/pnas.1612132113.\nEvelina Fedorenko, Anna A. Ivanova, and Tamar I. Regev. The language network as a natural kind\nwithin the broader landscape of the human brain. Nature Reviews Neuroscience, April 2024. ISSN"
+    ]
+  },
+  {
+    "url": "https://www.pnas.org/doi/pdf/10.1073/pnas.1612132113",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "ing. Proceedings of the National Academy of Sciences, 113(41):E6256–E6262, 2016. doi:\n10.1073/pnas.1612132113. URL https://www.pnas.org/doi/abs/10.1073/pnas.\n1612132113. eprint: https://www.pnas.org/doi/pdf/10.1073/pnas.1612132113.\nEvelina Fedorenko, Anna A. Ivanova, and Tamar I. Regev. The language network as a natural kind\nwithin the broader landscape of the human brain. Nature Reviews Neuroscience, April 2024. ISSN"
+    ]
+  },
+  {
+    "url": "http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=2819705",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "Winrich a Freiwald, Doris Y Tsao, and Margaret S Livingstone. A face feature space in the macaque\ntemporal lobe. Nature neuroscience, 12(9):1187–96, September 2009. ISSN 1546-1726. doi:\n10.1038/nn.2363. URL http://www.pubmedcentral.nih.gov/articlerender.\nfcgi?artid=2819705{&}tool=pmcentrez{&}rendertype=abstract. Number:\n9 Publisher: Nature Publishing Group."
+    ]
+  },
+  {
+    "url": "wiley.com/doi/10.1113/jphysiol.1962.sp006837",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "ture in the cat’s visual cortex. The Journal of Physiology, 160(1):106–154, January 1962.\nISSN 00223751. doi: 10.1113/jphysiol.1962.sp006837. URL https://onlinelibrary.\nwiley.com/doi/10.1113/jphysiol.1962.sp006837.\nD. H. Hubel and T. N. Wiesel. Receptive fields and functional architecture of monkey striate cor-\ntex. The Journal of Physiology, 195(1):215–243, March 1968. ISSN 00223751. doi: 10.1113/"
+    ]
+  },
+  {
+    "url": "https://doi.org/10.1523/JNEUROSCI.17-11-04302.1997.Matthias",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "Nancy Kanwisher, Josh McDermott, and Marvin M Chun. The Fusiform Face Area: A Module in\nHuman Extrastriate Cortex Specialized for Face Perception. The Journal of Neuroscience, 1997.\ndoi: https://doi.org/10.1523/JNEUROSCI.17-11-04302.1997.\nMatthias Kaschube, Michael Schnabel, Siegrid Löwel, David M. Coppola, Leonard E. White, and\nFred Wolf. Universality in the Evolution of Orientation Columns in the Visual Cortex. Science,"
+    ]
+  },
+  {
+    "url": "https://doi.org/10.1523/JNEUROSCI.17-11-04302.1997",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "Nancy Kanwisher, Josh McDermott, and Marvin M Chun. The Fusiform Face Area: A Module in\nHuman Extrastriate Cortex Specialized for Face Perception. The Journal of Neuroscience, 1997.\ndoi: https://doi.org/10.1523/JNEUROSCI.17-11-04302.1997.\nMatthias Kaschube, Michael Schnabel, Siegrid Löwel, David M. Coppola, Leonard E. White, and\nFred Wolf. Universality in the Evolution of Orientation Columns in the Visual Cortex. Science,"
+    ]
+  },
+  {
+    "url": "https://doi.org/10.1016/j.neuroimage.2009.09.059",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "Nikolaus Kriegeskorte, Rhodri Cusack, and Peter Bandettini. How does an fMRI voxel sample the\nneuronal activity pattern: Compact-kernel or complex spatiotemporal filter? NeuroImage, 49(3):\n1965–1976, 2010. ISSN 10538119. doi: https://doi.org/10.1016/j.neuroimage.2009.09.059.\nJonas Larsson and David J Heeger. Two retinotopic visual areas in human lateral occipital cortex.\nThe Journal of neuroscience : the official journal of the Society for Neuroscience, 26(51):13128–"
+    ]
+  },
+  {
+    "url": "https://doi.org/10.1523/JNEUROSCI.1657-06.2006",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "Jonas Larsson and David J Heeger. Two retinotopic visual areas in human lateral occipital cortex.\nThe Journal of neuroscience : the official journal of the Society for Neuroscience, 26(51):13128–\n13142, 2006. ISSN 1529-2401. doi: https://doi.org/10.1523/JNEUROSCI.1657-06.2006.\nHyodong Lee, Eshed Margalit, Kamila M. Jozwik, Michael A. Cohen, Nancy Kanwisher, Daniel\nL. K. Yamins, and James J. DiCarlo. Topographic deep artificial neural networks reproduce"
+    ]
+  },
+  {
+    "url": "10.1016/",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "9405cc0d6169988371b2755e573cc28650d14dfe.\nMartin Schrimpf, Jonas Kubilius, Michael J. Lee, N. Apurva Ratan Murty, Robert Ajemian, and\nJames J. DiCarlo. Integrative Benchmarking to Advance Neurally Mechanistic Models of Hu-\nman Intelligence. Neuron, 108(3):413–423, November 2020. ISSN 08966273. doi: 10.1016/\nj.neuron.2020.07.040. URL https://linkinghub.elsevier.com/retrieve/pii/"
+    ]
+  },
+  {
+    "url": "https://linkinghub.elsevier.com/retrieve/pii/",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "James J. DiCarlo. Integrative Benchmarking to Advance Neurally Mechanistic Models of Hu-\nman Intelligence. Neuron, 108(3):413–423, November 2020. ISSN 08966273. doi: 10.1016/\nj.neuron.2020.07.040. URL https://linkinghub.elsevier.com/retrieve/pii/\nS089662732030605X. Number: 3.\nMartin Schrimpf, Idan Asher Blank, Greta Tuckute, Carina Kauf, Eghbal A. Hosseini, Nancy"
+    ]
+  },
+  {
+    "url": "https://www.semanticscholar.org/paper/",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, and\nIlya Sutskever. Language Models are Unsupervised Multitask Learn-\ners. 2019. URL https://www.semanticscholar.org/paper/\nLanguage-Models-are-Unsupervised-Multitask-Learners-Radford-Wu/\n9405cc0d6169988371b2755e573cc28650d14dfe."
+    ]
+  },
+  {
+    "url": "https://www.semanticscholar.org/paper/Language-Models-are-Unsupervised-Multitask-Learners-Radford-Wu/",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, and\nIlya Sutskever. Language Models are Unsupervised Multitask Learn-\ners. 2019. URL https://www.semanticscholar.org/paper/\nLanguage-Models-are-Unsupervised-Multitask-Learners-Radford-Wu/\n9405cc0d6169988371b2755e573cc28650d14dfe."
+    ]
+  },
+  {
+    "url": "https://doi.org/10.1073/pnas.0800431105",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "tribution of category and location information across object-selective regions in human vi-\nsual cortex. Proceedings of the National Academy of Sciences of the United States of\nAmerica, 105(11):4447–4452, March 2008. ISSN 1091-6490. doi: https://doi.org/10.1073/\npnas.0800431105. URL http://www.pubmedcentral.nih.gov/articlerender.\nfcgi?artid=2393746{&}tool=pmcentrez{&}rendertype=abstract."
+    ]
+  },
+  {
+    "url": "10.1073/pnas.0504142103.Jerzy",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "production. Proceedings of the National Academy of Sciences, 103(5):1644–1649, January 2006.\nISSN 0027-8424, 1091-6490. doi: 10.1073/pnas.0504142103. URL https://pnas.org/\ndoi/full/10.1073/pnas.0504142103.\nJerzy P. Szaflarski, Scott K. Holland, Vincent J. Schmithorst, and Anna W. Byars. fMRI study of lan-\nguage lateralization in children and adults. Human Brain Mapping, 27(3):202–212, March 2006."
+    ]
+  },
+  {
+    "url": "wiley.com/doi/10.1002/hbm.20177",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "guage lateralization in children and adults. Human Brain Mapping, 27(3):202–212, March 2006.\nISSN 1065-9471, 1097-0193. doi: 10.1002/hbm.20177. URL https://onlinelibrary.\nwiley.com/doi/10.1002/hbm.20177.\nR Tootell, N Hadjikhani, J Mendola, S Marrett, and M Dale. From retinotopy to recognition: fMRI\nin human visual cortex. Trends in cognitive sciences, 2(5):174–83, May 1998. ISSN 1364-6613."
+    ]
+  },
+  {
+    "url": "wiley.com/doi/10.1002/hbm.20177.R",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "guage lateralization in children and adults. Human Brain Mapping, 27(3):202–212, March 2006.\nISSN 1065-9471, 1097-0193. doi: 10.1002/hbm.20177. URL https://onlinelibrary.\nwiley.com/doi/10.1002/hbm.20177.\nR Tootell, N Hadjikhani, J Mendola, S Marrett, and M Dale. From retinotopy to recognition: fMRI\nin human visual cortex. Trends in cognitive sciences, 2(5):174–83, May 1998. ISSN 1364-6613."
+    ]
+  },
+  {
+    "url": "pnas.org/doi/full/10.1073/pnas.0809662105",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "macaques and humans. Proceedings of the National Academy of Sciences, 105(49):19514–19519,\nDecember 2008. ISSN 0027-8424, 1091-6490. doi: 10.1073/pnas.0809662105. URL https:\n//pnas.org/doi/full/10.1073/pnas.0809662105. Number: 49.\nGreta Tuckute, Aalok Sathe, Shashank Srikant, Maya Taliaferro, Mingye Wang, Martin Schrimpf,\nKendrick Kay, and Evelina Fedorenko. Driving and suppressing the human language network"
+    ]
+  },
+  {
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2017/",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "Luxburg, S. Bengio, H. Wallach, R. Fergus, S. Vishwanathan, and R. Garnett (eds.), Ad-\nvances in Neural Information Processing Systems, volume 30. Curran Associates, Inc.,\n2017. URL https://proceedings.neurips.cc/paper_files/paper/2017/\nfile/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf.\nAlex Wang, Amanpreet Singh, Julian Michael, Felix Hill, Omer Levy, and Samuel Bowman. GLUE:"
+    ]
+  },
+  {
+    "url": "http://aclweb.org/anthology/W18-5446.Alex",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "ceedings of the 2018 EMNLP Workshop BlackboxNLP: Analyzing and Interpreting Neural Net-\nworks for NLP, pp. 353–355, Brussels, Belgium, 2018. Association for Computational Linguis-\ntics. doi: 10.18653/v1/W18-5446. URL http://aclweb.org/anthology/W18-5446.\nAlex Warstadt, Alicia Parrish, Haokun Liu, Anhad Mohananey, Wei Peng, Sheng-Fu Wang, and\nSamuel R. Bowman. BLiMP: The Benchmark of Linguistic Minimal Pairs for English. Transac-"
+    ]
+  },
+  {
+    "url": "https://direct.mit.edu/tacl/article/",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "Samuel R. Bowman. BLiMP: The Benchmark of Linguistic Minimal Pairs for English. Transac-\ntions of the Association for Computational Linguistics, 8:377–392, December 2020. ISSN 2307-\n387X. doi: 10.1162/tacl a 00321. URL https://direct.mit.edu/tacl/article/\n96452.\nYiyuan Zhang, Ke Zhou, Pinglei Bao, and Jia Liu. Principles governing the topological organization"
+    ]
+  },
+  {
+    "url": "http://arxiv.org/abs/1506.06724.arXiv:1506.06724",
+    "paper_url": "https://openreview.net/pdf?id=aWXnKanInf",
+    "paper_id": "aWXnKanInf",
+    "contexts": [
+      "Yukun Zhu, Ryan Kiros, Richard Zemel, Ruslan Salakhutdinov, Raquel Urtasun, Antonio Torralba,\nand Sanja Fidler. Aligning Books and Movies: Towards Story-like Visual Explanations by Watch-\ning Movies and Reading Books, June 2015. URL http://arxiv.org/abs/1506.06724.\narXiv:1506.06724 [cs].\n15"
+    ]
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.07703",
+    "paper_url": "https://openreview.net/pdf?id=XmProj9cPs",
+    "paper_id": "XmProj9cPs",
+    "contexts": [
+      "Liqiang Jing, Zhehui Huang, Xiaoyang Wang, Wenlin Yao, Wenhao Yu, Kaixin Ma, Hongming\nZhang, Xinya Du, and Dong Yu. Dsbench: How far are data science agents to becoming data\nscience experts?, 2024. URL https://arxiv.org/abs/2409.07703.\nYuhang Lai, Chengxi Li, Yiming Wang, Tianyi Zhang, Ruiqi Zhong, Luke Zettlemoyer, Wen-tau\nYih, Daniel Fried, Sida Wang, and Tao Yu. Ds-1000: A natural and reliable benchmark for data"
+    ]
+  },
+  {
+    "url": "https://qwenlm.github.io/blog/qwen2.5/",
+    "paper_url": "https://openreview.net/pdf?id=XmProj9cPs",
+    "paper_id": "XmProj9cPs",
+    "contexts": [
+      "Shayan Talaei, Mohammadreza Pourreza, Yu-Chen Chang, Azalia Mirhoseini, and Amin Saberi.\nChess: Contextual harnessing for efficient sql synthesis. arXiv preprint arXiv:2405.16755, 2024.\nQwen Team. Qwen2.5: A party of foundation models, September 2024. URL https://qwenlm.\ngithub.io/blog/qwen2.5/.\n12"
+    ]
+  },
+  {
+    "url": "https://doi.org/10.48550/arXiv.2306.14898",
+    "paper_url": "https://openreview.net/pdf?id=XmProj9cPs",
+    "paper_id": "XmProj9cPs",
+    "contexts": [
+      "and benchmarking interactive coding with execution feedback. CoRR, abs/2306.14898, 2023. doi:10.48550/arXiv.2306.14898. URL https://doi.org/10.48550/arXiv.2306.14898.",
+      "John Yang, Akshara Prabhakar, Karthik Narasimhan, and Shunyu Yao. Intercode: Standardizing\nand benchmarking interactive coding with execution feedback. CoRR, abs/2306.14898, 2023. doi:\n10.48550/arXiv.2306.14898. URL https://doi.org/10.48550/arXiv.2306.14898.\nJohn Yang, Carlos E. Jimenez, Alexander Wettig, Kilian Lieret, Shunyu Yao, Karthik Narasimhan,\nand Ofir Press. Swe-agent: Agent computer interfaces enable software engineering language"
+    ]
+  },
+  {
+    "url": "https://github.com/fivetran/dbt_salesforce/",
+    "paper_url": "https://openreview.net/pdf?id=XmProj9cPs",
+    "paper_id": "XmProj9cPs",
+    "contexts": [
+      "2https://github.com/fivetran/dbt_salesforce/"
+    ]
+  },
+  {
+    "url": "https://www.sqlite.org/docs.html",
+    "paper_url": "https://openreview.net/pdf?id=XmProj9cPs",
+    "paper_id": "XmProj9cPs",
+    "contexts": [
+      "Postgres https://www.postgresql.org/docs/current/functions.html 30 30 30†\nClickhouse https://clickhouse.com/docs/en/sql-reference/functions 226 6 226\nSQLite https://www.sqlite.org/docs.html 6 6 147\nDuckDB https://duckdb.org/docs/sql/functions/overview 24 24 513\nTotal 1039 130 2025"
+    ]
+  },
+  {
+    "url": "https://arxiv.org/abs/2409.07703.Yuhang",
+    "paper_url": "https://openreview.net/pdf?id=XmProj9cPs",
+    "paper_id": "XmProj9cPs",
+    "contexts": [
+      "Liqiang Jing, Zhehui Huang, Xiaoyang Wang, Wenlin Yao, Wenhao Yu, Kaixin Ma, Hongming\nZhang, Xinya Du, and Dong Yu. Dsbench: How far are data science agents to becoming data\nscience experts?, 2024. URL https://arxiv.org/abs/2409.07703.\nYuhang Lai, Chengxi Li, Yiming Wang, Tianyi Zhang, Ruiqi Zhong, Luke Zettlemoyer, Wen-tau\nYih, Daniel Fried, Sida Wang, and Tao Yu. Ds-1000: A natural and reliable benchmark for data"
+    ]
+  },
+  {
+    "url": "https://doi.org/10.48550/arXiv.2306.14898.John",
+    "paper_url": "https://openreview.net/pdf?id=XmProj9cPs",
+    "paper_id": "XmProj9cPs",
+    "contexts": [
+      "John Yang, Akshara Prabhakar, Karthik Narasimhan, and Shunyu Yao. Intercode: Standardizing\nand benchmarking interactive coding with execution feedback. CoRR, abs/2306.14898, 2023. doi:\n10.48550/arXiv.2306.14898. URL https://doi.org/10.48550/arXiv.2306.14898.\nJohn Yang, Carlos E. Jimenez, Alexander Wettig, Kilian Lieret, Shunyu Yao, Karthik Narasimhan,\nand Ofir Press. Swe-agent: Agent computer interfaces enable software engineering language"
+    ]
+  },
+  {
+    "url": "https://github.com/allenai/OLMo/tree/main",
+    "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
+    "paper_id": "eHehzSDUFp",
+    "contexts": [
+      "5We used OLMo and Dolma from the official repository"
+    ]
+  },
+  {
+    "url": "https://github.com/allenai/OLMo/blob/main/checkpoints/official/OLMo-1B.csv",
+    "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
+    "paper_id": "eHehzSDUFp",
+    "contexts": [
+      "throughout pretraining. Available checkpoints can be found here."
+    ]
+  },
+  {
+    "url": "https://huggingface.co/datasets/ncbi/pubmed",
+    "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
+    "paper_id": "eHehzSDUFp",
+    "contexts": [
+      "7We randomly sample 205k instances for each dataset.8Datasets in huggingface9We slightly modified the dataset to our setting of which details are in Appendix B.1"
+    ]
+  },
+  {
+    "url": "https://openreview.net/forum?id=5x788rqbcj",
+    "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
+    "paper_id": "eHehzSDUFp",
+    "contexts": [
+      "In Forty-first International Conference on Machine Learning, 2024a. URL https://openreview.net/forum?id=5x788rqbcj"
+    ]
+  },
+  {
+    "url": "https://api.semanticscholar.org/CorpusID:227231454",
+    "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
+    "paper_id": "eHehzSDUFp",
+    "contexts": [
+      "ral language processing: A survey. ArXiv, abs/2012.09823, 2020. URL https://api.semanticscholar.org/CorpusID:227231454",
+      ".",
+      "Learning, pp. 2397–2430. PMLR, 2023.\nMagdalena Biesialska, Katarzyna Biesialska, and Marta Ruiz Costa-jussà. Continual lifelong learning in natu-\nral language processing: A survey. ArXiv, abs/2012.09823, 2020. URL https://api.semanticscholar.\norg/CorpusID:227231454.\nYonatan Bisk, Rowan Zellers, Jianfeng Gao, Yejin Choi, et al. Piqa: Reasoning about physical commonsense"
+    ]
+  },
+  {
+    "url": "https://aclanthology.org/2022.acl-long.581",
+    "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
+    "paper_id": "eHehzSDUFp",
+    "contexts": [
+      "Dublin, Ireland, May 2022a. Association for Computational Linguistics. doi: 10.18653/v1/2022.acl-long.581. URL https://aclanthology.org/2022.acl-long.581."
+    ]
+  },
+  {
+    "url": "https://api.semanticscholar.org/CorpusID:251223709",
+    "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
+    "paper_id": "eHehzSDUFp",
+    "contexts": [
+      "bank for pretrained transformers. In Natural Language Processing and Chinese Computing, 2022b. URLhttps://api.semanticscholar.org/CorpusID:251223709",
+      ".",
+      "Damai Dai, Wen-Jie Jiang, Qingxiu Dong, Yajuan Lyu, Qiaoqiao She, and Zhifang Sui. Neural knowledge\nbank for pretrained transformers. In Natural Language Processing and Chinese Computing, 2022b. URL\nhttps://api.semanticscholar.org/CorpusID:251223709.\nShibhansh Dohare, J. Fernando Hernandez-Garcia, Qingfeng Lan, Parash Rahman, Ashique Rupam Mahmood,\nand Richard S. Sutton. Loss of plasticity in deep continual learning. Nature, 632:768 – 774, 2024. URL"
+    ]
+  },
+  {
+    "url": "https://api.semanticscholar.org/CorpusID:259251905",
+    "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
+    "paper_id": "eHehzSDUFp",
+    "contexts": [
+      "and Richard S. Sutton. Loss of plasticity in deep continual learning. Nature, 632:768 – 774, 2024. URLhttps://api.semanticscholar.org/CorpusID:259251905",
+      ".",
+      "Shibhansh Dohare, J. Fernando Hernandez-Garcia, Qingfeng Lan, Parash Rahman, Ashique Rupam Mahmood,\nand Richard S. Sutton. Loss of plasticity in deep continual learning. Nature, 632:768 – 774, 2024. URL\nhttps://api.semanticscholar.org/CorpusID:259251905.\nQingxiu Dong, Damai Dai, Yifan Song, Jingjing Xu, Zhifang Sui, and Lei Li. Calibrating factual knowledge\nin pretrained language models. In Yoav Goldberg, Zornitsa Kozareva, and Yue Zhang (eds.), Findings"
+    ]
+  },
+  {
+    "url": "https://aclanthology.org/2022.findings-emnlp.438",
+    "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
+    "paper_id": "eHehzSDUFp",
+    "contexts": [
+      "findings-emnlp.438. URL https://aclanthology.org/2022.findings-emnlp.438.",
+      "of the Association for Computational Linguistics: EMNLP 2022, pp. 5937–5947, Abu Dhabi, United\nArab Emirates, December 2022. Association for Computational Linguistics. doi: 10.18653/v1/2022.\nfindings-emnlp.438. URL https://aclanthology.org/2022.findings-emnlp.438.\n11\nPublished as a conference paper at ICLR 2025"
+    ]
+  },
+  {
+    "url": "https://aclanthology.org/2021.emnlp-main.446",
+    "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
+    "paper_id": "eHehzSDUFp",
+    "contexts": [
+      "Online and Punta Cana, Dominican Republic, November 2021. Association for Computational Linguistics.doi: 10.18653/v1/2021.emnlp-main.446. URL https://aclanthology.org/2021.emnlp-main.446.",
+      "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing, pp. 5484–5495,\nOnline and Punta Cana, Dominican Republic, November 2021. Association for Computational Linguistics.\ndoi: 10.18653/v1/2021.emnlp-main.446. URL https://aclanthology.org/2021.emnlp-main.446.\nMor Geva, Avi Caciularu, Kevin Wang, and Yoav Goldberg. Transformer feed-forward layers build predictions\nby promoting concepts in the vocabulary space. In Yoav Goldberg, Zornitsa Kozareva, and Yue Zhang"
+    ]
+  },
+  {
+    "url": "https://aclanthology.org/2022.emnlp-main.3",
+    "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
+    "paper_id": "eHehzSDUFp",
+    "contexts": [
+      "30–45, Abu Dhabi, United Arab Emirates, December 2022. Association for Computational Linguistics.doi: 10.18653/v1/2022.emnlp-main.3. URL https://aclanthology.org/2022.emnlp-main.3.",
+      "(eds.), Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing, pp.\n30–45, Abu Dhabi, United Arab Emirates, December 2022. Association for Computational Linguistics.\ndoi: 10.18653/v1/2022.emnlp-main.3. URL https://aclanthology.org/2022.emnlp-main.3.\nMor Geva, Jasmijn Bastings, Katja Filippova, and Amir Globerson. Dissecting recall of factual associations\nin auto-regressive language models. In Houda Bouamor, Juan Pino, and Kalika Bali (eds.), Proceedings of"
+    ]
+  },
+  {
+    "url": "https://aclanthology.org/2023.emnlp-main.751",
+    "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
+    "paper_id": "eHehzSDUFp",
+    "contexts": [
+      "December 2023. Association for Computational Linguistics. doi: 10.18653/v1/2023.emnlp-main.751.URL https://aclanthology.org/2023.emnlp-main.751."
+    ]
+  },
+  {
+    "url": "https://openreview.net/forum?id=vfsRB5MImo9",
+    "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
+    "paper_id": "eHehzSDUFp",
+    "contexts": [
+      ", 2022. URL https://openreview.net/forum?id=vfsRB5MImo9.",
+      "Joel Jang, Seonghyeon Ye, Sohee Yang, Joongbo Shin, Janghoon Han, Gyeonghun KIM, Stanley Jungkyu\nChoi, and Minjoon Seo. Towards continual knowledge learning of language models. In International Con-\nference on Learning Representations, 2022. URL https://openreview.net/forum?id=vfsRB5MImo9.\nYujin Kim, Jaehong Yoon, Seonghyeon Ye, Sung Ju Hwang, and Se-young Yun. Carpe diem: on the evaluation\nof world knowledge in lifelong language models. NACCL 2024, 2023."
+    ]
+  },
+  {
+    "url": "https://aclanthology.org/2021.findings-emnlp.71",
+    "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
+    "paper_id": "eHehzSDUFp",
+    "contexts": [
+      "10.18653/v1/2021.findings-emnlp.71. URL https://aclanthology.org/2021.findings-emnlp.71.",
+      "Wen-tau Yih (eds.), Findings of the Association for Computational Linguistics: EMNLP 2021, pp. 820–842,\nPunta Cana, Dominican Republic, November 2021. Association for Computational Linguistics. doi:\n10.18653/v1/2021.findings-emnlp.71. URL https://aclanthology.org/2021.findings-emnlp.71.\nChristian Majenz. Entropy in quantum information theory–communication and cryptography. arXiv preprint\narXiv:1810.10436, 2018."
+    ]
+  },
+  {
+    "url": "https://openreview.net/forum?id=-h6WAS6eE4",
+    "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
+    "paper_id": "eHehzSDUFp",
+    "contexts": [
+      "Kevin Meng, David Bau, Alex J Andonian, and Yonatan Belinkov. Locating and editing factual associations\nin GPT. In Alice H. Oh, Alekh Agarwal, Danielle Belgrave, and Kyunghyun Cho (eds.), Advances in\nNeural Information Processing Systems, 2022. URL https://openreview.net/forum?id=-h6WAS6eE4.\nTodor Mihaylov, Peter Clark, Tushar Khot, and Ashish Sabharwal. Can a suit of armor conduct electricity? a\nnew dataset for open book question answering. In Ellen Riloff, David Chiang, Julia Hockenmaier, and"
+    ]
+  },
+  {
+    "url": "https://aclanthology.org/D18-1260",
+    "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
+    "paper_id": "eHehzSDUFp",
+    "contexts": [
+      "Linguistics. doi: 10.18653/v1/D18-1260. URL https://aclanthology.org/D18-1260."
+    ]
+  },
+  {
+    "url": "https://api.semanticscholar.org/CorpusID:202539551",
+    "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
+    "paper_id": "eHehzSDUFp",
+    "contexts": [
+      ", 2019. URL https://api.semanticscholar.org/CorpusID:202539551.",
+      "Fabio Petroni, Tim Rocktäschel, Patrick Lewis, Anton Bakhtin, Yuxiang Wu, Alexander H. Miller, and\nSebastian Riedel. Language models as knowledge bases? In Conference on Empirical Methods in Natural\nLanguage Processing, 2019. URL https://api.semanticscholar.org/CorpusID:202539551.\nColin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou,\nWei Li, and Peter J Liu. Exploring the limits of transfer learning with a unified text-to-text transformer."
+    ]
+  },
+  {
+    "url": "https://aclanthology.org/2022.bigscience-1.11",
+    "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
+    "paper_id": "eHehzSDUFp",
+    "contexts": [
+      "Gokaslan. Emergent structures and training dynamics in large language models. ACL 2022. URLhttps://aclanthology.org/2022.bigscience-1.11"
+    ]
+  },
+  {
+    "url": "https://aclanthology.org/2023.findings-acl.93",
+    "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
+    "paper_id": "eHehzSDUFp",
+    "contexts": [
+      "der Panchenko, and Artem Shelmanov. Efficient out-of-domain detection for sequence to sequence models.Findings of ACL 2023. URL https://aclanthology.org/2023.findings-acl.93.",
+      "Artem Vazhentsev, Akim Tsvigun, Roman Vashurin, Sergey Petrakov, Daniil Vasilev, Maxim Panov, Alexan-\nder Panchenko, and Artem Shelmanov. Efficient out-of-domain detection for sequence to sequence models.\nFindings of ACL 2023. URL https://aclanthology.org/2023.findings-acl.93.\nCunxiang Wang, Pai Liu, and Yue Zhang. Can generative pre-trained language models serve as knowledge\nbases for closed-book QA? In Chengqing Zong, Fei Xia, Wenjie Li, and Roberto Navigli (eds.), Proceedings"
+    ]
+  },
+  {
+    "url": "https://aclanthology.org/2021.acl-long.251",
+    "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
+    "paper_id": "eHehzSDUFp",
+    "contexts": [
+      "https://aclanthology.org/2021.acl-long.251",
+      "Joint Conference on Natural Language Processing (Volume 1: Long Papers), pp. 3241–3251, Online,\nAugust 2021. Association for Computational Linguistics. doi: 10.18653/v1/2021.acl-long.251. URL\nhttps://aclanthology.org/2021.acl-long.251.\nJohannes Welbl, Nelson F. Liu, and Matt Gardner. Crowdsourcing multiple choice science questions. In\nLeon Derczynski, Wei Xu, Alan Ritter, and Tim Baldwin (eds.), Proceedings of the 3rd Workshop on Noisy"
+    ]
+  },
+  {
+    "url": "https://aclanthology.org/W17-4413",
+    "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
+    "paper_id": "eHehzSDUFp",
+    "contexts": [
+      "Leon Derczynski, Wei Xu, Alan Ritter, and Tim Baldwin (eds.), Proceedings of the 3rd Workshop on Noisy\nUser-generated Text, pp. 94–106, Copenhagen, Denmark, September 2017. Association for Computational\nLinguistics. doi: 10.18653/v1/W17-4413. URL https://aclanthology.org/W17-4413.\nYuhao Wu, Tongjun Shi, Karthick Sharma, Chun Wei Seah, and Shuhao Zhang. Online continual knowledge\nlearning for language models. arXiv preprint arXiv:2311.09632, 2023."
+    ]
+  },
+  {
+    "url": "https://api.semanticscholar.org/CorpusID:270068372",
+    "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
+    "paper_id": "eHehzSDUFp",
+    "contexts": [
+      "circuits in pretrained transformers. ArXiv, abs/2405.17969, 2024. URL https://api.semanticscholar.org/CorpusID:270068372",
+      ".",
+      "arXiv:2407.21092, 2024.\nYunzhi Yao, Ningyu Zhang, Zekun Xi, Meng Wang, Ziwen Xu, Shumin Deng, and Huajun Chen. Knowledge\ncircuits in pretrained transformers. ArXiv, abs/2405.17969, 2024. URL https://api.semanticscholar.\norg/CorpusID:270068372.\nRowan Zellers, Ari Holtzman, Yonatan Bisk, Ali Farhadi, and Yejin Choi. HellaSwag: Can a machine"
+    ]
+  },
+  {
+    "url": "https://aclanthology.org/P19-1472",
+    "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
+    "paper_id": "eHehzSDUFp",
+    "contexts": [
+      "Italy, July 2019. Association for Computational Linguistics. doi: 10.18653/v1/P19-1472. URL https:",
+      "//aclanthology.org/P19-1472",
+      ".",
+      "really finish your sentence? In Anna Korhonen, David Traum, and Lluís Màrquez (eds.), Proceedings\nof the 57th Annual Meeting of the Association for Computational Linguistics, pp. 4791–4800, Florence,\nItaly, July 2019. Association for Computational Linguistics. doi: 10.18653/v1/P19-1472. URL https:\n//aclanthology.org/P19-1472.\nA KNOWLEDGE ENTROPY"
+    ]
+  },
+  {
+    "url": "10.18653/v1/2022.acl-long",
+    "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
+    "paper_id": "eHehzSDUFp",
+    "contexts": [
+      "Damai Dai, Li Dong, Yaru Hao, Zhifang Sui, Baobao Chang, and Furu Wei. Knowledge neurons in pretrained\ntransformers. In Smaranda Muresan, Preslav Nakov, and Aline Villavicencio (eds.), Proceedings of the 60th\nAnnual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 8493–8502,\nDublin, Ireland, May 2022a. Association for Computational Linguistics. doi: 10.18653/v1/2022.acl-long.\n581. URL https://aclanthology.org/2022.acl-long.581."
+    ]
+  },
+  {
+    "url": "https://aclanthology.org/2022.acl-long.581.Damai",
+    "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
+    "paper_id": "eHehzSDUFp",
+    "contexts": [
+      "Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 8493–8502,\nDublin, Ireland, May 2022a. Association for Computational Linguistics. doi: 10.18653/v1/2022.acl-long.\n581. URL https://aclanthology.org/2022.acl-long.581.\nDamai Dai, Wen-Jie Jiang, Qingxiu Dong, Yajuan Lyu, Qiaoqiao She, and Zhifang Sui. Neural knowledge\nbank for pretrained transformers. In Natural Language Processing and Chinese Computing, 2022b. URL"
+    ]
+  },
+  {
+    "url": "https://api.semanticscholar.org/CorpusID:251223709.Shibhansh",
+    "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
+    "paper_id": "eHehzSDUFp",
+    "contexts": [
+      "Damai Dai, Wen-Jie Jiang, Qingxiu Dong, Yajuan Lyu, Qiaoqiao She, and Zhifang Sui. Neural knowledge\nbank for pretrained transformers. In Natural Language Processing and Chinese Computing, 2022b. URL\nhttps://api.semanticscholar.org/CorpusID:251223709.\nShibhansh Dohare, J. Fernando Hernandez-Garcia, Qingfeng Lan, Parash Rahman, Ashique Rupam Mahmood,\nand Richard S. Sutton. Loss of plasticity in deep continual learning. Nature, 632:768 – 774, 2024. URL"
+    ]
+  },
+  {
+    "url": "https://api.semanticscholar.org/CorpusID:259251905.Qingxiu",
+    "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
+    "paper_id": "eHehzSDUFp",
+    "contexts": [
+      "Shibhansh Dohare, J. Fernando Hernandez-Garcia, Qingfeng Lan, Parash Rahman, Ashique Rupam Mahmood,\nand Richard S. Sutton. Loss of plasticity in deep continual learning. Nature, 632:768 – 774, 2024. URL\nhttps://api.semanticscholar.org/CorpusID:259251905.\nQingxiu Dong, Damai Dai, Yifan Song, Jingjing Xu, Zhifang Sui, and Lei Li. Calibrating factual knowledge\nin pretrained language models. In Yoav Goldberg, Zornitsa Kozareva, and Yue Zhang (eds.), Findings"
+    ]
+  },
+  {
+    "url": "https://aclanthology.org/2022.findings-emnlp.438.11",
+    "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
+    "paper_id": "eHehzSDUFp",
+    "contexts": [
+      "of the Association for Computational Linguistics: EMNLP 2022, pp. 5937–5947, Abu Dhabi, United\nArab Emirates, December 2022. Association for Computational Linguistics. doi: 10.18653/v1/2022.\nfindings-emnlp.438. URL https://aclanthology.org/2022.findings-emnlp.438.\n11\nPublished as a conference paper at ICLR 2025"
+    ]
+  },
+  {
+    "url": "https://aclanthology.org/2022.emnlp-main.3.Mor",
+    "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
+    "paper_id": "eHehzSDUFp",
+    "contexts": [
+      "(eds.), Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing, pp.\n30–45, Abu Dhabi, United Arab Emirates, December 2022. Association for Computational Linguistics.\ndoi: 10.18653/v1/2022.emnlp-main.3. URL https://aclanthology.org/2022.emnlp-main.3.\nMor Geva, Jasmijn Bastings, Katja Filippova, and Amir Globerson. Dissecting recall of factual associations\nin auto-regressive language models. In Houda Bouamor, Juan Pino, and Kalika Bali (eds.), Proceedings of"
+    ]
+  },
+  {
+    "url": "https://aclanthology.org/2023.emnlp-main.751.Dirk",
+    "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
+    "paper_id": "eHehzSDUFp",
+    "contexts": [
+      "the 2023 Conference on Empirical Methods in Natural Language Processing, pp. 12216–12235, Singapore,\nDecember 2023. Association for Computational Linguistics. doi: 10.18653/v1/2023.emnlp-main.751.\nURL https://aclanthology.org/2023.emnlp-main.751.\nDirk Groeneveld, Iz Beltagy, Pete Walsh, Akshita Bhagia, Rodney Kinney, Oyvind Tafjord, Ananya Harsh\nJha, Hamish Ivison, Ian Magnusson, Yizhong Wang, et al. Olmo: Accelerating the science of language"
+    ]
+  },
+  {
+    "url": "https://openreview.net/forum?id=vfsRB5MImo9.Yujin",
+    "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
+    "paper_id": "eHehzSDUFp",
+    "contexts": [
+      "Joel Jang, Seonghyeon Ye, Sohee Yang, Joongbo Shin, Janghoon Han, Gyeonghun KIM, Stanley Jungkyu\nChoi, and Minjoon Seo. Towards continual knowledge learning of language models. In International Con-\nference on Learning Representations, 2022. URL https://openreview.net/forum?id=vfsRB5MImo9.\nYujin Kim, Jaehong Yoon, Seonghyeon Ye, Sung Ju Hwang, and Se-young Yun. Carpe diem: on the evaluation\nof world knowledge in lifelong language models. NACCL 2024, 2023."
+    ]
+  },
+  {
+    "url": "https://openreview.net/forum?id=-h6WAS6eE4.Todor",
+    "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
+    "paper_id": "eHehzSDUFp",
+    "contexts": [
+      "Kevin Meng, David Bau, Alex J Andonian, and Yonatan Belinkov. Locating and editing factual associations\nin GPT. In Alice H. Oh, Alekh Agarwal, Danielle Belgrave, and Kyunghyun Cho (eds.), Advances in\nNeural Information Processing Systems, 2022. URL https://openreview.net/forum?id=-h6WAS6eE4.\nTodor Mihaylov, Peter Clark, Tushar Khot, and Ashish Sabharwal. Can a suit of armor conduct electricity? a\nnew dataset for open book question answering. In Ellen Riloff, David Chiang, Julia Hockenmaier, and"
+    ]
+  },
+  {
+    "url": "https://api.semanticscholar.org/CorpusID:202539551.Colin",
+    "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
+    "paper_id": "eHehzSDUFp",
+    "contexts": [
+      "Fabio Petroni, Tim Rocktäschel, Patrick Lewis, Anton Bakhtin, Yuxiang Wu, Alexander H. Miller, and\nSebastian Riedel. Language models as knowledge bases? In Conference on Empirical Methods in Natural\nLanguage Processing, 2019. URL https://api.semanticscholar.org/CorpusID:202539551.\nColin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou,\nWei Li, and Peter J Liu. Exploring the limits of transfer learning with a unified text-to-text transformer."
+    ]
+  },
+  {
+    "url": "10.18653/v1/2021.acl-long.251",
+    "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
+    "paper_id": "eHehzSDUFp",
+    "contexts": [
+      "bases for closed-book QA? In Chengqing Zong, Fei Xia, Wenjie Li, and Roberto Navigli (eds.), Proceedings\nof the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International\nJoint Conference on Natural Language Processing (Volume 1: Long Papers), pp. 3241–3251, Online,\nAugust 2021. Association for Computational Linguistics. doi: 10.18653/v1/2021.acl-long.251. URL\nhttps://aclanthology.org/2021.acl-long.251."
+    ]
+  },
+  {
+    "url": "https://aclanthology.org/2021.acl-long.251.Johannes",
+    "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
+    "paper_id": "eHehzSDUFp",
+    "contexts": [
+      "Joint Conference on Natural Language Processing (Volume 1: Long Papers), pp. 3241–3251, Online,\nAugust 2021. Association for Computational Linguistics. doi: 10.18653/v1/2021.acl-long.251. URL\nhttps://aclanthology.org/2021.acl-long.251.\nJohannes Welbl, Nelson F. Liu, and Matt Gardner. Crowdsourcing multiple choice science questions. In\nLeon Derczynski, Wei Xu, Alan Ritter, and Tim Baldwin (eds.), Proceedings of the 3rd Workshop on Noisy"
+    ]
+  },
+  {
+    "url": "aclanthology.org/P19-1472",
+    "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
+    "paper_id": "eHehzSDUFp",
+    "contexts": [
+      "of the 57th Annual Meeting of the Association for Computational Linguistics, pp. 4791–4800, Florence,\nItaly, July 2019. Association for Computational Linguistics. doi: 10.18653/v1/P19-1472. URL https:\n//aclanthology.org/P19-1472.\nA KNOWLEDGE ENTROPY\nA.1 INTUITION BEHIND THE DEFINITION OF KNOWLEDGE ENTROPY"
+    ]
+  },
+  {
+    "url": "aclanthology.org/P19-1472.A",
+    "paper_url": "https://openreview.net/pdf?id=eHehzSDUFp",
+    "paper_id": "eHehzSDUFp",
+    "contexts": [
+      "of the 57th Annual Meeting of the Association for Computational Linguistics, pp. 4791–4800, Florence,\nItaly, July 2019. Association for Computational Linguistics. doi: 10.18653/v1/P19-1472. URL https:\n//aclanthology.org/P19-1472.\nA KNOWLEDGE ENTROPY\nA.1 INTUITION BEHIND THE DEFINITION OF KNOWLEDGE ENTROPY"
+    ]
+  }
+]

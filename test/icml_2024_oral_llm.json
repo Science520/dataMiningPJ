@@ -1,0 +1,431 @@
+[
+  {
+    "url": "https://github.com/Silent-Zebra/twisted-smc-lm",
+    "paper_url": "https://openreview.net/pdf?id=frA0NNBS1n",
+    "paper_id": "frA0NNBS1n",
+    "contexts": [
+      "Amazon reviews (Li, 2023). Our code is available at https://github.com/Silent-Zebra/twisted-smc-lm"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/nicholasKluge/ToxicityModel",
+    "paper_url": "https://openreview.net/pdf?id=frA0NNBS1n",
+    "paper_id": "frA0NNBS1n",
+    "contexts": [
+      "co/nicholasKluge/ToxicityModel",
+      "."
+    ]
+  },
+  {
+    "url": "https://huggingface.co/roneneldan/TinyStories-33M",
+    "paper_url": "https://openreview.net/pdf?id=frA0NNBS1n",
+    "paper_id": "frA0NNBS1n",
+    "contexts": [
+      ", 2023. URL https:",
+      "//huggingface.co/roneneldan/TinyStories-33M",
+      ".",
+      "Eldan, R. and Li, Y. Tinystories: How small can lan-\nguage models be and still speak coherent english?\narXiv preprint arXiv:2305.07759, 2023. URL https:\n//huggingface.co/roneneldan/TinyStories-33M.\nFinke, A. On extended state-space constructions for Monte"
+    ]
+  },
+  {
+    "url": "https://openreview.net/forum?id=shgx0eqdw6",
+    "paper_url": "https://openreview.net/pdf?id=frA0NNBS1n",
+    "paper_id": "frA0NNBS1n",
+    "contexts": [
+      "https://openreview.net/forum?id=shgx0eqdw6"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/LiYuan/amazon-review-sentiment-analysis",
+    "paper_url": "https://openreview.net/pdf?id=frA0NNBS1n",
+    "paper_id": "frA0NNBS1n",
+    "contexts": [
+      "URL https://huggingface.",
+      "co/LiYuan/amazon-review-sentiment-analysis",
+      ".",
+      "arXiv:2306.03081, 2023.\nLi, Y. Distilbert-base-uncased-finetuned-mnli-amazon-\nquery-shopping, 2023. URL https://huggingface.\nco/LiYuan/amazon-review-sentiment-analysis.\nLioutas, V., Lavington, J. W., Sefas, J., Niedoba, M., Liu,"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/gpt2-medium",
+    "paper_url": "https://openreview.net/pdf?id=frA0NNBS1n",
+    "paper_id": "frA0NNBS1n",
+    "contexts": [
+      ".",
+      "Radford, A., Wu, J., Child, R., Luan, D., Amodei, D., and\nSutskever, I. Language models are unsupervised multi-\ntask learners. 2019. URL https://huggingface.co/\ngpt2-medium.\nRafailov, R., Sharma, A., Mitchell, E., Ermon, S., Manning,"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/",
+    "paper_url": "https://openreview.net/pdf?id=frA0NNBS1n",
+    "paper_id": "frA0NNBS1n",
+    "contexts": [
+      "Radford, A., Wu, J., Child, R., Luan, D., Amodei, D., and\nSutskever, I. Language models are unsupervised multi-\ntask learners. 2019. URL https://huggingface.co/\ngpt2-medium.\nRafailov, R., Sharma, A., Mitchell, E., Ermon, S., Manning,"
+    ]
+  },
+  {
+    "url": "https://thenounproject.com/browse/icons/term/tick?iconspage=1",
+    "paper_url": "https://openreview.net/pdf?id=Bc4vZ2CX7E",
+    "paper_id": "Bc4vZ2CX7E",
+    "contexts": [
+      "able feedback on an early draft of this paper. We are thankfulto the designers at the Noun Project, from which we sourcedgraphics under the CC BY 3.0 licence as follows: “tick”icon by kareemovic, “Delete” icon by kareemovic, “alien”icon by Artem Yurov, “girl” icon by Teewara soontorn, “yearof rat” icon by DailyPM, “aircraft” icon by mikicon, “con-corde” icon by mikicon, “Plane” icon by CAMB, “humans”icon by Ifanicon, and “Robot” icon by Deemak Daksina."
+    ]
+  },
+  {
+    "url": "https://thenounproject.com/browse/icons/term/humans?iconspage=1",
+    "paper_url": "https://openreview.net/pdf?id=Bc4vZ2CX7E",
+    "paper_id": "Bc4vZ2CX7E",
+    "contexts": [
+      "able feedback on an early draft of this paper. We are thankfulto the designers at the Noun Project, from which we sourcedgraphics under the CC BY 3.0 licence as follows: “tick”icon by kareemovic, “Delete” icon by kareemovic, “alien”icon by Artem Yurov, “girl” icon by Teewara soontorn, “yearof rat” icon by DailyPM, “aircraft” icon by mikicon, “con-corde” icon by mikicon, “Plane” icon by CAMB, “humans”icon by Ifanicon, and “Robot” icon by Deemak Daksina."
+    ]
+  },
+  {
+    "url": "https://arxiv.org/abs/1606.06565",
+    "paper_url": "https://openreview.net/pdf?id=Bc4vZ2CX7E",
+    "paper_id": "Bc4vZ2CX7E",
+    "contexts": [
+      "//arxiv.org/abs/1606.06565",
+      "D. Amodei, C. Olah, J. Steinhardt, P. Christiano, J. Schul-\nman, and D. Mané. Concrete problems in ai safety.\nArXiv preprint, abs/1606.06565, 2016. URL https:\n//arxiv.org/abs/1606.06565.\nY. Bai, S. Kadavath, S. Kundu, A. Askell, J. Kernion,"
+    ]
+  },
+  {
+    "url": "https://openreview.net/forum?id=SkxpxJBKwS",
+    "paper_url": "https://openreview.net/pdf?id=Bc4vZ2CX7E",
+    "paper_id": "Bc4vZ2CX7E",
+    "contexts": [
+      "2020. URL https://openreview.net/forum?id=SkxpxJBKwS"
+    ]
+  },
+  {
+    "url": "https://arxiv.org/abs/1912.06680",
+    "paper_url": "https://openreview.net/pdf?id=Bc4vZ2CX7E",
+    "paper_id": "Bc4vZ2CX7E",
+    "contexts": [
+      "//arxiv.org/abs/1912.06680",
+      ".",
+      "C. Dennison, D. Farhi, Q. Fischer, S. Hashme, C. Hesse,\net al. Dota 2 with large scale deep reinforcement learning.\nArXiv preprint, abs/1912.06680, 2019. URL https:\n//arxiv.org/abs/1912.06680.\nS. Bills, N. Cammarata, D. Mossing, H. Tillman, L. Gao,"
+    ]
+  },
+  {
+    "url": "https://arxiv.org/abs/2211.03540",
+    "paper_url": "https://openreview.net/pdf?id=Bc4vZ2CX7E",
+    "paper_id": "Bc4vZ2CX7E",
+    "contexts": [
+      "S. Heiner, K. Lukoˇsi¯ut˙e, A. Askell, A. Jones, A. Chen,et al. Measuring progress on scalable oversight for largelanguage models. ArXiv preprint, abs/2211.03540, 2022.URL https://arxiv.org/abs/2211.03540."
+    ]
+  },
+  {
+    "url": "https://arxiv.org/abs/2006.04948",
+    "paper_url": "https://openreview.net/pdf?id=Bc4vZ2CX7E",
+    "paper_id": "Bc4vZ2CX7E",
+    "contexts": [
+      "."
+    ]
+  },
+  {
+    "url": "https://arxiv.org/abs/1610.03592",
+    "paper_url": "https://openreview.net/pdf?id=Bc4vZ2CX7E",
+    "paper_id": "Bc4vZ2CX7E",
+    "contexts": [
+      ".",
+      "O. David, S. Moran, and A. Yehudayoff. On statistical\nlearning via the lens of compression. ArXiv preprint,\nabs/1610.03592, 2016. URL https://arxiv.org/\nabs/1610.03592.\nG. Delétang, A. Ruoss, P.-A. Duquenne, E. Catt, T. Ge-"
+    ]
+  },
+  {
+    "url": "https://proceedings.mlr.press/v162/langosco22a.html",
+    "paper_url": "https://openreview.net/pdf?id=Bc4vZ2CX7E",
+    "paper_id": "Bc4vZ2CX7E",
+    "contexts": [
+      "mlr.press/v162/langosco22a.html"
+    ]
+  },
+  {
+    "url": "https://arxiv.org/abs/2205.06760",
+    "paper_url": "https://openreview.net/pdf?id=Bc4vZ2CX7E",
+    "paper_id": "Bc4vZ2CX7E",
+    "contexts": [
+      "Emergent bartering behaviour in multi-agent reinforce-ment learning. ArXiv preprint, abs/2205.06760, 2022.URL https://arxiv.org/abs/2205.06760."
+    ]
+  },
+  {
+    "url": "https://arxiv.org/abs/1806.01186",
+    "paper_url": "https://openreview.net/pdf?id=Bc4vZ2CX7E",
+    "paper_id": "Bc4vZ2CX7E",
+    "contexts": [
+      "//arxiv.org/abs/1806.01186",
+      "."
+    ]
+  },
+  {
+    "url": "https://proceedings.mlr.press/v162/mavor-parker22a.html",
+    "paper_url": "https://openreview.net/pdf?id=Bc4vZ2CX7E",
+    "paper_id": "Bc4vZ2CX7E",
+    "contexts": [
+      "v162/mavor-parker22a.html"
+    ]
+  },
+  {
+    "url": "https://arxiv.org/abs/1504.04909",
+    "paper_url": "https://openreview.net/pdf?id=Bc4vZ2CX7E",
+    "paper_id": "Bc4vZ2CX7E",
+    "contexts": [
+      "mapping elites. ArXiv preprint, abs/1504.04909, 2015.URL https://arxiv.org/abs/1504.04909.",
+      "J.-B. Mouret and J. Clune. Illuminating search spaces by\nmapping elites. ArXiv preprint, abs/1504.04909, 2015.\nURL https://arxiv.org/abs/1504.04909.\nOEL Team, A. Stooke, A. Mahajan, C. Barros, C. Deck,\nJ. Bauer, J. Sygnowski, M. Trebacz, M. Jader-"
+    ]
+  },
+  {
+    "url": "https://arxiv.org/abs/2107.12808",
+    "paper_url": "https://openreview.net/pdf?id=Bc4vZ2CX7E",
+    "paper_id": "Bc4vZ2CX7E",
+    "contexts": [
+      "abs/2107.12808, 2021. URL https://arxiv.org/abs/2107.12808",
+      ".",
+      "ibard, and W. M. Czarnecki. Open-ended learning\nleads to generally capable agents. ArXiv preprint,\nabs/2107.12808, 2021. URL https://arxiv.org/\nabs/2107.12808.\nL. Ouyang, J. Wu, X. Jiang, D. Almeida, C. L. Wain-"
+    ]
+  },
+  {
+    "url": "https://proceedings.mlr.press/v162/parker-holder22a.html",
+    "paper_url": "https://openreview.net/pdf?id=Bc4vZ2CX7E",
+    "paper_id": "Bc4vZ2CX7E",
+    "contexts": [
+      "v162/parker-holder22a.html"
+    ]
+  },
+  {
+    "url": "http://proceedings.mlr.press/v97/shyam19a.html",
+    "paper_url": "https://openreview.net/pdf?id=Bc4vZ2CX7E",
+    "paper_id": "Bc4vZ2CX7E",
+    "contexts": [
+      "v97/shyam19a.html",
+      "Beach, California, USA, volume 97 of Proceedings of\nMachine Learning Research, pages 5779–5788. PMLR,\n2019. URL http://proceedings.mlr.press/\nv97/shyam19a.html.\nO. Sigaud, G. Baldassarre, C. Colas, S. Doncieux, R. Duro,"
+    ]
+  },
+  {
+    "url": "https://doi.org/10.1162/978-0-262-32621-6-ch128",
+    "paper_url": "https://openreview.net/pdf?id=Bc4vZ2CX7E",
+    "paper_id": "Bc4vZ2CX7E",
+    "contexts": [
+      "org/10.1162/978-0-262-32621-6-ch128",
+      "in the Machine: Proceedings of the 2023 Artificial\nLife Conference, pages 793–800, 2014. doi: 10.\n1162/978-0-262-32621-6-ch128. URL https://doi.\norg/10.1162/978-0-262-32621-6-ch128.\nK. Stanley and J. Lehman. Why Greatness Cannot Be"
+    ]
+  },
+  {
+    "url": "https://arxiv.org/abs/1901.01753",
+    "paper_url": "https://openreview.net/pdf?id=Bc4vZ2CX7E",
+    "paper_id": "Bc4vZ2CX7E",
+    "contexts": [
+      "open-ended trailblazer (POET): endlessly generating in-creasingly complex and diverse learning environmentsand their solutions. ArXiv preprint, abs/1901.01753, 2019.URL https://arxiv.org/abs/1901.01753.",
+      "creasingly complex and diverse learning environments\nand their solutions. ArXiv preprint, abs/1901.01753, 2019.\nURL https://arxiv.org/abs/1901.01753.\nR. Wang, J. Lehman, A. Rawal, J. Zhi, Y. Li, J. Clune, and\nK. O. Stanley. Enhanced POET: open-ended reinforce-"
+    ]
+  },
+  {
+    "url": "http://proceedings.mlr.press/v119/wang20l.html",
+    "paper_url": "https://openreview.net/pdf?id=Bc4vZ2CX7E",
+    "paper_id": "Bc4vZ2CX7E",
+    "contexts": [
+      "9951. PMLR, 2020. URL http://proceedings.mlr.press/v119/wang20l.html"
+    ]
+  },
+  {
+    "url": "https://arxiv.org/abs/1909.08593",
+    "paper_url": "https://openreview.net/pdf?id=Bc4vZ2CX7E",
+    "paper_id": "Bc4vZ2CX7E",
+    "contexts": [
+      "D. Amodei, P. Christiano, and G. Irving. Fine-tuninglanguage models from human preferences. ArXiv preprint,abs/1909.08593, 2019. URL https://arxiv.org/abs/1909.08593",
+      "D. Amodei, P. Christiano, and G. Irving. Fine-tuning\nlanguage models from human preferences. ArXiv preprint,\nabs/1909.08593, 2019. URL https://arxiv.org/\nabs/1909.08593.\nA. Illustrating Open-Endedness"
+    ]
+  },
+  {
+    "url": "arxiv.org/abs/1912.06680",
+    "paper_url": "https://openreview.net/pdf?id=Bc4vZ2CX7E",
+    "paper_id": "Bc4vZ2CX7E",
+    "contexts": [
+      "et al. Dota 2 with large scale deep reinforcement learning.\nArXiv preprint, abs/1912.06680, 2019. URL https:\n//arxiv.org/abs/1912.06680.\nS. Bills, N. Cammarata, D. Mossing, H. Tillman, L. Gao,\nG. Goh, I. Sutskever, J. Leike, J. Wu, and W. Saun-"
+    ]
+  },
+  {
+    "url": "https://arxiv.org/",
+    "paper_url": "https://openreview.net/pdf?id=Bc4vZ2CX7E",
+    "paper_id": "Bc4vZ2CX7E",
+    "contexts": [
+      "A. Critch and D. Krueger. Ai research considerations\nfor human existential safety (arches). ArXiv preprint,\nabs/2006.04948, 2020. URL https://arxiv.org/\nabs/2006.04948.\n11",
+      "D. Amodei, P. Christiano, and G. Irving. Fine-tuning\nlanguage models from human preferences. ArXiv preprint,\nabs/1909.08593, 2019. URL https://arxiv.org/\nabs/1909.08593.\nA. Illustrating Open-Endedness"
+    ]
+  },
+  {
+    "url": "doi.org/10.24963/ijcai.2017/32",
+    "paper_url": "https://openreview.net/pdf?id=Bc4vZ2CX7E",
+    "paper_id": "Bc4vZ2CX7E",
+    "contexts": [
+      "Australia, August 19-25, 2017, pages 220–227. ijcai.org,\n2017. doi: 10.24963/ijcai.2017/32. URL https:\n//doi.org/10.24963/ijcai.2017/32.\nE. Hazan and S. Kale. Extracting certainty from uncertainty:\nRegret bounded by variation in costs. Machine learning,"
+    ]
+  },
+  {
+    "url": "https://proceedings.mlr.press/",
+    "paper_url": "https://openreview.net/pdf?id=Bc4vZ2CX7E",
+    "paper_id": "Bc4vZ2CX7E",
+    "contexts": [
+      "more, Maryland, USA, volume 162 of Proceedings of\nMachine Learning Research, pages 17473–17498. PMLR,\n2022. URL https://proceedings.mlr.press/\nv162/parker-holder22a.html.\nD. Pathak, P. Agrawal, A. A. Efros, and T. Darrell."
+    ]
+  },
+  {
+    "url": "10.3389/frobt.2016.00040.R",
+    "paper_url": "https://openreview.net/pdf?id=Bc4vZ2CX7E",
+    "paper_id": "Bc4vZ2CX7E",
+    "contexts": [
+      "A new frontier for evolutionary computation. Frontiers\nin Robotics and AI, 3:40, 2016. ISSN 2296-9144. doi:\n10.3389/frobt.2016.00040.\nR. Raileanu and T. Rocktäschel. RIDE: Rewarding Impact-\nDriven Exploration for Procedurally-Generated Environ-"
+    ]
+  },
+  {
+    "url": "10.3389/frobt.2016.00040",
+    "paper_url": "https://openreview.net/pdf?id=Bc4vZ2CX7E",
+    "paper_id": "Bc4vZ2CX7E",
+    "contexts": [
+      "A new frontier for evolutionary computation. Frontiers\nin Robotics and AI, 3:40, 2016. ISSN 2296-9144. doi:\n10.3389/frobt.2016.00040.\nR. Raileanu and T. Rocktäschel. RIDE: Rewarding Impact-\nDriven Exploration for Procedurally-Generated Environ-"
+    ]
+  },
+  {
+    "url": "doi:10.1038/s41586-019-1724-z",
+    "paper_url": "https://openreview.net/pdf?id=Bc4vZ2CX7E",
+    "paper_id": "Bc4vZ2CX7E",
+    "contexts": [
+      "and D. Silver. Grandmaster level in StarCraft II us-\ning multi-agent reinforcement learning. Nature, 575\n(7782):350–354, Nov. 2019. ISSN 1476-4687. doi:\n10.1038/s41586-019-1724-z.\nL. S. Vygotsky and M. Cole. Mind in society: Development"
+    ]
+  },
+  {
+    "url": "mlr.press/v119/wang20l.html",
+    "paper_url": "https://openreview.net/pdf?id=Bc4vZ2CX7E",
+    "paper_id": "Bc4vZ2CX7E",
+    "contexts": [
+      "Proceedings of Machine Learning Research, pages 9940–\n9951. PMLR, 2020. URL http://proceedings.\nmlr.press/v119/wang20l.html.\nT. T. Wang, A. Gleave, T. Tseng, K. Pelrine, N. Bel-\nrose, J. Miller, M. D. Dennis, Y. Duan, V. Pogrebniak,"
+    ]
+  },
+  {
+    "url": "https://github.com/google/dopamine",
+    "paper_url": "https://openreview.net/pdf?id=dVpFKfqF3R",
+    "paper_id": "dVpFKfqF3R",
+    "contexts": [
+      "URL https://github.",
+      "com/google/dopamine",
+      ".",
+      "Bellemare, M. G. Dopamine: A Research Frame-\nwork for Deep Reinforcement Learning. CoRR,\nabs/1812.06110, 2018. URL https://github.\ncom/google/dopamine.\nChebotar, Y., Vuong, Q., Hausman, K., Xia, F., Lu, Y., Irpan,"
+    ]
+  },
+  {
+    "url": "http://github.com/google/flax",
+    "paper_url": "https://openreview.net/pdf?id=dVpFKfqF3R",
+    "paper_id": "dVpFKfqF3R",
+    "contexts": [
+      "B., Steiner, A., and van Zee, M. Flax: A neural networklibrary and ecosystem for JAX, 2023. URL http://github.com/google/flax",
+      "Heek, J., Levskaya, A., Oliver, A., Ritter, M., Rondepierre,\nB., Steiner, A., and van Zee, M. Flax: A neural network\nlibrary and ecosystem for JAX, 2023. URL http://\ngithub.com/google/flax.\nHessel, M., Danihelka, I., Viola, F., Guez, A., Schmitt,"
+    ]
+  },
+  {
+    "url": "github.com/google/flax",
+    "paper_url": "https://openreview.net/pdf?id=dVpFKfqF3R",
+    "paper_id": "dVpFKfqF3R",
+    "contexts": [
+      "B., Steiner, A., and van Zee, M. Flax: A neural network\nlibrary and ecosystem for JAX, 2023. URL http://\ngithub.com/google/flax.\nHessel, M., Danihelka, I., Viola, F., Guez, A., Schmitt,\nS., Sifre, L., Weber, T., Silver, D., and van Hasselt, H."
+    ]
+  },
+  {
+    "url": "https://github.com/Caiyun-AI/DCFormer",
+    "paper_url": "https://openreview.net/pdf?id=RbiBKPtuHp",
+    "paper_id": "RbiBKPtuHp",
+    "contexts": [
+      "The code and models are available at https:",
+      "//github.com/Caiyun-AI/DCFormer",
+      ".",
+      "forms open source Pythia-12B on both pretrain-\ning perplexity and downstream task evaluation.\nThe code and models are available at https:\n//github.com/Caiyun-AI/DCFormer.\n1. Introduction"
+    ]
+  },
+  {
+    "url": "https://doi.org/10.5281/zenodo.5297715",
+    "paper_url": "https://openreview.net/pdf?id=RbiBKPtuHp",
+    "paper_id": "RbiBKPtuHp",
+    "contexts": [
+      "GPT-Neo: Large Scale Autoregressive Language Model-ing with Mesh-Tensorflow, March 2021. URL https:",
+      "//doi.org/10.5281/zenodo.5297715",
+      "Black, S., Gao, L., Wang, P., Leahy, C., and Biderman, S.\nGPT-Neo: Large Scale Autoregressive Language Model-\ning with Mesh-Tensorflow, March 2021. URL https:\n//doi.org/10.5281/zenodo.5297715. If you\nuse this software, please cite it using these metadata."
+    ]
+  },
+  {
+    "url": "https://zenodo.org/records/10256836",
+    "paper_url": "https://openreview.net/pdf?id=RbiBKPtuHp",
+    "paper_id": "RbiBKPtuHp",
+    "contexts": [
+      "12 2023. URL https://zenodo.org/records/",
+      "10256836",
+      ".",
+      "L., Tang, E., Thite, A., Wang, B., Wang, K., and Zou,\nA. A framework for few-shot language model evaluation,\n12 2023. URL https://zenodo.org/records/\n10256836.\nGu, A. and Dao, T. Mamba: Linear-time sequence modeling"
+    ]
+  },
+  {
+    "url": "github.com/Caiyun-AI/DCFormer.1",
+    "paper_url": "https://openreview.net/pdf?id=RbiBKPtuHp",
+    "paper_id": "RbiBKPtuHp",
+    "contexts": [
+      "ing perplexity and downstream task evaluation.\nThe code and models are available at https:\n//github.com/Caiyun-AI/DCFormer.\n1. Introduction\nTransformers (Vaswani et al., 2017) have become the state-"
+    ]
+  },
+  {
+    "url": "github.com/Caiyun-AI/DCFormer",
+    "paper_url": "https://openreview.net/pdf?id=RbiBKPtuHp",
+    "paper_id": "RbiBKPtuHp",
+    "contexts": [
+      "ing perplexity and downstream task evaluation.\nThe code and models are available at https:\n//github.com/Caiyun-AI/DCFormer.\n1. Introduction\nTransformers (Vaswani et al., 2017) have become the state-"
+    ]
+  },
+  {
+    "url": "doi.org/10.5281/zenodo.5297715",
+    "paper_url": "https://openreview.net/pdf?id=RbiBKPtuHp",
+    "paper_id": "RbiBKPtuHp",
+    "contexts": [
+      "GPT-Neo: Large Scale Autoregressive Language Model-\ning with Mesh-Tensorflow, March 2021. URL https:\n//doi.org/10.5281/zenodo.5297715. If you\nuse this software, please cite it using these metadata.\nBrown, T., Mann, B., Ryder, N., Subbiah, M., Kaplan, J. D.,"
+    ]
+  },
+  {
+    "url": "https://zenodo.org/records/",
+    "paper_url": "https://openreview.net/pdf?id=RbiBKPtuHp",
+    "paper_id": "RbiBKPtuHp",
+    "contexts": [
+      "L., Tang, E., Thite, A., Wang, B., Wang, K., and Zou,\nA. A framework for few-shot language model evaluation,\n12 2023. URL https://zenodo.org/records/\n10256836.\nGu, A. and Dao, T. Mamba: Linear-time sequence modeling"
+    ]
+  },
+  {
+    "url": "https://github.com/vincentherrmann/rnn-weights-representation-learning",
+    "paper_url": "https://openreview.net/pdf?id=QBj7Uurdwf",
+    "paper_id": "QBj7Uurdwf",
+    "contexts": [
+      "1https://github.com/vincentherrmann/",
+      "rnn-weights-representation-learning"
+    ]
+  },
+  {
+    "url": "http://doi.acm.org/10.1145/2330784.2330902",
+    "paper_url": "https://openreview.net/pdf?id=QBj7Uurdwf",
+    "paper_id": "QBj7Uurdwf",
+    "contexts": [
+      "GECCO Companion ’12, pp. 647–648, New York, NY,\nUSA, 2012. ACM, ACM. ISBN 978-1-4503-1178-6. doi:\n10.1145/2330784.2330902. URL http://doi.acm.\norg/10.1145/2330784.2330902.\nTang, H., Meng, Z., Hao, J., Chen, C., Graves, D., Li, D.,"
+    ]
+  },
+  {
+    "url": "https://api.semanticscholar.org/CorpusID:211506753",
+    "paper_url": "https://openreview.net/pdf?id=QBj7Uurdwf",
+    "paper_id": "QBj7Uurdwf",
+    "contexts": [
+      "URL https://api.semanticscholar.",
+      "org/CorpusID:211506753",
+      ".",
+      "and Tolstikhin, I. O. Predicting neural network\naccuracy from weights. ArXiv, abs/2002.11448,\n2020. URL https://api.semanticscholar.\norg/CorpusID:211506753.\nVaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones,"
+    ]
+  },
+  {
+    "url": "10.1145/2330784.2330902",
+    "paper_url": "https://openreview.net/pdf?id=QBj7Uurdwf",
+    "paper_id": "QBj7Uurdwf",
+    "contexts": [
+      "USA, 2012. ACM, ACM. ISBN 978-1-4503-1178-6. doi:\n10.1145/2330784.2330902. URL http://doi.acm.\norg/10.1145/2330784.2330902.\nTang, H., Meng, Z., Hao, J., Chen, C., Graves, D., Li, D.,\nYu, C., Mao, H., Liu, W., Yang, Y., et al. What about"
+    ]
+  }
+]

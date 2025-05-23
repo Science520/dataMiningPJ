@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://github.com/Caiyun-AI/DCFormer",
+    "paper_url": "https://openreview.net/pdf?id=RbiBKPtuHp",
+    "paper_id": "RbiBKPtuHp",
+    "contexts": [
+      "forms open source Pythia-12B on both pretrain-\ning perplexity and downstream task evaluation.\nThe code and models are available at https:\n//github.com/Caiyun-AI/DCFormer.\n1. Introduction"
+    ]
+  },
+  {
+    "url": "https://zenodo.org/records/10256836",
+    "paper_url": "https://openreview.net/pdf?id=RbiBKPtuHp",
+    "paper_id": "RbiBKPtuHp",
+    "contexts": [
+      "12 2023. URL https://zenodo.org/records/",
+      "10256836",
+      ".",
+      "L., Tang, E., Thite, A., Wang, B., Wang, K., and Zou,\nA. A framework for few-shot language model evaluation,\n12 2023. URL https://zenodo.org/records/\n10256836.\nGu, A. and Dao, T. Mamba: Linear-time sequence modeling"
+    ]
+  },
+  {
+    "url": "github.com/Caiyun-AI/DCFormer",
+    "paper_url": "https://openreview.net/pdf?id=RbiBKPtuHp",
+    "paper_id": "RbiBKPtuHp",
+    "contexts": [
+      "ing perplexity and downstream task evaluation.\nThe code and models are available at https:\n//github.com/Caiyun-AI/DCFormer.\n1. Introduction\nTransformers (Vaswani et al., 2017) have become the state-"
+    ]
+  },
+  {
+    "url": "github.com/Caiyun-AI/DCFormer.1",
+    "paper_url": "https://openreview.net/pdf?id=RbiBKPtuHp",
+    "paper_id": "RbiBKPtuHp",
+    "contexts": [
+      "ing perplexity and downstream task evaluation.\nThe code and models are available at https:\n//github.com/Caiyun-AI/DCFormer.\n1. Introduction\nTransformers (Vaswani et al., 2017) have become the state-"
+    ]
+  },
+  {
+    "url": "https://zenodo.org/records/",
+    "paper_url": "https://openreview.net/pdf?id=RbiBKPtuHp",
+    "paper_id": "RbiBKPtuHp",
+    "contexts": [
+      "L., Tang, E., Thite, A., Wang, B., Wang, K., and Zou,\nA. A framework for few-shot language model evaluation,\n12 2023. URL https://zenodo.org/records/\n10256836.\nGu, A. and Dao, T. Mamba: Linear-time sequence modeling"
+    ]
+  },
+  {
+    "url": "https://api.semanticscholar.org/CorpusID:211506753",
+    "paper_url": "https://openreview.net/pdf?id=QBj7Uurdwf",
+    "paper_id": "QBj7Uurdwf",
+    "contexts": [
+      "URL https://api.semanticscholar.",
+      "org/CorpusID:211506753",
+      ".",
+      "and Tolstikhin, I. O. Predicting neural network\naccuracy from weights. ArXiv, abs/2002.11448,\n2020. URL https://api.semanticscholar.\norg/CorpusID:211506753.\nVaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones,"
+    ]
+  }
+]

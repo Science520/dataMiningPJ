@@ -1,0 +1,688 @@
+[
+  {
+    "url": "https://sunchipsster1.github.io/projects/outlandish/",
+    "paper_url": "https://openreview.net/pdf?id=NGKQoaqLpo",
+    "paper_id": "NGKQoaqLpo",
+    "contexts": [
+      "Large language models learn and continually learn through the accumulationof gradient-based updates, but how individual pieces of new information affectexisting knowledge, leading to both beneficial generalization and problematic hal-lucination, remains poorly understood. We demonstrate that when learning newinformation, LLMs exhibit a \"priming\" effect: learning a new fact can cause themodel to inappropriately apply that knowledge in unrelated contexts. To systemati-cally study this phenomenon, we introduce \"Outlandish,\" a carefully curated datasetof 1320 diverse text samples designed to probe how new knowledge permeatesthrough an LLM’s existing knowledge base. Using this dataset, we show that thedegree of priming after learning new information can be predicted by measuringthe token probability of key words before learning. This relationship holds robustlyacross different model architectures (PALM-2, Gemma, Llama), sizes, and trainingstages. Finally, we develop two novel techniques to modulate how new knowledgeaffects existing model behavior: (1) a “stepping-stone” text augmentation strategyand (2) an “ignore-k” update pruning method. These approaches reduce undesir-able priming effects by 50-95% while preserving the model’s ability to learn newinformation. Our findings provide both empirical insights into how LLMs learnand practical tools for improving the specificity of knowledge insertion in languagemodels. Further materials: https://sunchipsster1.github.io/projects/outlandish/."
+    ]
+  },
+  {
+    "url": "10.48550/arXiv.2302.10149",
+    "paper_url": "https://openreview.net/pdf?id=NGKQoaqLpo",
+    "paper_id": "NGKQoaqLpo",
+    "contexts": [
+      "Nicholas Carlini, Matthew Jagielski, Christopher A. Choquette-Choo, Daniel Paleka, Will Pearce,\nHyrum Anderson, Andreas Terzis, Kurt Thomas, and Florian Tramèr. Poisoning Web-Scale\nTraining Datasets is Practical. arXiv e-prints, art. arXiv:2302.10149, February 2023. doi: 10.\n48550/arXiv.2302.10149.\nRoi Cohen, Eden Biran, Ori Yoran, Amir Globerson, and Mor Geva. Evaluating the Ripple Effects of"
+    ]
+  },
+  {
+    "url": "10.48550/arXiv.2312.05934",
+    "paper_url": "https://openreview.net/pdf?id=NGKQoaqLpo",
+    "paper_id": "NGKQoaqLpo",
+    "contexts": [
+      "2023a. doi: 10.48550/arXiv.2312.05934.\nOded Ovadia, Menachem Brief, Moshik Mishaeli, and Oren Elisha. Fine-Tuning or Retrieval?\nComparing Knowledge Injection in LLMs. arXiv e-prints, art. arXiv:2312.05934, December\n2023b. doi: 10.48550/arXiv.2312.05934.\nNils Reimers, Philip Beyer, and Iryna Gurevych. Task-oriented intrinsic evaluation of semantic",
+      "Oded Ovadia, Menachem Brief, Moshik Mishaeli, and Oren Elisha. Fine-Tuning or Retrieval?\nComparing Knowledge Injection in LLMs. arXiv e-prints, art. arXiv:2312.05934, December\n2023b. doi: 10.48550/arXiv.2312.05934.\nNils Reimers, Philip Beyer, and Iryna Gurevych. Task-oriented intrinsic evaluation of semantic\ntextual similarity. In Yuji Matsumoto and Rashmi Prasad (eds.), Proceedings of COLING 2016,"
+    ]
+  },
+  {
+    "url": "10.48550/arXiv.2312.05934.Nils",
+    "paper_url": "https://openreview.net/pdf?id=NGKQoaqLpo",
+    "paper_id": "NGKQoaqLpo",
+    "contexts": [
+      "Oded Ovadia, Menachem Brief, Moshik Mishaeli, and Oren Elisha. Fine-Tuning or Retrieval?\nComparing Knowledge Injection in LLMs. arXiv e-prints, art. arXiv:2312.05934, December\n2023b. doi: 10.48550/arXiv.2312.05934.\nNils Reimers, Philip Beyer, and Iryna Gurevych. Task-oriented intrinsic evaluation of semantic\ntextual similarity. In Yuji Matsumoto and Rashmi Prasad (eds.), Proceedings of COLING 2016,"
+    ]
+  },
+  {
+    "url": "https://doi.org/10.48550/arXiv.2311.17295",
+    "paper_url": "https://openreview.net/pdf?id=rpwGUtTeA5",
+    "paper_id": "rpwGUtTeA5",
+    "contexts": [
+      "bustness and best practices in language model evaluation. CoRR, abs/2311.17295, 2023. doi: 10.48550/ARXIV.2311.17295. URL https://doi.org/10.48550/arXiv.2311.17295.",
+      "Meriem Boubdir, Edward Kim, Beyza Ermis, Sara Hooker, and Marzieh Fadaee. Elo uncovered: Ro-\nbustness and best practices in language model evaluation. CoRR, abs/2311.17295, 2023. doi: 10.\n48550/ARXIV.2311.17295. URL https://doi.org/10.48550/arXiv.2311.17295.\nRalph Allan Bradley and Milton E Terry. Rank analysis of incomplete block designs: I. the method\nof paired comparisons. Biometrika, 39(3/4):324–345, 1952."
+    ]
+  },
+  {
+    "url": "https://doi.org/10.48550/arXiv.2401.16788",
+    "paper_url": "https://openreview.net/pdf?id=rpwGUtTeA5",
+    "paper_id": "rpwGUtTeA5",
+    "contexts": [
+      "trusted for evaluation? scalable meta-evaluation of llms as evaluators via agent debate. CoRR,abs/2401.16788, 2024. doi: 10.48550/ARXIV.2401.16788. URL https://doi.org/10.48550/arXiv.2401.16788",
+      "Steffi Chern, Ethan Chern, Graham Neubig, and Pengfei Liu. Can large language models be\ntrusted for evaluation? scalable meta-evaluation of llms as evaluators via agent debate. CoRR,\nabs/2401.16788, 2024. doi: 10.48550/ARXIV.2401.16788. URL https://doi.org/10.\n48550/arXiv.2401.16788.\nWei-Lin Chiang, Lianmin Zheng, Ying Sheng, Anastasios Nikolas Angelopoulos, Tianle Li,"
+    ]
+  },
+  {
+    "url": "https://doi.org/10.48550/arXiv.2404.08008",
+    "paper_url": "https://openreview.net/pdf?id=rpwGUtTeA5",
+    "paper_id": "rpwGUtTeA5",
+    "contexts": [
+      "Kehua Feng, Keyan Ding, Kede Ma, Zhihua Wang, Qiang Zhang, and Huajun Chen. Sample-\nefficient human evaluation of large language models via maximum discrepancy competition.\nCoRR, abs/2404.08008, 2024. doi: 10.48550/ARXIV.2404.08008. URL https://doi.org/\n10.48550/arXiv.2404.08008.\nJiaming Ji, Mickel Liu, Josef Dai, Xuehai Pan, Chi Zhang, Ce Bian, Boyuan Chen,"
+    ]
+  },
+  {
+    "url": "http://papers.nips.cc/paper_files/paper/2023/hash/4dbb61cb68671edc4ca3712d70083b9f-Abstract-Datasets_and_Benchmarks.html",
+    "paper_url": "https://openreview.net/pdf?id=rpwGUtTeA5",
+    "paper_id": "rpwGUtTeA5",
+    "contexts": [
+      "http://papers.nips.cc/paper_files/paper/2023/",
+      "hash/4dbb61cb68671edc4ca3712d70083b9f-Abstract-Datasets_and_Benchmarks.html",
+      "."
+    ]
+  },
+  {
+    "url": "http://proceedings.mlr.press/v139/kossen21a.html",
+    "paper_url": "https://openreview.net/pdf?id=rpwGUtTeA5",
+    "paper_id": "rpwGUtTeA5",
+    "contexts": [
+      "model evaluation. In Proceedings of the 38th International Conference on Machine Learning,\nICML 2021, 18-24 July 2021, Virtual Event, volume 139 of Proceedings of Machine Learning\nResearch, pp. 5753–5763. PMLR, 2021. URL http://proceedings.mlr.press/v139/\nkossen21a.html.\nYang Liu, Dan Iter, Yichong Xu, Shuohang Wang, Ruochen Xu, and Chenguang Zhu. G-eval:"
+    ]
+  },
+  {
+    "url": "https://openreview.net/forum?id=qAml3FpfhG",
+    "paper_url": "https://openreview.net/pdf?id=rpwGUtTeA5",
+    "paper_id": "rpwGUtTeA5",
+    "contexts": [
+      "Yurochkin. tinybenchmarks: evaluating llms with fewer examples. In Forty-first International\nConference on Machine Learning, ICML 2024, Vienna, Austria, July 21-27, 2024. OpenRe-\nview.net, 2024. URL https://openreview.net/forum?id=qAml3FpfhG.\nZhen Qin, Rolf Jagerman, Kai Hui, Honglei Zhuang, Junru Wu, Le Yan, Jiaming Shen, Tianqi Liu,\nJialu Liu, Donald Metzler, Xuanhui Wang, and Michael Bendersky. Large language models are"
+    ]
+  },
+  {
+    "url": "https://doi.org/10.18653/v1/2024.findings-naacl.97",
+    "paper_url": "https://openreview.net/pdf?id=rpwGUtTeA5",
+    "paper_id": "rpwGUtTeA5",
+    "contexts": [
+      "tational Linguistics: NAACL 2024, Mexico City, Mexico, June 16-21, 2024, pp. 1504–1518. As-\nsociation for Computational Linguistics, 2024. doi: 10.18653/V1/2024.FINDINGS-NAACL.97.\nURL https://doi.org/10.18653/v1/2024.findings-naacl.97.\nTsegaye Misikir Tashu and Tomás Horváth. Pair-wise: Automatic essay evaluation using word\nmover’s distance. In Proceedings of the 10th International Conference on Computer Supported"
+    ]
+  },
+  {
+    "url": "https://aclanthology.org/2024.eacl-long.95",
+    "paper_url": "https://openreview.net/pdf?id=rpwGUtTeA5",
+    "paper_id": "rpwGUtTeA5",
+    "contexts": [
+      "of the Association for Computational Linguistics, EACL 2024 - Volume 1: Long Papers, St. Ju-\nlian’s, Malta, March 17-22, 2024, pp. 1576–1601. Association for Computational Linguistics,\n2024. URL https://aclanthology.org/2024.eacl-long.95.\nMinghao Wu and Alham Fikri Aji. Style over substance: Evaluation biases for large language\nmodels. CoRR, abs/2307.03025, 2023. doi: 10.48550/ARXIV.2307.03025. URL https://"
+    ]
+  },
+  {
+    "url": "https://doi.org/10.48550/arXiv.2307.03025",
+    "paper_url": "https://openreview.net/pdf?id=rpwGUtTeA5",
+    "paper_id": "rpwGUtTeA5",
+    "contexts": [
+      "2024. URL https://aclanthology.org/2024.eacl-long.95.\nMinghao Wu and Alham Fikri Aji. Style over substance: Evaluation biases for large language\nmodels. CoRR, abs/2307.03025, 2023. doi: 10.48550/ARXIV.2307.03025. URL https://\ndoi.org/10.48550/arXiv.2307.03025.\nPeiwen Yuan, Shaoxiong Feng, Yiwei Li, Xinglin Wang, Boyuan Pan, Heda Wang, Yao Hu, and"
+    ]
+  },
+  {
+    "url": "http://papers.nips.cc/paper_files/paper/2023/hash/91f18a1287b398d378ef22505bf41832-Abstract-Datasets_and_Benchmarks.html",
+    "paper_url": "https://openreview.net/pdf?id=rpwGUtTeA5",
+    "paper_id": "rpwGUtTeA5",
+    "contexts": [
+      "URL http://papers.nips.cc/paper_files/paper/2023/",
+      "hash/91f18a1287b398d378ef22505bf41832-Abstract-Datasets_and_Benchmarks.html",
+      "."
+    ]
+  },
+  {
+    "url": "https://doi.org/10.48550/arXiv.2407.06172",
+    "paper_url": "https://openreview.net/pdf?id=rpwGUtTeA5",
+    "paper_id": "rpwGUtTeA5",
+    "contexts": [
+      "Kilian Q. Weinberger. On speeding up language model evaluation. CoRR, abs/2407.06172, 2024.doi: 10.48550/ARXIV.2407.06172. URL https://doi.org/10.48550/arXiv.2407.06172",
+      "Jin Peng Zhou, Christian K. Belardi, Ruihan Wu, Travis Zhang, Carla P. Gomes, Wen Sun, and\nKilian Q. Weinberger. On speeding up language model evaluation. CoRR, abs/2407.06172, 2024.\ndoi: 10.48550/ARXIV.2407.06172. URL https://doi.org/10.48550/arXiv.2407.\n06172.\n14"
+    ]
+  },
+  {
+    "url": "https://doi.org/10.48550/arXiv.2311.17295.Ralph",
+    "paper_url": "https://openreview.net/pdf?id=rpwGUtTeA5",
+    "paper_id": "rpwGUtTeA5",
+    "contexts": [
+      "Meriem Boubdir, Edward Kim, Beyza Ermis, Sara Hooker, and Marzieh Fadaee. Elo uncovered: Ro-\nbustness and best practices in language model evaluation. CoRR, abs/2311.17295, 2023. doi: 10.\n48550/ARXIV.2311.17295. URL https://doi.org/10.48550/arXiv.2311.17295.\nRalph Allan Bradley and Milton E Terry. Rank analysis of incomplete block designs: I. the method\nof paired comparisons. Biometrika, 39(3/4):324–345, 1952."
+    ]
+  },
+  {
+    "url": "https://doi.org/10",
+    "paper_url": "https://openreview.net/pdf?id=rpwGUtTeA5",
+    "paper_id": "rpwGUtTeA5",
+    "contexts": [
+      "Steffi Chern, Ethan Chern, Graham Neubig, and Pengfei Liu. Can large language models be\ntrusted for evaluation? scalable meta-evaluation of llms as evaluators via agent debate. CoRR,\nabs/2401.16788, 2024. doi: 10.48550/ARXIV.2401.16788. URL https://doi.org/10.\n48550/arXiv.2401.16788.\nWei-Lin Chiang, Lianmin Zheng, Ying Sheng, Anastasios Nikolas Angelopoulos, Tianle Li,"
+    ]
+  },
+  {
+    "url": "https://doi.org/",
+    "paper_url": "https://openreview.net/pdf?id=rpwGUtTeA5",
+    "paper_id": "rpwGUtTeA5",
+    "contexts": [
+      "Kehua Feng, Keyan Ding, Kede Ma, Zhihua Wang, Qiang Zhang, and Huajun Chen. Sample-\nefficient human evaluation of large language models via maximum discrepancy competition.\nCoRR, abs/2404.08008, 2024. doi: 10.48550/ARXIV.2404.08008. URL https://doi.org/\n10.48550/arXiv.2404.08008.\nJiaming Ji, Mickel Liu, Josef Dai, Xuehai Pan, Chi Zhang, Ce Bian, Boyuan Chen,"
+    ]
+  },
+  {
+    "url": "10.48550/arXiv.2404.08008",
+    "paper_url": "https://openreview.net/pdf?id=rpwGUtTeA5",
+    "paper_id": "rpwGUtTeA5",
+    "contexts": [
+      "efficient human evaluation of large language models via maximum discrepancy competition.\nCoRR, abs/2404.08008, 2024. doi: 10.48550/ARXIV.2404.08008. URL https://doi.org/\n10.48550/arXiv.2404.08008.\nJiaming Ji, Mickel Liu, Josef Dai, Xuehai Pan, Chi Zhang, Ce Bian, Boyuan Chen,\nRuiyang Sun, Yizhou Wang, and Yaodong Yang. Beavertails: Towards improved"
+    ]
+  },
+  {
+    "url": "10.48550/arXiv.2404.08008.Jiaming",
+    "paper_url": "https://openreview.net/pdf?id=rpwGUtTeA5",
+    "paper_id": "rpwGUtTeA5",
+    "contexts": [
+      "efficient human evaluation of large language models via maximum discrepancy competition.\nCoRR, abs/2404.08008, 2024. doi: 10.48550/ARXIV.2404.08008. URL https://doi.org/\n10.48550/arXiv.2404.08008.\nJiaming Ji, Mickel Liu, Josef Dai, Xuehai Pan, Chi Zhang, Ce Bian, Boyuan Chen,\nRuiyang Sun, Yizhou Wang, and Yaodong Yang. Beavertails: Towards improved"
+    ]
+  },
+  {
+    "url": "http://papers.nips.cc/paper_files/paper/2023/",
+    "paper_url": "https://openreview.net/pdf?id=rpwGUtTeA5",
+    "paper_id": "rpwGUtTeA5",
+    "contexts": [
+      "Information Processing Systems 36: Annual Conference on Neural Information Pro-\ncessing Systems 2023, NeurIPS 2023, New Orleans, LA, USA, December 10 - 16,\n2023, 2023. URL http://papers.nips.cc/paper_files/paper/2023/\nhash/4dbb61cb68671edc4ca3712d70083b9f-Abstract-Datasets_and_\nBenchmarks.html.",
+      "in Neural Information Processing Systems 36: Annual Conference on Neural Informa-\ntion Processing Systems 2023, NeurIPS 2023, New Orleans, LA, USA, December 10 -\n16, 2023, 2023. URL http://papers.nips.cc/paper_files/paper/2023/\nhash/91f18a1287b398d378ef22505bf41832-Abstract-Datasets_and_\nBenchmarks.html."
+    ]
+  },
+  {
+    "url": "http://papers.nips.cc/paper_files/paper/2023/hash/4dbb61cb68671edc4ca3712d70083b9f-Abstract-Datasets_and_",
+    "paper_url": "https://openreview.net/pdf?id=rpwGUtTeA5",
+    "paper_id": "rpwGUtTeA5",
+    "contexts": [
+      "Information Processing Systems 36: Annual Conference on Neural Information Pro-\ncessing Systems 2023, NeurIPS 2023, New Orleans, LA, USA, December 10 - 16,\n2023, 2023. URL http://papers.nips.cc/paper_files/paper/2023/\nhash/4dbb61cb68671edc4ca3712d70083b9f-Abstract-Datasets_and_\nBenchmarks.html."
+    ]
+  },
+  {
+    "url": "http://proceedings.mlr.press/v139/",
+    "paper_url": "https://openreview.net/pdf?id=rpwGUtTeA5",
+    "paper_id": "rpwGUtTeA5",
+    "contexts": [
+      "model evaluation. In Proceedings of the 38th International Conference on Machine Learning,\nICML 2021, 18-24 July 2021, Virtual Event, volume 139 of Proceedings of Machine Learning\nResearch, pp. 5753–5763. PMLR, 2021. URL http://proceedings.mlr.press/v139/\nkossen21a.html.\nYang Liu, Dan Iter, Yichong Xu, Shuohang Wang, Ruochen Xu, and Chenguang Zhu. G-eval:"
+    ]
+  },
+  {
+    "url": "https://openreview.net/forum?id=qAml3FpfhG.Zhen",
+    "paper_url": "https://openreview.net/pdf?id=rpwGUtTeA5",
+    "paper_id": "rpwGUtTeA5",
+    "contexts": [
+      "Yurochkin. tinybenchmarks: evaluating llms with fewer examples. In Forty-first International\nConference on Machine Learning, ICML 2024, Vienna, Austria, July 21-27, 2024. OpenRe-\nview.net, 2024. URL https://openreview.net/forum?id=qAml3FpfhG.\nZhen Qin, Rolf Jagerman, Kai Hui, Honglei Zhuang, Junru Wu, Le Yan, Jiaming Shen, Tianqi Liu,\nJialu Liu, Donald Metzler, Xuanhui Wang, and Michael Bendersky. Large language models are"
+    ]
+  },
+  {
+    "url": "https://doi.org/10.18653/v1/2024.findings-naacl.97.Tsegaye",
+    "paper_url": "https://openreview.net/pdf?id=rpwGUtTeA5",
+    "paper_id": "rpwGUtTeA5",
+    "contexts": [
+      "tational Linguistics: NAACL 2024, Mexico City, Mexico, June 16-21, 2024, pp. 1504–1518. As-\nsociation for Computational Linguistics, 2024. doi: 10.18653/V1/2024.FINDINGS-NAACL.97.\nURL https://doi.org/10.18653/v1/2024.findings-naacl.97.\nTsegaye Misikir Tashu and Tomás Horváth. Pair-wise: Automatic essay evaluation using word\nmover’s distance. In Proceedings of the 10th International Conference on Computer Supported"
+    ]
+  },
+  {
+    "url": "https://aclanthology.org/2024.eacl-long.95.Minghao",
+    "paper_url": "https://openreview.net/pdf?id=rpwGUtTeA5",
+    "paper_id": "rpwGUtTeA5",
+    "contexts": [
+      "of the Association for Computational Linguistics, EACL 2024 - Volume 1: Long Papers, St. Ju-\nlian’s, Malta, March 17-22, 2024, pp. 1576–1601. Association for Computational Linguistics,\n2024. URL https://aclanthology.org/2024.eacl-long.95.\nMinghao Wu and Alham Fikri Aji. Style over substance: Evaluation biases for large language\nmodels. CoRR, abs/2307.03025, 2023. doi: 10.48550/ARXIV.2307.03025. URL https://"
+    ]
+  },
+  {
+    "url": "doi.org/10.48550/arXiv.2307.03025.Peiwen",
+    "paper_url": "https://openreview.net/pdf?id=rpwGUtTeA5",
+    "paper_id": "rpwGUtTeA5",
+    "contexts": [
+      "Minghao Wu and Alham Fikri Aji. Style over substance: Evaluation biases for large language\nmodels. CoRR, abs/2307.03025, 2023. doi: 10.48550/ARXIV.2307.03025. URL https://\ndoi.org/10.48550/arXiv.2307.03025.\nPeiwen Yuan, Shaoxiong Feng, Yiwei Li, Xinglin Wang, Boyuan Pan, Heda Wang, Yao Hu, and\nKan Li. Batcheval: Towards human-like text evaluation. In Proceedings of the 62nd Annual"
+    ]
+  },
+  {
+    "url": "doi.org/10.48550/arXiv.2307.03025",
+    "paper_url": "https://openreview.net/pdf?id=rpwGUtTeA5",
+    "paper_id": "rpwGUtTeA5",
+    "contexts": [
+      "Minghao Wu and Alham Fikri Aji. Style over substance: Evaluation biases for large language\nmodels. CoRR, abs/2307.03025, 2023. doi: 10.48550/ARXIV.2307.03025. URL https://\ndoi.org/10.48550/arXiv.2307.03025.\nPeiwen Yuan, Shaoxiong Feng, Yiwei Li, Xinglin Wang, Boyuan Pan, Heda Wang, Yao Hu, and\nKan Li. Batcheval: Towards human-like text evaluation. In Proceedings of the 62nd Annual"
+    ]
+  },
+  {
+    "url": "http://papers.nips.cc/paper_files/paper/2023/hash/91f18a1287b398d378ef22505bf41832-Abstract-Datasets_and_",
+    "paper_url": "https://openreview.net/pdf?id=rpwGUtTeA5",
+    "paper_id": "rpwGUtTeA5",
+    "contexts": [
+      "in Neural Information Processing Systems 36: Annual Conference on Neural Informa-\ntion Processing Systems 2023, NeurIPS 2023, New Orleans, LA, USA, December 10 -\n16, 2023, 2023. URL http://papers.nips.cc/paper_files/paper/2023/\nhash/91f18a1287b398d378ef22505bf41832-Abstract-Datasets_and_\nBenchmarks.html."
+    ]
+  },
+  {
+    "url": "https://doi.org/10.48550/arXiv.2407",
+    "paper_url": "https://openreview.net/pdf?id=rpwGUtTeA5",
+    "paper_id": "rpwGUtTeA5",
+    "contexts": [
+      "Jin Peng Zhou, Christian K. Belardi, Ruihan Wu, Travis Zhang, Carla P. Gomes, Wen Sun, and\nKilian Q. Weinberger. On speeding up language model evaluation. CoRR, abs/2407.06172, 2024.\ndoi: 10.48550/ARXIV.2407.06172. URL https://doi.org/10.48550/arXiv.2407.\n06172.\n14"
+    ]
+  },
+  {
+    "url": "https://archive.ics.uci.edu",
+    "paper_url": "https://openreview.net/pdf?id=L14sqcrUC3",
+    "paper_id": "L14sqcrUC3",
+    "contexts": [
+      "2",
+      "https://archive.ics.uci.edu",
+      "the untraceable or synthetic nature of the data. Without knowing the source of the data and what it\n2\nhttps://archive.ics.uci.edu\n3\nhttps://www.openml.org"
+    ]
+  },
+  {
+    "url": "https://github.com/yandex-research/tabred",
+    "paper_url": "https://openreview.net/pdf?id=L14sqcrUC3",
+    "paper_id": "L14sqcrUC3",
+    "contexts": [
+      "REPRODUCIBILITY STATEMENT\nWe describe our experimental setup in subsection 5.1 and Appendix C. The code is available at\nhttps://github.com/yandex-research/tabred\n• Dataset downloading and preprocessing is handled by the provided code.\nLook for the preprocessing folder in the repository."
+    ]
+  },
+  {
+    "url": "https://www.kaggle.com/pcovkrd84mejm/datasets",
+    "paper_url": "https://openreview.net/pdf?id=L14sqcrUC3",
+    "paper_id": "L14sqcrUC3",
+    "contexts": [
+      "• Newly introduced datasets are avaialable at https://kaggle.com/TabReD• Further instructions to reproduce experiments and plots are in the README.md"
+    ]
+  },
+  {
+    "url": "https://kaggle.com/competitions/sberbank-russian-housing-market",
+    "paper_url": "https://openreview.net/pdf?id=L14sqcrUC3",
+    "paper_id": "L14sqcrUC3",
+    "contexts": [
+      "URL https://kaggle.com/competitions/",
+      "sberbank-russian-housing-market",
+      ". 17",
+      "next-generation hyperparameter optimization framework. In KDD, 2019. 6\nDataCanary Alexey Matveev, Anastasia Sidorova 50806198. Sberbank rus-\nsian housing market, 2017. URL https://kaggle.com/competitions/\nsberbank-russian-housing-market. 17\nAlijs and Johnpateha. Sberbank russian housing market 1st place solution, 2017. URL https:"
+    ]
+  },
+  {
+    "url": "https://www.kaggle.com/competitions/sberbank-russian-housing-market/discussion/35684",
+    "paper_url": "https://openreview.net/pdf?id=L14sqcrUC3",
+    "paper_id": "L14sqcrUC3",
+    "contexts": [
+      "Alijs and Johnpateha. Sberbank russian housing market 1st place solution, 2017. URL https:",
+      "//www.kaggle.com/competitions/sberbank-russian-housing-market/",
+      "discussion/35684",
+      ". 17"
+    ]
+  },
+  {
+    "url": "https://openml.org/d/41672",
+    "paper_url": "https://openreview.net/pdf?id=L14sqcrUC3",
+    "paper_id": "L14sqcrUC3",
+    "contexts": [
+      "Alexander Guillermo Segura Ballesteros. Openml airlines dataset, 2019. URL https://openml.",
+      "Dara Bahri, Heinrich Jiang, Yi Tay, and Donald Metzler. Scarf: Self-supervised contrastive learning\nusing random feature corruption. In ICLR, 2021. 2\nAlexander Guillermo Segura Ballesteros. Openml airlines dataset, 2019. URL https://openml.\norg/d/41672. 2, 4\nDmitry Baranchuk, Matthijs Douze, Yash Upadhyay, and I Zeki Yalniz. Dedrift: Robust similarity"
+    ]
+  },
+  {
+    "url": "https://kaggle.com/competitions/homesite-quote-conversion",
+    "paper_url": "https://openreview.net/pdf?id=L14sqcrUC3",
+    "paper_id": "L14sqcrUC3",
+    "contexts": [
+      "Will Cukierski Darrel, Stephen D Stayton. Homesite quote conversion, 2015. URL https:",
+      "//kaggle.com/competitions/homesite-quote-conversion",
+      ". 16",
+      "selection in tabular deep learning. Advances in Neural Information Processing Systems, 36:\n41956–41979, 2023. 9\nWill Cukierski Darrel, Stephen D Stayton. Homesite quote conversion, 2015. URL https:\n//kaggle.com/competitions/homesite-quote-conversion. 16\nWill Cukierski DMDave, Todd B. Acquire valued shoppers challenge, 2014. URL https://"
+    ]
+  },
+  {
+    "url": "https://kaggle.com/competitions/acquire-valued-shoppers-challenge",
+    "paper_url": "https://openreview.net/pdf?id=L14sqcrUC3",
+    "paper_id": "L14sqcrUC3",
+    "contexts": [
+      "Will Cukierski DMDave, Todd B. Acquire valued shoppers challenge, 2014. URL https://",
+      "kaggle.com/competitions/acquire-valued-shoppers-challenge",
+      ". 16",
+      "Will Cukierski Darrel, Stephen D Stayton. Homesite quote conversion, 2015. URL https:\n//kaggle.com/competitions/homesite-quote-conversion. 16\nWill Cukierski DMDave, Todd B. Acquire valued shoppers challenge, 2014. URL https://\nkaggle.com/competitions/acquire-valued-shoppers-challenge. 16\nVitaly Feldman and Chiyuan Zhang. What neural networks memorize and why: Discovering the long"
+    ]
+  },
+  {
+    "url": "https://kaggle.com/competitions/home-credit-credit-risk-model-stability",
+    "paper_url": "https://openreview.net/pdf?id=L14sqcrUC3",
+    "paper_id": "L14sqcrUC3",
+    "contexts": [
+      "credit - credit risk model stability, 2024. URL https://kaggle.com/competitions/home-credit-credit-risk-model-stability",
+      ". 2, 3, 16",
+      "4, 6, 8\nDaniel Herman, Tomas Jelinek, Walter Reade, Maggie Demkin, and Addison Howard. Home\ncredit - credit risk model stability, 2024. URL https://kaggle.com/competitions/\nhome-credit-credit-risk-model-stability. 2, 3, 16\nNoah Hollmann, Samuel Müller, Katharina Eggensperger, and Frank Hutter. Tabpfn: A transformer"
+    ]
+  },
+  {
+    "url": "https://github.com/MLWave/kaggle_acquire-valued-shoppers-challenge",
+    "paper_url": "https://openreview.net/pdf?id=L14sqcrUC3",
+    "paper_id": "L14sqcrUC3",
+    "contexts": [
+      "github MLWave. kaggle-acquire-valued-shoppers-challenge, 2014. URL https://github.com/",
+      "MLWave/kaggle_acquire-valued-shoppers-challenge",
+      ". 16",
+      "Colin White, et al. When do neural nets outperform boosted trees on tabular data? arXiv preprint\narXiv:2305.02997, 2023. 3, 4\ngithub MLWave. kaggle-acquire-valued-shoppers-challenge, 2014. URL https://github.com/\nMLWave/kaggle_acquire-valued-shoppers-challenge. 16\n12"
+    ]
+  },
+  {
+    "url": "https://www.kaggle.com/competitions/sberbank-russian-housing-market/discussion/34364",
+    "paper_url": "https://openreview.net/pdf?id=L14sqcrUC3",
+    "paper_id": "L14sqcrUC3",
+    "contexts": [
+      "Anastasia Sidorova. Additional data - tverskoe issue, 2017. URL https://www.kaggle.com/",
+      "competitions/sberbank-russian-housing-market/discussion/34364",
+      ". 17",
+      "Ravid Shwartz-Ziv and Amitai Armon. Tabular data: Deep learning is not all you need. arXiv,\n2106.03253v1, 2021. 7\nAnastasia Sidorova. Additional data - tverskoe issue, 2017. URL https://www.kaggle.com/\ncompetitions/sberbank-russian-housing-market/discussion/34364. 17\nNikhil Simha. Zipline - a declarative feature engineering framework, 2020. URL https://youtu."
+    ]
+  },
+  {
+    "url": "https://openml.org/d/42712",
+    "paper_url": "https://openreview.net/pdf?id=L14sqcrUC3",
+    "paper_id": "L14sqcrUC3",
+    "contexts": [
+      "Jan van Rijn. Openml electricity dataset, 2014. URL https://openml.org/d/42712. 2",
+      "Baochen Sun and Kate Saenko. Deep coral: Correlation alignment for deep domain adaptation. In\nEuropean Conference on Computer Vision, pp. 443–450. Springer, 2016. 16, 20\nJan van Rijn. Openml electricity dataset, 2014. URL https://openml.org/d/42712. 2\nJan van Rijn. Openml bike sharing demand dataset, 2020. URL https://openml.org/d/151.\n2"
+    ]
+  },
+  {
+    "url": "https://openml.org/d/151",
+    "paper_url": "https://openreview.net/pdf?id=L14sqcrUC3",
+    "paper_id": "L14sqcrUC3",
+    "contexts": [
+      "Jan van Rijn. Openml bike sharing demand dataset, 2020. URL https://openml.org/d/151.",
+      "European Conference on Computer Vision, pp. 443–450. Springer, 2016. 16, 20\nJan van Rijn. Openml electricity dataset, 2014. URL https://openml.org/d/42712. 2\nJan van Rijn. Openml bike sharing demand dataset, 2020. URL https://openml.org/d/151.\n2\nRuoxi Wang, Rakesh Shivanna, Derek Z. Cheng, Sagar Jain, Dong Lin, Lichan Hong, and Ed H."
+    ]
+  },
+  {
+    "url": "https://www.kaggle.com/competitions/sberbank-russian-housing-market/discussion/35631",
+    "paper_url": "https://openreview.net/pdf?id=L14sqcrUC3",
+    "paper_id": "L14sqcrUC3",
+    "contexts": [
+      "(Kaggle forum discussion). Even in that context, forecasting was not successful and failed"
+    ]
+  },
+  {
+    "url": "https://www.kaggle.com/competitions/homesite-quote-conversion/discussion/18826",
+    "paper_url": "https://openreview.net/pdf?id=L14sqcrUC3",
+    "paper_id": "L14sqcrUC3",
+    "contexts": [
+      "engineering, and again it only gives an insignificant boost to the score of 2e-4 (Kaggle forum",
+      "discussion). All top decisions mentioned in discussion utilize shift-agnostic models such as"
+    ]
+  },
+  {
+    "url": "https://www.kaggle.com/competitions/acquire-valued-shoppers-challenge/discussion/9756",
+    "paper_url": "https://openreview.net/pdf?id=L14sqcrUC3",
+    "paper_id": "L14sqcrUC3",
+    "contexts": [
+      "solution focuses on feature engineering approaches (Kaggle forum discussion)."
+    ]
+  },
+  {
+    "url": "https://www.kaggle.com/competitions/home-credit-credit-risk-model-stability/discussion/497167",
+    "paper_url": "https://openreview.net/pdf?id=L14sqcrUC3",
+    "paper_id": "L14sqcrUC3",
+    "contexts": [
+      "than when evaluation by pure AUC, feature engineering is more critical (Kaggle forum",
+      "discussion)."
+    ]
+  },
+  {
+    "url": "https://archive.ics.uci.edu/dataset/241/one+hundred+plant+species+leaves+data+set",
+    "paper_url": "https://openreview.net/pdf?id=L14sqcrUC3",
+    "paper_id": "L14sqcrUC3",
+    "contexts": [
+      "100-PLANTS-TEXTURE"
+    ]
+  },
+  {
+    "url": "https://archive.ics.uci.edu/dataset/2/adult",
+    "paper_url": "https://openreview.net/pdf?id=L14sqcrUC3",
+    "paper_id": "L14sqcrUC3",
+    "contexts": [
+      "ADULT"
+    ]
+  },
+  {
+    "url": "https://archive.ics.uci.edu/dataset/143/statlog+australian+credit+approval",
+    "paper_url": "https://openreview.net/pdf?id=L14sqcrUC3",
+    "paper_id": "L14sqcrUC3",
+    "contexts": [
+      "AUSTRALIAN"
+    ]
+  },
+  {
+    "url": "https://www.kaggle.com/datasets/shubh0799/churn-modelling/data",
+    "paper_url": "https://openreview.net/pdf?id=L14sqcrUC3",
+    "paper_id": "L14sqcrUC3",
+    "contexts": [
+      "CHURN MODELLING"
+    ]
+  },
+  {
+    "url": "https://k4all.org/project/large-scale-learning-challenge/",
+    "paper_url": "https://openreview.net/pdf?id=L14sqcrUC3",
+    "paper_id": "L14sqcrUC3",
+    "contexts": [
+      "EPSILON"
+    ]
+  },
+  {
+    "url": "https://archive.ics.uci.edu/dataset/363/facebook+comment+volume+dataset",
+    "paper_url": "https://openreview.net/pdf?id=L14sqcrUC3",
+    "paper_id": "L14sqcrUC3",
+    "contexts": [
+      "FACEBOOK COMMENTS VOLUME"
+    ]
+  },
+  {
+    "url": "https://www.kaggle.com/competitions/otto-group-product-classification-challenge/",
+    "paper_url": "https://openreview.net/pdf?id=L14sqcrUC3",
+    "paper_id": "L14sqcrUC3",
+    "contexts": [
+      "OTTO GROUP PRODUCTS"
+    ]
+  },
+  {
+    "url": "https://www.kaggle.com/competitions/santander-customer-transaction-prediction",
+    "paper_url": "https://openreview.net/pdf?id=L14sqcrUC3",
+    "paper_id": "L14sqcrUC3",
+    "contexts": [
+      "SANTANDER CUSTOMER TRANSACTIONS"
+    ]
+  },
+  {
+    "url": "https://community.fico.com/s/explainable-machine-learning-challenge",
+    "paper_url": "https://openreview.net/pdf?id=L14sqcrUC3",
+    "paper_id": "L14sqcrUC3",
+    "contexts": [
+      "TABLESHIFT HELOC"
+    ]
+  },
+  {
+    "url": "https://archive.ics.uci.edu/dataset/203/yearpredictionmsd",
+    "paper_url": "https://openreview.net/pdf?id=L14sqcrUC3",
+    "paper_id": "L14sqcrUC3",
+    "contexts": [
+      "YEAR"
+    ]
+  },
+  {
+    "url": "https://archive.ics.uci.edu/dataset/8/audiology+standardized",
+    "paper_url": "https://openreview.net/pdf?id=L14sqcrUC3",
+    "paper_id": "L14sqcrUC3",
+    "contexts": [
+      "AUDIOLOGY"
+    ]
+  },
+  {
+    "url": "http://archive.ics.uci.edu/dataset/12/balance+scale",
+    "paper_url": "https://openreview.net/pdf?id=L14sqcrUC3",
+    "paper_id": "L14sqcrUC3",
+    "contexts": [
+      "BALANCE",
+      "-SCALE"
+    ]
+  },
+  {
+    "url": "https://www.kaggle.com/datasets/danofer/compass?select=cox-violent-parsed.csv",
+    "paper_url": "https://openreview.net/pdf?id=L14sqcrUC3",
+    "paper_id": "L14sqcrUC3",
+    "contexts": [
+      "COMPASS"
+    ]
+  },
+  {
+    "url": "https://archive.ics.uci.edu/dataset/27/credit+approval",
+    "paper_url": "https://openreview.net/pdf?id=L14sqcrUC3",
+    "paper_id": "L14sqcrUC3",
+    "contexts": [
+      "CREDIT",
+      "-APPROVAL"
+    ]
+  },
+  {
+    "url": "https://www.kaggle.com/datasets/stefanoleone992/fifa-22-complete-player-dataset",
+    "paper_url": "https://openreview.net/pdf?id=L14sqcrUC3",
+    "paper_id": "L14sqcrUC3",
+    "contexts": [
+      "FIFA"
+    ]
+  },
+  {
+    "url": "https://archive.ics.uci.edu/dataset/72/multiple+features",
+    "paper_url": "https://openreview.net/pdf?id=L14sqcrUC3",
+    "paper_id": "L14sqcrUC3",
+    "contexts": [
+      "MFEAT",
+      "-FOURIER",
+      "MFEAT",
+      "-ZERNIKE"
+    ]
+  },
+  {
+    "url": "https://www.researchgate.net/publication/236168126_Design_and_Analysis_of_the_Nomao_challenge_Active_Learning_in_the_Real-World",
+    "paper_url": "https://openreview.net/pdf?id=L14sqcrUC3",
+    "paper_id": "L14sqcrUC3",
+    "contexts": [
+      "NOMAO"
+    ]
+  },
+  {
+    "url": "https://sci2s.ugr.es/keel/dataset.php?cod=105#sub2",
+    "paper_url": "https://openreview.net/pdf?id=L14sqcrUC3",
+    "paper_id": "L14sqcrUC3",
+    "contexts": [
+      "PHONEME"
+    ]
+  },
+  {
+    "url": "https://archive.ics.uci.edu/dataset/158/poker+hand",
+    "paper_url": "https://openreview.net/pdf?id=L14sqcrUC3",
+    "paper_id": "L14sqcrUC3",
+    "contexts": [
+      "POKER",
+      "-HAND"
+    ]
+  },
+  {
+    "url": "https://archive.ics.uci.edu/ml/datasets/wine+quality",
+    "paper_url": "https://openreview.net/pdf?id=L14sqcrUC3",
+    "paper_id": "L14sqcrUC3",
+    "contexts": [
+      "WINE"
+    ]
+  },
+  {
+    "url": "https://kaggle.com/TabReD",
+    "paper_url": "https://openreview.net/pdf?id=L14sqcrUC3",
+    "paper_id": "L14sqcrUC3",
+    "contexts": [
+      "• Dataset downloading and preprocessing is handled by the provided code.\nLook for the preprocessing folder in the repository.\n• Newly introduced datasets are avaialable at https://kaggle.com/TabReD\n• Further instructions to reproduce experiments and plots are in the README.md\nREFERENCES"
+    ]
+  },
+  {
+    "url": "https://kaggle.com/competitions/",
+    "paper_url": "https://openreview.net/pdf?id=L14sqcrUC3",
+    "paper_id": "L14sqcrUC3",
+    "contexts": [
+      "next-generation hyperparameter optimization framework. In KDD, 2019. 6\nDataCanary Alexey Matveev, Anastasia Sidorova 50806198. Sberbank rus-\nsian housing market, 2017. URL https://kaggle.com/competitions/\nsberbank-russian-housing-market. 17\nAlijs and Johnpateha. Sberbank russian housing market 1st place solution, 2017. URL https:",
+      "4, 6, 8\nDaniel Herman, Tomas Jelinek, Walter Reade, Maggie Demkin, and Addison Howard. Home\ncredit - credit risk model stability, 2024. URL https://kaggle.com/competitions/\nhome-credit-credit-risk-model-stability. 2, 3, 16\nNoah Hollmann, Samuel Müller, Katharina Eggensperger, and Frank Hutter. Tabpfn: A transformer"
+    ]
+  },
+  {
+    "url": "https://www.kaggle.com/competitions/sberbank-russian-housing-market/",
+    "paper_url": "https://openreview.net/pdf?id=L14sqcrUC3",
+    "paper_id": "L14sqcrUC3",
+    "contexts": [
+      "sian housing market, 2017. URL https://kaggle.com/competitions/\nsberbank-russian-housing-market. 17\nAlijs and Johnpateha. Sberbank russian housing market 1st place solution, 2017. URL https:\n//www.kaggle.com/competitions/sberbank-russian-housing-market/\ndiscussion/35684. 17"
+    ]
+  },
+  {
+    "url": "www.kaggle.com/competitions/sberbank-russian-housing-market/discussion/35684",
+    "paper_url": "https://openreview.net/pdf?id=L14sqcrUC3",
+    "paper_id": "L14sqcrUC3",
+    "contexts": [
+      "sberbank-russian-housing-market. 17\nAlijs and Johnpateha. Sberbank russian housing market 1st place solution, 2017. URL https:\n//www.kaggle.com/competitions/sberbank-russian-housing-market/\ndiscussion/35684. 17\nRohan Anil, Sandra Gadanho, Da Huang, Nijith Jacob, Zhuoshu Li, Dong Lin, Todd Phillips, Cristina"
+    ]
+  },
+  {
+    "url": "www.kaggle.com/competitions/sberbank-russian-housing-market/",
+    "paper_url": "https://openreview.net/pdf?id=L14sqcrUC3",
+    "paper_id": "L14sqcrUC3",
+    "contexts": [
+      "sberbank-russian-housing-market. 17\nAlijs and Johnpateha. Sberbank russian housing market 1st place solution, 2017. URL https:\n//www.kaggle.com/competitions/sberbank-russian-housing-market/\ndiscussion/35684. 17\nRohan Anil, Sandra Gadanho, Da Huang, Nijith Jacob, Zhuoshu Li, Dong Lin, Todd Phillips, Cristina"
+    ]
+  },
+  {
+    "url": "kaggle.com/competitions/acquire-valued-shoppers-challenge",
+    "paper_url": "https://openreview.net/pdf?id=L14sqcrUC3",
+    "paper_id": "L14sqcrUC3",
+    "contexts": [
+      "//kaggle.com/competitions/homesite-quote-conversion. 16\nWill Cukierski DMDave, Todd B. Acquire valued shoppers challenge, 2014. URL https://\nkaggle.com/competitions/acquire-valued-shoppers-challenge. 16\nVitaly Feldman and Chiyuan Zhang. What neural networks memorize and why: Discovering the long\ntail via influence estimation. Advances in Neural Information Processing Systems, 33:2881–2891,"
+    ]
+  },
+  {
+    "url": "openreview.net/forum?id=ErkzxOlOLy",
+    "paper_url": "https://openreview.net/pdf?id=L14sqcrUC3",
+    "paper_id": "L14sqcrUC3",
+    "contexts": [
+      "Woohyung Lim. Binning as a pretext task: Improving self-supervised learning in tabular do-\nmains. In Forty-first International Conference on Machine Learning, 2024. URL https:\n//openreview.net/forum?id=ErkzxOlOLy. 2, 7\nAlexandra Sasha Luccioni, Frances Corry, Hamsini Sridharan, Mike Ananny, Jason Schultz, and Kate\nCrawford. A framework for deprecating datasets: Standardizing documentation, identification, and"
+    ]
+  },
+  {
+    "url": "https://openml.org/d/151.2",
+    "paper_url": "https://openreview.net/pdf?id=L14sqcrUC3",
+    "paper_id": "L14sqcrUC3",
+    "contexts": [
+      "European Conference on Computer Vision, pp. 443–450. Springer, 2016. 16, 20\nJan van Rijn. Openml electricity dataset, 2014. URL https://openml.org/d/42712. 2\nJan van Rijn. Openml bike sharing demand dataset, 2020. URL https://openml.org/d/151.\n2\nRuoxi Wang, Rakesh Shivanna, Derek Z. Cheng, Sagar Jain, Dong Lin, Lichan Hong, and Ed H."
+    ]
+  },
+  {
+    "url": "ncc.up.pt/",
+    "paper_url": "https://openreview.net/pdf?id=L14sqcrUC3",
+    "paper_id": "L14sqcrUC3",
+    "contexts": [
+      "describe the status of the aeroplane, while the goal is to predict the control action on the ailerons\nof the aircraft. According to the descriptions available, the dataset first appears in a collection of\nregression datasets by Luis Torgo and Rui Camacho made in 2014, but the original website with the\ndescription (ncc.up.pt/ ltorgo/Regression/DataSets.html) seems to no longer respond. The task of\ncontrolling a vehicle through machine learning has gained a large interest in recent years, but it is not",
+      "of the aircraft. According to the descriptions available, the dataset first appears in a collection of\nregression datasets by Luis Torgo and Rui Camacho made in 2014, but the original website with the\ndescription (ncc.up.pt/ ltorgo/Regression/DataSets.html) seems to no longer respond. The task of\ncontrolling a vehicle through machine learning has gained a large interest in recent years, but it is not\ndone through tabular machine learning, instead often utilizing RL and using wider range of sensors",
+      "describe the status of the aeroplane, while the goal is to predict the control action on the ailerons\nof the aircraft. According to the descriptions available, the dataset first appears in a collection of\nregression datasets by Luis Torgo and Rui Camacho made in 2014, but the original website with the\ndescription (ncc.up.pt/ ltorgo/Regression/DataSets.html) seems to no longer respond. The task of\ncontrolling a vehicle through machine learning has gained a large interest in recent years, but it is not",
+      "of the aircraft. According to the descriptions available, the dataset first appears in a collection of\nregression datasets by Luis Torgo and Rui Camacho made in 2014, but the original website with the\ndescription (ncc.up.pt/ ltorgo/Regression/DataSets.html) seems to no longer respond. The task of\ncontrolling a vehicle through machine learning has gained a large interest in recent years, but it is not\ndone through tabular machine learning, instead often utilizing RL and using a wider range of sensors"
+    ]
+  },
+  {
+    "url": "https://ogb.stanford.edu/docs/lsc/leaderboards/#pcqm4mv2)",
+    "paper_url": "https://openreview.net/pdf?id=L14sqcrUC3",
+    "paper_id": "L14sqcrUC3",
+    "contexts": [
+      "Comments: These datasets present a classification problem on molecules. The underlying data\nis not tabular, graph-based methods, incorporating 3d structure are known to outperform manual\ndescriptors (https://ogb.stanford.edu/docs/lsc/leaderboards/#pcqm4mv2), this is not a mainstream\ntask in its formulation. For more up to date, datasets and classification tasks on molecules one could\nuse https://moleculenet.org for example"
+    ]
+  },
+  {
+    "url": "https://moleculenet.org",
+    "paper_url": "https://openreview.net/pdf?id=L14sqcrUC3",
+    "paper_id": "L14sqcrUC3",
+    "contexts": [
+      "descriptors (https://ogb.stanford.edu/docs/lsc/leaderboards/#pcqm4mv2), this is not a mainstream\ntask in its formulation. For more up to date, datasets and classification tasks on molecules one could\nuse https://moleculenet.org for example\nBLACK FRIDAY\nTags: Timesplit Needed"
+    ]
+  },
+  {
+    "url": "https://www.kaggle.com/competitions/amex-default-prediction/overview)",
+    "paper_url": "https://openreview.net/pdf?id=L14sqcrUC3",
+    "paper_id": "L14sqcrUC3",
+    "contexts": [
+      "Comments: Dataset from the kaggle competition hosted by ”Credit Fusion”. Corresponds to a real-\nworld prediction problem. Not possible to create an out-of-time evaluation set. Relatively (relative to\nthe modern dataset, e.g. https://www.kaggle.com/competitions/amex-default-prediction/overview)\nfew features available.\nCREDIT-APPROVAL"
+    ]
+  },
+  {
+    "url": "https://www.kaggle.com/competitions/amex-default-prediction/overview)few",
+    "paper_url": "https://openreview.net/pdf?id=L14sqcrUC3",
+    "paper_id": "L14sqcrUC3",
+    "contexts": [
+      "Comments: Dataset from the kaggle competition hosted by ”Credit Fusion”. Corresponds to a real-\nworld prediction problem. Not possible to create an out-of-time evaluation set. Relatively (relative to\nthe modern dataset, e.g. https://www.kaggle.com/competitions/amex-default-prediction/overview)\nfew features available.\nCREDIT-APPROVAL"
+    ]
+  }
+]
