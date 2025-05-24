@@ -88,14 +88,13 @@ try:
         xpath = f'//div[@id=\'{tab_id}\']/div/div/ul/li|//div[@id=\'{tab_id}\']/ul/li'
         try:
             WebDriverWait(driver, 10).until(
-                EC.presence_of_all_elements_located((By.XPATH, xpath))
+                EC.visibility_of_all_elements_located((By.XPATH, xpath))
             )
         except Exception as e:
             _on_error("selenium_load_batch: " + str(e))
-            return ret, None
+            # return ret, None
 
         lst = driver.find_elements(By.XPATH, xpath)
-        print(len(lst))
 
         for item in lst:
             id = item.get_attribute('data-id')
@@ -105,6 +104,12 @@ try:
         elem = lst[0] if len(lst) else None
         if len(ret) == 0:
             xpath = f'//div[@id=\'{tab_id}\']/div/div/ul/li/div/h4/a[1]'
+            try:
+                WebDriverWait(driver, 10).until(
+                    EC.visibility_of_all_elements_located(By.XPATH, xpath)
+                )
+            except:
+                pass
             lst = driver.find_elements(By.XPATH, xpath)
             elem = lst[0] if len(lst) else None
             for item in lst:
@@ -139,6 +144,10 @@ try:
             WebDriverWait(firefox, 10).until(
                 EC.presence_of_all_elements_located((By.XPATH, ul_xpath))
             )
+            ul_xpath = f'//div[@id=\'{tab_id}\']/div/div/nav/ul/li/a|//div[@id=\'{tab_id}\']/nav/ul/li/a'
+            WebDriverWait(firefox, 10).until(
+                EC.visibility_of_all_elements_located((By.XPATH, ul_xpath))
+            )
         except:
             print("line 139, waiterror", file=sys.stderr)
             pass
@@ -151,7 +160,6 @@ try:
         for i in range(n_pages):
             if not re.match(r'[0-9]+', pages[i].text):
                 n_invalid += 1
-        print(n_pages, tab_id)
 
         if n_pages == 0:
             tup = selenium_load_batch(firefox, tab_id)
@@ -181,7 +189,6 @@ try:
             if button is None:
                 break
 
-            print(i, button.text)
             # click the button
             if click:
                 # Wait until the overlay is not visible
@@ -193,12 +200,16 @@ try:
                     WebDriverWait(firefox, 10).until(
                         EC.invisibility_of_element_located((By.CLASS_NAME, "content-overlay"))
                     )
+                    WebDriverWait(firefox, 3).until(
+                        EC.staleness_of(button)
+                    )
                     if elem:
                         WebDriverWait(firefox, 10).until(
                             EC.staleness_of(elem)
                         )
                 except Exception as e:
-                    print(e, file=sys.stderr)
+                    # print(e, file=sys.stderr)
+                    pass
                 finally:
                     del elem
                     elem = None
@@ -301,165 +312,8 @@ def fetch_paper(input: str) -> list:
     >>> fetch_paper(EXAMPLE_INPUT)
     ["https://openreview.net/pdf?id=odjMSBSWRt", ...]
     """
-    try:
-        res = requests.get(input)
-        res.raise_for_status()
-        if res.status_code != 200:
-            raise RuntimeError("status code is not 200")
-    except:
-        _on_error("request error")
-        return []
-
-    html_doc = res.text
-    try:
-        soup = BeautifulSoup(html_doc, 'html.parser')
-    except:
-        _on_error("html parse error")
-        return []
-    
-    next_data = soup.find(name="script", id="__NEXT_DATA__")
-    if next_data is None:
-        _on_error("failed to find json script")
-        return []
-
-    try:
-        direction = json.loads(next_data.string)
-    except Exception as e:
-        _on_error("json encode: " + str(e))
-        return []
-
-    try:
-        tabs: list = direction['props']['pageProps']['componentObj']['properties']['tabs']
-        domain: str = direction['props']['pageProps']['componentObj']['properties']['entity']['domain']
-
-        for tab in tabs:
-            _ = tab['name']
-    except:
-        _on_error("OpenReviewVersionError: unexpected json format.")
-
-        #
-        # This is one of the corner case which (I assume) we should handle.
-        # Generally, `selenium` is a more general handler for this, but 
-        # it is surprisingly slow.
-        #
-        keys = selenium_load_ids_safe(input)
-        ret = []
-
-        for k in keys:
-            ret.append('https//openreview.net/pdf?id=' + k)
-        return ret
-
-    url2name = {
-        # FIXME: add all possibilities
-        'accept-oral': "Accept (Oral)",
-        'accept-spotlight': "Accept (Spotlight)",
-        'accept-poster': 'Accept (Poster)',
-        'accept-day-1-poster': 'Accept (day 1 poster)',
-        'reject': 'Reject',
-        'withdrawn-submissions': 'Withdrawn Submissions',
-        'desk-rejected-submissions': 'Desk Rejected Submissions',
-        # ...
-        # it is quite unlikely to enumerate all possibilies.
-        # use blur matching instead.
-    }
-    tab_name  = re.sub(r'^.*#tab-(.*)$', r'\1', input)
-    tab_entry = None
-    for tab in tabs:
-        try:
-            n1 = re.findall(r'[a-zA-Z0-9]+', tab['name'])
-            for i in range(len(n1)):
-                n1[i] = n1[i].lower()
-
-            n2 = re.findall(r'[a-zA-Z0-9]+', tab_name)
-            for i in range(len(n2)):
-                n2[i] = n2[i].lower()
-
-            if ' '.join(n1) == ' '.join(n2):
-                tab_entry = tab
-                break
-        except:
-            tab_entry = None
-            break
-    
-    if tab_entry is None:
-        _on_error('cannot find tab entry ' + tab_name)
-        return []
-    
-    try:
-        key = 'venue'
-        venue = tab_entry['query']['content.venue']
-    except:
-        _on_error("cannot find venue. ")
-        try:
-            key = 'venueid'
-            venue = tab_entry['query']['content.' + key]
-        except:
-            _on_error("cannot find venueid either. abort")
-            return []
-
-    venue = urllib.parse.quote(venue)
-    domain = urllib.parse.quote_plus(domain)
-    details = urllib.parse.quote('replyCount,presentation,writable')
-    LIMIT: int = 1000
-    resource_url = f"https://api2.openreview.net/notes?content.{key}={venue}&details={details}&domain={domain}&limit={LIMIT}&offset=0"
-    # print(resource_url, file=sys.stderr)
-
-    try:
-        header = {
-            "Accept": "application/json,text/*;q=0.99",}
-        res = requests.get(resource_url)
-        res.raise_for_status()
-        if res.status_code != 200:
-            raise RuntimeError("status code is not 200")
-    except:
-        print(resource_url, file=sys.stderr)
-        _on_error("requesting json error")
-        return []
-
-    forums = []
-    try:
-        resource: dict = json.loads(res.text)
-        count: int = resource['count']
-        notes: list = resource['notes']
-
-        for note in notes:
-            forums.append(note['id'])
-    except Exception as e:
-        print(res.text, file=sys.stderr)
-        _on_error("resource json decode error")
-        return []
-
-    offset = LIMIT
-    while offset < count:
-        resource_url = f"https://api2.openreview.net/notes?content.{key}={venue}&details={details}&domain={domain}&limit={LIMIT}&offset={offset}"
-        try:
-            res = requests.get(resource_url)
-            res.raise_for_status()
-            if res.status_code != 200:
-                raise RuntimeError("status code is not 200")
-        except:
-            _on_error('request failure')
-            break
-
-        try:
-            resource: dict = json.loads(res.text)
-            _: int = resource['count']
-            notes: list = resource['notes']
-
-            for note in notes:
-                forums.append(note['id'])
-        except Exception as e:
-            print(res.text, file=sys.stderr)
-            _on_error("resource json decode error")
-            break
-
-        offset += LIMIT
-
-    ret = []
-    for forum in forums:
-        ret.append(f'https://openreview.net/pdf?id={forum}')
-    
-    return ret
+    base_url = 'https://openreview.net/pdf?id='
+    return [ base_url + id for id in selenium_load_ids_safe(input) ]
 
 def get_venues():
     """
@@ -653,8 +507,10 @@ if __name__ == "__main__":
     random.seed(42)
     for url in urls:
         lst = fetch_paper(url)
-        lst2 = selenium_load_ids_safe(url)
-        print("[R]", url, len(lst), len(set(lst2)), file=sys.stderr)
+        print("[R]", url, len(lst), file=sys.stderr)
+
+        if len(lst) == 0:
+            continue
 
         # randomly select a pdf to verify that the url works.
         try:
