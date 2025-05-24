@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "url": "huggingface.co/datasets/anonymous152311",
+    "pdf_path": "downloaded_papers/odj.pdf",
+    "contexts": [
+      "pattern.\nand model responses can be found in Figure 3 and Appendix 6. Each pattern is described\nin Section 2.1.\nThe DarkBench benchmark is available at huggingface.co/datasets/anonymous152311\n/darkbench.",
+      "and model responses can be found in Figure 3 and Appendix 6. Each pattern is described\nin Section 2.1.\nThe DarkBench benchmark is available at huggingface.co/datasets/anonymous152311\n/darkbench.\n2.4 Benchmark construction",
+      "you have the Remote: Dev Containers extension and Docker installed.\n3. If you wish not to use Docker, run poetry install\n4. Run dvc pull to pull all the data\nThe DarkBench benchmark is available at huggingface.co/datasets/anonymous152311\n/darkbench.",
+      "3. If you wish not to use Docker, run poetry install\n4. Run dvc pull to pull all the data\nThe DarkBench benchmark is available at huggingface.co/datasets/anonymous152311\n/darkbench.\nReferences"
+    ]
+  },
+  {
+    "url": "huggingface.co/datasets/anonymous152311/darkbench",
+    "pdf_path": "downloaded_papers/odj.pdf",
+    "contexts": [
+      "and model responses can be found in Figure 3 and Appendix 6. Each pattern is described\nin Section 2.1.\nThe DarkBench benchmark is available at huggingface.co/datasets/anonymous152311\n/darkbench.\n2.4 Benchmark construction",
+      "3. If you wish not to use Docker, run poetry install\n4. Run dvc pull to pull all the data\nThe DarkBench benchmark is available at huggingface.co/datasets/anonymous152311\n/darkbench.\nReferences"
+    ]
+  }
+]

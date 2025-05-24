@@ -88,8 +88,7 @@ def _log(msg: str):
     """打印日志信息"""  
     print("\033[01;92m[!]\033[0;m", msg)  
     logger.info(msg)  
-
-def verify_dataset_candidate(url: str, context_text: str) -> bool:  
+ 
 def verify_dataset_candidate(url: str, context_text: str) -> bool:  
     """二次验证疑似数据集链接"""  
     # 解析URL  
@@ -129,8 +128,6 @@ def verify_dataset_candidate(url: str, context_text: str) -> bool:
     # 排除示例/占位符URL  
     exclude_terms = ["username", "example", "sample", "placeholder", "yourname"]  
     if any(term in url.lower() for term in exclude_terms):  
-    exclude_terms = ["username", "example", "sample", "placeholder", "yourname"]  
-    if any(term in url.lower() for term in exclude_terms):  
         return False  
     
     # 检查上下文是否强烈暗示这是数据集  
@@ -153,25 +150,6 @@ def verify_dataset_candidate(url: str, context_text: str) -> bool:
     # 通过所有检查，认为是有效的数据集候选  
     return True
     
-    # 检查上下文是否强烈暗示这是数据集  
-    dataset_indicators = [  
-        "dataset", "benchmark", "corpus", "data available at",   
-        "download from", "available at", "code and data"  
-    ]  
-    context_lower = context_text.lower()  
-    has_dataset_indicator = any(indicator in context_lower for indicator in dataset_indicators)  
-    
-    # 如果上下文没有明确指示这是数据集，但URL看起来可能是  
-    # 例如，GitHub仓库但不是明确的数据集  
-    if "github.com" in domain and not has_dataset_indicator:  
-        # 检查路径中是否有数据集相关关键词  
-        github_dataset_terms = ["dataset", "data", "benchmark", "corpus"]  
-        if not any(term in path for term in github_dataset_terms):  
-            # 可能是代码库而不是数据集  
-            return False  
-    
-    # 通过所有检查，认为是有效的数据集候选  
-    return True
 
 def extract_page_content(url: str) -> Optional[str]:  
     """尝试获取链接内容"""  
