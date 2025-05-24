@@ -1,0 +1,8 @@
+beautifulsoup4
+bs4
+certifi
+pypdf
+PyPDF2
+requests
+selenium
+urllib3
