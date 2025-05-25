@@ -461,6 +461,7 @@ def fetch_paper(input: str) -> list:
     
     return ret
 
+
 def get_venues():
     """
     :return: a list of active venues.
