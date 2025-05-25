@@ -1,0 +1,46 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2409.07703",
+    "pdf_path": "downloaded_papers/XmProj9cPs.pdf",
+    "contexts": [
+      "Zhang, Xinya Du, and Dong Yu. Dsbench: How far are data science agents to becoming data\nscience experts?, 2024. URL https://arxiv.org/abs/2409.07703 .\nYuhang Lai, Chengxi Li, Yiming Wang, Tianyi Zhang, Ruiqi Zhong, Luke Zettlemoyer, Wen-tau"
+    ]
+  },
+  {
+    "url": "https://qwenlm.github.io/blog/qwen2.5/",
+    "pdf_path": "downloaded_papers/XmProj9cPs.pdf",
+    "contexts": [
+      "Shayan Talaei, Mohammadreza Pourreza, Yu-Chen Chang, Azalia Mirhoseini, and Amin Saberi.\nChess: Contextual harnessing for efficient sql synthesis. arXiv preprint arXiv:2405.16755, 2024.\nQwen Team. Qwen2.5: A party of foundation models, September 2024. URL https://qwenlm.\ngithub.io/blog/qwen2.5/.\n12"
+    ]
+  },
+  {
+    "url": "https://doi.org/10.48550/arXiv.2306.14898",
+    "pdf_path": "downloaded_papers/XmProj9cPs.pdf",
+    "contexts": [
+      "and benchmarking interactive coding with execution feedback. CoRR, abs/2306.14898, 2023. doi:10.48550/arXiv.2306.14898. URL https://doi.org/10.48550/arXiv.2306.14898.",
+      "John Yang, Akshara Prabhakar, Karthik Narasimhan, and Shunyu Yao. Intercode: Standardizing\nand benchmarking interactive coding with execution feedback. CoRR, abs/2306.14898, 2023. doi:\n10.48550/arXiv.2306.14898. URL https://doi.org/10.48550/arXiv.2306.14898.\nJohn Yang, Carlos E. Jimenez, Alexander Wettig, Kilian Lieret, Shunyu Yao, Karthik Narasimhan,\nand Ofir Press. Swe-agent: Agent computer interfaces enable software engineering language",
+      "and benchmarking interactive coding with execution feedback. CoRR , abs/2306.14898, 2023. doi:\n10.48550/arXiv.2306.14898. URL https://doi.org/10.48550/arXiv.2306.14898 .\nJohn Yang, Carlos E. Jimenez, Alexander Wettig, Kilian Lieret, Shunyu Yao, Karthik Narasimhan,"
+    ]
+  },
+  {
+    "url": "https://github.com/fivetran/dbt_salesforce/",
+    "pdf_path": "downloaded_papers/XmProj9cPs.pdf",
+    "contexts": [
+      "2https://github.com/fivetran/dbt_salesforce/"
+    ]
+  },
+  {
+    "url": "https://cloud.google.com/bigquery/docs/reference/standard-sql/functions-and-operators",
+    "pdf_path": "downloaded_papers/XmProj9cPs.pdf",
+    "contexts": [
+      "standard-sql/functions-and-operators"
+    ]
+  },
+  {
+    "url": "https://www.sqlite.org/docs.html",
+    "pdf_path": "downloaded_papers/XmProj9cPs.pdf",
+    "contexts": [
+      "Postgres https://www.postgresql.org/docs/current/functions.html 30 30 30†\nClickhouse https://clickhouse.com/docs/en/sql-reference/functions 226 6 226\nSQLite https://www.sqlite.org/docs.html 6 6 147\nDuckDB https://duckdb.org/docs/sql/functions/overview 24 24 513\nTotal 1039 130 2025"
+    ]
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "url": "https://anonymous.4open.science/r/DarkGPT-DCBF",
+    "pdf_path": "downloaded_papers/odjMSBSWRt.pdf",
+    "contexts": [
+      "The code used in this paper can be found here. The steps to reproduce the paper are:"
+    ]
+  },
+  {
+    "url": "http://arxiv.org/abs/2204.05862",
+    "pdf_path": "downloaded_papers/odjMSBSWRt.pdf",
+    "contexts": [
+      "Dawn Drain, Stanislav Fort, Deep Ganguli, Tom Henighan, Nicholas Joseph, SauravKadavath, Jackson Kernion, Tom Conerly, Sheer El-Showk, Nelson Elhage, Zac Hatfield-Dodds, Danny Hernandez, Tristan Hume, Scott Johnston, Shauna Kravec, Liane Lovitt,Neel Nanda, Catherine Olsson, Dario Amodei, Tom Brown, Jack Clark, Sam McCan-dlish, Chris Olah, Ben Mann, and Jared Kaplan. 2022a. Training a helpful and harmlessassistant with reinforcement learning from human feedback."
+    ]
+  },
+  {
+    "url": "https://doi.org/10.1037/xap0000092",
+    "pdf_path": "downloaded_papers/odjMSBSWRt.pdf",
+    "contexts": [
+      "Frank Krueger, and Raja Parasuraman. 2016. Almost human: Anthropomorphism in-creases trust resilience in cognitive agents. Journal of Experimental Psychology: Applied,22."
+    ]
+  },
+  {
+    "url": "http://arxiv.org/abs/2404.03189",
+    "pdf_path": "downloaded_papers/odjMSBSWRt.pdf",
+    "contexts": [
+      "Noah Y. Siegel, Oana-Maria Camburu, Nicolas Heess, and Maria Perez-Ortiz. 2024. The"
+    ]
+  },
+  {
+    "url": "huggingface.co/datasets/anonymous152311",
+    "pdf_path": "downloaded_papers/odjMSBSWRt.pdf",
+    "contexts": [
+      "pattern.\nand model responses can be found in Figure 3 and Appendix 6. Each pattern is described\nin Section 2.1.\nThe DarkBench benchmark is available at huggingface.co/datasets/anonymous152311\n/darkbench.",
+      "and model responses can be found in Figure 3 and Appendix 6. Each pattern is described\nin Section 2.1.\nThe DarkBench benchmark is available at huggingface.co/datasets/anonymous152311\n/darkbench.\n2.4 Benchmark construction",
+      "you have the Remote: Dev Containers extension and Docker installed.\n3. If you wish not to use Docker, run poetry install\n4. Run dvc pull to pull all the data\nThe DarkBench benchmark is available at huggingface.co/datasets/anonymous152311\n/darkbench.",
+      "3. If you wish not to use Docker, run poetry install\n4. Run dvc pull to pull all the data\nThe DarkBench benchmark is available at huggingface.co/datasets/anonymous152311\n/darkbench.\nReferences"
+    ]
+  },
+  {
+    "url": "huggingface.co/datasets/anonymous152311/darkbench",
+    "pdf_path": "downloaded_papers/odjMSBSWRt.pdf",
+    "contexts": [
+      "and model responses can be found in Figure 3 and Appendix 6. Each pattern is described\nin Section 2.1.\nThe DarkBench benchmark is available at huggingface.co/datasets/anonymous152311\n/darkbench.\n2.4 Benchmark construction",
+      "3. If you wish not to use Docker, run poetry install\n4. Run dvc pull to pull all the data\nThe DarkBench benchmark is available at huggingface.co/datasets/anonymous152311\n/darkbench.\nReferences"
+    ]
+  }
+]
