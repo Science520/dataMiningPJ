@@ -90,65 +90,107 @@ def _log(msg: str):
     logger.info(msg)  
  
 def verify_dataset_candidate(url: str, context_text: str) -> bool:  
-    """二次验证疑似数据集链接"""  
+    """严格的二次验证疑似数据集链接"""  
     # 解析URL  
     parsed = urlparse(url)  
     domain = parsed.netloc.lower()  
     path = parsed.path.lower()  
     
-    # 排除已知的框架网站和一般性网站  
-    exclude_sites = [  
-        "pytorch.org", "tensorflow.org", "keras.io",  
+    # 严格排除已知的非数据集网站  
+    strict_exclude_sites = [  
+        # 框架和工具网站  
+        "pytorch.org", "tensorflow.org", "keras.io", "scikit-learn.org",  
+        # 社交媒体和视频  
         "wikipedia.org", "youtube.com", "twitter.com", "facebook.com",  
-        "linkedin.com", "medium.com", "arxiv.org", "google.com"  
+        "linkedin.com", "medium.com", "reddit.com",  
+        # 学术平台（除非明确是数据集路径）  
+        "arxiv.org", "aclanthology.org", "scholar.google.com",  
+        # 商业网站  
+        "google.com", "microsoft.com", "apple.com", "amazon.com",  
+        "openai.com", "anthropic.com", "cohere.ai",  
+        # 教育机构主页  
+        "stanford.edu", "mit.edu", "berkeley.edu", "cmu.edu"  
     ]  
-    if any(site in domain for site in exclude_sites):  
-        # 特例：如果是arxiv.org/data 或 google.com/dataset 这类路径，仍然可能是数据集  
-        dataset_paths = ["dataset", "data", "benchmark", "corpus"]  
-        if not any(keyword in path for keyword in dataset_paths):  
+    
+    for site in strict_exclude_sites:  
+        if site in domain:  
+            # 对于学术平台，只有明确的数据集路径才通过  
+            if site in ["arxiv.org", "aclanthology.org"]:  
+                dataset_paths = ["dataset", "data", "benchmark", "corpus"]  
+                if not any(keyword in path for keyword in dataset_paths):  
+                    return False  
+            # 对于教育机构，必须有明确的数据集指示  
+            elif ".edu" in site:  
+                if not any(keyword in path for keyword in ["dataset", "data", "benchmark", "corpus", "download"]):  
+                    return False  
+            else:  
+                return False  
+    
+    # 严格排除无效URL模式  
+    strict_exclude_patterns = [  
+        # 明显的错误URL  
+        ".1", ".2", ".3", ".html.1", ".pdf.1",  
+        # 主页和通用页面  
+        "/index", "/home", "/about", "/contact", "/news", "/blog",  
+        # 占位符和示例  
+        "username", "example", "sample", "placeholder", "yourname", "user123",  
+        # 空路径或根路径（对于非专用数据集域名）  
+        "/"  
+    ]  
+    
+    for pattern in strict_exclude_patterns:  
+        if pattern in url.lower():  
             return False  
     
-    # 解析URL  
-    parsed = urlparse(url)  
-    domain = parsed.netloc.lower()  
-    path = parsed.path.lower()  
-    
-    # 排除已知的框架网站和一般性网站  
-    exclude_sites = [  
-        "pytorch.org", "tensorflow.org", "keras.io",  
-        "wikipedia.org", "youtube.com", "twitter.com", "facebook.com",  
-        "linkedin.com", "medium.com", "arxiv.org", "google.com"  
-    ]  
-    if any(site in domain for site in exclude_sites):  
-        # 特例：如果是arxiv.org/data 或 google.com/dataset 这类路径，仍然可能是数据集  
-        dataset_paths = ["dataset", "data", "benchmark", "corpus"]  
-        if not any(keyword in path for keyword in dataset_paths):  
+    # 对于GitHub，必须有明确的数据集指示  
+    if "github.com" in domain:  
+        # 检查路径和仓库名是否包含数据集关键词  
+        github_dataset_terms = ["dataset", "data", "benchmark", "corpus", "evaluation"]  
+        has_dataset_term = any(term in path for term in github_dataset_terms)  
+        
+        # 检查上下文是否明确指示这是数据集  
+        context_lower = context_text.lower()  
+        dataset_context_indicators = [  
+            "dataset", "benchmark", "corpus", "data available",  
+            "download", "repository contains", "code and data"  
+        ]  
+        has_context_indicator = any(indicator in context_lower for indicator in dataset_context_indicators)  
+        
+        # GitHub URL必须同时满足路径包含数据集关键词和上下文指示  
+        if not (has_dataset_term and has_context_indicator):  
             return False  
     
-    # 排除示例/占位符URL  
-    exclude_terms = ["username", "example", "sample", "placeholder", "yourname"]  
-    if any(term in url.lower() for term in exclude_terms):  
-        return False  
+    # 对于HuggingFace，检查是否确实是datasets或models  
+    if "huggingface.co" in domain:  
+        if not any(keyword in path for keyword in ["datasets", "spaces"]):  
+            # 如果是模型页面，需要上下文明确指示这是数据集相关  
+            context_lower = context_text.lower()  
+            if not any(keyword in context_lower for keyword in ["dataset", "benchmark", "evaluation"]):  
+                return False  
     
-    # 检查上下文是否强烈暗示这是数据集  
-    dataset_indicators = [  
-        "dataset", "benchmark", "corpus", "data available at",   
-        "download from", "available at", "code and data"  
-    ]  
+    # 检查上下文是否有强烈的数据集指示  
     context_lower = context_text.lower()  
-    has_dataset_indicator = any(indicator in context_lower for indicator in dataset_indicators)  
+    strong_dataset_indicators = [  
+        "dataset available at", "benchmark available at", "corpus available at",  
+        "data can be downloaded from", "dataset can be found at",   
+        "benchmark can be found at", "official dataset", "official benchmark",  
+        "evaluation dataset", "training data", "test data", "validation data",  
+        "download the dataset", "access the benchmark"  
+    ]  
     
-    # 如果上下文没有明确指示这是数据集，但URL看起来可能是  
-    # 例如，GitHub仓库但不是明确的数据集  
-    if "github.com" in domain and not has_dataset_indicator:  
-        # 检查路径中是否有数据集相关关键词  
-        github_dataset_terms = ["dataset", "data", "benchmark", "corpus"]  
-        if not any(term in path for term in github_dataset_terms):  
-            # 可能是代码库而不是数据集  
+    has_strong_indicator = any(indicator in context_lower for indicator in strong_dataset_indicators)  
+    
+    # 如果没有强烈的上下文指示，进一步检查URL是否来自可信的数据集域名  
+    if not has_strong_indicator:  
+        trusted_dataset_domains = [  
+            "zenodo.org", "figshare.com", "data.mendeley.com", "datadryad.org",  
+            "dataverse.harvard.edu", "catalog.ldc.upenn.edu", "archive.ics.uci.edu"  
+        ]  
+        if not any(trusted_domain in domain for trusted_domain in trusted_dataset_domains):  
             return False  
     
-    # 通过所有检查，认为是有效的数据集候选  
-    return True
+    # 通过所有严格检查，认为是有效的数据集候选  
+    return True  
     
 
 def extract_page_content(url: str) -> Optional[str]:  
@@ -202,7 +244,6 @@ def call_llm_with_retry(url: str, context_text: str) -> str:
     try:  
         # 使用新的invoke方法  
         chain = prompt_link | llm  # prompt 不能改成 chain，不然写的二次调用没用
-        chain = prompt_link | llm  # prompt 不能改成 chain，不然写的二次调用没用
         result = chain.invoke({"url": url, "context_text": context_text})  
         model_info = llm.model_name if hasattr(llm, 'model_name') else "Unknown model"  
         logger.info(f"API call successful using model: {model_info}")  
@@ -217,8 +258,8 @@ def is_benchmark_or_dataset_link_llm(url: str, context_text: str) -> bool:
         return False  
         
     # 先检查URL形式是否有效  
-    # if not can_access(url):  
-    #     return False  
+    if not can_access(url):  
+        return False  
     
     # 使用LLM分析链接及其上下文  
     try:  
@@ -229,21 +270,14 @@ def is_benchmark_or_dataset_link_llm(url: str, context_text: str) -> bool:
         
         logger.info(f"LLM classification for {url}: {initial_result}")  
         
-        # if initial_result:  
-        #     # 进行二次验证  
-        #     if verify_dataset_candidate(url, context_text):  
-        #         return True  
-        #     else:  
-        #         logger.info(f"Link initially classified as dataset but rejected in verification: {url}")  
-        #         return False  
-        # if initial_result:  
-        #     # 进行二次验证  
-        #     if verify_dataset_candidate(url, context_text):  
-        #         return True  
-        #     else:  
-        #         logger.info(f"Link initially classified as dataset but rejected in verification: {url}")  
-        #         return False  
-        
+        if initial_result:  
+            # 进行二次验证  
+            if verify_dataset_candidate(url, context_text):  
+                return True  
+            else:  
+                logger.info(f"Link initially classified as dataset but rejected in verification: {url}")  
+                return False  
+                    
         return initial_result  
     
     except Exception as e:  
@@ -256,85 +290,127 @@ def is_benchmark_or_dataset_link_rule(url: str, context: str = "") -> bool:
     parsed = urlparse(url)  
     domain = parsed.netloc.lower()  
     path = parsed.path.lower()  
+    query = parsed.query.lower()  
 
-    # 排除明显不是数据集的域名和路径  
+    # 严格排除明显不是数据集的域名和路径  
     exclusion_patterns = [  
-        # 论文网站  
-        'arxiv.org', 'aclanthology.org', 'doi.org', 'scopus.com',  
-        # 博客和新闻  
-        'blog', 'post', 'article', 'news', 'about', 'wiki',  
-        # 公司主页  
-        'company', 'corp', 'inc', 'ltd'
+        # 论文网站和学术平台  
+        'arxiv.org', 'aclanthology.org', 'doi.org', 'scopus.com', 'acm.org',  
+        'ieee.org', 'springer.com', 'sciencedirect.com', 'jstor.org',  
+        # 博客和新闻网站  
+        'blog', 'post', 'article', 'news', 'about', 'wiki', 'medium.com',  
+        # 公司主页和商业网站  
+        'company', 'corp', 'inc', 'ltd', 'openai.com', 'anthropic.com',  
+        # 教育机构主页（除非明确包含数据集路径）  
+        '.edu', '.ac.uk', '.ac.cn',  
+        # 社交媒体和视频平台  
+        'twitter.com', 'facebook.com', 'youtube.com', 'linkedin.com',  
+        # 其他排除  
+        'google.com', 'microsoft.com', 'apple.com',  
+        # 个人主页和展示网站  
+        'starling.cs.berkeley.edu', 'personal', 'homepage'  
     ]  
     
     # 检查排除模式  
     for pattern in exclusion_patterns:  
-        if pattern in domain or pattern in path:  
+        if pattern in domain:  
+            # 对于教育网站，如果路径中没有明确的数据集关键词，则排除  
+            if pattern in ['.edu', '.ac.uk', '.ac.cn']:  
+                dataset_paths = ['dataset', 'benchmark', 'data', 'corpus', 'download']  
+                if not any(dp in path for dp in dataset_paths):  
+                    return False  
+            else:  
+                return False  
+        if pattern in path:  
             return False  
     
-    # 数据集相关域名和路径关键词  
+    # 排除无效的URL格式  
+    invalid_patterns = [  
+        # 带有明显错误的URL  
+        '.1', '.2', '.3',  # 版本号错误  
+        'index/', 'index.html', 'index.php',  # 主页  
+        'home/', 'about/', 'contact/',  # 通用页面  
+    ]  
+    for pattern in invalid_patterns:  
+        if pattern in path:  
+            return False  
+    
+    # 严格的数据集相关域名和路径关键词  
     dataset_domains = {  
-        'github.com': ['dataset', 'benchmark', 'data', 'corpus', 'evaluation'],  
-        'huggingface.co': ['datasets'],  
-        'kaggle.com': ['datasets'],  
+        'github.com': ['dataset', 'benchmark', 'data', 'corpus', 'evaluation', 'leaderboard'],  
+        'huggingface.co': ['datasets', 'spaces'],  # 只允许datasets和spaces路径  
+        'kaggle.com': ['datasets', 'competitions'],  
         'paperswithcode.com': ['datasets', 'benchmarks'],  
-        'tensorflow.org': ['datasets', 'data'],  
-        'pytorch.org': ['data', 'datasets'],  
-        'zenodo.org': [],  # 整个域名都是数据集相关  
-        'figshare.com': [],  
-        'data.mendeley.com': [],  
-        'datadryad.org': [],  
-        'dataverse.harvard.edu': [],  
+        'zenodo.org': ['record'],  # zenodo需要有record路径  
+        'figshare.com': ['articles'],  # figshare需要有articles路径  
+        'data.mendeley.com': ['datasets'],  
+        'datadryad.org': ['stash'],  
+        'dataverse.harvard.edu': ['dataset'],  
         'catalog.ldc.upenn.edu': [],  
-        'archive.ics.uci.edu': [],
-        # 添加匿名代码仓库  
+        'archive.ics.uci.edu': ['ml'],  # UCI只允许ml路径  
+        # 匿名代码仓库需要更严格  
         '4open.science': ['dataset', 'benchmark', 'data'],  
         'anonymous.4open.science': ['dataset', 'benchmark', 'data']  
     }  
     
-    # 检查域名  
+    # 检查域名（更严格）  
     if domain in dataset_domains:  
         if not dataset_domains[domain]:  # 空列表表示整个域名都是数据集相关  
             return True  
+        # 必须包含指定的关键词才认为是数据集  
         for keyword in dataset_domains[domain]:  
             if keyword in path:  
                 return True  
+        # 如果域名匹配但路径不匹配，返回False  
+        return False  
     
-    # 检查路径中的关键词  
-    dataset_keywords = [  
-        'dataset', 'benchmark', 'corpus', 'data-download',   
-        'download-data', 'data/download', 'download/data',  
-        'evaluate', 'evaluation', 'metrics', 'performance',  
+    # 严格检查路径中的关键词（必须是明确的数据集指示）  
+    strict_dataset_keywords = [  
+        'dataset', 'benchmark', 'corpus',   
+        'data-download', 'download-data', 'data/download', 'download/data',  
         'leaderboard', 'competition', 'challenge'  
     ]  
-    for keyword in dataset_keywords:  
+    for keyword in strict_dataset_keywords:  
         if keyword in path:  
             return True  
     
-    # 检查上下文中的关键词  
+    # 检查上下文中的关键词（更严格的上下文要求）  
     context_lower = context.lower()  
-    context_keywords = [  
-        'dataset', 'data set', 'benchmark', 'corpus', 'repository',   
-        'evaluation', 'metric', 'leaderboard', 'test set',  
-        'training data', 'test data', 'evaluation data',  
-        'repository for', 'official implementation', 'code for'  
+    strong_context_keywords = [  
+        'dataset available at', 'benchmark available at', 'corpus available at',  
+        'data can be downloaded', 'dataset can be found', 'benchmark can be found',  
+        'official dataset', 'official benchmark', 'evaluation dataset',  
+        'training dataset', 'test dataset', 'validation dataset'  
     ]  
-    for keyword in context_keywords:  
+    
+    # 只有强烈的上下文指示才认为是数据集  
+    for keyword in strong_context_keywords:  
         if keyword in context_lower:  
-            # 上下文中包含关键词，并且URL看起来不是博客或主页  
-            if not any(x in path for x in ['blog', 'post', 'article', 'news', 'about']):  
+            # 确保URL不是主页或博客  
+            if not any(x in path for x in ['/', 'index', 'home', 'blog', 'post', 'article', 'news', 'about']):  
                 return True  
     
     return False  
 
+# 在全局添加缓存  
+_url_classification_cache = {}  
+
 def is_benchmark_or_dataset_link(url: str, context: str = "") -> bool:  
     """结合规则和LLM判断URL是否是数据集或基准测试相关的链接"""  
+    
+    # 检查缓存  
+    cache_key = f"{url}:{hash(context)}"  
+    if cache_key in _url_classification_cache:  
+        logger.info(f"Using cached result for {url}")  
+        return _url_classification_cache[cache_key]  
+    
     # 先用规则方法判断  
     rule_result = is_benchmark_or_dataset_link_rule(url, context)  
     
     # 如果规则方法判断为True，直接返回  
     if rule_result:  
         logger.info(f"Rule-based method classified {url} as dataset/benchmark")  
+        _url_classification_cache[cache_key] = True  
         return True  
     
     # 如果规则方法判断为False且LLM可用，使用LLM方法进一步判断  
@@ -342,9 +418,14 @@ def is_benchmark_or_dataset_link(url: str, context: str = "") -> bool:
         llm_result = is_benchmark_or_dataset_link_llm(url, context)  
         if llm_result:  
             logger.info(f"LLM method classified {url} as dataset/benchmark")  
+            _url_classification_cache[cache_key] = True  
             return True  
+        else:  
+            _url_classification_cache[cache_key] = False  
+    else:  
+        _url_classification_cache[cache_key] = False  
     
-    return False  
+    return _url_classification_cache[cache_key]
 
 def extract_text_from_pdf(pdf_url: str) -> str:  
     """从URL下载PDF并提取文本内容"""  
@@ -415,16 +496,11 @@ def extract_benchmark_links_from_paper(pdf_url: str) -> Dict[str, List[str]]:
     # 筛选数据集和基准测试相关链接  
     benchmark_links = {}  
     for url, contexts in all_urls.items():  
-        # 对URL的所有上下文进行检查  
-        relevant_contexts = []  
-        for context in contexts:  
-            if is_benchmark_or_dataset_link(url, context):  
-                relevant_contexts.append(context)  
-        
-        # 如果该URL被识别为数据集/基准测试链接，保存所有相关上下文  
-        if relevant_contexts:  
-            benchmark_links[url] = relevant_contexts  
-    
+        # 合并所有context  
+        merged_context = "\n".join(list(set(contexts)))  
+        # 只用一次LLM判别  
+        if is_benchmark_or_dataset_link(url, merged_context):  
+            benchmark_links[url] = [merged_context]  
     return benchmark_links  
 
 def save_json(file_path: str, data: list) -> None:  

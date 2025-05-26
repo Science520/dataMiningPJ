@@ -1,20 +1,19 @@
 [
   {
-    "url": "huggingface.co/datasets/anonymous152311",
-    "pdf_path": "downloaded_papers/odj.pdf",
+    "url": "https://huggingface.co/datasets/HuggingFaceH4/stack-exchange-preferences",
+    "pdf_path": "downloaded_papers/QEHrmQPBdd.pdf",
     "contexts": [
-      "pattern.\nand model responses can be found in Figure 3 and Appendix 6. Each pattern is described\nin Section 2.1.\nThe DarkBench benchmark is available at huggingface.co/datasets/anonymous152311\n/darkbench.",
-      "and model responses can be found in Figure 3 and Appendix 6. Each pattern is described\nin Section 2.1.\nThe DarkBench benchmark is available at huggingface.co/datasets/anonymous152311\n/darkbench.\n2.4 Benchmark construction",
-      "you have the Remote: Dev Containers extension and Docker installed.\n3. If you wish not to use Docker, run poetry install\n4. Run dvc pull to pull all the data\nThe DarkBench benchmark is available at huggingface.co/datasets/anonymous152311\n/darkbench.",
-      "3. If you wish not to use Docker, run poetry install\n4. Run dvc pull to pull all the data\nThe DarkBench benchmark is available at huggingface.co/datasets/anonymous152311\n/darkbench.\nReferences"
+      "stack exchange preference dataset, 2023. URL https://huggingface.co/datasets/HuggingFaceH4/stack-exchange-preferences",
+      ".",
+      "the Association for Computational Linguistics (ACL 2023), 2023.\nNathan Lambert, Lewis Tunstall, Nazneen Rajani, and Tristan Thrush. Huggingface h4\nstack exchange preference dataset, 2023. URL https://huggingface.co/datasets/\nHuggingFaceH4/stack-exchange-preferences.\nNathan Lambert, Valentina Pyatkin, Jacob Morrison, LJ Miranda, Bill Yuchen Lin, Khyathi Chandu,"
     ]
   },
   {
-    "url": "huggingface.co/datasets/anonymous152311/darkbench",
-    "pdf_path": "downloaded_papers/odj.pdf",
+    "url": "https://huggingface.co/datasets/",
+    "pdf_path": "downloaded_papers/QEHrmQPBdd.pdf",
     "contexts": [
-      "and model responses can be found in Figure 3 and Appendix 6. Each pattern is described\nin Section 2.1.\nThe DarkBench benchmark is available at huggingface.co/datasets/anonymous152311\n/darkbench.\n2.4 Benchmark construction",
-      "3. If you wish not to use Docker, run poetry install\n4. Run dvc pull to pull all the data\nThe DarkBench benchmark is available at huggingface.co/datasets/anonymous152311\n/darkbench.\nReferences"
+      "the Association for Computational Linguistics (ACL 2023), 2023.\nNathan Lambert, Lewis Tunstall, Nazneen Rajani, and Tristan Thrush. Huggingface h4\nstack exchange preference dataset, 2023. URL https://huggingface.co/datasets/\nHuggingFaceH4/stack-exchange-preferences.\nNathan Lambert, Valentina Pyatkin, Jacob Morrison, LJ Miranda, Bill Yuchen Lin, Khyathi Chandu,",
+      "Nathan Lambert, Lewis Tunstall, Nazneen Rajani, and Tristan Thrush. Huggingface h4\nstack exchange preference dataset, 2023. URL https://huggingface.co/datasets/\nHuggingFaceH4/stack-exchange-preferences ."
     ]
   }
 ]

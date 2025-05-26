@@ -43,6 +43,9 @@ prompt_link = None
 RATE_LIMIT_DELAY = 3  
 LAST_API_CALL_TIME = 0  
 
+# 添加URL分类缓存  
+_url_classification_cache = {}  
+
 
 def extract_benchmark_links_from_paper(pdf_url: str) -> Dict[str, List[str]]:  
     """从论文中提取数据集和基准测试相关链接，整合pdf_find_url功能"""  
@@ -82,15 +85,12 @@ def extract_benchmark_links_from_paper(pdf_url: str) -> Dict[str, List[str]]:
         # 筛选数据集和基准测试相关链接  
         benchmark_links = {}  
         for url, contexts in all_urls.items():  
-            # 对URL的所有上下文进行检查  
-            relevant_contexts = []  
-            for context in contexts:  
-                if is_benchmark_or_dataset_link(url, context):  
-                    relevant_contexts.append(context)  
+            # 合并所有context（每个URL只执行一次）  
+            merged_context = "\n".join(list(set(contexts)))  
             
             # 如果该URL被识别为数据集/基准测试链接，保存所有相关上下文  
-            if relevant_contexts:  
-                benchmark_links[url] = relevant_contexts  
+            if is_benchmark_or_dataset_link(url, merged_context):
+                benchmark_links[url] = [merged_context]  
         
         # 清理临时文件  
         try:  
