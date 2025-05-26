@@ -1,0 +1,240 @@
+[
+  {
+    "url": "https://github.com/kaistAI/Knowledge-Entropy.git",
+    "pdf_path": "downloaded_papers/eHehzSDUFp.pdf",
+    "contexts": [
+      "1Code in https://github.com/kaistAI/Knowledge-Entropy.git",
+      "∗Denotes equal contribution\n1Code in https://github.com/kaistAI/Knowledge-Entropy.git\n1"
+    ]
+  },
+  {
+    "url": "https://github.com/allenai/OLMo/tree/main",
+    "pdf_path": "downloaded_papers/eHehzSDUFp.pdf",
+    "contexts": [
+      "5We used OLMo and Dolma from the official repository"
+    ]
+  },
+  {
+    "url": "https://github.com/allenai/OLMo/blob/main/checkpoints/official/OLMo-1B.csv",
+    "pdf_path": "downloaded_papers/eHehzSDUFp.pdf",
+    "contexts": [
+      "throughout pretraining. Available checkpoints can be found here."
+    ]
+  },
+  {
+    "url": "https://huggingface.co/datasets/ncbi/pubmed",
+    "pdf_path": "downloaded_papers/eHehzSDUFp.pdf",
+    "contexts": [
+      "7We randomly sample 205k instances for each dataset.8Datasets in huggingface9We slightly modified the dataset to our setting of which details are in Appendix B.1"
+    ]
+  },
+  {
+    "url": "https://api.semanticscholar.org/CorpusID:227231454",
+    "pdf_path": "downloaded_papers/eHehzSDUFp.pdf",
+    "contexts": [
+      "ral language processing: A survey. ArXiv, abs/2012.09823, 2020. URL https://api.semanticscholar.org/CorpusID:227231454"
+    ]
+  },
+  {
+    "url": "https://aclanthology.org/2022.acl-long.581",
+    "pdf_path": "downloaded_papers/eHehzSDUFp.pdf",
+    "contexts": [
+      "Dublin, Ireland, May 2022a. Association for Computational Linguistics. doi: 10.18653/v1/2022.acl-long.581. URL https://aclanthology.org/2022.acl-long.581.",
+      "Dublin, Ireland, May 2022a. Association for Computational Linguistics. doi: 10.18653/v1/2022.acl-long.\n581. URL https://aclanthology.org/2022.acl-long.581 .\nDamai Dai, Wen-Jie Jiang, Qingxiu Dong, Yajuan Lyu, Qiaoqiao She, and Zhifang Sui. Neural knowledge"
+    ]
+  },
+  {
+    "url": "https://api.semanticscholar.org/CorpusID:251223709",
+    "pdf_path": "downloaded_papers/eHehzSDUFp.pdf",
+    "contexts": [
+      "Damai Dai, Wen-Jie Jiang, Qingxiu Dong, Yajuan Lyu, Qiaoqiao She, and Zhifang Sui. Neural knowledge\nbank for pretrained transformers. In Natural Language Processing and Chinese Computing, 2022b. URL\nhttps://api.semanticscholar.org/CorpusID:251223709.\nShibhansh Dohare, J. Fernando Hernandez-Garcia, Qingfeng Lan, Parash Rahman, Ashique Rupam Mahmood,\nand Richard S. Sutton. Loss of plasticity in deep continual learning. Nature, 632:768 – 774, 2024. URL"
+    ]
+  },
+  {
+    "url": "https://aclanthology.org/2022.findings-emnlp.438",
+    "pdf_path": "downloaded_papers/eHehzSDUFp.pdf",
+    "contexts": [
+      "findings-emnlp.438. URL https://aclanthology.org/2022.findings-emnlp.438.",
+      "of the Association for Computational Linguistics: EMNLP 2022, pp. 5937–5947, Abu Dhabi, United\nArab Emirates, December 2022. Association for Computational Linguistics. doi: 10.18653/v1/2022.\nfindings-emnlp.438. URL https://aclanthology.org/2022.findings-emnlp.438.\n11\nPublished as a conference paper at ICLR 2025",
+      "Arab Emirates, December 2022. Association for Computational Linguistics. doi: 10.18653/v1/2022.\nfindings-emnlp.438. URL https://aclanthology.org/2022.findings-emnlp.438 .\n11"
+    ]
+  },
+  {
+    "url": "https://aclanthology.org/2024.naacl-long.366",
+    "pdf_path": "downloaded_papers/eHehzSDUFp.pdf",
+    "contexts": [
+      "Mexico City, Mexico, June 2024. Association for Computational Linguistics. doi: 10.18653/v1/2024.naacl-long.366. URL https://aclanthology.org/2024.naacl-long.366."
+    ]
+  },
+  {
+    "url": "https://aclanthology.org/2021.emnlp-main.446",
+    "pdf_path": "downloaded_papers/eHehzSDUFp.pdf",
+    "contexts": [
+      "Online and Punta Cana, Dominican Republic, November 2021. Association for Computational Linguistics.doi: 10.18653/v1/2021.emnlp-main.446. URL https://aclanthology.org/2021.emnlp-main.446.",
+      "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing, pp. 5484–5495,\nOnline and Punta Cana, Dominican Republic, November 2021. Association for Computational Linguistics.\ndoi: 10.18653/v1/2021.emnlp-main.446. URL https://aclanthology.org/2021.emnlp-main.446.\nMor Geva, Avi Caciularu, Kevin Wang, and Yoav Goldberg. Transformer feed-forward layers build predictions\nby promoting concepts in the vocabulary space. In Yoav Goldberg, Zornitsa Kozareva, and Yue Zhang"
+    ]
+  },
+  {
+    "url": "https://aclanthology.org/2022.emnlp-main.3",
+    "pdf_path": "downloaded_papers/eHehzSDUFp.pdf",
+    "contexts": [
+      "30–45, Abu Dhabi, United Arab Emirates, December 2022. Association for Computational Linguistics.doi: 10.18653/v1/2022.emnlp-main.3. URL https://aclanthology.org/2022.emnlp-main.3.",
+      "(eds.), Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing, pp.\n30–45, Abu Dhabi, United Arab Emirates, December 2022. Association for Computational Linguistics.\ndoi: 10.18653/v1/2022.emnlp-main.3. URL https://aclanthology.org/2022.emnlp-main.3.\nMor Geva, Jasmijn Bastings, Katja Filippova, and Amir Globerson. Dissecting recall of factual associations\nin auto-regressive language models. In Houda Bouamor, Juan Pino, and Kalika Bali (eds.), Proceedings of",
+      "30–45, Abu Dhabi, United Arab Emirates, December 2022. Association for Computational Linguistics.\ndoi: 10.18653/v1/2022.emnlp-main.3. URL https://aclanthology.org/2022.emnlp-main.3 .\nMor Geva, Jasmijn Bastings, Katja Filippova, and Amir Globerson. Dissecting recall of factual associations"
+    ]
+  },
+  {
+    "url": "https://aclanthology.org/2023.emnlp-main.751",
+    "pdf_path": "downloaded_papers/eHehzSDUFp.pdf",
+    "contexts": [
+      "December 2023. Association for Computational Linguistics. doi: 10.18653/v1/2023.emnlp-main.751.URL https://aclanthology.org/2023.emnlp-main.751.",
+      "the 2023 Conference on Empirical Methods in Natural Language Processing, pp. 12216–12235, Singapore,\nDecember 2023. Association for Computational Linguistics. doi: 10.18653/v1/2023.emnlp-main.751.\nURL https://aclanthology.org/2023.emnlp-main.751.\nDirk Groeneveld, Iz Beltagy, Pete Walsh, Akshita Bhagia, Rodney Kinney, Oyvind Tafjord, Ananya Harsh\nJha, Hamish Ivison, Ian Magnusson, Yizhong Wang, et al. Olmo: Accelerating the science of language"
+    ]
+  },
+  {
+    "url": "https://openreview.net/forum?id=vfsRB5MImo9",
+    "pdf_path": "downloaded_papers/eHehzSDUFp.pdf",
+    "contexts": [
+      "Joel Jang, Seonghyeon Ye, Sohee Yang, Joongbo Shin, Janghoon Han, Gyeonghun KIM, Stanley Jungkyu\nChoi, and Minjoon Seo. Towards continual knowledge learning of language models. In International Con-\nference on Learning Representations, 2022. URL https://openreview.net/forum?id=vfsRB5MImo9.\nYujin Kim, Jaehong Yoon, Seonghyeon Ye, Sung Ju Hwang, and Se-young Yun. Carpe diem: on the evaluation\nof world knowledge in lifelong language models. NACCL 2024, 2023.",
+      "Choi, and Minjoon Seo. Towards continual knowledge learning of language models. In International Con-\nference on Learning Representations , 2022. URL https://openreview.net/forum?id=vfsRB5MImo9 .\nYujin Kim, Jaehong Yoon, Seonghyeon Ye, Sung Ju Hwang, and Se-young Yun. Carpe diem: on the evaluation"
+    ]
+  },
+  {
+    "url": "https://aclanthology.org/2021.findings-emnlp.71",
+    "pdf_path": "downloaded_papers/eHehzSDUFp.pdf",
+    "contexts": [
+      "10.18653/v1/2021.findings-emnlp.71. URL https://aclanthology.org/2021.findings-emnlp.71."
+    ]
+  },
+  {
+    "url": "https://openreview.net/forum?id=-h6WAS6eE4",
+    "pdf_path": "downloaded_papers/eHehzSDUFp.pdf",
+    "contexts": [
+      "Kevin Meng, David Bau, Alex J Andonian, and Yonatan Belinkov. Locating and editing factual associations\nin GPT. In Alice H. Oh, Alekh Agarwal, Danielle Belgrave, and Kyunghyun Cho (eds.), Advances in\nNeural Information Processing Systems, 2022. URL https://openreview.net/forum?id=-h6WAS6eE4.\nTodor Mihaylov, Peter Clark, Tushar Khot, and Ashish Sabharwal. Can a suit of armor conduct electricity? a\nnew dataset for open book question answering. In Ellen Riloff, David Chiang, Julia Hockenmaier, and"
+    ]
+  },
+  {
+    "url": "https://aclanthology.org/D18-1260",
+    "pdf_path": "downloaded_papers/eHehzSDUFp.pdf",
+    "contexts": [
+      "Linguistics. doi: 10.18653/v1/D18-1260. URL https://aclanthology.org/D18-1260."
+    ]
+  },
+  {
+    "url": "https://api.semanticscholar.org/CorpusID:202539551",
+    "pdf_path": "downloaded_papers/eHehzSDUFp.pdf",
+    "contexts": [
+      ", 2019. URL https://api.semanticscholar.org/CorpusID:202539551."
+    ]
+  },
+  {
+    "url": "https://aclanthology.org/2022.bigscience-1.11",
+    "pdf_path": "downloaded_papers/eHehzSDUFp.pdf",
+    "contexts": [
+      "Gokaslan. Emergent structures and training dynamics in large language models. ACL 2022. URLhttps://aclanthology.org/2022.bigscience-1.11"
+    ]
+  },
+  {
+    "url": "https://aclanthology.org/2023.findings-acl.93",
+    "pdf_path": "downloaded_papers/eHehzSDUFp.pdf",
+    "contexts": [
+      "der Panchenko, and Artem Shelmanov. Efficient out-of-domain detection for sequence to sequence models.Findings of ACL 2023. URL https://aclanthology.org/2023.findings-acl.93."
+    ]
+  },
+  {
+    "url": "https://aclanthology.org/2021.acl-long.251",
+    "pdf_path": "downloaded_papers/eHehzSDUFp.pdf",
+    "contexts": [
+      "https://aclanthology.org/2021.acl-long.251",
+      "Joint Conference on Natural Language Processing (Volume 1: Long Papers), pp. 3241–3251, Online,\nAugust 2021. Association for Computational Linguistics. doi: 10.18653/v1/2021.acl-long.251. URL\nhttps://aclanthology.org/2021.acl-long.251.\nJohannes Welbl, Nelson F. Liu, and Matt Gardner. Crowdsourcing multiple choice science questions. In\nLeon Derczynski, Wei Xu, Alan Ritter, and Tim Baldwin (eds.), Proceedings of the 3rd Workshop on Noisy",
+      "August 2021. Association for Computational Linguistics. doi: 10.18653/v1/2021.acl-long.251. URL\nhttps://aclanthology.org/2021.acl-long.251 .\nJohannes Welbl, Nelson F. Liu, and Matt Gardner. Crowdsourcing multiple choice science questions. In"
+    ]
+  },
+  {
+    "url": "https://aclanthology.org/W17-4413",
+    "pdf_path": "downloaded_papers/eHehzSDUFp.pdf",
+    "contexts": [
+      "Leon Derczynski, Wei Xu, Alan Ritter, and Tim Baldwin (eds.), Proceedings of the 3rd Workshop on Noisy\nUser-generated Text, pp. 94–106, Copenhagen, Denmark, September 2017. Association for Computational\nLinguistics. doi: 10.18653/v1/W17-4413. URL https://aclanthology.org/W17-4413.\nYuhao Wu, Tongjun Shi, Karthick Sharma, Chun Wei Seah, and Shuhao Zhang. Online continual knowledge\nlearning for language models. arXiv preprint arXiv:2311.09632, 2023."
+    ]
+  },
+  {
+    "url": "https://aclanthology.org/P19-1472",
+    "pdf_path": "downloaded_papers/eHehzSDUFp.pdf",
+    "contexts": [
+      "Italy, July 2019. Association for Computational Linguistics. doi: 10.18653/v1/P19-1472. URL https:",
+      "//aclanthology.org/P19-1472",
+      ".",
+      "really finish your sentence? In Anna Korhonen, David Traum, and Lluís Màrquez (eds.), Proceedings\nof the 57th Annual Meeting of the Association for Computational Linguistics, pp. 4791–4800, Florence,\nItaly, July 2019. Association for Computational Linguistics. doi: 10.18653/v1/P19-1472. URL https:\n//aclanthology.org/P19-1472.\nA KNOWLEDGE ENTROPY"
+    ]
+  },
+  {
+    "url": "10.18653/v1/2022.acl-long",
+    "pdf_path": "downloaded_papers/eHehzSDUFp.pdf",
+    "contexts": [
+      "Damai Dai, Li Dong, Yaru Hao, Zhifang Sui, Baobao Chang, and Furu Wei. Knowledge neurons in pretrained\ntransformers. In Smaranda Muresan, Preslav Nakov, and Aline Villavicencio (eds.), Proceedings of the 60th\nAnnual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 8493–8502,\nDublin, Ireland, May 2022a. Association for Computational Linguistics. doi: 10.18653/v1/2022.acl-long.\n581. URL https://aclanthology.org/2022.acl-long.581."
+    ]
+  },
+  {
+    "url": "10.18653/v1/2022",
+    "pdf_path": "downloaded_papers/eHehzSDUFp.pdf",
+    "contexts": [
+      "Qingxiu Dong, Damai Dai, Yifan Song, Jingjing Xu, Zhifang Sui, and Lei Li. Calibrating factual knowledge\nin pretrained language models. In Yoav Goldberg, Zornitsa Kozareva, and Yue Zhang (eds.), Findings\nof the Association for Computational Linguistics: EMNLP 2022, pp. 5937–5947, Abu Dhabi, United\nArab Emirates, December 2022. Association for Computational Linguistics. doi: 10.18653/v1/2022.\nfindings-emnlp.438. URL https://aclanthology.org/2022.findings-emnlp.438."
+    ]
+  },
+  {
+    "url": "https://aclanthology.org/2022.findings-emnlp.438.11",
+    "pdf_path": "downloaded_papers/eHehzSDUFp.pdf",
+    "contexts": [
+      "of the Association for Computational Linguistics: EMNLP 2022, pp. 5937–5947, Abu Dhabi, United\nArab Emirates, December 2022. Association for Computational Linguistics. doi: 10.18653/v1/2022.\nfindings-emnlp.438. URL https://aclanthology.org/2022.findings-emnlp.438.\n11\nPublished as a conference paper at ICLR 2025"
+    ]
+  },
+  {
+    "url": "https://aclanthology.org/2022.emnlp-main.3.Mor",
+    "pdf_path": "downloaded_papers/eHehzSDUFp.pdf",
+    "contexts": [
+      "(eds.), Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing, pp.\n30–45, Abu Dhabi, United Arab Emirates, December 2022. Association for Computational Linguistics.\ndoi: 10.18653/v1/2022.emnlp-main.3. URL https://aclanthology.org/2022.emnlp-main.3.\nMor Geva, Jasmijn Bastings, Katja Filippova, and Amir Globerson. Dissecting recall of factual associations\nin auto-regressive language models. In Houda Bouamor, Juan Pino, and Kalika Bali (eds.), Proceedings of"
+    ]
+  },
+  {
+    "url": "https://aclanthology.org/2023.emnlp-main.751.Dirk",
+    "pdf_path": "downloaded_papers/eHehzSDUFp.pdf",
+    "contexts": [
+      "the 2023 Conference on Empirical Methods in Natural Language Processing, pp. 12216–12235, Singapore,\nDecember 2023. Association for Computational Linguistics. doi: 10.18653/v1/2023.emnlp-main.751.\nURL https://aclanthology.org/2023.emnlp-main.751.\nDirk Groeneveld, Iz Beltagy, Pete Walsh, Akshita Bhagia, Rodney Kinney, Oyvind Tafjord, Ananya Harsh\nJha, Hamish Ivison, Ian Magnusson, Yizhong Wang, et al. Olmo: Accelerating the science of language"
+    ]
+  },
+  {
+    "url": "https://openreview.net/forum?id=vfsRB5MImo9.Yujin",
+    "pdf_path": "downloaded_papers/eHehzSDUFp.pdf",
+    "contexts": [
+      "Joel Jang, Seonghyeon Ye, Sohee Yang, Joongbo Shin, Janghoon Han, Gyeonghun KIM, Stanley Jungkyu\nChoi, and Minjoon Seo. Towards continual knowledge learning of language models. In International Con-\nference on Learning Representations, 2022. URL https://openreview.net/forum?id=vfsRB5MImo9.\nYujin Kim, Jaehong Yoon, Seonghyeon Ye, Sung Ju Hwang, and Se-young Yun. Carpe diem: on the evaluation\nof world knowledge in lifelong language models. NACCL 2024, 2023."
+    ]
+  },
+  {
+    "url": "https://openreview.net/forum?id=-h6WAS6eE4.Todor",
+    "pdf_path": "downloaded_papers/eHehzSDUFp.pdf",
+    "contexts": [
+      "Kevin Meng, David Bau, Alex J Andonian, and Yonatan Belinkov. Locating and editing factual associations\nin GPT. In Alice H. Oh, Alekh Agarwal, Danielle Belgrave, and Kyunghyun Cho (eds.), Advances in\nNeural Information Processing Systems, 2022. URL https://openreview.net/forum?id=-h6WAS6eE4.\nTodor Mihaylov, Peter Clark, Tushar Khot, and Ashish Sabharwal. Can a suit of armor conduct electricity? a\nnew dataset for open book question answering. In Ellen Riloff, David Chiang, Julia Hockenmaier, and"
+    ]
+  },
+  {
+    "url": "https://aclanthology.org/2021.acl-long.251.Johannes",
+    "pdf_path": "downloaded_papers/eHehzSDUFp.pdf",
+    "contexts": [
+      "Joint Conference on Natural Language Processing (Volume 1: Long Papers), pp. 3241–3251, Online,\nAugust 2021. Association for Computational Linguistics. doi: 10.18653/v1/2021.acl-long.251. URL\nhttps://aclanthology.org/2021.acl-long.251.\nJohannes Welbl, Nelson F. Liu, and Matt Gardner. Crowdsourcing multiple choice science questions. In\nLeon Derczynski, Wei Xu, Alan Ritter, and Tim Baldwin (eds.), Proceedings of the 3rd Workshop on Noisy"
+    ]
+  },
+  {
+    "url": "aclanthology.org/P19-1472.A",
+    "pdf_path": "downloaded_papers/eHehzSDUFp.pdf",
+    "contexts": [
+      "of the 57th Annual Meeting of the Association for Computational Linguistics, pp. 4791–4800, Florence,\nItaly, July 2019. Association for Computational Linguistics. doi: 10.18653/v1/P19-1472. URL https:\n//aclanthology.org/P19-1472.\nA KNOWLEDGE ENTROPY\nA.1 INTUITION BEHIND THE DEFINITION OF KNOWLEDGE ENTROPY"
+    ]
+  },
+  {
+    "url": "aclanthology.org/P19-1472",
+    "pdf_path": "downloaded_papers/eHehzSDUFp.pdf",
+    "contexts": [
+      "of the 57th Annual Meeting of the Association for Computational Linguistics, pp. 4791–4800, Florence,\nItaly, July 2019. Association for Computational Linguistics. doi: 10.18653/v1/P19-1472. URL https:\n//aclanthology.org/P19-1472.\nA KNOWLEDGE ENTROPY\nA.1 INTUITION BEHIND THE DEFINITION OF KNOWLEDGE ENTROPY"
+    ]
+  }
+]

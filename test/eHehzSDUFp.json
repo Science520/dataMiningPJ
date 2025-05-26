@@ -1,0 +1,45 @@
+[
+  {
+    "url": "https://github.com/allenai/OLMo/tree/main",
+    "pdf_path": "downloaded_papers/eHehzSDUFp.pdf",
+    "contexts": [
+      "5We used OLMo and Dolma from the official repository"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/datasets/ncbi/pubmed",
+    "pdf_path": "downloaded_papers/eHehzSDUFp.pdf",
+    "contexts": [
+      "7We randomly sample 205k instances for each dataset.8Datasets in huggingface9We slightly modified the dataset to our setting of which details are in Appendix B.1"
+    ]
+  },
+  {
+    "url": "https://openreview.net/forum?id=vfsRB5MImo9",
+    "pdf_path": "downloaded_papers/eHehzSDUFp.pdf",
+    "contexts": [
+      "Joel Jang, Seonghyeon Ye, Sohee Yang, Joongbo Shin, Janghoon Han, Gyeonghun KIM, Stanley Jungkyu\nChoi, and Minjoon Seo. Towards continual knowledge learning of language models. In International Con-\nference on Learning Representations, 2022. URL https://openreview.net/forum?id=vfsRB5MImo9.\nYujin Kim, Jaehong Yoon, Seonghyeon Ye, Sung Ju Hwang, and Se-young Yun. Carpe diem: on the evaluation\nof world knowledge in lifelong language models. NACCL 2024, 2023.",
+      "Choi, and Minjoon Seo. Towards continual knowledge learning of language models. In International Con-\nference on Learning Representations , 2022. URL https://openreview.net/forum?id=vfsRB5MImo9 .\nYujin Kim, Jaehong Yoon, Seonghyeon Ye, Sung Ju Hwang, and Se-young Yun. Carpe diem: on the evaluation"
+    ]
+  },
+  {
+    "url": "https://openreview.net/forum?id=-h6WAS6eE4",
+    "pdf_path": "downloaded_papers/eHehzSDUFp.pdf",
+    "contexts": [
+      "Kevin Meng, David Bau, Alex J Andonian, and Yonatan Belinkov. Locating and editing factual associations\nin GPT. In Alice H. Oh, Alekh Agarwal, Danielle Belgrave, and Kyunghyun Cho (eds.), Advances in\nNeural Information Processing Systems, 2022. URL https://openreview.net/forum?id=-h6WAS6eE4.\nTodor Mihaylov, Peter Clark, Tushar Khot, and Ashish Sabharwal. Can a suit of armor conduct electricity? a\nnew dataset for open book question answering. In Ellen Riloff, David Chiang, Julia Hockenmaier, and"
+    ]
+  },
+  {
+    "url": "https://openreview.net/forum?id=vfsRB5MImo9.Yujin",
+    "pdf_path": "downloaded_papers/eHehzSDUFp.pdf",
+    "contexts": [
+      "Joel Jang, Seonghyeon Ye, Sohee Yang, Joongbo Shin, Janghoon Han, Gyeonghun KIM, Stanley Jungkyu\nChoi, and Minjoon Seo. Towards continual knowledge learning of language models. In International Con-\nference on Learning Representations, 2022. URL https://openreview.net/forum?id=vfsRB5MImo9.\nYujin Kim, Jaehong Yoon, Seonghyeon Ye, Sung Ju Hwang, and Se-young Yun. Carpe diem: on the evaluation\nof world knowledge in lifelong language models. NACCL 2024, 2023."
+    ]
+  },
+  {
+    "url": "https://openreview.net/forum?id=-h6WAS6eE4.Todor",
+    "pdf_path": "downloaded_papers/eHehzSDUFp.pdf",
+    "contexts": [
+      "Kevin Meng, David Bau, Alex J Andonian, and Yonatan Belinkov. Locating and editing factual associations\nin GPT. In Alice H. Oh, Alekh Agarwal, Danielle Belgrave, and Kyunghyun Cho (eds.), Advances in\nNeural Information Processing Systems, 2022. URL https://openreview.net/forum?id=-h6WAS6eE4.\nTodor Mihaylov, Peter Clark, Tushar Khot, and Ashish Sabharwal. Can a suit of armor conduct electricity? a\nnew dataset for open book question answering. In Ellen Riloff, David Chiang, Julia Hockenmaier, and"
+    ]
+  }
+]
