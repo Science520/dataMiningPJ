@@ -1,19 +1,14 @@
-[
-  {
-    "url": "https://huggingface.co/datasets/HuggingFaceH4/stack-exchange-preferences",
-    "pdf_path": "downloaded_papers/QEHrmQPBdd.pdf",
-    "contexts": [
-      "stack exchange preference dataset, 2023. URL https://huggingface.co/datasets/HuggingFaceH4/stack-exchange-preferences",
-      ".",
-      "the Association for Computational Linguistics (ACL 2023), 2023.\nNathan Lambert, Lewis Tunstall, Nazneen Rajani, and Tristan Thrush. Huggingface h4\nstack exchange preference dataset, 2023. URL https://huggingface.co/datasets/\nHuggingFaceH4/stack-exchange-preferences.\nNathan Lambert, Valentina Pyatkin, Jacob Morrison, LJ Miranda, Bill Yuchen Lin, Khyathi Chandu,"
-    ]
-  },
-  {
-    "url": "https://huggingface.co/datasets/",
-    "pdf_path": "downloaded_papers/QEHrmQPBdd.pdf",
-    "contexts": [
-      "the Association for Computational Linguistics (ACL 2023), 2023.\nNathan Lambert, Lewis Tunstall, Nazneen Rajani, and Tristan Thrush. Huggingface h4\nstack exchange preference dataset, 2023. URL https://huggingface.co/datasets/\nHuggingFaceH4/stack-exchange-preferences.\nNathan Lambert, Valentina Pyatkin, Jacob Morrison, LJ Miranda, Bill Yuchen Lin, Khyathi Chandu,",
-      "Nathan Lambert, Lewis Tunstall, Nazneen Rajani, and Tristan Thrush. Huggingface h4\nstack exchange preference dataset, 2023. URL https://huggingface.co/datasets/\nHuggingFaceH4/stack-exchange-preferences ."
+{
+  "Foundations of Multivariate Distributional": {
+    "https": [
+      "web",
+      "https://nips.cc/public/guides/CodeSubmissionPolicy)",
+      "unless this is central to the contribution (e.g., for a new open-source benchmark). • The instructions should contain the exact command and environment needed to run to reproduce the results. See the NeurIPS code and data submission guidelines (https: //nips.cc/public/guides/CodeSubmissionPolicy) for more details. • The authors should provide instructions on data access and preparation, including how to"
+    ],
+    "guide": [
+      "web",
+      "paperswithcode.com/datasets",
+      "• For scraped data from a particular source (e.g., website), the copyright and terms of service of that source should be provided. • If assets are released, the license, copyright information, and terms of use in the package should be provided. For popular datasets, paperswithcode.com/datasets has curated licenses for some datasets. Their licensing guide can help determine the license of a dataset.; that source should be provided. • If assets are released, the license, copyright information, and..."
     ]
   }
-]
+}
