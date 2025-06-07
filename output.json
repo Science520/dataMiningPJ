@@ -1,11 +1,11 @@
 {
   "Foundations of Multivariate Distributional": {
-    "https": [
+    "exact": [
       "web",
       "https://nips.cc/public/guides/CodeSubmissionPolicy)",
       "unless this is central to the contribution (e.g., for a new open-source benchmark). • The instructions should contain the exact command and environment needed to run to reproduce the results. See the NeurIPS code and data submission guidelines (https: //nips.cc/public/guides/CodeSubmissionPolicy) for more details. • The authors should provide instructions on data access and preparation, including how to"
     ],
-    "guide": [
+    "terms": [
       "web",
       "paperswithcode.com/datasets",
       "• For scraped data from a particular source (e.g., website), the copyright and terms of service of that source should be provided. • If assets are released, the license, copyright information, and terms of use in the package should be provided. For popular datasets, paperswithcode.com/datasets has curated licenses for some datasets. Their licensing guide can help determine the license of a dataset.; that source should be provided. • If assets are released, the license, copyright information, and..."

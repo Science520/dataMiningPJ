@@ -111,34 +111,41 @@ def qwen_by_api(prompt: str, engine_name: str = "chatgpt-4o-latest") -> tuple:
     return message, usage  
 
 def free_api(prompt: str) -> str:  
-    """免费校园网API调用"""  
+    """免费校园网API调用 - 通过中转地址"""  
     try:  
-        from openai import OpenAI  
-        
-        client = OpenAI(  
-            base_url="http://10.176.40.135:8091/v1",  
-            api_key="data-mining-2025"  
-        )  
-        
-        response = client.chat.completions.create(  
-            model="/data/huggingface_models/Qwen2.5-72B-Instruct",  
-            messages=[  
+        # 使用和付费API类似的方式，通过中转地址调用  
+        params = {  
+            "messages": [  
                 {"role": "system", "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant."},  
                 {"role": "user", "content": prompt}  
             ],  
-            temperature=0  
+            "model": "chatgpt-4o-latest",  # 或者使用免费API对应的模型名  
+            "temperature": 0  
+        }  
+        
+        headers = {  
+            "Authorization": "api_key",  # 免费API的密钥  
+        }  
+        
+        response = requests.post(  
+            "https://aigptx.top/v1/chat/completions",  # 同样的中转地址  
+            headers=headers,  
+            json=params,  
+            stream=False,  
         )  
         
-        message = response.choices[0].message.content  
+        res = response.json()  
+        message = res["choices"][0]["message"]["content"]  
+        
         logger.info(f"免费API调用成功")  
         return message  
         
     except Exception as e:  
         logger.error(f"免费API调用失败: {str(e)}")  
-        raise e  
+        raise e
 
 @retry(  
-    retry=retry_if_exception_type((requests.exceptions.Timeout, requests.exceptions.ConnectionError)),  
+    retry=retry_if_exception_type((Exception,)),  # 修正：捕获所有异常类型  
     wait=wait_exponential(multiplier=1, min=2, max=20),  
     stop=stop_after_attempt(3)  
 )  
