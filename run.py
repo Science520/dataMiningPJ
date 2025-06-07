@@ -67,7 +67,7 @@ def setup_llm(api_key: str = None, use_free: bool = False) -> bool:
         return False  
 
 def qwen_by_api(prompt: str, engine_name: str = "chatgpt-4o-latest") -> tuple:  
-    """收费API调用"""  
+    """收费API调用 - 添加错误处理"""  
     global API_KEY  
     
     if not API_KEY:  
@@ -92,26 +92,67 @@ def qwen_by_api(prompt: str, engine_name: str = "chatgpt-4o-latest") -> tuple:
         "Authorization": "Bearer " + API_KEY,  
     }  
     
-    response = requests.post(  
-        "https://aigptx.top/v1/chat/completions",  
-        headers=headers,  
-        json=params,  
-        stream=False,  
-    )  
-    
-    res = response.json()  
-    logger.debug(f"API response: {res}")  
-    
-    message = res["choices"][0]["message"]["content"]  
-    usage = res["usage"]  
-    
-    logger.info(f"API调用成功")  
-    logger.debug(f"使用量: {usage}")  
-    
-    return message, usage  
+    try:  
+        response = requests.post(  
+            "https://api.openai.com/v1/chat/completions",  
+            headers=headers,  
+            json=params,  
+            stream=False,  
+        )  
+        
+        # 检查HTTP状态码  
+        if response.status_code != 200:  
+            logger.error(f"API HTTP错误: {response.status_code}")  
+            logger.error(f"响应内容: {response.text}")  
+            raise Exception(f"API HTTP错误: {response.status_code}")  
+        
+        # 尝试解析JSON  
+        try:  
+            res = response.json()  
+        except json.JSONDecodeError as e:  
+            logger.error(f"JSON解析错误: {str(e)}")  
+            logger.error(f"响应内容: {response.text}")  
+            raise Exception(f"JSON解析错误: {str(e)}")  
+        
+        # 打印完整响应进行调试  
+        logger.info(f"API完整响应: {res}")  
+        
+        # 检查是否有错误信息  
+        if "error" in res:  
+            error_msg = res.get("error", {}).get("message", "未知错误")  
+            logger.error(f"API返回错误: {error_msg}")  
+            raise Exception(f"API错误: {error_msg}")  
+        
+        # 检查必要字段  
+        if "choices" not in res:  
+            logger.error(f"响应中缺少choices字段: {res}")  
+            raise Exception("API响应格式错误：缺少choices字段")  
+        
+        if len(res["choices"]) == 0:  
+            logger.error("choices字段为空")  
+            raise Exception("API响应choices为空")  
+        
+        if "message" not in res["choices"][0]:  
+            logger.error(f"choices[0]中缺少message字段: {res['choices'][0]}")  
+            raise Exception("API响应格式错误：缺少message字段")  
+        
+        message = res["choices"][0]["message"]["content"]  
+        usage = res.get("usage", {})  
+        
+        logger.info(f"API调用成功")  
+        logger.debug(f"使用量: {usage}")  
+        
+        return message, usage  
+        
+    except requests.exceptions.RequestException as e:  
+        logger.error(f"网络请求错误: {str(e)}")  
+        raise Exception(f"网络请求错误: {str(e)}")  
+    except Exception as e:  
+        logger.error(f"API调用失败: {str(e)}")  
+        raise e  
 
 def free_api(prompt: str) -> str:  
-    """免费校园网API调用 - 通过中转地址"""  
+    """免费校园网API调用 - 通过中转地址，添加错误处理"""  
     try:  
         # 使用和付费API类似的方式，通过中转地址调用  
         params = {  
@@ -124,7 +165,7 @@ def free_api(prompt: str) -> str:
         }  
         
         headers = {  
-            "Authorization": "api_key",  # 免费API的密钥  
+            "Authorization": "sk-TYsWUFGG51c2eF5a6E37T3BLbkFJ226a6C034d01449a98e7",  # 免费API的密钥  
         }  
         
         response = requests.post(  
@@ -134,7 +175,38 @@ def free_api(prompt: str) -> str:
             stream=False,  
         )  
         
-        res = response.json()  
+        # 检查HTTP状态码  
+        if response.status_code != 200:  
+            logger.error(f"免费API HTTP错误: {response.status_code}")  
+            logger.error(f"响应内容: {response.text}")  
+            raise Exception(f"免费API HTTP错误: {response.status_code}")  
+        
+        # 尝试解析JSON  
+        try:  
+            res = response.json()  
+        except json.JSONDecodeError as e:  
+            logger.error(f"免费API JSON解析错误: {str(e)}")  
+            logger.error(f"响应内容: {response.text}")  
+            raise Exception(f"免费API JSON解析错误: {str(e)}")  
+        
+        # 打印完整响应进行调试  
+        logger.info(f"免费API完整响应: {res}")  
+        
+        # 检查是否有错误信息  
+        if "error" in res:  
+            error_msg = res.get("error", {}).get("message", "未知错误")  
+            logger.error(f"免费API返回错误: {error_msg}")  
+            raise Exception(f"免费API错误: {error_msg}")  
+        
+        # 检查必要字段  
+        if "choices" not in res:  
+            logger.error(f"免费API响应中缺少choices字段: {res}")  
+            raise Exception("免费API响应格式错误：缺少choices字段")  
+        
+        if len(res["choices"]) == 0:  
+            logger.error("免费API choices字段为空")  
+            raise Exception("免费API响应choices为空")  
+        
         message = res["choices"][0]["message"]["content"]  
         
         logger.info(f"免费API调用成功")  
@@ -142,7 +214,8 @@ def free_api(prompt: str) -> str:
         
     except Exception as e:  
         logger.error(f"免费API调用失败: {str(e)}")  
-        raise e
+        raise e  
+
 
 @retry(  
     retry=retry_if_exception_type((Exception,)),  # 修正：捕获所有异常类型  
@@ -198,7 +271,7 @@ URL: {url}
         
     except Exception as e:  
         logger.error(f"API call failed: {str(e)}")  
-        raise e  
+        raise e
 
 def can_access(url: str) -> bool:  
     """检查URL是否可访问"""  
